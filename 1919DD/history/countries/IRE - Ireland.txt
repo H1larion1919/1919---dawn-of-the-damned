@@ -1,0 +1,56 @@
+# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+set_politics = {
+	ruling_party = fascism
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 15
+	libertarian_socialism = 0
+	social_democracy = 0
+	democratic = 15
+	market_liberalism = 0
+	fascism = 70
+	neutrality = 0
+	esotericism = 0
+}
+set_party_name = {
+	ideology = fascism
+	long_name = "Irish Provisional Government"
+	name = "Irish Provisional Government"
+}
+set_party_name = {
+	ideology = democratic
+	long_name = "Sinn FÃ©in"
+	name = "Sinn FÃ©in"
+}
+set_party_name = {
+	ideology = communism
+	long_name = "Irish Socialist Movement"
+	name = "Irish Socialist Movement"
+}
+create_country_leader = {
+	name = "Michael Collins"
+	picture = "Portrait_IRE_Michael_Collins.dds"
+	ideology = ee_republican_militarism
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Ã‰amon de Valera"
+	picture = "Portrait_IRE_amon_de_Valera.dds"
+	ideology = ee_republican_democracy
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "James Connolly"
+	picture = "Portrait_IRE_James_Connolly.dds"
+	ideology = ee_revolutionary_socialism
+	expire = "1965.1.1"
+	traits = { }
+}
+capital = 113
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.3
+set_convoys = 0

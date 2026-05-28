@@ -1,0 +1,19 @@
+# capital = 85 # removed: tag owns no state at startup
+set_research_slots = 2
+set_convoys = 10
+set_politics = {
+    ruling_party = democratic
+    last_election = "1934.1.1"
+    election_frequency = 48
+}
+set_popularities = {
+	communism = 5
+	libertarian_socialism = 0
+	social_democracy = 0
+	democratic = 60
+	market_liberalism = 0
+	fascism = 10
+	neutrality = 25
+	esotericism = 0
+}
+recruit_character = KSH_generic_politician

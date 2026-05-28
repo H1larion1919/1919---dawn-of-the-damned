@@ -1,0 +1,93 @@
+on_actions = {
+	on_capitulation = {
+		effect = {
+			if = {
+				limit = {
+					ROOT = {
+						exists = yes
+						NOT = {
+							OR = {
+								tag = ROM
+								tag = AUS
+								tag = HNG
+								tag = HNG
+								tag = TSR
+								tag = OTT
+								tag = KTR
+								tag = FSU
+								tag = UPR
+								tag = HUK
+								tag = UKS
+								tag = POL
+								tag = PFA
+								tag = BUL
+								tag = BPR
+								tag = KUR
+								tag = ARM
+								tag = ASY
+								tag = LAT
+								tag = FKO
+								tag = YUG
+								tag = CRO
+								tag = BNT
+								tag = DEN
+								tag = LIT
+								tag = RHI
+								tag = WRE
+								tag = SBK
+								tag = BWB
+								tag = BAY
+							}
+						}
+					}
+					FROM = {
+						exists = yes
+						NOT = {
+							OR = {
+								tag = ROM
+								tag = AUS
+								tag = HNG
+								tag = HNG
+								tag = TSR
+								tag = OTT
+								tag = KTR
+								tag = FSU
+								tag = UPR
+								tag = HUK
+								tag = UKS
+								tag = POL
+								tag = PFA
+								tag = BUL
+								tag = BPR
+								tag = KUR
+								tag = ARM
+								tag = ASY
+								tag = LAT
+								tag = FKO
+								tag = YUG
+								tag = CRO
+								tag = BNT
+								tag = DEN
+								tag = LIT
+								tag = RHI
+								tag = WRE
+								tag = SBK
+								tag = BWB
+								tag = BAY
+							}
+						}
+					}
+				}
+				ROOT = { save_event_target_as = EE_generic_defeated_country }
+				if = {
+					limit = { FROM = { is_ai = yes } }
+					FROM = { country_event = { id = ee_generic_conquest.1 } }
+				}
+				else_if = {
+					limit = { FROM = { is_ai = no } }
+					FROM = { country_event = { id = ee_generic_conquest.2 } }
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,45 @@
+# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+set_politics = {
+	ruling_party = neutrality
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 0
+	libertarian_socialism = 0
+	social_democracy = 0
+	democratic = 0
+	market_liberalism = 0
+	fascism = 30
+	neutrality = 70
+	esotericism = 0
+}
+set_party_name = {
+	ideology = neutrality
+	long_name = "German Settler Authority"
+	name = "German Settler Authority"
+}
+set_party_name = {
+	ideology = fascism
+	long_name = "Local Uprisings"
+	name = "Local Uprisings"
+}
+create_country_leader = {
+	name = "German Colonial Remnants"
+	picture = "Portrait_NMB_German_Colonial_Remnants.dds"
+	ideology = ee_colonial_militarism
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Indigenous Leaders"
+	picture = "Portrait_NMB_Indigenous_Leaders.dds"
+	ideology = ee_anti_colonial_resistance
+	expire = "1965.1.1"
+	traits = { }
+}
+
+capital = 541
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.3
+set_convoys = 0

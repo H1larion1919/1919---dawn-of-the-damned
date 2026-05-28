@@ -1,0 +1,111 @@
+# Create units
+division_template = {
+	name = "Infantry Merarchia"
+	division_names_group = "HEL_DIV_0_0"
+	regiments = {
+		tactical_infantry = { x = 0 y = 0 }
+		tactical_infantry = { x = 0 y = 1 }
+		tactical_infantry = { x = 0 y = 2 }
+		tactical_infantry = { x = 1 y = 0 }
+		tactical_infantry = { x = 1 y = 1 }
+		tactical_infantry = { x = 1 y = 2 }
+		artillery_battalion = { x = 2 y = 0 }
+	}
+	support = {
+		battle_camps = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+
+
+division_template = {
+	name = "Evzone Merarchia"
+	division_names_group = "HEL_DIV_0_0"
+	regiments = {
+		tactical_infantry = { x = 0 y = 0 }
+		tactical_infantry = { x = 0 y = 1 }
+		tactical_infantry = { x = 0 y = 2 }
+		tactical_infantry = { x = 1 y = 0 }
+		tactical_infantry = { x = 1 y = 1 }
+		tactical_infantry = { x = 1 y = 2 }
+		tactical_infantry = { x = 2 y = 0 }
+		tactical_infantry = { x = 2 y = 1 }
+		artillery_battalion = { x = 3 y = 0 }
+	}
+	support = {
+		battle_camps = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+
+
+division_template = {
+	name = "Reserve Merarchia"
+	division_names_group = "HEL_DIV_0_0"
+	regiments = {
+		tactical_infantry = { x = 0 y = 0 }
+		tactical_infantry = { x = 0 y = 1 }
+		tactical_infantry = { x = 1 y = 0 }
+		tactical_infantry = { x = 1 y = 1 }
+		tactical_infantry = { x = 2 y = 0 }
+		tactical_infantry = { x = 2 y = 1 }
+	}
+	support = {
+		battle_camps = { x = 0 y = 0 }
+	}
+}
+
+
+division_template = {
+	name = "Cavalry Brigade"
+	division_names_group = "HEL_DIV_0_0"
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+
+
+division_template = {
+	name = "Archipelago Garrison"
+	division_names_group = "HEL_DIV_0_0"
+	regiments = {
+		tactical_infantry = { x = 0 y = 0 }
+		tactical_infantry = { x = 0 y = 1 }
+		tactical_infantry = { x = 1 y = 0 }
+		tactical_infantry = { x = 1 y = 1 }
+	}
+}
+
+# Spawn units
+units = {
+	division = { name = "1st Evzone Merarchia" location = 849 division_template = "Evzone Merarchia" }
+	division = { name = "2nd Infantry Merarchia" location = 922 division_template = "Infantry Merarchia" }
+	division = { name = "3rd Infantry Merarchia" location = 928 division_template = "Infantry Merarchia" }
+	division = { name = "4th Infantry Merarchia" location = 947 division_template = "Infantry Merarchia" }
+	division = { name = "5th Evzone Merarchia" location = 3526 division_template = "Evzone Merarchia" }
+	division = { name = "6th Reserve Merarchia" location = 3526 division_template = "Reserve Merarchia" }
+	division = { name = "7th Infantry Merarchia" location = 3786 division_template = "Infantry Merarchia" }
+	division = { name = "8th Infantry Merarchia" location = 3936 division_template = "Infantry Merarchia" }
+	division = { name = "9th Reserve Merarchia" location = 3936 division_template = "Reserve Merarchia" }
+	division = { name = "10th Cavalry Brigade" location = 4109 division_template = "Cavalry Brigade" }
+	division = { name = "11th Reserve Merarchia" location = 4109 division_template = "Reserve Merarchia" }
+	division = { name = "12th Archipelago Garrison" location = 6864 division_template = "Archipelago Garrison" }
+	division = { name = "13th Archipelago Garrison" location = 6992 division_template = "Archipelago Garrison" }
+	division = { name = "14th Evzone Merarchia" location = 9833 division_template = "Evzone Merarchia" }
+	division = { name = "15th Reserve Merarchia" location = 9833 division_template = "Reserve Merarchia" }
+	division = { name = "16th Archipelago Garrison" location = 9921 division_template = "Archipelago Garrison" }
+	division = { name = "17th Infantry Merarchia" location = 11778 division_template = "Infantry Merarchia" }
+	division = { name = "18th Infantry Merarchia" location = 11818 division_template = "Infantry Merarchia" }
+	division = { name = "19th Cavalry Brigade" location = 11818 division_template = "Cavalry Brigade" }
+	division = { name = "20th Infantry Merarchia" location = 11829 division_template = "Infantry Merarchia" }
+	division = { name = "21st Reserve Merarchia" location = 11829 division_template = "Reserve Merarchia" }
+	division = { name = "22nd Infantry Merarchia" location = 11842 division_template = "Infantry Merarchia" }
+	division = { name = "23rd Reserve Merarchia" location = 11867 division_template = "Reserve Merarchia" }
+	division = { name = "24th Evzone Merarchia" location = 947 division_template = "Evzone Merarchia" }
+}

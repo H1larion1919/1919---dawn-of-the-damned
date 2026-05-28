@@ -1,0 +1,2 @@
+# 1919DD: WTT/PRC China scripted triggers intentionally removed.
+# Kept as a harmless empty override because descriptor.mod replaces common/scripted_triggers.

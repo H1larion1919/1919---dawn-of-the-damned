@@ -1,0 +1,33 @@
+state = {
+	id = 1126
+	name = "STATE_1126"
+	resources = {
+		steel = 5.000
+		oil = 3.000
+	}
+	history = {
+		owner = POL
+		victory_points = { 
+			9494 2
+		}
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 4
+		}
+		add_core_of = PFA
+		add_core_of = POL
+		add_core_of = FSU
+		add_core_of = UPR
+		add_core_of = HUK
+		add_core_of = UKS
+		
+	}
+	provinces = { 3434 9494 }
+	manpower = 3692800
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 12.0
+}

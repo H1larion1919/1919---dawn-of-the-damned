@@ -1,0 +1,21 @@
+state = {
+	id = 210
+	name = "STATE_210"
+	manpower = 830133
+	state_category = rural
+	history = {
+		owner = BLR
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = BLR
+		add_claim_by = PET
+		add_claim_by = SOV
+		victory_points = { 
+			11234 1
+		}
+
+	}
+	provinces = { 354 387 6293 9353 9386 11234 11259 }
+	local_supplies = 0.0
+}

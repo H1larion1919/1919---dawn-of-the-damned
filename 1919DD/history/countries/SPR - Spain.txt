@@ -1,0 +1,66 @@
+# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+set_politics = {
+	ruling_party = neutrality
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 0
+	libertarian_socialism = 10
+	social_democracy = 0
+	democratic = 10
+	market_liberalism = 0
+	fascism = 10
+	neutrality = 70
+	esotericism = 0
+}
+set_party_name = {
+	ideology = neutrality
+	long_name = "Bourbon Crown"
+	name = "Bourbon Crown"
+}
+set_party_name = {
+	ideology = libertarian_socialism
+	long_name = "UGT"
+	name = "UGT"
+}
+set_party_name = {
+	ideology = democratic
+	long_name = "Republican Action"
+	name = "Republican Action"
+}
+set_party_name = {
+	ideology = fascism
+	long_name = "The Spanish Falange"
+	name = "The Spanish Falange"
+}
+create_country_leader = {
+	name = "Alfonso XIII"
+	picture = "Portrait_SPR_Alfonso_XIII.dds"
+	ideology = ee_royal_authoritarianism
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Francisco Largo Caballero"
+	picture = "Portrait_SPR_Francisco_Largo_Caballero.dds"
+	ideology = ee_syndicalism
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Manuel Azaña"
+	picture = "Portrait_SPR_Manuel_Azaa.dds"
+	desc = ""
+	ideology = ee_republicanism
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "José Antonio Primo de Rivera"
+	picture = "Portrait_SPR_Jos_Antonio_Primo_de_Rivera.dds"
+	ideology = ee_proto_falangism
+	expire = "1965.1.1"
+	traits = { }
+}
+
+set_autonomy = { target = SCG autonomy_state = autonomy_ee_colony }

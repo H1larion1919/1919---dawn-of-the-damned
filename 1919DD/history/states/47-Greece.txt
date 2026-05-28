@@ -1,0 +1,43 @@
+state = {
+	id = 47
+	name = "STATE_47"
+	manpower = 2312500
+	resources = {
+		steel = 3
+		chromium = 12
+		aluminium = 30
+		tungsten = 10
+	}
+	state_category = large_city
+	history = {
+		owner = HEL
+		victory_points = { 
+			4109 20
+		}
+
+		victory_points = { 
+			1205 3 # Mesologi
+		}
+
+		victory_points = { 
+			7127 3 # Evia
+		}
+
+		victory_points = { 
+			1109 3 # Thiva
+		}
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			dockyard = 1
+			air_base = 4
+			4109 = {
+				naval_base = 9
+			}
+		}
+		add_core_of = HEL
+	}
+	provinces = { 976 1106 1109 1205 4109 7127 12001 }
+	local_supplies = 0.0
+}

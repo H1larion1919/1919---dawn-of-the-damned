@@ -1,0 +1,66 @@
+# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+set_politics = {
+	ruling_party = democratic
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 0
+	libertarian_socialism = 0
+	social_democracy = 85
+	democratic = 0
+	market_liberalism = 0
+	fascism = 0
+	neutrality = 15
+	esotericism = 0
+}
+set_party_name = {
+	ideology = democratic
+	long_name = "Czech National Council"
+	name = "Czech National Council"
+}
+set_party_name = {
+	ideology = neutrality
+	long_name = "National Democrats"
+	name = "National Democrats"
+}
+set_party_name = {
+	ideology = libertarian_socialism
+	long_name = "ČSSD"
+	name = "ČSSD"
+}
+create_country_leader = {
+	name = "Tomáš Garrigue Masaryk"
+	picture = "Portrait_CZE_Tom_Garrigue_Masaryk.dds"
+	ideology = ee_liberal_nationalism
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Karel Kramář"
+	picture = "Portrait_CZE_Karel_Kram.dds"
+	ideology = ee_pan_slav_conservatism
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Antonín Němec"
+	picture = "Portrait_CZE_Antonn_Nmec.dds"
+	desc = ""
+	ideology = ee_social_democracy
+	expire = "1965.1.1"
+	traits = { }
+}
+
+capital = 9
+set_research_slots = 3
+set_stability = 0.45
+set_war_support = 0.35
+
+add_ideas = {
+	scraping_the_barrel
+	all_adults_serve
+	extensive_conscription
+	limited_conscription
+	volunteer_only
+	civilian_economy
+}

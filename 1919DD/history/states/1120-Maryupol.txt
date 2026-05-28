@@ -1,0 +1,29 @@
+state = {
+    id = 1120
+    name = "STATE_1120" # Maryupol
+	history = {
+		owner = CRI
+		buildings = {
+			infrastructure = 3
+			air_base = 8
+		}
+
+		victory_points = { 
+			6420 10
+		}
+
+		victory_points = { 
+			9571 5
+		}
+
+		add_core_of = FSU
+		add_core_of = UPR
+		add_core_of = HUK
+		add_core_of = UKS
+		add_core_of = CRI
+	}
+	provinces = { 429 3399 3449 3767 6420 6776 9571 9729 } 
+	manpower = 2747372 
+	state_category = large_city
+	local_supplies = 0.0
+} 

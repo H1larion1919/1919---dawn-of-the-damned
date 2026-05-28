@@ -1,0 +1,39 @@
+# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+set_politics = {
+	ruling_party = neutrality
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 0
+	libertarian_socialism = 0
+	social_democracy = 0
+	democratic = 0
+	market_liberalism = 0
+	fascism = 0
+	neutrality = 100
+	esotericism = 0
+}
+set_party_name = {
+	ideology = neutrality
+	long_name = "Russian Army in Exile"
+	name = "Russian Army in Exile"
+}
+create_country_leader = {
+	name = "Pyotr Wrangel"
+	picture = "Portrait_CRI_Pyotr_Wrangel.dds"
+	ideology = ee_military_restorationism
+	expire = "1965.1.1"
+	traits = { }
+}
+
+capital = 137
+set_research_slots = 2
+set_stability = 0.4
+set_war_support = 0.3
+set_convoys = 0
+
+add_ideas = {
+	EE_no_clear_goal
+	EE_disunited_resistance
+	EE_fire_of_russia_white
+}

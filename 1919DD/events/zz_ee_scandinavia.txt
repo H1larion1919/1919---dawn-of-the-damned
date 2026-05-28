@@ -1,0 +1,299 @@
+add_namespace = ee_scandinavia
+
+country_event = {
+	id = ee_scandinavia.1
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		if = {
+			limit = {
+				NOR = { has_idea = EE_frihetskamp }
+				110 = { is_owned_by = NOR }
+				142 = { is_owned_by = NOR }
+				143 = { is_owned_by = NOR }
+				144 = { is_owned_by = NOR }
+				914 = { is_owned_by = NOR }
+				920 = { is_owned_by = NOR }
+				921 = { is_owned_by = NOR }
+				922 = { is_owned_by = NOR }
+				923 = { is_owned_by = NOR }
+				924 = { is_owned_by = NOR }
+				925 = { is_owned_by = NOR }
+			}
+			NOR = { remove_ideas = EE_frihetskamp add_ideas = EE_post_unification_restraint }
+		}
+		if = {
+			limit = {
+				OR = {
+					NOT = { NOR = { exists = yes } }
+					NOT = { NOR = { has_idea = EE_frihetskamp } }
+				}
+			}
+			DEN = { remove_ideas = EE_en_proevelse_for_venskab }
+			SWE = { remove_ideas = EE_noisy_neighbours }
+			if = {
+				limit = {
+					ENG = { exists = yes }
+					DEN = { exists = yes has_government = neutrality }
+					SWE = { exists = yes has_government = neutrality }
+				}
+				ENG = {
+					add_to_faction = DEN
+					add_to_faction = SWE
+				}
+			}
+		}
+	}
+	option = { name = ee_scandinavia.1.a }
+}
+
+country_event = {
+	id = ee_scandinavia.2
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		if = {
+			limit = { NAO = { exists = yes } NOT = { NOR = { exists = yes } } DEN = { exists = yes } }
+			DEN = { annex_country = { target = NAO } }
+			every_state = {
+				limit = { OR = { state = 144 state = 923 state = 924 state = 925 } }
+				remove_core_of = NAO
+				remove_claim_by = NAO
+			}
+		}
+		if = {
+			limit = { NOR = { exists = yes has_idea = EE_arm_our_brothers } 110 = { is_owned_by = NOR } }
+			NOR = { remove_ideas = EE_arm_our_brothers }
+		}
+		if = {
+			limit = { NAO = { exists = yes } 110 = { is_owned_by = DEN } }
+			NAO = { add_ideas = EE_reverse_danelaw remove_ideas = EE_sapmi_war_of_independence }
+		}
+		if = {
+			limit = {
+				NAO = { exists = yes has_idea = EE_reverse_danelaw NOT = { has_country_flag = ee_nao_intervention_warning_sent } }
+				NOR = { exists = yes }
+				NOT = { 110 = { is_owned_by = DEN } }
+			}
+			NAO = {
+				remove_ideas = EE_reverse_danelaw
+				set_country_flag = ee_nao_intervention_warning_sent
+			}
+			NOR = { country_event = { id = ee_scandinavia.20 } }
+		}
+		if = {
+			limit = {
+				NAO = { exists = yes has_idea = EE_sapmi_war_of_independence }
+				NOR = { exists = yes NOT = { has_country_flag = ee_sapmi_question_resolved } }
+				144 = { is_controlled_by = NOR }
+			}
+			NAO = { remove_ideas = EE_sapmi_war_of_independence }
+			every_state = {
+				limit = { OR = { state = 144 state = 923 state = 924 state = 925 } }
+				remove_core_of = NAO
+				remove_claim_by = NAO
+			}
+			if = { limit = { ENG = { exists = yes } } ENG = { create_wargoal = { type = annex_everything target = NOR } } }
+			NOR = {
+				set_country_flag = ee_sapmi_question_resolved
+				annex_country = { target = NAO }
+				country_event = { id = ee_scandinavia.10 }
+			}
+		}
+		if = {
+			limit = {
+				NOR = { exists = yes NOT = { has_country_flag = ee_sapmi_question_resolved } }
+				NOT = { NAO = { exists = yes } }
+				144 = { is_owned_by = NOR }
+				923 = { is_owned_by = NOR }
+				924 = { is_owned_by = NOR }
+				925 = { is_owned_by = NOR }
+			}
+			if = { limit = { ENG = { exists = yes } } ENG = { create_wargoal = { type = annex_everything target = NOR } } }
+			NOR = {
+				set_country_flag = ee_sapmi_question_resolved
+				country_event = { id = ee_scandinavia.10 }
+			}
+		}
+		if = {
+			limit = {
+				NAO = { exists = yes has_idea = EE_sapmi_war_of_independence }
+				NOR = { exists = yes NOT = { has_war_with = NAO } }
+				144 = { is_owned_by = NAO }
+				923 = { is_owned_by = NAO }
+				924 = { is_owned_by = NAO }
+				925 = { is_owned_by = NAO }
+			}
+			NAO = { remove_ideas = EE_sapmi_war_of_independence }
+			if = { limit = { DEN = { exists = yes } } DEN = { annex_country = { target = NOR } annex_country = { target = NAO } } }
+		}
+		if = {
+			limit = {
+				NOR = { exists = yes has_idea = EE_sapmi_resistance }
+				OR = {
+					date > 1926.1.1
+					NOT = { 144 = { is_owned_by = NOR } }
+					NOT = { 923 = { is_owned_by = NOR } }
+					NOT = { 924 = { is_owned_by = NOR } }
+					NOT = { 925 = { is_owned_by = NOR } }
+				}
+			}
+			NOR = { remove_ideas = EE_sapmi_resistance }
+		}
+	}
+	option = { name = ee_scandinavia.2.a }
+}
+
+country_event = {
+	id = ee_scandinavia.10
+	title = ee_scandinavia.10.t
+	desc = ee_scandinavia.10.d
+	picture = GFX_report_event_generic_political
+	is_triggered_only = yes
+	option = {
+		name = ee_scandinavia.10.a
+		ai_chance = { factor = 0 }
+		set_politics = { ruling_party = communism elections_allowed = no }
+		set_popularities = { democratic = 0 communism = 100 libertarian_socialism = 0 fascism = 0 neutrality = 0 }
+		remove_ideas = EE_ved_nordsjoen
+		add_ideas = EE_sapmi_resistance
+		every_state = {
+			limit = { OR = { state = 144 state = 923 state = 924 state = 925 } }
+			remove_core_of = NOR
+		}
+	}
+	option = {
+		name = ee_scandinavia.10.b
+		ai_chance = { factor = 100 }
+		trigger = { has_political_power > 149 }
+		add_political_power = -150
+		set_politics = { ruling_party = libertarian_socialism elections_allowed = no }
+		set_popularities = { democratic = 0 communism = 0 libertarian_socialism = 100 fascism = 0 neutrality = 0 }
+		remove_ideas = EE_sapmi_resistance
+		add_ideas = EE_ved_nordsjoen
+		add_manpower = 150000
+		every_state = {
+			limit = { OR = { state = 143 state = 144 state = 147 state = 148 state = 666 state = 722 state = 917 state = 918 state = 923 state = 924 state = 925 } }
+			add_core_of = NOR
+		}
+		if = { limit = { SWE = { exists = yes } } create_wargoal = { type = annex_everything target = SWE } }
+		if = { limit = { DEN = { exists = yes } } create_wargoal = { type = annex_everything target = DEN } }
+	}
+}
+
+country_event = {
+	id = ee_scandinavia.20
+	title = ee_scandinavia.20.t
+	desc = ee_scandinavia.20.d
+	picture = GFX_report_event_generic_political
+	is_triggered_only = yes
+	option = {
+		name = ee_scandinavia.20.a
+		set_country_flag = ee_northern_intervention_imminent
+			activate_mission = EE_northern_intervention_imminent
+			if = { limit = { NAO = { exists = yes } } NAO = { country_event = { id = ee_scandinavia.21 days = 40 } } }
+	}
+}
+
+country_event = {
+	id = ee_scandinavia.21
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		if = {
+			limit = { tag = NAO exists = yes NOR = { exists = yes } NOT = { 110 = { is_owned_by = DEN } } NOT = { has_global_flag = ee_nao_sapmi_war_started } }
+			NOR = { clr_country_flag = ee_northern_intervention_imminent }
+			add_ideas = EE_sapmi_war_of_independence
+			set_global_flag = ee_nao_sapmi_war_started
+			declare_war_on = { target = NOR type = annex_everything }
+		}
+	}
+	option = { name = ee_scandinavia.21.a }
+}
+
+country_event = {
+	id = ee_scandinavia.31
+	title = ee_scandinavia.31.t
+	desc = ee_scandinavia.31.d
+	picture = GFX_report_event_generic_protest
+	is_triggered_only = yes
+	option = {
+		name = ee_scandinavia.31.a
+		add_opinion_modifier = { target = NOR modifier = EE_norwegian_resistance_smuggling }
+	}
+}
+
+country_event = {
+	id = ee_scandinavia.40
+	title = ee_scandinavia.40.t
+	desc = ee_scandinavia.40.d
+	picture = GFX_report_event_generic_protest
+	is_triggered_only = yes
+	option = {
+		name = ee_scandinavia.40.a
+		if = { limit = { DEN = { exists = yes } NOT = { has_global_flag = ee_nor_den_war_started } } set_global_flag = ee_nor_den_war_started declare_war_on = { target = DEN type = annex_everything } }
+	}
+}
+
+country_event = {
+	id = ee_scandinavia.42
+	hidden = yes
+	is_triggered_only = yes
+	immediate = { clr_country_flag = ee_nor_resistance_monthly_cooldown }
+	option = { name = ee_scandinavia.42.a }
+}
+
+
+country_event = {
+	id = ee_scandinavia.43
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		if = {
+			limit = {
+				has_country_flag = ee_nor_armed_oslo
+				has_country_flag = ee_nor_armed_bergen
+				has_country_flag = ee_nor_armed_trondheim
+				has_country_flag = ee_nor_armed_skien
+				has_country_flag = ee_nor_armed_kristiansand
+				NOT = { has_country_flag = ee_nor_workers_revolution_started }
+			}
+			set_country_flag = ee_nor_workers_revolution_started
+			country_event = { id = ee_scandinavia.40 }
+		}
+	}
+	option = { name = ee_scandinavia.43.a }
+}
+country_event = {
+	id = ee_scandinavia.50
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		if = {
+			limit = {
+				has_global_flag = ee_nor_den_war_started
+				NOR = { exists = yes has_war_with = DEN }
+				110 = { is_controlled_by = NOR }
+				142 = { is_controlled_by = NOR }
+				143 = { is_controlled_by = NOR }
+				921 = { is_controlled_by = NOR }
+				922 = { is_controlled_by = NOR }
+			}
+			white_peace = DEN
+			DEN = { white_peace = NOR remove_ideas = EE_atlantic_vikings }
+			remove_ideas = EE_arm_our_brothers
+			add_ideas = EE_post_unification_restraint
+			transfer_state = 110
+			transfer_state = 142
+			transfer_state = 143
+			transfer_state = 921
+			transfer_state = 922
+			clr_global_flag = ee_nor_den_war_started
+		}
+		if = {
+			limit = { has_global_flag = ee_nor_den_war_started NOT = { NOR = { exists = yes } } }
+			clr_global_flag = ee_nor_den_war_started
+		}
+	}
+	option = { name = ee_scandinavia.50.a }
+}

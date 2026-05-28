@@ -1,0 +1,31 @@
+state = {
+    id = 1095
+    name = "STATE_1095"
+    manpower = 930000
+    state_category = town
+    history = {
+        owner = ITA
+        victory_points = {
+            6979 3 # Lecce
+        }
+           
+        victory_points = {
+            11837 6 # Taranto
+        }
+
+        buildings = {
+            infrastructure = 2
+            dockyard = 1
+            11837 = { naval_base = 2 }
+        }
+
+        set_demilitarized_zone = yes
+
+        add_core_of = ITA
+        add_core_of = UIS
+        add_core_of = IAR
+
+    }
+    provinces = { 6979 11837 11998 }
+    local_supplies = 0.0
+}

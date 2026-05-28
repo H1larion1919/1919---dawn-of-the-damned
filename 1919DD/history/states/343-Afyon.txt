@@ -1,0 +1,33 @@
+state = {
+	id = 343
+	name = "STATE_343"
+	manpower = 1298543
+	resources = {
+		coal = 20
+	}
+	state_category = rural
+	history = {
+		owner = TSR
+		victory_points = { 
+			3983 3 # Afyonkarahisar
+		}
+
+		victory_points = { 
+			11831 5 # Kutahya
+		}
+
+		victory_points = { 
+			3856 3 # Ushak
+		}
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = TSR
+		add_core_of = KTR
+		add_core_of = OTT
+	}
+	provinces = { 856 3856 3983 6945 11831 }
+	local_supplies = 0.0
+}

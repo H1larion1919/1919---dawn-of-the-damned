@@ -1,0 +1,54 @@
+ee_bulgarian_postwar_cleanup = {
+	EE_bul_surface_underground = {
+		icon = generic_political_discourse
+		allowed = { OR = { tag = BUL tag = BPR } }
+		visible = { has_idea = EE_underground_resistance NOT = { has_country_flag = ee_bul_postwar_security_started } }
+		available = { has_idea = EE_underground_resistance }
+		days_remove = 7
+		complete_effect = { set_country_flag = ee_bul_postwar_security_active }
+		remove_effect = {
+			clr_country_flag = ee_bul_postwar_security_active
+			set_country_flag = ee_bul_postwar_security_started
+			country_event = { id = ee_start.220 }
+		}
+		cancel_effect = { clr_country_flag = ee_bul_postwar_security_active }
+		ai_will_do = { factor = 20 }
+		fire_only_once = yes
+	}
+
+	EE_bul_fund_police_crackdown = {
+		icon = generic_political_discourse
+		allowed = { OR = { tag = BUL tag = BPR } }
+		visible = { has_idea = EE_underground_resistance has_country_flag = ee_bul_postwar_security_started NOT = { has_country_flag = ee_bul_postwar_crackdown_done } }
+		available = { has_political_power > 149 }
+		cost = 150
+		days_remove = 21
+		complete_effect = { set_country_flag = ee_bul_postwar_security_active }
+		remove_effect = {
+			clr_country_flag = ee_bul_postwar_security_active
+			set_country_flag = ee_bul_postwar_crackdown_done
+			add_stability = 0.05
+		}
+		cancel_effect = { clr_country_flag = ee_bul_postwar_security_active }
+		ai_will_do = { factor = 15 }
+		fire_only_once = yes
+	}
+
+	EE_bul_mass_arrests = {
+		icon = generic_political_discourse
+		allowed = { OR = { tag = BUL tag = BPR } }
+		visible = { has_idea = EE_underground_resistance has_country_flag = ee_bul_postwar_crackdown_done }
+		available = { has_political_power > 149 }
+		cost = 150
+		days_remove = 21
+		complete_effect = { set_country_flag = ee_bul_postwar_security_active }
+		remove_effect = {
+			clr_country_flag = ee_bul_postwar_security_active
+			remove_ideas = EE_underground_resistance
+			add_ideas = EE_underground_resistance_suppressed
+		}
+		cancel_effect = { clr_country_flag = ee_bul_postwar_security_active }
+		ai_will_do = { factor = 15 }
+		fire_only_once = yes
+	}
+}

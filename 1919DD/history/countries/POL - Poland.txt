@@ -1,0 +1,65 @@
+# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+set_politics = {
+	ruling_party = neutrality
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 15
+	libertarian_socialism = 0
+	social_democracy = 15
+	democratic = 0
+	market_liberalism = 0
+	fascism = 0
+	neutrality = 70
+	esotericism = 0
+}
+set_party_name = {
+	ideology = neutrality
+	long_name = "Endecja"
+	name = "Endecja"
+}
+set_party_name = {
+	ideology = communism
+	long_name = "Polish Communist Cells"
+	name = "Polish Communist Cells"
+}
+set_party_name = {
+	ideology = libertarian_socialism
+	long_name = "PSL Piast"
+	name = "PSL Piast"
+}
+create_country_leader = {
+	name = "Roman Dmowski"
+	picture = "Portrait_POL_Roman_Dmowski.dds"
+	ideology = ee_national_democracy
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Feliks Dzerzhinsky"
+	picture = "Portrait_POL_Feliks_Dzerzhinsky.dds"
+	ideology = ee_leninism
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Wincenty Witos"
+	picture = "Portrait_POL_Wincenty_Witos.dds"
+	ideology = ee_agrarian_social_democracy
+	expire = "1965.1.1"
+	traits = { }
+}
+
+capital = 10
+set_research_slots = 3
+set_stability = 0.45
+set_war_support = 0.45
+
+add_ideas = {
+	scraping_the_barrel
+	all_adults_serve
+	extensive_conscription
+	limited_conscription
+	volunteer_only
+	civilian_economy
+}

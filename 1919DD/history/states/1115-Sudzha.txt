@@ -1,0 +1,26 @@
+
+state = {
+    id = 1115
+    name = "STATE_1115" # Sudzha
+	history = {
+		owner = UKS
+		buildings = {
+			infrastructure = 3
+			air_base = 8
+		}
+		victory_points = { 
+			9542 2
+		}
+		add_claim_by = SOV
+		add_core_of = FSU
+		add_core_of = UPR
+		add_core_of = HUK
+		add_core_of = UKS
+		add_claim_by = PET
+	}
+	provinces = { 288 3225 11553 580 6254 11526 6304 6330 6543 9542 }
+	manpower =  462718
+	buildings_max_level_factor = 4.000
+	state_category = large_town
+	local_supplies = 0.0
+} 

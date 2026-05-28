@@ -1,0 +1,61 @@
+# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+set_politics = {
+	ruling_party = democratic
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 0
+	libertarian_socialism = 0
+	social_democracy = 0
+	democratic = 70
+	market_liberalism = 0
+	fascism = 0
+	neutrality = 0
+	esotericism = 30
+}
+set_party_name = {
+	ideology = democratic
+	long_name = "Syrian Administration"
+	name = "Syrian Administration"
+}
+set_party_name = {
+	ideology = neutrality
+	long_name = "Lebanese Christian Bloc"
+	name = "Lebanese Christian Bloc"
+}
+create_country_leader = {
+	name = "Faisal I of Iraq"
+	picture = "Portrait_SYR_Faisal_I_of_Iraq.dds"
+	ideology = ee_arab_constitutionalism
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Maronite Councils"
+	picture = "Portrait_SYR_Maronite_Councils.dds"
+	ideology = ee_sectarian_autonomy
+	expire = "1965.1.1"
+	traits = { }
+}
+
+capital = 344
+# Recruit Characters
+oob = "SYR_1919"
+starting_train_buffer = 100
+set_research_slots = 3
+set_stability = 0.6
+set_war_support = 0.8
+add_command_power = 25
+set_convoys = 100
+
+# Politics for 1919.1.1
+
+# Government/National Spirits
+add_ideas = {
+	scraping_the_barrel
+	all_adults_serve
+	extensive_conscription
+	limited_conscription
+	volunteer_only
+	civilian_economy
+}

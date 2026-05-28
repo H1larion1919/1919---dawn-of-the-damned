@@ -1,0 +1,41 @@
+# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+set_politics = {
+	ruling_party = democratic
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 0
+	libertarian_socialism = 0
+	social_democracy = 0
+	democratic = 100
+	market_liberalism = 0
+	fascism = 0
+	neutrality = 0
+	esotericism = 0
+}
+set_party_name = {
+	ideology = democratic
+	long_name = "Belarusian Secretariat"
+	name = "Belarusian Secretariat"
+}
+create_country_leader = {
+	name = "Anton Łuckievič"
+	picture = "Portrait_BLR_Anton_uckievi.dds"
+	ideology = ee_weak_national_democracy
+	expire = "1965.1.1"
+	traits = { }
+}
+
+capital = 206
+set_research_slots = 2
+set_stability = 0.35
+set_war_support = 0.35
+
+add_ideas = {
+	scraping_the_barrel
+	all_adults_serve
+	extensive_conscription
+	limited_conscription
+	volunteer_only
+	civilian_economy
+}

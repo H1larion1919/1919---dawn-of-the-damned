@@ -1,0 +1,23 @@
+state = {
+	id = 1049
+	name = "STATE_1049"
+	resources = {
+	} # Keramanshah 
+	manpower = 260000
+	state_category = large_town
+	history = {
+		owner = KUR
+		victory_points = { 
+			12773 5
+		}
+
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = IRN
+		add_core_of = KUR
+		add_claim_by = KUW
+	}
+	provinces = { 4943 5098 12773 }
+	local_supplies = 0.0
+}

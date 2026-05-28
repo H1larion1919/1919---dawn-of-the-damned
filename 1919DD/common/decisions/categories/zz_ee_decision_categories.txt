@@ -1,0 +1,49 @@
+ee_balkan_negotiations = {
+    icon = generic_allies_build_infantry
+    visible = {
+        OR = { tag = YUG tag = MAC }
+    }
+}
+
+ee_bulgarian_postwar_cleanup = {
+    icon = generic_political_discourse
+    allowed = {
+        OR = { tag = BUL tag = BPR }
+    }
+    visible = {
+        OR = { tag = BUL tag = BPR }
+    }
+}
+
+ee_montenegrin_reunification_talks = {
+    icon = generic_political_discourse
+    allowed = { original_tag = YUG }
+    visible = { original_tag = YUG }
+}
+
+GER_freikorps_triangle = {
+    icon = generic_political_discourse
+    picture = GFX_GER_freikorps_triangle_center
+    allowed = { original_tag = GER }
+    visible = { tag = GER }
+    visible_when_empty = yes
+    priority = 500
+}
+
+GER_picking_back_up_the_pieces = {
+    icon = generic_political_discourse
+    allowed = { tag = GER }
+    visible = {
+        tag = GER
+        has_country_flag = GER_volkrepublik_deutschland_created
+        OR = {
+            NOT = { has_country_flag = GER_westdeutschland_created }
+            NOT = { has_country_flag = GER_hannover_negotiations_resolved }
+            AND = { LIT = { exists = yes } NOT = { has_country_flag = GER_memel_intimidation_done } }
+            AND = { DEN = { exists = yes } NOT = { has_country_flag = GER_belt_intimidation_done } }
+            AND = { ALR = { exists = yes } NOT = { has_country_flag = GER_alr_warplans_done } }
+        }
+    }
+    visible_when_empty = no
+    priority = 499
+}

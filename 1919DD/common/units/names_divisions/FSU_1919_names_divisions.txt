@@ -1,0 +1,9 @@
+FSU_DIV_0_0 = {
+	name = "Sons of Anarchy"
+	for_countries = { FSU }
+	can_use = { always = yes }
+	division_types = { 
+		"infantry" "artillery_brigade" 
+	}
+	fallback_name = "%d. Sons of Anarchy"
+}

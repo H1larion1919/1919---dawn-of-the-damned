@@ -1,0 +1,25 @@
+state = {
+    id = 1096
+    name = "STATE_1096"
+    manpower = 1050000
+    state_category = town
+    history = {
+        owner = ITA
+        victory_points = {
+            10027 2
+        }
+
+        buildings = {
+            infrastructure = 2
+        }
+
+        set_demilitarized_zone = yes
+        
+        add_core_of = ITA
+        add_core_of = UIS
+        add_core_of = IAR
+
+    }
+    provinces = { 3901 10027 12098 }
+    local_supplies = 0.0
+}
