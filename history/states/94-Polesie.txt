@@ -1,0 +1,30 @@
+state = {
+	id = 94
+	name = "STATE_94"
+	history = {
+		owner = UPR
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 
+			3496 3
+		}
+
+		victory_points = { 
+			11503 1
+		}
+
+		add_core_of = BLR
+		add_core_of = UPR
+		add_core_of = HUK
+		add_core_of = UKS
+		add_core_of = FSU
+		add_claim_by = POL
+		add_claim_by = PFA
+	}
+	provinces = { 535 3496 9520 11503 }
+	manpower = 1355420 
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.0
+} 

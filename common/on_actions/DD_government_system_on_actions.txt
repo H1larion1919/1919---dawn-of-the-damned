@@ -1,0 +1,35 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				dd_assign_ideology_government_laws = yes
+			}
+		}
+	}
+
+	on_monthly = {
+		effect = {
+			every_country = {
+				dd_refresh_government_system = yes
+			}
+		}
+	}
+
+	on_annex = {
+		effect = {
+			ROOT = {
+				set_country_flag = dd_recent_victory
+				dd_update_popularity_law = yes
+			}
+		}
+	}
+
+	on_civil_war_end = {
+		effect = {
+			ROOT = {
+				set_country_flag = dd_recent_victory
+				dd_update_popularity_law = yes
+			}
+		}
+	}
+}

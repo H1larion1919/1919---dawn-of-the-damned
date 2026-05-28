@@ -1,0 +1,28 @@
+state = {
+	id = 973
+	name = "STATE_973"
+	manpower = 580000
+	state_category = large_town
+	history = {
+		owner = HNG
+		add_core_of = HNG
+		add_claim_by = YUG
+		add_claim_by = BNT
+		add_claim_by = CRO
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		victory_points = { 
+			6670 4
+		}
+
+		victory_points = { 
+			11627 2
+		}
+
+	}
+	provinces = { 3670 6670 9624 9643 11610 11627 }
+	local_supplies = 12.0
+}

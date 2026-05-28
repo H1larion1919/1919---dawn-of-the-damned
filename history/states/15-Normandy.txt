@@ -1,0 +1,53 @@
+state = {
+	id = 15
+	name = "STATE_15"
+	manpower = 2332100
+	resources = {
+		steel = 21
+	}
+	state_category = city
+	history = {
+		owner = ENG
+
+		set_demilitarized_zone = yes
+
+		victory_points = { 
+			9434 10
+		}
+
+		victory_points = { 
+			6449 3
+		}
+
+		victory_points = { 
+			11563 5
+		}
+
+		victory_points = { 
+			485 3
+		}
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			air_base = 6
+			6449 = {
+				naval_base = 3
+				coastal_bunker = 1
+			}
+			9434 = {
+				naval_base = 5
+				coastal_bunker = 1
+			}
+			485 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = FRA
+		add_core_of = AQU
+		add_core_of = FRC
+		add_core_of = ENG
+	}
+	provinces = { 485 539 553 3523 3579 6449 6599 9434 9550 9578 11420 11521 11535 11563 }
+	local_supplies = 0.0
+}

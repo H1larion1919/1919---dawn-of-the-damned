@@ -1,0 +1,29 @@
+state = {
+	id = 420
+	name = "STATE_420"
+	resources = {
+	}
+	manpower = 500000
+	state_category = rural
+	history = {
+		owner = AZR
+		add_core_of = IRN
+		victory_points = { 
+			4609 5
+		}
+
+		victory_points = { 
+			4901 3
+		}
+
+		buildings = {
+			infrastructure = 2
+		}
+
+		set_demilitarized_zone = yes
+
+		add_core_of = AZR
+	}
+	provinces = { 4609 4901 10454 }
+	local_supplies = 3.0
+}

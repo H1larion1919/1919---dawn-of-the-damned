@@ -1,0 +1,146 @@
+GER_freikorps_triangle = {
+	GER_freikorps_initialize_system = {
+		icon = generic_political_discourse
+		cost = 0
+		available = { always = yes }
+		visible = {
+			original_tag = GER
+			NOT = { has_country_flag = GER_freikorps_triangle_initialized }
+		}
+		complete_effect = {
+			GER_init_freikorps_triangle = yes
+			set_country_flag = GER_freikorps_triangle_initialized
+		}
+	}
+
+	GER_freikorps_test_push_to_convention = {
+		icon = generic_political_discourse
+		cost = 0
+		available = { has_country_flag = GER_freikorps_debug_enabled }
+		visible = { original_tag = GER has_country_flag = GER_freikorps_debug_enabled }
+		complete_effect = {
+			set_variable = { GER_freikorps_reform = 82 }
+			set_variable = { GER_freikorps_tradition = 9 }
+			set_variable = { GER_freikorps_radicalism = 9 }
+			GER_freikorps_refresh = yes
+		}
+	}
+
+	GER_freikorps_triangle_status_center = {
+		icon = generic_political_discourse
+		cost = 0
+		available = { always = yes }
+		visible = { original_tag = GER has_country_flag = GER_freikorps_dot_center }
+		complete_effect = { GER_freikorps_refresh = yes }
+	}
+
+	GER_freikorps_triangle_status_tradition_lean = {
+		icon = generic_political_discourse
+		cost = 0
+		available = { always = yes }
+		visible = { original_tag = GER has_country_flag = GER_freikorps_dot_tradition_lean }
+		complete_effect = { GER_freikorps_refresh = yes }
+	}
+
+	GER_freikorps_triangle_status_tradition_strong = {
+		icon = generic_political_discourse
+		cost = 0
+		available = { always = yes }
+		visible = { original_tag = GER has_country_flag = GER_freikorps_dot_tradition_strong }
+		complete_effect = { GER_freikorps_refresh = yes }
+	}
+
+	GER_freikorps_triangle_status_reform_lean = {
+		icon = generic_political_discourse
+		cost = 0
+		available = { always = yes }
+		visible = { original_tag = GER has_country_flag = GER_freikorps_dot_reform_lean }
+		complete_effect = { GER_freikorps_refresh = yes }
+	}
+
+	GER_freikorps_triangle_status_reform_strong = {
+		icon = generic_political_discourse
+		cost = 0
+		available = { always = yes }
+		visible = { original_tag = GER has_country_flag = GER_freikorps_dot_reform_strong }
+		complete_effect = { GER_freikorps_refresh = yes }
+	}
+
+	GER_freikorps_triangle_status_radical_lean = {
+		icon = generic_political_discourse
+		cost = 0
+		available = { always = yes }
+		visible = { original_tag = GER has_country_flag = GER_freikorps_dot_radical_lean }
+		complete_effect = { GER_freikorps_refresh = yes }
+	}
+
+	GER_freikorps_triangle_status_radical_strong = {
+		icon = generic_political_discourse
+		cost = 0
+		available = { always = yes }
+		visible = { original_tag = GER has_country_flag = GER_freikorps_dot_radical_strong }
+		complete_effect = { GER_freikorps_refresh = yes }
+	}
+
+	GER_freikorps_triangle_status_tradition_reform = {
+		icon = generic_political_discourse
+		cost = 0
+		available = { always = yes }
+		visible = { original_tag = GER has_country_flag = GER_freikorps_dot_tradition_reform }
+		complete_effect = { GER_freikorps_refresh = yes }
+	}
+
+	GER_freikorps_triangle_status_tradition_radical = {
+		icon = generic_political_discourse
+		cost = 0
+		available = { always = yes }
+		visible = { original_tag = GER has_country_flag = GER_freikorps_dot_tradition_radical }
+		complete_effect = { GER_freikorps_refresh = yes }
+	}
+
+	GER_freikorps_triangle_status_reform_radical = {
+		icon = generic_political_discourse
+		cost = 0
+		available = { always = yes }
+		visible = { original_tag = GER has_country_flag = GER_freikorps_dot_reform_radical }
+		complete_effect = { GER_freikorps_refresh = yes }
+	}
+
+	GER_freikorps_back_tradition = {
+		icon = generic_army_support
+		cost = 25
+		available = { GER_freikorps_no_convention_done = yes }
+		visible = { original_tag = GER }
+		complete_effect = { GER_freikorps_shift_tradition = yes }
+	}
+
+	GER_freikorps_back_reform = {
+		icon = generic_research
+		cost = 25
+		available = { GER_freikorps_no_convention_done = yes }
+		visible = { original_tag = GER }
+		complete_effect = { GER_freikorps_shift_reform = yes }
+	}
+
+	GER_freikorps_back_radicalism = {
+		icon = generic_propaganda
+		cost = 25
+		available = { GER_freikorps_no_convention_done = yes }
+		visible = { original_tag = GER }
+		complete_effect = { GER_freikorps_shift_radicalism = yes }
+	}
+
+	GER_summon_freikorps_convention = {
+		icon = generic_political_discourse
+		cost = 50
+		available = {
+			GER_freikorps_no_convention_done = yes
+			GER_freikorps_convention_available = yes
+		}
+		visible = {
+			original_tag = GER
+			GER_freikorps_convention_available = yes
+		}
+		complete_effect = { country_event = { id = GER_freikorps.100 days = 1 } }
+	}
+}

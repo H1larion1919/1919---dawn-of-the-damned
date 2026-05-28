@@ -1,0 +1,89 @@
+# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+set_politics = {
+	ruling_party = social_democracy
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 0
+	libertarian_socialism = 0
+	social_democracy = 86
+	democratic = 0
+	market_liberalism = 0
+	fascism = 7
+	neutrality = 7
+	esotericism = 0
+}
+set_party_name = {
+	ideology = social_democracy
+	long_name = "Workers’ Councils"
+	name = "Workers’ Councils"
+}
+set_party_name = {
+	ideology = libertarian_socialism
+	long_name = "National German Workers Party"
+	name = "National German Workers Party"
+}
+set_party_name = {
+	ideology = social_democracy
+	long_name = "Sozialdemokratische Arbeiterpartei Österreichs"
+	name = "Sozialdemokratische Arbeiterpartei Österreichs"
+}
+set_party_name = {
+	ideology = neutrality
+	long_name = "House of Habsburg"
+	name = "House of Habsburg"
+}
+set_party_name = {
+	ideology = fascism
+	long_name = "National Christlichsoziale Partei"
+	name = "National Christlichsoziale Partei"
+}
+create_country_leader = {
+	name = "Otto Bauer"
+	picture = "Portrait_AUS_Otto_Bauer.dds"
+	ideology = ee_austro_marxism
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Adolf Hitler"
+	picture = "Portrait_AUS_Adolf_Hitler.dds"
+	ideology = ee_socialist_nationalism
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Karl Renner"
+	picture = "Portrait_AUS_Karl_Renner.dds"
+	ideology = ee_social_democracy
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Karl I"
+	picture = "Portrait_AUS_Karl_I.dds"
+	ideology = ee_progressive_monarchy
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Michael Mayr"
+	picture = "Portrait_AUS_Michael_Mayr.dds"
+	ideology = ee_christian_nationalism
+	expire = "1965.1.1"
+	traits = { }
+}
+
+capital = 4
+set_research_slots = 3
+set_stability = 0.45
+set_war_support = 0.55
+
+add_ideas = {
+	scraping_the_barrel
+	all_adults_serve
+	extensive_conscription
+	limited_conscription
+	volunteer_only
+	civilian_economy
+}

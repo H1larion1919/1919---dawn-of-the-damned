@@ -1,0 +1,157 @@
+characters = {
+	EE_GER_walther_von_luttwitz = {
+		name = "Walther von Luttwitz"
+		field_marshal = {
+			traits = { infantry_officer offensive_doctrine politically_connected }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+
+	EE_GER_erich_ludendorff = {
+		name = "Erich Ludendorff"
+		field_marshal = {
+			traits = { offensive_doctrine war_hero trait_reckless }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+
+	EE_GER_paul_von_lettow_vorbeck = {
+		name = "Paul von Lettow-Vorbeck"
+		field_marshal = {
+			traits = { trickster war_hero infantry_officer ranger }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 5
+			legacy_id = -1
+		}
+	}
+
+	EE_GER_georg_maercker = {
+		name = "Georg Maercker"
+		field_marshal = {
+			traits = { infantry_officer defensive_doctrine militias_officer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = -1
+		}
+	}
+
+	EE_GER_hermann_ehrhardt = {
+		name = "Hermann Ehrhardt"
+		corps_commander = {
+			traits = { trait_reckless naval_invader militias_officer }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+
+	EE_GER_franz_ritter_von_epp = {
+		name = "Franz Ritter von Epp"
+		corps_commander = {
+			traits = { infantry_officer militias_officer war_hero }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+
+	EE_GER_gerhard_rossbach = {
+		name = "Gerhard Rossbach"
+		corps_commander = {
+			traits = { trait_reckless cavalry_officer militias_officer }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+
+	EE_GER_peter_von_heydebreck = {
+		name = "Peter von Heydebreck"
+		corps_commander = {
+			traits = { infantry_officer trait_reckless militias_officer }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+
+	EE_GER_wilfried_von_loewenfeld = {
+		name = "Wilfried von Loewenfeld"
+		corps_commander = {
+			traits = { naval_invader defensive_doctrine militias_officer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+
+	EE_GER_waldemar_pabst = {
+		name = "Waldemar Pabst"
+		corps_commander = {
+			traits = { politically_connected infantry_officer trait_reckless }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+
+	EE_GER_ernst_rohm = {
+		name = "Ernst Rohm"
+		corps_commander = {
+			traits = { infantry_officer trait_reckless militias_officer }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id = -1
+		}
+	}
+
+	EE_GER_rudolf_berthold = {
+		name = "Rudolf Berthold"
+		corps_commander = {
+			traits = { trait_reckless war_hero media_personality }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id = -1
+		}
+	}
+}

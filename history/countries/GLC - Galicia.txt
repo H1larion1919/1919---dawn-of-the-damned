@@ -1,0 +1,14 @@
+set_politics = {
+	ruling_party = communism
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 100
+	libertarian_socialism = 0
+	social_democracy = 0
+	democratic = 0
+	market_liberalism = 0
+	fascism = 0
+	neutrality = 0
+	esotericism = 0
+}

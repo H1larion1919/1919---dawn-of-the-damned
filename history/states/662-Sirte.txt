@@ -1,0 +1,22 @@
+state={
+	id=662
+	name="STATE_662"
+	manpower = 13213
+	
+	state_category = town
+	
+	
+	history={
+		owner = FEZ
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = FEZ
+	}
+	
+	provinces={
+		4191 5004 7136 7194 7985 8069 13073 12082 12866 
+	} 
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,10 @@
+ee_norwegian_resistance = {
+	icon = generic_prepare_civil_war
+	visible = {
+		OR = {
+			AND = { tag = NOR has_idea = EE_arm_our_brothers }
+			AND = { tag = NOR has_country_flag = ee_northern_intervention_imminent }
+		}
+	}
+	priority = 20
+}

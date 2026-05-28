@@ -1,0 +1,22 @@
+state = {
+    id = 1119
+    name = "STATE_1119" # Dnipro
+	history = {
+		owner = FSU
+		buildings = {
+			infrastructure = 3
+			air_base = 8
+		}
+		victory_points = { 
+			9463 3
+		}
+		add_core_of = FSU
+		add_core_of = UPR
+		add_core_of = HUK
+		add_core_of = UKS
+	}
+	provinces = { 511 3508 3531 6507 6578 9463 9479 } 
+	manpower = 372612 
+	state_category = city
+	local_supplies = 0.0
+} 

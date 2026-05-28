@@ -1,0 +1,28 @@
+division_template = {
+	name = "Estonian Infantry Division"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+}
+units = {
+	division = { name = "1st Estonian Federation Division" location = 3152 division_template = "Estonian Infantry Division" start_experience_factor = 0.45 }
+	division = { name = "2nd Estonian Federation Division" location = 3152 division_template = "Estonian Infantry Division" start_experience_factor = 0.45 }
+	division = { name = "3rd Estonian Federation Division" location = 3152 division_template = "Estonian Infantry Division" start_experience_factor = 0.45 }
+	division = { name = "4th Estonian Federation Division" location = 3152 division_template = "Estonian Infantry Division" start_experience_factor = 0.45 }
+	division = { name = "5th Estonian Federation Division" location = 9221 division_template = "Estonian Infantry Division" start_experience_factor = 0.45 }
+	division = { name = "6th Estonian Federation Division" location = 9221 division_template = "Estonian Infantry Division" start_experience_factor = 0.45 }
+	division = { name = "7th Estonian Federation Division" location = 9221 division_template = "Estonian Infantry Division" start_experience_factor = 0.45 }
+	division = { name = "8th Estonian Federation Division" location = 9221 division_template = "Estonian Infantry Division" start_experience_factor = 0.45 }
+	division = { name = "9th Estonian Federation Division" location = 185 division_template = "Estonian Infantry Division" start_experience_factor = 0.45 }
+	division = { name = "10th Estonian Federation Division" location = 185 division_template = "Estonian Infantry Division" start_experience_factor = 0.45 }
+	division = { name = "11th Estonian Federation Division" location = 185 division_template = "Estonian Infantry Division" start_experience_factor = 0.45 }
+	division = { name = "12th Estonian Federation Division" location = 592 division_template = "Estonian Infantry Division" start_experience_factor = 0.45 }
+	division = { name = "13th Estonian Federation Division" location = 592 division_template = "Estonian Infantry Division" start_experience_factor = 0.45 }
+	division = { name = "14th Estonian Federation Division" location = 592 division_template = "Estonian Infantry Division" start_experience_factor = 0.45 }
+	division = { name = "15th Estonian Federation Division" location = 592 division_template = "Estonian Infantry Division" start_experience_factor = 0.45 }
+}

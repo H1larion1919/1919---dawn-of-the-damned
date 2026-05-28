@@ -1,0 +1,26 @@
+state = {
+	id = 852
+	name = "STATE_852"
+	manpower = 125850
+	state_category = town
+	history = {
+		owner = DIZ
+		victory_points = { 
+			11564 1
+		}
+
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+			11564 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = ITA
+		add_core_of = YUG
+		add_core_of = DIZ
+		add_core_of = VNZ
+	}
+	provinces = { 11564 11735 13252 }
+	local_supplies = 0.0
+}

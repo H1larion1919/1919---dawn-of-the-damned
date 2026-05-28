@@ -1,0 +1,93 @@
+# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+set_politics = {
+	ruling_party = social_democracy
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 0
+	libertarian_socialism = 0
+	social_democracy = 30
+	democratic = 12
+	market_liberalism = 24
+	fascism = 19
+	neutrality = 10
+	esotericism = 5
+}
+set_party_name = {
+	ideology = social_democracy
+	long_name = "Sozialdemokratische Partei"
+	name = "Social Democtatic Party"
+}
+set_party_name = {
+	ideology = democratic
+	long_name = "Deutsche Demokratische Partei"
+	name = "German Democratic Party"
+}
+set_party_name = {
+	ideology = market_liberalism
+	long_name = "Deutsche Volkspartei"
+	name = "German People's Party"
+}
+set_party_name = {
+	ideology = neutrality
+	long_name = "Deutschnationale Volkspartei"
+	name = "DNVP (Military Wing)"
+}
+set_party_name = {
+	ideology = fascism
+	long_name = "Deutschnationale Volkspartei"
+	name = "DNVP (National Wing)"
+}
+set_party_name = {
+	ideology = esotericism
+	long_name = "The Thule Society"
+	name = "The Thule Society"
+}
+create_country_leader = {
+	name = "Friedrich Ebert"
+	picture = "Portrait_WRE_Friedrich_Ebert.dds"
+	ideology = ee_social_democracy
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Gustav Stresemann"
+	picture = "Portrait_WRE_Gustav_Stresemann.dds"
+	ideology = ee_fiscal_conservatism
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = { 
+	name = "Paul von Hindenburg"
+	picture = "Portrait_WRE_Paul_von_Hindenburg.dds"
+	ideology = ee_conservative_militarism
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = { 
+	name = "Paul von Hindenburg"
+	picture = "Portrait_WRE_Paul_von_Hindenburg.dds"
+	ideology = ee_conservative_militarism
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = { 
+	name = "Ernst Röhm"
+	picture = "Portrait_WRE_Ernst_Rohm.dds"
+	ideology = ee_revolutionary_militarism
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = { 
+	name = "Rudolf von Sebottendorff"
+	picture = "Portrait_WRE_Rudolf_von_Sebottendorff.dds"
+	ideology = ee_germanic_occultism
+	expire = "1965.1.1"
+	traits = { }
+}
+
+capital = 55
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.3
+set_convoys = 0

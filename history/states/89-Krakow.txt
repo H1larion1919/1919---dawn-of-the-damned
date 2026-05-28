@@ -1,0 +1,27 @@
+state = {
+	id = 89
+	name = "STATE_89"
+	history = {
+		victory_points = { 
+			438 1
+		}
+
+		owner = UPR
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+		}
+		add_claim_by = POL
+		add_claim_by = PFA
+		add_core_of = FSU
+		add_core_of = UPR
+		add_core_of = HUK
+		add_core_of = UKS
+
+	}
+	provinces = { 9558 438 491 3483 3562 9454 11427 }
+	manpower = 2180300
+	buildings_max_level_factor = 1.000
+	state_category = city
+	local_supplies = 0.0
+}

@@ -1,0 +1,72 @@
+# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+set_politics = {
+	ruling_party = fascism
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 0
+	libertarian_socialism = 15
+	social_democracy = 0
+	democratic = 0
+	market_liberalism = 0
+	fascism = 70
+	neutrality = 15
+	esotericism = 0
+}
+set_party_name = {
+	ideology = fascism
+	long_name = "IMRO Command"
+	name = "IMRO Command"
+}
+set_party_name = {
+	ideology = neutrality
+	long_name = "Bulgarian Alignment Faction"
+	name = "Bulgarian Alignment Faction"
+}
+set_party_name = {
+	ideology = libertarian_socialism
+	long_name = "Vardar Autonomists"
+	name = "Vardar Autonomists"
+}
+create_country_leader = {
+	name = "Todor Alexandrov"
+	picture = "Portrait_MAC_Todor_Alexandrov.dds"
+	ideology = ee_revolutionary_militarism
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Ivan Mihailov"
+	picture = "Portrait_MAC_Ivan_Mihailov.dds"
+	ideology = ee_pro_bulgarian_authoritarian_integration
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Dimitar Vlahov"
+	picture = "Portrait_MAC_Dimitar_Vlahov.dds"
+	ideology = ee_macedonian_federalism
+	expire = "1965.1.1"
+	traits = { }
+}
+
+capital = 106
+# Recruit Characters
+oob = "MAC_1919"
+starting_train_buffer = 20
+set_research_slots = 2
+set_stability = 0.6
+set_war_support = 0.7
+add_command_power = 50
+set_convoys = 0
+
+# Politics for 1919.1.1
+
+# Government/National Spirits
+add_ideas = {
+	EE_1904_again
+	EE_unclear_goals
+	EE_nationalist_agitation
+	volunteer_only
+	civilian_economy
+}

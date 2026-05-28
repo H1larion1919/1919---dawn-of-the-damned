@@ -1,0 +1,59 @@
+# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+set_politics = {
+	ruling_party = neutrality
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 0
+	libertarian_socialism = 0
+	social_democracy = 30
+	democratic = 0
+	market_liberalism = 0
+	fascism = 0
+	neutrality = 70
+	esotericism = 0
+}
+set_party_name = {
+	ideology = neutrality
+	long_name = "Royal Court"
+	name = "Royal Court"
+}
+set_party_name = {
+	ideology = libertarian_socialism
+	long_name = "SAP"
+	name = "SAP"
+}
+set_party_name = {
+	ideology = democratic
+	long_name = "General Electoral League"
+	name = "General Electoral League"
+}
+create_country_leader = {
+	name = "Gustaf V"
+	picture = "Portrait_SWE_Gustaf_V.dds"
+	ideology = ee_reactionary_constitutionalism
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Hjalmar Branting"
+	picture = "Portrait_SWE_Hjalmar_Branting.dds"
+	ideology = ee_social_democracy
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Arvid Lindman"
+	picture = "Portrait_SWE_Arvid_Lindman.dds"
+	ideology = ee_conservative_liberalism
+	expire = "1965.1.1"
+	traits = { }
+}
+
+capital = 141
+set_research_slots = 3
+set_stability = 0.65
+set_war_support = 0.3
+set_convoys = 25
+
+add_ideas = { EE_noisy_neighbours }

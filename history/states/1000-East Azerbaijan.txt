@@ -1,0 +1,27 @@
+state = {
+	id = 1000
+	name = "STATE_1000" # Artsakh
+	manpower = 715857
+	resources = {
+		steel = 6
+	}
+	state_category = town
+	history = {
+		owner = AZR
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+		}
+	
+		set_demilitarized_zone = yes
+
+		victory_points = { 
+			1467 5
+		}
+
+		add_core_of = AZR
+		add_core_of = ARM
+	}
+	provinces = { 9715 1467 1539 }
+	local_supplies = 4.0
+}

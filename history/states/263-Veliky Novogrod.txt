@@ -1,0 +1,21 @@
+state = {
+	id = 263
+	name = "STATE_263"
+	manpower = 1092577
+	state_category = town
+	history = {
+		owner = PET
+		add_core_of = PET
+		victory_points = { 
+			117 5
+		}
+
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+		}
+
+	}
+	provinces = { 8 71 110 117 207 248 320 3089 9242 9254 3344 6086 6154 6197 6225 9098 9212 9234 9319 9331 11032 11072 11109 11191 11304 11139 }
+	local_supplies = 11.0
+}

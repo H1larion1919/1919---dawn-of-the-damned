@@ -1,0 +1,31 @@
+state = {
+	id = 347
+	name = "STATE_347"
+	manpower = 650000
+	resources = {
+		chromium = 2
+		steel = 4
+	}
+	state_category = large_city
+	history = {
+		owner = HEL
+		victory_points = { 
+			11829 20 # Vasilevousa
+		}
+
+		victory_points = { 
+			11811 5
+		}
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = HEL
+		add_claim_by = KTR
+		add_claim_by = TSR
+		add_claim_by = OTT
+	}
+	provinces = { 11811 11829 }
+	local_supplies = 9.0
+}

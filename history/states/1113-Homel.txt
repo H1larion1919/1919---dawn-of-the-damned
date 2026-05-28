@@ -1,0 +1,27 @@
+state = {
+    id = 1113
+    name = "STATE_1113" # Homel
+	history = {
+		owner = UKS
+		buildings = {
+			infrastructure = 2
+		}
+
+		victory_points = { 
+			9288 6
+		}
+
+		add_claim_by = SOV
+		add_core_of = FSU
+		add_core_of = UPR
+		add_core_of = HUK
+		add_core_of = UKS
+		add_claim_by = PET
+		add_core_of = BLR
+	}
+	provinces = { 546 9288 9342 }
+	manpower = 362667 
+	buildings_max_level_factor = 5.000
+	state_category = city
+	local_supplies = 0.0
+} 

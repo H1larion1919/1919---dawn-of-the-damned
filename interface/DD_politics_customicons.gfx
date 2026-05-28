@@ -1,0 +1,46 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ideology_social_democracy_group"
+		textureFile = "gfx/interface/ideologies/communism_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_market_liberalism_group"
+		textureFile = "gfx/interface/ideologies/democratic_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_esotericism_group"
+		textureFile = "gfx/interface/ideologies/neutrality_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_slot_dd_governance"
+		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_slot_dd_law"
+		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_slot_dd_society"
+		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_slot_dd_economy"
+		textureFile = "gfx/interface/idea_slot_industrial_concern.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_slot_dd_popularity"
+		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_slot_dd_militarism"
+		textureFile = "gfx/interface/idea_slot_army_chief.dds"
+	}
+}

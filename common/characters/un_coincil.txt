@@ -1,0 +1,15 @@
+characters = {
+	#League of Nations council
+	un_coincil_league_of_nations_council = {
+		name = un_coincil_league_of_nations_council
+		portraits = {
+			civilian = {
+				large = GFX_un_coincil_league_of_nations_council_large
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			traits = {  }
+		}
+	}
+}

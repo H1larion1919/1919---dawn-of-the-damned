@@ -1,0 +1,52 @@
+# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+set_politics = {
+	ruling_party = neutrality
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 0
+	libertarian_socialism = 0
+	social_democracy = 0
+	democratic = 30
+	market_liberalism = 0
+	fascism = 0
+	neutrality = 0
+	esotericism = 70
+}
+set_party_name = {
+	ideology = esotericism
+	long_name = "Egyptian Crown / Early Islamist Movement"
+	name = "Egyptian Crown / Early Islamist Movement"
+}
+set_party_name = {
+	ideology = democratic
+	long_name = "Wafd Party"
+	name = "Wafd Party"
+}
+create_country_leader = {
+	name = "Fuad I"
+	picture = "Portrait_EGY_Fuad_I.dds"
+	ideology = ee_royal_nationalism
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Saad Zaghloul"
+	picture = "Portrait_EGY_Saad_Zaghloul.dds"
+	ideology = ee_national_liberalism
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Hassan al-Banna"
+	picture = "Portrait_EGY_Hassan_al_Banna.dds"
+	ideology = ee_islamic_revivalism
+	expire = "1965.1.1"
+	traits = { }
+}
+capital = 447
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.3
+set_convoys = 0
+set_autonomy = { target = ETH autonomy_state = autonomy_ee_autonomous_region }

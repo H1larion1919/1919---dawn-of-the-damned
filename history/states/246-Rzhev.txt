@@ -1,0 +1,24 @@
+state = {
+	id = 246
+	name = "STATE_246"
+	manpower = 1025458
+	state_category = rural
+	resources = {
+		steel = 16
+	}
+	history = {
+		owner = BLR
+		victory_points = { 
+			3235 5
+		}
+
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = BLR
+		add_claim_by = PET
+		add_claim_by = SOV
+	}
+	provinces = { 287 3235 6264 6367 6400 9287 11272 }
+	local_supplies = 0.0
+}

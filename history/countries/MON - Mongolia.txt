@@ -1,0 +1,44 @@
+# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+set_politics = {
+	ruling_party = neutrality
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 0
+	libertarian_socialism = 0
+	social_democracy = 0
+	democratic = 0
+	market_liberalism = 0
+	fascism = 30
+	neutrality = 0
+	esotericism = 70
+}
+set_party_name = {
+	ideology = neutrality
+	long_name = "Bogd Khanate"
+	name = "Bogd Khanate"
+}
+set_party_name = {
+	ideology = fascism
+	long_name = "Reform Bloc"
+	name = "Reform Bloc"
+}
+create_country_leader = {
+	name = "Bogd Khan"
+	picture = "Portrait_MON_Bogd_Khan.dds"
+	ideology = ee_theocratic_monarchy
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Reformists"
+	picture = "Portrait_MON_Reformists.dds"
+	ideology = ee_modernizing_nationalism
+	expire = "1965.1.1"
+	traits = { }
+}
+capital = 330
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.3
+set_convoys = 0

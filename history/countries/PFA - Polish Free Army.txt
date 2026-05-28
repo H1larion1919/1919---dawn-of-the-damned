@@ -1,0 +1,68 @@
+# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+set_politics = {
+	ruling_party = democratic
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 0
+	libertarian_socialism = 0
+	social_democracy = 15
+	democratic = 70
+	market_liberalism = 0
+	fascism = 15
+	neutrality = 0
+	esotericism = 0
+}
+set_party_name = {
+	ideology = democratic
+	long_name = "Free Polish Command"
+	name = "Free Polish Command"
+}
+set_party_name = {
+	ideology = libertarian_socialism
+	long_name = "Polish Socialist Party"
+	name = "Polish Socialist Party"
+}
+set_party_name = {
+	ideology = fascism
+	long_name = "Sanatacja Regime"
+	name = "Sanatacja Regime"
+}
+create_country_leader = {
+	name = "Józef Piłsudski (L)"
+	desc = ""
+	picture = "Portrait_PFA_Jozef_Pilsudski.dds"
+	ideology = ee_militarized_republicanism
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Ignacy Mościcki"
+	desc = ""
+	picture = "Portrait_PFA_Ignacy_Moscicki.dds"
+	ideology = ee_agrarian_social_democracy
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Józef Piłsudski (N)"
+	desc = ""
+	picture = "Portrait_PFA_Jozef_Pilsudski.dds"
+	ideology = ee_nationalist_social_democracy
+	expire = "1965.1.1"
+	traits = { }
+}
+
+capital = 784
+set_research_slots = 2
+set_stability = 0.45
+set_war_support = 0.65
+
+add_ideas = {
+	scraping_the_barrel
+	all_adults_serve
+	extensive_conscription
+	limited_conscription
+	volunteer_only
+	civilian_economy
+}

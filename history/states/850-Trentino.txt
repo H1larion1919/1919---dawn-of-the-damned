@@ -1,0 +1,23 @@
+state = {
+	id = 850
+	name = "STATE_850"
+	manpower = 370739
+	state_category = town
+	history = {
+		victory_points = { 
+			11598 3
+		}
+
+		owner = TYR
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = ITA
+        add_core_of = UIS
+		add_core_of = VNZ
+		add_core_of = TYR
+		add_core_of = AUS
+	}
+	provinces = { 6631 9598 11598 }
+	local_supplies = 0.0
+}

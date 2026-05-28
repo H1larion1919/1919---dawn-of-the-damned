@@ -1,0 +1,18 @@
+set_politics = {
+	ruling_party = democratic
+	elections_allowed = yes
+}
+set_popularities = {
+	communism = 10
+	libertarian_socialism = 0
+	social_democracy = 0
+	democratic = 70
+	market_liberalism = 0
+	fascism = 5
+	neutrality = 15
+	esotericism = 0
+}
+oob = "EST_1919"
+set_research_slots = 3
+set_stability = 0.55
+set_war_support = 0.45

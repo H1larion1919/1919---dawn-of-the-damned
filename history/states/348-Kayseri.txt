@@ -1,0 +1,27 @@
+state = {
+	id = 348
+	name = "STATE_348"
+	manpower = 858452
+	resources = {
+		chromium = 32
+	}
+	state_category = rural
+	history = {
+		owner = KTR
+		victory_points = { 
+			6888 5
+		}
+		buildings = {
+			infrastructure = 2
+			11746 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = TSR
+		add_core_of = KTR
+		add_core_of = OTT
+		add_claim_by = ARM
+	}
+	provinces = { 6888 3921 886 6956 11746 }
+	local_supplies = 6.0
+}

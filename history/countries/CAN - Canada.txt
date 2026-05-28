@@ -1,0 +1,69 @@
+# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+set_politics = {
+	ruling_party = social_democracy
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 0
+	libertarian_socialism = 0
+	social_democracy = 70
+	democratic = 10
+	market_liberalism = 0
+	fascism = 10
+	neutrality = 10
+	esotericism = 0
+}
+set_party_name = {
+	ideology = social_democracy
+	long_name = "Cooperative Commonwealth Movement"
+	name = "Cooperative Commonwealth Movement"
+}
+set_party_name = {
+	ideology = democratic
+	long_name = "Conservative Party"
+	name = "Conservative Party"
+}
+set_party_name = {
+	ideology = fascism
+	long_name = "Nationalist Bloc"
+	name = "Nationalist Bloc"
+}
+set_party_name = {
+	ideology = neutrality
+	long_name = "Crown Authority"
+	name = "Crown Authority"
+}
+create_country_leader = {
+	name = "J.S. Woodsworth"
+	picture = "Portrait_CAN_J_S_Woodsworth.dds"
+	ideology = ee_democratic_socialism
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Arthur Meighen"
+	picture = "Portrait_CAN_Arthur_Meighen.dds"
+	ideology = ee_conservative_liberalism
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Henri Bourassa"
+	picture = "Portrait_CAN_Henri_Bourassa.dds"
+	ideology = ee_quebecois_nationalism
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Julian Byng"
+	picture = "Portrait_CAN_Julian_Byng.dds"
+	ideology = ee_imperial_loyalism
+	expire = "1965.1.1"
+	traits = { }
+}
+
+capital = 466
+set_research_slots = 3
+set_stability = 0.55
+set_war_support = 0.25
+set_convoys = 100

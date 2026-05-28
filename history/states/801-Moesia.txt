@@ -1,0 +1,26 @@
+state = {
+	id = 801
+	name = "STATE_801"
+	manpower = 1218780
+	state_category = city
+	history = {
+		owner = BPR
+		victory_points = { 
+			9610 5
+		}
+
+		victory_points = { 
+			3796 3
+		}
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = BUL
+		add_core_of = BPR
+		add_claim_by = ROM
+	}
+	provinces = { 3796 3952 3819 6842 9610 }
+	local_supplies = 3.0
+}

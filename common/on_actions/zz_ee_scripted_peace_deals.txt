@@ -1,0 +1,37 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			if = { limit = { GER = { exists = yes } } GER = { country_event = { id = ee_ger_conquest.1 } } }
+		}
+	}
+	on_weekly = {
+		effect = {
+			if = { limit = { ROM = { exists = yes } } ROM = { country_event = { id = ee_spd.1 } } }
+			if = { limit = { AUS = { exists = yes } } AUS = { country_event = { id = ee_spd.1 } } }
+			if = { limit = { HNG = { exists = yes } } HNG = { country_event = { id = ee_spd.1 } } }
+			if = { limit = { TSR = { exists = yes } } TSR = { country_event = { id = ee_spd.1 } } }
+			if = { limit = { FSU = { exists = yes } } FSU = { country_event = { id = ee_spd.1 } } }
+			if = { limit = { POL = { exists = yes } } POL = { country_event = { id = ee_spd.1 } } }
+			if = { limit = { BUL = { exists = yes } } BUL = { country_event = { id = ee_spd.1 } } }
+			if = { limit = { BPR = { exists = yes } } BPR = { country_event = { id = ee_spd.1 } } }
+			if = { limit = { KUR = { exists = yes } } KUR = { country_event = { id = ee_spd.1 } } }
+			if = { limit = { ARM = { exists = yes } } ARM = { country_event = { id = ee_spd.1 } } }
+			if = { limit = { ASY = { exists = yes } } ASY = { country_event = { id = ee_spd.1 } } }
+			if = { limit = { LAT = { exists = yes } } LAT = { country_event = { id = ee_spd.1 } } }
+			if = { limit = { FKO = { exists = yes } } FKO = { country_event = { id = ee_spd.1 } } }
+			if = { limit = { YUG = { exists = yes } } YUG = { country_event = { id = ee_spd.1 } } }
+			if = { limit = { CRO = { exists = yes } } CRO = { country_event = { id = ee_spd.1 } } }
+			if = { limit = { BNT = { exists = yes } } BNT = { country_event = { id = ee_spd.1 } } }
+		}
+	}
+	on_state_control_changed = {
+		effect = {
+			if = { limit = { GER = { exists = yes } } GER = { country_event = { id = ee_ger_conquest.1 } } }
+		}
+	}
+	on_capitulation = {
+		effect = {
+			if = { limit = { GER = { exists = yes } } GER = { country_event = { id = ee_ger_conquest.1 } } }
+		}
+	}
+}

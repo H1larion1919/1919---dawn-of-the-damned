@@ -1,0 +1,24 @@
+state = {
+    id = 1099
+    name = "STATE_1099"
+    manpower = 900000
+    state_category = town
+    history = {
+        owner = VNZ
+        victory_points = {
+            9613 5 # Udine
+        }
+        victory_points = {
+            628 3 # Grado
+        }
+        buildings = {
+            infrastructure = 2
+            industrial_complex = 1
+        }
+        add_core_of = ITA
+        add_core_of = UIS
+        add_core_of = VNZ
+    }
+    provinces = { 628 3657 9613 }
+    local_supplies = 0.0
+}

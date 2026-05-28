@@ -1,0 +1,84 @@
+add_namespace = GER_freikorps
+
+country_event = {
+	id = GER_freikorps.100
+	title = GER_freikorps.100.t
+	desc = GER_freikorps.100.d
+	picture = GFX_report_event_german_speech
+	is_triggered_only = yes
+
+	immediate = {
+		set_country_flag = GER_freikorps_convention_held
+		remove_ideas = GER_freikorps_unsettled_organisation
+	}
+
+	option = {
+		name = GER_freikorps.100.a
+		trigger = { check_variable = { GER_freikorps_tradition > 79 } }
+		set_country_flag = GER_freikorps_tradition_victory
+		add_ideas = GER_prussian_restoration
+		set_politics = { ruling_party = neutrality elections_allowed = no }
+	}
+	option = {
+		name = GER_freikorps.100.b
+		trigger = { check_variable = { GER_freikorps_tradition > 79 } }
+		set_country_flag = GER_freikorps_tradition_reform_compromise
+		add_ideas = GER_conservative_liberal_compromise
+		set_politics = { ruling_party = neutrality elections_allowed = no }
+		add_popularity = { ideology = democratic popularity = 0.05 }
+	}
+	option = {
+		name = GER_freikorps.100.c
+		trigger = { check_variable = { GER_freikorps_tradition > 79 } }
+		set_country_flag = GER_freikorps_tradition_radical_compromise
+		add_ideas = GER_national_popular_officer_state
+		set_politics = { ruling_party = neutrality elections_allowed = no }
+		add_popularity = { ideology = fascism popularity = 0.05 }
+	}
+	option = {
+		name = GER_freikorps.100.e
+		trigger = { check_variable = { GER_freikorps_reform > 79 } }
+		set_country_flag = GER_freikorps_reform_victory
+		add_ideas = GER_liberal_directorate
+		set_politics = { ruling_party = democratic elections_allowed = no }
+	}
+	option = {
+		name = GER_freikorps.100.f
+		trigger = { check_variable = { GER_freikorps_reform > 79 } }
+		set_country_flag = GER_freikorps_reform_tradition_compromise
+		add_ideas = GER_conservative_liberal_compromise
+		set_politics = { ruling_party = democratic elections_allowed = no }
+		add_popularity = { ideology = neutrality popularity = 0.05 }
+	}
+	option = {
+		name = GER_freikorps.100.g
+		trigger = { check_variable = { GER_freikorps_reform > 79 } }
+		set_country_flag = GER_freikorps_reform_radical_compromise
+		add_ideas = GER_liberal_worker_compromise
+		set_politics = { ruling_party = democratic elections_allowed = no }
+		add_popularity = { ideology = fascism popularity = 0.05 }
+	}
+	option = {
+		name = GER_freikorps.100.i
+		trigger = { check_variable = { GER_freikorps_radicalism > 79 } }
+		set_country_flag = GER_freikorps_radical_victory
+		add_ideas = GER_worker_nationalist_rebirth
+		set_politics = { ruling_party = fascism elections_allowed = no }
+	}
+	option = {
+		name = GER_freikorps.100.j
+		trigger = { check_variable = { GER_freikorps_radicalism > 79 } }
+		set_country_flag = GER_freikorps_radical_reform_compromise
+		add_ideas = GER_liberal_worker_compromise
+		set_politics = { ruling_party = fascism elections_allowed = no }
+		add_popularity = { ideology = democratic popularity = 0.05 }
+	}
+	option = {
+		name = GER_freikorps.100.k
+		trigger = { check_variable = { GER_freikorps_radicalism > 79 } }
+		set_country_flag = GER_freikorps_radical_tradition_compromise
+		add_ideas = GER_national_popular_officer_state
+		set_politics = { ruling_party = fascism elections_allowed = no }
+		add_popularity = { ideology = neutrality popularity = 0.05 }
+	}
+}

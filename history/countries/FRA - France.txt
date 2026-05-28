@@ -1,0 +1,45 @@
+# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+set_politics = {
+	ruling_party = democratic
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 0
+	libertarian_socialism = 0
+	social_democracy = 0
+	democratic = 70
+	market_liberalism = 0
+	fascism = 30
+	neutrality = 0
+	esotericism = 0
+}
+set_party_name = {
+	ideology = democratic
+	long_name = "Republican Government"
+	name = "Republican Government"
+}
+set_party_name = {
+	ideology = fascism
+	long_name = "The New Republic"
+	name = "The New Republic"
+}
+create_country_leader = {
+	name = "Raymond Poincaré"
+	picture = "Portrait_FRA_Raymond_Poincar.dds"
+	ideology = ee_conservative_republicanism
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Charles De Gaulle"
+	picture = "Portrait_FRA_Charles_De_Gaulle.dds"
+	ideology = ee_military_conservatism
+	expire = "1965.1.1"
+	traits = { }
+}
+
+capital = 20
+set_research_slots = 2
+set_stability = 0.4
+set_war_support = 0.3
+set_convoys = 0
