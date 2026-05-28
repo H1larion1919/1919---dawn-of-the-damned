@@ -1,0 +1,1 @@
+﻿# Disabled by 1919 - Dawn of the Damned: vanilla Portugal decisions use invalid scopes in this timeline.
