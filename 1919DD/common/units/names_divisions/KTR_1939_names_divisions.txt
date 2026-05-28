@@ -1,9 +1,0 @@
-KTR_DIV_0_2 = {
-	name = "Example Division"
-	for_countries = { KTR }
-	can_use = { always = yes }
-	division_types = { 
-		"infantry" 
-	}
-	fallback_name = "%d. Example Division"
-}

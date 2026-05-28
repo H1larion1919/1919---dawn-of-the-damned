@@ -1,3 +1,0 @@
-# 1919 Dawn of the Damned land warfare overhaul
-# Active divisions and templates removed for reconstruction-era military reset.
-# Reserved OOB intentionally empty.

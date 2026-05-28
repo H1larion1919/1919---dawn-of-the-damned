@@ -1,7 +1,0 @@
-on_actions = {
-	on_weekly = {
-		effect = {
-			if = { limit = { GER = { exists = yes } } GER = { country_event = { id = ee_ger_conquest.1 } } }
-		}
-	}
-}

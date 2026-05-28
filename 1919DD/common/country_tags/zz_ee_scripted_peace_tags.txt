@@ -1,2 +1,0 @@
-WAL = "countries/Wallachian Soviet.txt"
-SGB = "countries/Galician People's Union.txt"
