@@ -1,9 +1,0 @@
-HEL_DIV_0_0 = {
-	name = "The Tsoliades"
-	for_countries = { HEL }
-	can_use = { always = yes }
-	division_types = { 
-		"infantry" "artillery_brigade" 
-	}
-	fallback_name = "%d. The Tsoliades"
-}

@@ -1,9 +1,0 @@
-BNT_DIV_0_0 = {
-	name = "Banat Brigade"
-	for_countries = { BNT }
-	can_use = { always = yes }
-	division_types = {
-		"infantry" "cavalry" "artillery_brigade"
-	}
-	fallback_name = "%d. Banat Brigade"
-}
