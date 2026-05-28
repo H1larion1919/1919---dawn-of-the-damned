@@ -1,0 +1,50 @@
+# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+set_politics = {
+	ruling_party = libertarian_socialism
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 0
+	libertarian_socialism = 70
+	social_democracy = 0
+	democratic = 30
+	market_liberalism = 0
+	fascism = 0
+	neutrality = 0
+	esotericism = 0
+}
+set_party_name = {
+	ideology = libertarian_socialism
+	long_name = "Nordic People's Front"
+	name = "Nordic People's Front"
+}
+set_party_name = {
+	ideology = democratic
+	long_name = "Labour Moderates"
+	name = "Labour Moderates"
+}
+create_country_leader = {
+	name = "Martin Tranmæl"
+	desc = ""
+	picture = "Portrait_NOR_Martin_Tranmael.dds"
+	ideology = ee_revolutionary_syndicalism
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Johan Nygaardsvold"
+	picture = "Portrait_NOR_Johan_Nygaardsvold.dds"
+	ideology = ee_reformist_democracy
+	expire = "1965.1.1"
+	traits = { }
+}
+
+capital = 920
+set_research_slots = 2
+set_stability = 0.55
+set_war_support = 0.75
+oob = "NOR_1919"
+add_political_power = 100
+set_convoys = 0
+
+add_ideas = { EE_frihetskamp EE_arm_our_brothers }

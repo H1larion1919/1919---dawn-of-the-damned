@@ -1,0 +1,148 @@
+ideas = {
+	country = {
+		EE_1904_again = {
+			allowed = { always = yes }
+			removal_cost = -1
+			rule = { can_join_factions = no }
+			modifier = {
+				stability_factor = 0.10
+				war_support_factor = 0.15
+			}
+		}
+		EE_unclear_goals = {
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.15
+				war_support_factor = -0.10
+				political_power_gain = -0.10
+				army_attack_factor = -0.35
+			}
+		}
+		EE_nationalist_agitation = {
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.10
+				consumer_goods_factor = 0.05
+				resistance_growth = 0.03
+				army_defence_factor = -0.10
+			}
+		}
+		EE_imro_insurrectionists = {
+			allowed = { always = yes }
+			removal_cost = -1
+			rule = { can_join_factions = no }
+			modifier = {
+				stability_factor = 0.25
+				war_support_factor = 0.55
+				attrition = -0.25
+				army_attack_factor = 1.00
+				army_defence_factor = 0.40
+				army_org_factor = 0.20
+			}
+		}
+		EE_dreams_of_a_yugoslavia = {
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.20
+				war_support_factor = -0.20
+			}
+		}
+		EE_the_nation_divided_again_communist = {
+			allowed = { always = yes }
+			removal_cost = -1
+			rule = { can_join_factions = no }
+			modifier = {
+				stability_factor = 0.10
+				war_support_factor = 0.20
+				attrition = -0.10
+				army_defence_factor = 0.15
+			}
+		}
+		EE_the_nation_divided_again_white = {
+			allowed = { always = yes }
+			removal_cost = -1
+			rule = { can_join_factions = no }
+			modifier = {
+				stability_factor = 0.15
+				war_support_factor = 0.30
+				attrition = -0.15
+				army_attack_factor = 0.25
+				army_defence_factor = 0.30
+			}
+		}
+		EE_underground_resistance = {
+			allowed = { always = yes }
+			removal_cost = -1
+			rule = {
+				can_join_factions = no
+				can_send_volunteers = no
+				can_declare_war_on_same_ideology = no
+			}
+			modifier = {
+				political_power_gain = -0.50
+				stability_factor = -0.40
+				war_support_factor = -0.25
+				production_factory_max_efficiency_factor = -0.35
+				conscription_factor = -0.30
+				industrial_capacity_factory = -0.20
+			}
+		}
+		EE_underground_resistance_suppressed = {
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.10
+				war_support_factor = 0.05
+				political_power_gain = 0.05
+				production_factory_max_efficiency_factor = 0.10
+			}
+		}
+		EE_to_build_anew = {
+			allowed = { always = yes }
+			removal_cost = -1
+		}
+		EE_black_mountain = {
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = 0.05
+			}
+		}
+		EE_black_mountains_turn_red = {
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.05
+				war_support_factor = 0.10
+				army_attack_factor = 0.05
+			}
+		}
+		EE_danube_to_adriatic = {
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.10
+				war_support_factor = 0.10
+				political_power_gain = 0.10
+			}
+		}
+		EE_obnovitelj_sveta = {
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				political_power_gain = 0.30
+				stability_factor = 0.25
+				war_support_factor = 0.25
+				army_attack_factor = 0.15
+				army_defence_factor = 0.15
+				army_org_factor = 0.20
+				industrial_capacity_factory = 0.15
+				production_factory_max_efficiency_factor = 0.15
+			}
+		}
+	}
+}

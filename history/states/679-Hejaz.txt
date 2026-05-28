@@ -1,0 +1,32 @@
+state = {
+	id = 679
+	name = "STATE_679"
+	manpower = 511000
+
+	history = {
+
+		owner = HEJ
+		add_core_of = HEJ
+
+		victory_points = {
+			2033 2 
+		}
+
+		victory_points = {
+			5037 5
+		}
+		
+		buildings = {
+			infrastructure = 2
+		}
+
+	}
+
+	provinces = {
+		1923 2033 2090 4981 5037 7934 12883 13383 13384 13385 13391 
+	}
+	
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+	local_supplies = 0.000
+}

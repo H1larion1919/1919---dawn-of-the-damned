@@ -1,0 +1,15 @@
+on_actions = {
+    on_weekly = {
+        effect = {
+            if = {
+                limit = {
+                    VLA = { exists = yes }
+                    AWA = { exists = yes }
+                    date > 1920.11.1
+                    NOT = { has_global_flag = EE_awa_sold_to_vla }
+                }
+                VLA = { country_event = { id = ee_awa.1 } }
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+set_politics = {
+	ruling_party = communism
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 100
+	libertarian_socialism = 0
+	social_democracy = 0
+	democratic = 0
+	market_liberalism = 0
+	fascism = 0
+	neutrality = 0
+	esotericism = 0
+}
+set_party_name = {
+	ideology = communism
+	long_name = "Communist Party"
+	name = "Communist Party"
+}
+create_country_leader = {
+	name = "Bolshevik Committee"
+	picture = "Portrait_UZB_Bolshevik_Committee.dds"
+	ideology = ee_leninism
+	expire = "1965.1.1"
+	traits = { }
+}
+
+capital = 585
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.3
+set_convoys = 0

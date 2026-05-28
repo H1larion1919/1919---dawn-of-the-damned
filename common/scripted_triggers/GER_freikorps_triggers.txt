@@ -1,0 +1,11 @@
+GER_freikorps_convention_available = {
+	OR = {
+		check_variable = { GER_freikorps_tradition > 79 }
+		check_variable = { GER_freikorps_reform > 79 }
+		check_variable = { GER_freikorps_radicalism > 79 }
+	}
+}
+
+GER_freikorps_no_convention_done = {
+	NOT = { has_country_flag = GER_freikorps_convention_held }
+}

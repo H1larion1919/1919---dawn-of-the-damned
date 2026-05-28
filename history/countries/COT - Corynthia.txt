@@ -1,0 +1,61 @@
+# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+set_politics = {
+	ruling_party = democratic
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 0
+	libertarian_socialism = 30
+	social_democracy = 0
+	democratic = 70
+	market_liberalism = 0
+	fascism = 0
+	neutrality = 0
+	esotericism = 0
+}
+set_party_name = {
+	ideology = democratic
+	long_name = "Regional Assembly"
+	name = "Regional Assembly"
+}
+set_party_name = {
+	ideology = libertarian_socialism
+	long_name = "Worker Committees"
+	name = "Worker Committees"
+}
+create_country_leader = {
+	name = "Arthur Lemisch"
+	picture = "Portrait_COT_Arthur_Lemisch.dds"
+	ideology = ee_german_national_liberalism
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Slovene Councils"
+	picture = "Portrait_COT_Slovene_Councils.dds"
+	ideology = ee_local_socialism
+	expire = "1965.1.1"
+	traits = { }
+}
+
+capital = 102
+# Recruit Characters
+oob = "COT_1919"
+starting_train_buffer = 300
+set_research_slots = 3
+set_stability = 0.4
+set_war_support = 0.3
+add_command_power = 25
+set_convoys = 0
+
+# Politics for 1919.1.1
+
+# Government/National Spirits
+add_ideas = {
+	scraping_the_barrel
+	all_adults_serve
+	extensive_conscription
+	limited_conscription
+	volunteer_only
+	civilian_economy
+}

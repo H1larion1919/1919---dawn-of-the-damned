@@ -1,0 +1,24 @@
+state = {
+	id = 1132
+	name = "STATE_1132"
+	manpower = 517081
+	state_category = rural
+	history = {
+		owner = PFA
+		victory_points = { 
+			3309 3
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 5
+		}
+		add_core_of = PFA
+		add_core_of = POL
+		add_core_of = BLR
+		add_claim_by = LIT
+	}
+	provinces = { 6359 3309 6306 13379 }
+	local_supplies = 0.0
+}

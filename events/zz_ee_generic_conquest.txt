@@ -1,0 +1,146 @@
+add_namespace = ee_generic_conquest
+
+country_event = {
+	id = ee_generic_conquest.1
+	hidden = yes
+	is_triggered_only = yes
+
+	trigger = {
+		exists = yes
+		is_ai = yes
+		event_target:EE_generic_defeated_country = {
+			exists = yes
+			NOT = { is_subject_of = ROOT }
+		}
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				OR = {
+					has_government = fascism
+					has_government = communism
+				}
+			}
+			white_peace = event_target:EE_generic_defeated_country
+			event_target:EE_generic_defeated_country = { white_peace = ROOT }
+			event_target:EE_generic_defeated_country = {
+				clr_country_flag = ee_generic_conquest_pending
+				every_owned_state = {
+					limit = { OR = { is_core_of = ROOT is_claimed_by = ROOT } }
+					transfer_state_to = ROOT
+				}
+			}
+			set_autonomy = { target = event_target:EE_generic_defeated_country autonomy_state = autonomy_ee_federated_state }
+		}
+		else_if = {
+			limit = { has_government = neutrality }
+			white_peace = event_target:EE_generic_defeated_country
+			event_target:EE_generic_defeated_country = { white_peace = ROOT }
+			event_target:EE_generic_defeated_country = {
+				clr_country_flag = ee_generic_conquest_pending
+				every_owned_state = {
+					limit = { OR = { is_core_of = ROOT is_claimed_by = ROOT } }
+					transfer_state_to = ROOT
+				}
+			}
+			set_autonomy = { target = event_target:EE_generic_defeated_country autonomy_state = autonomy_ee_colony }
+		}
+		else_if = {
+			limit = { has_government = democratic }
+			white_peace = event_target:EE_generic_defeated_country
+			event_target:EE_generic_defeated_country = {
+				clr_country_flag = ee_generic_conquest_pending
+				white_peace = ROOT
+				set_politics = {
+					ruling_party = democratic
+					elections_allowed = no
+				}
+				set_popularities = {
+					democratic = 100
+					fascism = 0
+					communism = 0
+					neutrality = 0
+					libertarian_socialism = 0
+				}
+				every_owned_state = {
+					limit = { OR = { is_core_of = ROOT is_claimed_by = ROOT } }
+					transfer_state_to = ROOT
+				}
+			}
+			set_autonomy = { target = event_target:EE_generic_defeated_country autonomy_state = autonomy_ee_federated_state }
+		}
+	}
+
+	option = { name = ee_generic_conquest.1.a }
+}
+
+country_event = {
+	id = ee_generic_conquest.2
+	title = ee_generic_conquest.2.t
+	desc = ee_generic_conquest.2.d
+	picture = GFX_report_event_german_troops
+	is_triggered_only = yes
+
+	trigger = {
+		exists = yes
+		is_ai = no
+		event_target:EE_generic_defeated_country = {
+			exists = yes
+			NOT = { is_subject_of = ROOT }
+		}
+	}
+
+	option = {
+		name = ee_generic_conquest.2.a
+		white_peace = event_target:EE_generic_defeated_country
+		event_target:EE_generic_defeated_country = { white_peace = ROOT }
+		event_target:EE_generic_defeated_country = {
+			clr_country_flag = ee_generic_conquest_pending
+			every_owned_state = {
+				limit = { OR = { is_core_of = ROOT is_claimed_by = ROOT } }
+				transfer_state_to = ROOT
+			}
+		}
+		set_autonomy = { target = event_target:EE_generic_defeated_country autonomy_state = autonomy_ee_federated_state }
+	}
+
+	option = {
+		name = ee_generic_conquest.2.b
+		white_peace = event_target:EE_generic_defeated_country
+		event_target:EE_generic_defeated_country = { white_peace = ROOT }
+		event_target:EE_generic_defeated_country = {
+			clr_country_flag = ee_generic_conquest_pending
+			every_owned_state = {
+				limit = { OR = { is_core_of = ROOT is_claimed_by = ROOT } }
+				transfer_state_to = ROOT
+			}
+		}
+		set_autonomy = { target = event_target:EE_generic_defeated_country autonomy_state = autonomy_ee_colony }
+	}
+
+	option = {
+		name = ee_generic_conquest.2.c
+		white_peace = event_target:EE_generic_defeated_country
+		event_target:EE_generic_defeated_country = {
+			clr_country_flag = ee_generic_conquest_pending
+			white_peace = ROOT
+			set_politics = {
+				ruling_party = democratic
+				elections_allowed = no
+			}
+			set_popularities = {
+				democratic = 100
+				fascism = 0
+				communism = 0
+				neutrality = 0
+				libertarian_socialism = 0
+			}
+			every_owned_state = {
+				limit = { OR = { is_core_of = ROOT is_claimed_by = ROOT } }
+				transfer_state_to = ROOT
+			}
+		}
+		set_autonomy = { target = event_target:EE_generic_defeated_country autonomy_state = autonomy_ee_federated_state }
+	}
+}

@@ -1,0 +1,91 @@
+GER_init_freikorps_triangle = {
+	set_variable = { GER_freikorps_tradition = 33 }
+	set_variable = { GER_freikorps_reform = 34 }
+	set_variable = { GER_freikorps_radicalism = 33 }
+	GER_freikorps_clear_dot_flags = yes
+	set_country_flag = GER_freikorps_dot_center
+	if = {
+		limit = { NOT = { has_idea = GER_freikorps_unsettled_organisation } }
+		add_ideas = GER_freikorps_unsettled_organisation
+	}
+}
+
+GER_freikorps_clear_dot_flags = {
+	clr_country_flag = GER_freikorps_dot_center
+	clr_country_flag = GER_freikorps_dot_tradition_lean
+	clr_country_flag = GER_freikorps_dot_tradition_strong
+	clr_country_flag = GER_freikorps_dot_reform_lean
+	clr_country_flag = GER_freikorps_dot_reform_strong
+	clr_country_flag = GER_freikorps_dot_radical_lean
+	clr_country_flag = GER_freikorps_dot_radical_strong
+	clr_country_flag = GER_freikorps_dot_tradition_reform
+	clr_country_flag = GER_freikorps_dot_tradition_radical
+	clr_country_flag = GER_freikorps_dot_reform_radical
+}
+
+GER_freikorps_clamp_variables = {
+	if = { limit = { check_variable = { GER_freikorps_tradition < 0 } } set_variable = { GER_freikorps_tradition = 0 } }
+	if = { limit = { check_variable = { GER_freikorps_reform < 0 } } set_variable = { GER_freikorps_reform = 0 } }
+	if = { limit = { check_variable = { GER_freikorps_radicalism < 0 } } set_variable = { GER_freikorps_radicalism = 0 } }
+	if = { limit = { check_variable = { GER_freikorps_tradition > 100 } } set_variable = { GER_freikorps_tradition = 100 } }
+	if = { limit = { check_variable = { GER_freikorps_reform > 100 } } set_variable = { GER_freikorps_reform = 100 } }
+	if = { limit = { check_variable = { GER_freikorps_radicalism > 100 } } set_variable = { GER_freikorps_radicalism = 100 } }
+}
+
+GER_freikorps_update_dot = {
+	GER_freikorps_clear_dot_flags = yes
+	if = { limit = { check_variable = { GER_freikorps_tradition > 69 } } set_country_flag = GER_freikorps_dot_tradition_strong }
+	else_if = { limit = { check_variable = { GER_freikorps_reform > 69 } } set_country_flag = GER_freikorps_dot_reform_strong }
+	else_if = { limit = { check_variable = { GER_freikorps_radicalism > 69 } } set_country_flag = GER_freikorps_dot_radical_strong }
+	else_if = {
+		limit = { check_variable = { GER_freikorps_tradition > 49 } check_variable = { GER_freikorps_reform > 29 } }
+		set_country_flag = GER_freikorps_dot_tradition_reform
+	}
+	else_if = {
+		limit = { check_variable = { GER_freikorps_tradition > 49 } check_variable = { GER_freikorps_radicalism > 29 } }
+		set_country_flag = GER_freikorps_dot_tradition_radical
+	}
+	else_if = {
+		limit = { check_variable = { GER_freikorps_reform > 49 } check_variable = { GER_freikorps_radicalism > 29 } }
+		set_country_flag = GER_freikorps_dot_reform_radical
+	}
+	else_if = { limit = { check_variable = { GER_freikorps_tradition > 44 } } set_country_flag = GER_freikorps_dot_tradition_lean }
+	else_if = { limit = { check_variable = { GER_freikorps_reform > 44 } } set_country_flag = GER_freikorps_dot_reform_lean }
+	else_if = { limit = { check_variable = { GER_freikorps_radicalism > 44 } } set_country_flag = GER_freikorps_dot_radical_lean }
+	else = { set_country_flag = GER_freikorps_dot_center }
+}
+
+GER_freikorps_refresh = {
+	GER_freikorps_clamp_variables = yes
+	GER_freikorps_update_dot = yes
+}
+
+GER_freikorps_shift_tradition = {
+	add_to_variable = { GER_freikorps_tradition = 10 }
+	add_to_variable = { GER_freikorps_reform = -4 }
+	add_to_variable = { GER_freikorps_radicalism = -6 }
+	add_popularity = { ideology = neutrality popularity = 0.03 }
+	add_popularity = { ideology = democratic popularity = -0.01 }
+	add_popularity = { ideology = fascism popularity = -0.02 }
+	GER_freikorps_refresh = yes
+}
+
+GER_freikorps_shift_reform = {
+	add_to_variable = { GER_freikorps_reform = 10 }
+	add_to_variable = { GER_freikorps_tradition = -4 }
+	add_to_variable = { GER_freikorps_radicalism = -6 }
+	add_popularity = { ideology = democratic popularity = 0.03 }
+	add_popularity = { ideology = neutrality popularity = -0.01 }
+	add_popularity = { ideology = fascism popularity = -0.02 }
+	GER_freikorps_refresh = yes
+}
+
+GER_freikorps_shift_radicalism = {
+	add_to_variable = { GER_freikorps_radicalism = 10 }
+	add_to_variable = { GER_freikorps_reform = -4 }
+	add_to_variable = { GER_freikorps_tradition = -6 }
+	add_popularity = { ideology = fascism popularity = 0.03 }
+	add_popularity = { ideology = democratic popularity = -0.01 }
+	add_popularity = { ideology = neutrality popularity = -0.02 }
+	GER_freikorps_refresh = yes
+}

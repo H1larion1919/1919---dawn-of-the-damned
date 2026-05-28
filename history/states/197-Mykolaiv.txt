@@ -1,0 +1,23 @@
+state = {
+	id = 197
+	name = "STATE_197"
+	manpower = 896311
+	state_category = city
+	history = {
+		victory_points = { 
+			11683 3
+		}
+
+		owner = FSU
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+		}
+		add_core_of = FSU
+		add_core_of = UPR
+		add_core_of = HUK
+		add_core_of = UKS
+	}
+	provinces = { 574 3403 3755  9573 11546 11683 11715 }
+	local_supplies = 5.0
+}

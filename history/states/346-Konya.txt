@@ -1,0 +1,30 @@
+state = {
+	id = 346
+	name = "STATE_346"
+	manpower = 849453
+	state_category = rural
+	history = {
+		owner = KTR
+		buildings = {
+			infrastructure = 2
+			air_base = 5
+		}
+		victory_points = { 
+			11860 5
+		}
+
+		victory_points = { 
+			6807 3
+		}
+
+		victory_points = { 
+			869 1
+		}
+
+		add_core_of = TSR
+		add_core_of = KTR
+		add_core_of = OTT
+	}
+	provinces = { 869 940 3788 6807 6894 7143 9755 9763 9830 11792 11860 13122 }
+	local_supplies = 0.0
+}

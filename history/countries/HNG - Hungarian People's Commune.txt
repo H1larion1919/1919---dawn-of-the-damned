@@ -1,0 +1,93 @@
+# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+set_politics = {
+	ruling_party = communism
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 30
+	libertarian_socialism = 20
+	social_democracy = 0
+	democratic = 17
+	market_liberalism = 0
+	fascism = 20
+	neutrality = 13
+	esotericism = 0
+}
+set_party_name = {
+	ideology = communism
+	long_name = "Communist Party of Hungary"
+	name = "CPH"
+}
+set_party_name = {
+	ideology = fascism
+	long_name = "Christian National Union Party (Horthyites)"
+	name = "CNUP (Horthy)"
+}
+set_party_name = {
+	ideology = democratic
+	long_name = "Christian National Union Party (Friedrichists)"
+	name = "CNUP (Friedrich)"
+}
+set_party_name = {
+	ideology = neutrality
+	long_name = "Christian National Union Party (IF) / Christian National Union Party (Huszárists)"
+	name = "CNUP (Huszár)"
+}
+set_party_name = {
+	ideology = libertarian_socialism
+	long_name = "National Smallholders and Agricultural Labourers Party"
+	name = "NSALP"
+}
+create_country_leader = {
+	name = "Béla Kun"
+	desc = ""
+	picture = "Portrait_HNG_Bela_Kun.dds"
+	ideology = ee_revolutionary_communism
+	expire = "2010.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Miklos Horthy"
+	picture = "Portrait_HNG_Miklos_Horthy.dds"
+	ideology = ee_national_revivalism
+	expire = "2010.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "István Friedrich"
+	desc = ""
+	picture = "Portrait_HNG_Istvn_Friedrich.dds"
+	ideology = ee_constitutional_conservatism
+	expire = "2010.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Károly Huszár"
+	desc = ""
+	picture = "Portrait_HNG_Kroly_Huszr.dds"
+	ideology = ee_constitutional_conservatism
+	expire = "2010.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Gyula Peidl"
+	picture = "Portrait_HNG_Gyula_Peidl.dds"
+	ideology = ee_agrarian_socialism
+	expire = "2010.1.1"
+	traits = { }
+}
+
+set_autonomy = { target = SLO autonomy_state = autonomy_ee_federated_state }
+capital = 43
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.65
+
+add_ideas = {
+	scraping_the_barrel
+	all_adults_serve
+	extensive_conscription
+	limited_conscription
+	volunteer_only
+	civilian_economy
+}

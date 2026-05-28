@@ -1,0 +1,38 @@
+state = {
+    id = 1107
+    name = "STATE_1107" # Westphalia
+	manpower = 4096495
+	resources = {
+		steel = 80  
+		coal = 55
+	}
+
+	state_category = megalopolis 
+	
+	history = {
+
+		owner = WRE
+		add_core_of = RHI
+		add_core_of = GER
+		add_core_of = WRE
+		add_core_of = SBK
+
+		victory_points = {
+			6469 10 # Essen
+		}
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 4
+			industrial_complex = 3
+			air_base = 2
+		}
+
+	}
+
+	provinces = {
+		495 529 3512 3398 6469 6570 9482 
+	} 
+	
+	local_supplies = 0.0 
+}

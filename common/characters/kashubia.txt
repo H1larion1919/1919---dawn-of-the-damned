@@ -1,0 +1,9 @@
+characters = {
+    KSH_generic_politician = {
+        name = KSH_generic_politician_name
+        country_leader = {
+            ideology = liberalism
+            traits = { }
+        }
+    }
+}
