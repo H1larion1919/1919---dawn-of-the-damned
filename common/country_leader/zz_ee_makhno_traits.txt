@@ -1,8 +1,0 @@
-leader_traits = {
-	ee_makhno_libsoc_support = {
-		random = no
-		sprite = 13
-		libertarian_socialism_drift = 0.1
-		war_support_factor = 0.05
-	}
-}

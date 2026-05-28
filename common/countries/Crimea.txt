@@ -1,3 +1,0 @@
-graphical_culture = soviet_gfx
-graphical_culture_2d = soviet_2d
-color = { 150 205 150 }
