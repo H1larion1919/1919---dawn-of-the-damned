@@ -1,0 +1,227 @@
+# 1919DD intentionally removes focus content for now.
+# These empty shells satisfy vanilla references without restoring vanilla focus trees.
+
+focus_tree = {
+    id = australian_focus
+    country = {
+        factor = 0
+    }
+    reset_on_civilwar = no
+}
+
+focus_tree = {
+    id = british_focus
+    country = {
+        factor = 0
+    }
+    reset_on_civilwar = no
+}
+
+focus_tree = {
+    id = bulgarian_focus
+    country = {
+        factor = 0
+    }
+    reset_on_civilwar = no
+}
+
+focus_tree = {
+    id = canadian_focus
+    country = {
+        factor = 0
+    }
+    reset_on_civilwar = no
+}
+
+focus_tree = {
+    id = china_communist_focus
+    country = {
+        factor = 0
+    }
+    reset_on_civilwar = no
+}
+
+focus_tree = {
+    id = china_communist_warlord_focus
+    country = {
+        factor = 0
+    }
+    reset_on_civilwar = no
+}
+
+focus_tree = {
+    id = estonia_tree
+    country = {
+        factor = 0
+    }
+    reset_on_civilwar = no
+}
+
+focus_tree = {
+    id = finnish_focus
+    country = {
+        factor = 0
+    }
+    reset_on_civilwar = no
+}
+
+focus_tree = {
+    id = free_french_focus
+    country = {
+        factor = 0
+    }
+    reset_on_civilwar = no
+}
+
+focus_tree = {
+    id = french_focus
+    country = {
+        factor = 0
+    }
+    reset_on_civilwar = no
+}
+
+focus_tree = {
+    id = generic_focus
+    country = {
+        factor = 0
+    }
+    default = yes
+    reset_on_civilwar = no
+}
+
+focus_tree = {
+    id = german_focus
+    country = {
+        factor = 0
+    }
+    reset_on_civilwar = no
+}
+
+focus_tree = {
+    id = indian_focus
+    country = {
+        factor = 0
+    }
+    reset_on_civilwar = no
+}
+
+focus_tree = {
+    id = italian_focus
+    country = {
+        factor = 0
+    }
+    reset_on_civilwar = no
+}
+
+focus_tree = {
+    id = japan_wtt_focus
+    country = {
+        factor = 0
+    }
+    reset_on_civilwar = no
+}
+
+focus_tree = {
+    id = latvia_tree
+    country = {
+        factor = 0
+    }
+    reset_on_civilwar = no
+}
+
+focus_tree = {
+    id = lithuania_tree
+    country = {
+        factor = 0
+    }
+    reset_on_civilwar = no
+}
+
+focus_tree = {
+    id = mexico_focus_tree
+    country = {
+        factor = 0
+    }
+    reset_on_civilwar = no
+}
+
+focus_tree = {
+    id = new_zealander_focus
+    country = {
+        factor = 0
+    }
+    reset_on_civilwar = no
+}
+
+focus_tree = {
+    id = polish_focus
+    country = {
+        factor = 0
+    }
+    reset_on_civilwar = no
+}
+
+focus_tree = {
+    id = portuguese_focus
+    country = {
+        factor = 0
+    }
+    reset_on_civilwar = no
+}
+
+focus_tree = {
+    id = south_african_focus
+    country = {
+        factor = 0
+    }
+    reset_on_civilwar = no
+}
+
+focus_tree = {
+    id = soviet_focus
+    country = {
+        factor = 0
+    }
+    reset_on_civilwar = no
+}
+
+focus_tree = {
+    id = spanish_focus
+    country = {
+        factor = 0
+    }
+    reset_on_civilwar = no
+}
+
+focus_tree = {
+    id = turkish_focus
+    country = {
+        factor = 0
+    }
+    reset_on_civilwar = no
+}
+
+focus_tree = {
+    id = usa_focus
+    country = {
+        factor = 0
+    }
+    reset_on_civilwar = no
+}
+
+focus_tree = {
+    id = vichy_french_focus
+    country = {
+        factor = 0
+    }
+    reset_on_civilwar = no
+}
+
+focus_tree = {
+    id = yugoslavian_focus
+    country = {
+        factor = 0
+    }
+    reset_on_civilwar = no
+}

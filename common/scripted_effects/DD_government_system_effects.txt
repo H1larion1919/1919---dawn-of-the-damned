@@ -1,0 +1,328 @@
+dd_clear_legacy_government_laws = {
+	remove_ideas = {
+		disarmed_nation
+		volunteer_only
+		limited_conscription
+		extensive_conscription
+		service_by_requirement
+		all_adults_serve
+		scraping_the_barrel
+		undisturbed_isolation
+		isolation
+		civilian_economy
+		low_economic_mobilisation
+		partial_economic_mobilisation
+		war_economy
+		tot_economic_mobilisation
+		free_trade
+		export_focus
+		limited_exports
+		closed_economy
+	}
+}
+
+dd_clear_dd_government_laws = {
+	remove_ideas = {
+		dd_governance_anarchy
+		dd_governance_libertarianism
+		dd_governance_decentralised
+		dd_governance_representativism
+		dd_governance_authoritarianism
+		dd_governance_oligarchy
+		dd_governance_totalitarianism
+		dd_law_lawless_society
+		dd_law_high_corruption
+		dd_law_heresay_laws
+		dd_law_low_corruption
+		dd_law_oral_traditions
+		dd_law_strong_norms
+		dd_law_constitutionalism
+		dd_law_rule_of_law
+		dd_society_absolute_equality
+		dd_society_general_emancipation
+		dd_society_traditionalism
+		dd_society_mobile_hierarchy
+		dd_society_strict_hierarchy
+		dd_economy_communism
+		dd_economy_socialism
+		dd_economy_syndicalism
+		dd_economy_distributism
+		dd_economy_corporatism
+		dd_economy_state_capitalism
+		dd_economy_free_markets
+		dd_economy_lassais_fairez
+		dd_popularity_none
+		dd_popularity_low
+		dd_popularity_medium
+		dd_popularity_high
+		dd_popularity_absolute
+		dd_militarism_demilitarised_society
+		dd_militarism_civil_guard
+		dd_militarism_military_readiness
+		dd_militarism_militarised_state
+		dd_militarism_war_society
+		dd_militarism_total_militarisation
+		dd_militarism_public_backlash
+		dd_militarism_mass_politics_bonus
+	}
+}
+
+dd_clear_law_ideology_flags = {
+	clr_country_flag = dd_laws_communism
+	clr_country_flag = dd_laws_libertarian_socialism
+	clr_country_flag = dd_laws_social_democracy
+	clr_country_flag = dd_laws_democratic
+	clr_country_flag = dd_laws_market_liberalism
+	clr_country_flag = dd_laws_fascism
+	clr_country_flag = dd_laws_neutrality
+	clr_country_flag = dd_laws_esotericism
+}
+
+dd_assign_ideology_government_laws = {
+	dd_clear_legacy_government_laws = yes
+	dd_clear_dd_government_laws = yes
+	dd_clear_law_ideology_flags = yes
+
+	if = {
+		limit = { has_government = communism }
+		add_ideas = {
+			dd_governance_totalitarianism
+			dd_law_low_corruption
+			dd_society_general_emancipation
+			dd_economy_communism
+			dd_militarism_war_society
+		}
+		set_country_flag = dd_laws_communism
+	}
+	else_if = {
+		limit = { has_government = libertarian_socialism }
+		add_ideas = {
+			dd_governance_libertarianism
+			dd_law_strong_norms
+			dd_society_absolute_equality
+			dd_economy_syndicalism
+			dd_militarism_civil_guard
+		}
+		set_country_flag = dd_laws_libertarian_socialism
+	}
+	else_if = {
+		limit = { has_government = social_democracy }
+		add_ideas = {
+			dd_governance_representativism
+			dd_law_constitutionalism
+			dd_society_general_emancipation
+			dd_economy_socialism
+			dd_militarism_military_readiness
+		}
+		set_country_flag = dd_laws_social_democracy
+	}
+	else_if = {
+		limit = { has_government = market_liberalism }
+		add_ideas = {
+			dd_governance_representativism
+			dd_law_rule_of_law
+			dd_society_mobile_hierarchy
+			dd_economy_free_markets
+			dd_militarism_civil_guard
+		}
+		set_country_flag = dd_laws_market_liberalism
+	}
+	else_if = {
+		limit = { has_government = fascism }
+		add_ideas = {
+			dd_governance_totalitarianism
+			dd_law_heresay_laws
+			dd_society_strict_hierarchy
+			dd_economy_corporatism
+			dd_militarism_total_militarisation
+		}
+		set_country_flag = dd_laws_fascism
+	}
+	else_if = {
+		limit = { has_government = neutrality }
+		add_ideas = {
+			dd_governance_oligarchy
+			dd_law_strong_norms
+			dd_society_strict_hierarchy
+			dd_economy_state_capitalism
+			dd_militarism_militarised_state
+		}
+		set_country_flag = dd_laws_neutrality
+	}
+	else_if = {
+		limit = { has_government = esotericism }
+		add_ideas = {
+			dd_governance_totalitarianism
+			dd_law_heresay_laws
+			dd_society_strict_hierarchy
+			dd_economy_state_capitalism
+			dd_militarism_war_society
+		}
+		set_country_flag = dd_laws_esotericism
+	}
+	else = {
+		add_ideas = {
+			dd_governance_representativism
+			dd_law_constitutionalism
+			dd_society_traditionalism
+			dd_economy_distributism
+			dd_militarism_military_readiness
+		}
+		set_country_flag = dd_laws_democratic
+	}
+
+	dd_update_popularity_law = yes
+	dd_update_militarism_reaction = yes
+}
+
+dd_clear_popularity_law = {
+	remove_ideas = {
+		dd_popularity_none
+		dd_popularity_low
+		dd_popularity_medium
+		dd_popularity_high
+		dd_popularity_absolute
+	}
+}
+
+dd_downgrade_popularity_law = {
+	if = {
+		limit = { has_idea = dd_popularity_absolute }
+		remove_ideas = dd_popularity_absolute
+		add_ideas = dd_popularity_high
+	}
+	else_if = {
+		limit = { has_idea = dd_popularity_high }
+		remove_ideas = dd_popularity_high
+		add_ideas = dd_popularity_medium
+	}
+	else_if = {
+		limit = { has_idea = dd_popularity_medium }
+		remove_ideas = dd_popularity_medium
+		add_ideas = dd_popularity_low
+	}
+	else_if = {
+		limit = { has_idea = dd_popularity_low }
+		remove_ideas = dd_popularity_low
+		add_ideas = dd_popularity_none
+	}
+}
+
+dd_upgrade_popularity_law = {
+	if = {
+		limit = { has_idea = dd_popularity_none }
+		remove_ideas = dd_popularity_none
+		add_ideas = dd_popularity_low
+	}
+	else_if = {
+		limit = { has_idea = dd_popularity_low }
+		remove_ideas = dd_popularity_low
+		add_ideas = dd_popularity_medium
+	}
+	else_if = {
+		limit = { has_idea = dd_popularity_medium }
+		remove_ideas = dd_popularity_medium
+		add_ideas = dd_popularity_high
+	}
+	else_if = {
+		limit = { has_idea = dd_popularity_high }
+		remove_ideas = dd_popularity_high
+		add_ideas = dd_popularity_absolute
+	}
+}
+
+dd_update_popularity_law = {
+	dd_clear_popularity_law = yes
+
+	if = { limit = { has_stability < 0.2 } add_ideas = dd_popularity_none }
+	else_if = { limit = { has_stability < 0.4 } add_ideas = dd_popularity_low }
+	else_if = { limit = { has_stability < 0.6 } add_ideas = dd_popularity_medium }
+	else_if = { limit = { has_stability < 0.8 } add_ideas = dd_popularity_high }
+	else = { add_ideas = dd_popularity_absolute }
+
+	if = {
+		limit = {
+			has_war = yes
+			surrender_progress > 0.15
+		}
+		dd_downgrade_popularity_law = yes
+	}
+	if = {
+		limit = {
+			has_war = yes
+			has_war_support < 0.35
+		}
+		dd_downgrade_popularity_law = yes
+	}
+	if = {
+		limit = { num_of_civilian_factories < 5 }
+		dd_downgrade_popularity_law = yes
+	}
+	if = {
+		limit = { has_country_flag = dd_recent_victory }
+		dd_upgrade_popularity_law = yes
+		clr_country_flag = dd_recent_victory
+	}
+}
+
+dd_update_militarism_reaction = {
+	remove_ideas = {
+		dd_militarism_public_backlash
+		dd_militarism_mass_politics_bonus
+	}
+
+	if = {
+		limit = {
+			OR = {
+				has_idea = dd_militarism_militarised_state
+				has_idea = dd_militarism_war_society
+				has_idea = dd_militarism_total_militarisation
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					has_government = communism
+					has_government = fascism
+				}
+			}
+			add_ideas = dd_militarism_mass_politics_bonus
+		}
+		else = {
+			add_ideas = dd_militarism_public_backlash
+		}
+	}
+}
+
+dd_refresh_government_system = {
+	dd_clear_legacy_government_laws = yes
+
+	if = { limit = { has_government = communism NOT = { has_country_flag = dd_laws_communism } } dd_assign_ideology_government_laws = yes }
+	else_if = { limit = { has_government = libertarian_socialism NOT = { has_country_flag = dd_laws_libertarian_socialism } } dd_assign_ideology_government_laws = yes }
+	else_if = { limit = { has_government = social_democracy NOT = { has_country_flag = dd_laws_social_democracy } } dd_assign_ideology_government_laws = yes }
+	else_if = { limit = { has_government = market_liberalism NOT = { has_country_flag = dd_laws_market_liberalism } } dd_assign_ideology_government_laws = yes }
+	else_if = { limit = { has_government = fascism NOT = { has_country_flag = dd_laws_fascism } } dd_assign_ideology_government_laws = yes }
+	else_if = { limit = { has_government = neutrality NOT = { has_country_flag = dd_laws_neutrality } } dd_assign_ideology_government_laws = yes }
+	else_if = { limit = { has_government = esotericism NOT = { has_country_flag = dd_laws_esotericism } } dd_assign_ideology_government_laws = yes }
+	else_if = { limit = { has_government = democratic NOT = { has_country_flag = dd_laws_democratic } } dd_assign_ideology_government_laws = yes }
+
+	if = {
+		limit = {
+			NOT = {
+				OR = {
+					has_idea = dd_governance_anarchy
+					has_idea = dd_governance_libertarianism
+					has_idea = dd_governance_decentralised
+					has_idea = dd_governance_representativism
+					has_idea = dd_governance_authoritarianism
+					has_idea = dd_governance_oligarchy
+					has_idea = dd_governance_totalitarianism
+				}
+			}
+		}
+		dd_assign_ideology_government_laws = yes
+	}
+
+	dd_update_popularity_law = yes
+	dd_update_militarism_reaction = yes
+}

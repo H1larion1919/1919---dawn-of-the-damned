@@ -1,0 +1,10 @@
+on_actions = {
+    on_startup = {
+        effect = {
+            if = {
+                limit = { MAC = { exists = yes } }
+                MAC = { country_event = { id = ee_mac_safety.1 days = 1 } }
+            }
+        }
+    }
+}

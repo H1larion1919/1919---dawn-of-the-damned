@@ -1,0 +1,8 @@
+ee_serbian_reunification = {
+	icon = generic_political_discourse
+	visible = {
+		original_tag = YUG
+		has_idea = EE_to_build_anew
+	}
+	priority = 21
+}

@@ -1,0 +1,76 @@
+ideas = {
+	country = {
+		EE_atlantic_vikings = {
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				neutrality_drift = 0.002
+				stability_factor = 0.10
+				resistance_growth_on_our_occupied_states = 0.10
+			}
+		}
+		EE_en_proevelse_for_venskab = {
+			allowed = { always = yes }
+			removal_cost = -1
+			rule = { can_join_factions = no }
+		}
+		EE_frihetskamp = {
+			allowed = { always = yes }
+			removal_cost = -1
+			rule = { can_join_factions = no }
+			modifier = {
+				communism_drift = 0.001
+				libertarian_socialism_drift = 0.001
+				war_support_factor = 0.60
+				attrition = -0.20
+				stability_factor = 0.50
+			}
+		}
+		EE_noisy_neighbours = {
+			allowed = { always = yes }
+			removal_cost = -1
+			rule = { can_join_factions = no }
+			modifier = { stability_factor = -0.10 }
+		}
+		EE_reverse_danelaw = {
+			allowed = { always = yes }
+			removal_cost = -1
+			rule = { can_join_factions = no }
+		}
+		EE_sapmi_war_of_independence = {
+			allowed = { always = yes }
+			removal_cost = -1
+		}
+		EE_sapmi_resistance = {
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.10
+				resistance_growth_on_our_occupied_states = 0.15
+			}
+		}
+		EE_ved_nordsjoen = {
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.20
+				war_support_factor = 0.10
+			}
+		}
+		EE_arm_our_brothers = {
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				political_power_gain = -0.05
+			}
+		}
+		EE_post_unification_restraint = {
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				political_power_gain = 0.05
+				stability_factor = 0.05
+			}
+		}
+	}
+}

@@ -1,0 +1,14 @@
+opinion_modifiers = {
+	EE_norwegian_resistance_smuggling = {
+		value = -20
+		decay = 0.1
+	}
+	EE_kurdish_revanchism_opinion = {
+		value = -150
+		decay = 0.0
+	}
+	EE_sour_krauts_opinion = {
+		value = -75
+		decay = 0.0
+	}
+}

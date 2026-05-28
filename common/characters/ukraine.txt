@@ -1,0 +1,101 @@
+characters = {
+	#Nestor Makhno
+	ukraine_nestor_makhno = {
+		name = ukraine_nestor_makhno
+		portraits = {
+			civilian = {
+				large = GFX_ukraine_nestor_makhno_large
+			}
+			army = {
+				large = GFX_ukraine_nestor_makhno_large
+				small = GFX_ukraine_nestor_makhno_small
+			}
+		}
+		country_leader = {
+			ideology = makhnovian
+			traits = { ee_makhno_libsoc_support }
+		}
+		field_marshal = {
+			traits = { brilliant_strategist inflexible_strategist politically_connected war_hero career_officer trait_cautious infantry_officer logistics_wizard defensive_doctrine  thorough_planner organisational_leader inspirational_leader }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 6
+			planning_skill = 3
+			logistics_skill = 6
+		}
+	}
+	#Maria Nikiforova
+	ukraine_maria_nikiforova = {
+		name = ukraine_maria_nikiforova
+		portraits = {
+			army = {
+				large = GFX_ukraine_maria_nikiforova_large
+				small = GFX_ukraine_maria_nikiforova_small
+			}
+		}
+		corps_commander = {
+			traits = { politically_connected career_officer trait_cautious logistics_wizard defensive_doctrine thorough_planner organisational_leader inspirational_leader }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+	#Fedir Shchus
+	ukraine_fedir_shchus = {
+		name = ukraine_fedir_shchus
+		portraits = {
+			army = {
+				large = GFX_ukraine_fedir_shchus_large
+				small = GFX_ukraine_fedir_shchus_small
+			}
+		}
+		corps_commander = {
+			traits = { politically_connected career_officer logistics_wizard inspirational_leader  old_guard career_officer trait_reckless media_personality harsh_leader infantry_officer offensive_doctrine fast_planner aggressive_assaulter inspirational_leader }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	#Symon Petliura
+	ukraine_symon_petliura = {
+		name = ukraine_symon_petliura
+		portraits = {
+			civilian = {
+				large = GFX_ukraine_symon_petliura_large
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			traits = { liberal_democratic_paragon liberal_journalist inspirational_leader democratic_reformer democratic_restorationist man_of_the_nation nationalist_symbol }
+		}
+	}
+	#Roman Von Ungern-Sternberg
+	ukraine_roman_von_ungernsternberg = {
+		name = ukraine_roman_von_ungernsternberg
+		portraits = {
+			civilian = {
+				large = GFX_ukraine_roman_von_ungernsternberg_large
+			}
+			army = {
+				large = GFX_ukraine_roman_von_ungernsternberg_large
+				small = GFX_ukraine_roman_von_ungernsternberg_small
+			}
+		}
+		country_leader = {
+			ideology = paganism
+			traits = { old_guard politically_connected war_hero career_officer media_personality winter_specialist adaptable spirit_of_genghis conservative_grandee conservative_nationalist royal_dictator }
+		}
+		corps_commander = {
+			traits = { old_guard brilliant_strategist inflexible_strategist politically_connected war_hero career_officer trait_reckless harsh_leader infantry_officer cavalry_officer logistics_wizard offensive_doctrine fast_planner aggressive_assaulter organisational_leader inspirational_leader trickster winter_specialist adaptable winter_expert }
+			skill = 5
+			attack_skill = 5
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+}

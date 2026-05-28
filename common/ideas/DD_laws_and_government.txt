@@ -1,0 +1,672 @@
+ideas = {
+	dd_governance = {
+		law = yes
+		use_list_view = yes
+
+		dd_governance_anarchy = {
+			picture = generic_disjointed_government
+			allowed = { always = yes }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				political_power_gain = -0.20
+				stability_factor = -0.18
+				war_support_factor = -0.08
+				research_speed_factor = -0.06
+				production_speed_industrial_complex_factor = -0.15
+				production_speed_arms_factory_factor = -0.10
+				consumer_goods_factor = 0.12
+			}
+		}
+
+		dd_governance_libertarianism = {
+			picture = generic_political_discourse
+			allowed = { always = yes }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				political_power_gain = 0.05
+				research_speed_factor = 0.05
+				production_speed_industrial_complex_factor = 0.04
+				stability_factor = -0.04
+				war_support_factor = -0.08
+				mobilization_speed = -0.10
+				consumer_goods_factor = 0.05
+			}
+		}
+
+		dd_governance_decentralised = {
+			picture = generic_political_discourse
+			allowed = { always = yes }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				stability_factor = 0.03
+				research_speed_factor = 0.02
+				production_speed_industrial_complex_factor = -0.04
+				production_speed_arms_factory_factor = -0.03
+				mobilization_speed = -0.06
+				consumer_goods_factor = 0.04
+			}
+		}
+
+		dd_governance_representativism = {
+			picture = generic_political_discourse
+			allowed = { always = yes }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				political_power_gain = 0.08
+				stability_factor = 0.05
+				research_speed_factor = 0.03
+				consumer_goods_factor = 0.03
+			}
+		}
+
+		dd_governance_authoritarianism = {
+			picture = generic_propaganda
+			allowed = { always = yes }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				stability_factor = 0.06
+				war_support_factor = 0.04
+				mobilization_speed = 0.08
+				research_speed_factor = -0.03
+				political_power_gain = -0.04
+				consumer_goods_factor = -0.02
+			}
+		}
+
+		dd_governance_oligarchy = {
+			picture = generic_political_discourse
+			allowed = { always = yes }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				stability_factor = 0.04
+				industrial_capacity_factory = 0.05
+				production_factory_efficiency_gain_factor = 0.04
+				research_speed_factor = -0.05
+				political_power_gain = -0.08
+				consumer_goods_factor = 0.04
+			}
+		}
+
+		dd_governance_totalitarianism = {
+			picture = generic_propaganda
+			allowed = { always = yes }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				war_support_factor = 0.10
+				mobilization_speed = 0.15
+				conscription_factor = 0.08
+				army_org_factor = 0.04
+				stability_factor = -0.08
+				research_speed_factor = -0.06
+				political_power_gain = -0.10
+				consumer_goods_factor = -0.04
+			}
+		}
+	}
+
+	dd_law = {
+		law = yes
+		use_list_view = yes
+
+		dd_law_lawless_society = {
+			picture = generic_strike
+			allowed = { always = yes }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				stability_factor = -0.18
+				political_power_gain = -0.20
+				research_speed_factor = -0.08
+				production_factory_efficiency_gain_factor = -0.10
+				production_speed_industrial_complex_factor = -0.12
+				consumer_goods_factor = 0.15
+			}
+		}
+
+		dd_law_high_corruption = {
+			picture = generic_disjointed_government
+			allowed = { always = yes }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				stability_factor = -0.12
+				political_power_gain = -0.12
+				research_speed_factor = -0.05
+				production_factory_efficiency_gain_factor = -0.06
+				consumer_goods_factor = 0.12
+			}
+		}
+
+		dd_law_heresay_laws = {
+			picture = generic_political_discourse
+			allowed = { always = yes }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				stability_factor = -0.08
+				political_power_gain = -0.08
+				research_speed_factor = -0.03
+				consumer_goods_factor = 0.08
+			}
+		}
+
+		dd_law_low_corruption = {
+			picture = generic_political_discourse
+			allowed = { always = yes }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				stability_factor = 0.03
+				political_power_gain = 0.04
+				production_factory_efficiency_gain_factor = 0.02
+				consumer_goods_factor = 0.03
+			}
+		}
+
+		dd_law_oral_traditions = {
+			picture = generic_political_discourse
+			allowed = { always = yes }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				stability_factor = 0.06
+				war_support_factor = 0.02
+				research_speed_factor = -0.03
+				political_power_gain = -0.02
+			}
+		}
+
+		dd_law_strong_norms = {
+			picture = generic_political_discourse
+			allowed = { always = yes }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				stability_factor = 0.08
+				war_support_factor = 0.04
+				political_power_gain = 0.02
+				research_speed_factor = -0.02
+				consumer_goods_factor = -0.02
+			}
+		}
+
+		dd_law_constitutionalism = {
+			picture = generic_political_discourse
+			allowed = { always = yes }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				stability_factor = 0.08
+				political_power_gain = 0.08
+				research_speed_factor = 0.03
+				consumer_goods_factor = 0.01
+			}
+		}
+
+		dd_law_rule_of_law = {
+			picture = generic_political_discourse
+			allowed = { always = yes }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				stability_factor = 0.12
+				political_power_gain = 0.10
+				research_speed_factor = 0.04
+				production_factory_efficiency_gain_factor = 0.03
+				consumer_goods_factor = -0.02
+			}
+		}
+	}
+
+	dd_society = {
+		law = yes
+		use_list_view = yes
+
+		dd_society_absolute_equality = {
+			picture = generic_research
+			allowed = { always = yes }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				research_speed_factor = 0.08
+				production_speed_industrial_complex_factor = 0.08
+				production_speed_arms_factory_factor = 0.05
+				stability_factor = -0.08
+				war_support_factor = -0.08
+				mobilization_speed = -0.12
+				conscription_factor = -0.10
+				consumer_goods_factor = 0.10
+			}
+		}
+
+		dd_society_general_emancipation = {
+			picture = generic_research
+			allowed = { always = yes }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				research_speed_factor = 0.05
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_arms_factory_factor = 0.03
+				stability_factor = -0.03
+				war_support_factor = -0.04
+				mobilization_speed = -0.06
+				conscription_factor = -0.05
+				consumer_goods_factor = 0.06
+			}
+		}
+
+		dd_society_traditionalism = {
+			picture = generic_political_discourse
+			allowed = { always = yes }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				stability_factor = 0.04
+				war_support_factor = 0.03
+				research_speed_factor = -0.01
+				mobilization_speed = 0.03
+			}
+		}
+
+		dd_society_mobile_hierarchy = {
+			picture = generic_production_bonus
+			allowed = { always = yes }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				stability_factor = 0.06
+				war_support_factor = 0.05
+				mobilization_speed = 0.08
+				conscription_factor = 0.04
+				research_speed_factor = -0.03
+				production_speed_industrial_complex_factor = -0.03
+				consumer_goods_factor = -0.02
+			}
+		}
+
+		dd_society_strict_hierarchy = {
+			picture = generic_propaganda
+			allowed = { always = yes }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				stability_factor = 0.08
+				war_support_factor = 0.08
+				mobilization_speed = 0.12
+				conscription_factor = 0.08
+				research_speed_factor = -0.06
+				production_speed_industrial_complex_factor = -0.05
+				consumer_goods_factor = -0.03
+			}
+		}
+	}
+
+	dd_economy = {
+		law = yes
+		use_list_view = yes
+
+		dd_economy_communism = {
+			picture = generic_production_bonus
+			allowed = { always = yes }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				consumer_goods_factor = -0.06
+				production_speed_arms_factory_factor = 0.10
+				industrial_capacity_factory = 0.04
+				research_speed_factor = -0.08
+				production_factory_efficiency_gain_factor = -0.06
+				production_factory_max_efficiency_factor = -0.06
+			}
+		}
+
+		dd_economy_socialism = {
+			picture = generic_production_bonus
+			allowed = { always = yes }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				consumer_goods_factor = -0.03
+				production_speed_arms_factory_factor = 0.06
+				industrial_capacity_factory = 0.03
+				research_speed_factor = -0.04
+				production_factory_efficiency_gain_factor = -0.03
+			}
+		}
+
+		dd_economy_syndicalism = {
+			picture = generic_production_bonus
+			allowed = { always = yes }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.05
+				production_speed_industrial_complex_factor = 0.03
+				research_speed_factor = -0.02
+				consumer_goods_factor = 0.01
+			}
+		}
+
+		dd_economy_distributism = {
+			picture = generic_economic_increase
+			allowed = { always = yes }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				stability_factor = 0.04
+				production_speed_industrial_complex_factor = 0.05
+				consumer_goods_factor = 0.02
+			}
+		}
+
+		dd_economy_corporatism = {
+			picture = generic_production_bonus
+			allowed = { always = yes }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				industrial_capacity_factory = 0.06
+				production_factory_efficiency_gain_factor = 0.04
+				political_power_gain = 0.03
+				research_speed_factor = -0.02
+				consumer_goods_factor = 0.03
+			}
+		}
+
+		dd_economy_state_capitalism = {
+			picture = generic_economic_increase
+			allowed = { always = yes }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				production_speed_industrial_complex_factor = 0.08
+				production_speed_arms_factory_factor = 0.06
+				industrial_capacity_factory = 0.04
+				research_speed_factor = -0.01
+				consumer_goods_factor = 0.02
+			}
+		}
+
+		dd_economy_free_markets = {
+			picture = generic_economic_increase
+			allowed = { always = yes }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				production_speed_industrial_complex_factor = 0.12
+				production_factory_efficiency_gain_factor = 0.04
+				research_speed_factor = 0.04
+				consumer_goods_factor = 0.06
+				stability_factor = -0.02
+			}
+		}
+
+		dd_economy_lassais_fairez = {
+			picture = generic_economic_increase
+			allowed = { always = yes }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				production_speed_industrial_complex_factor = 0.18
+				production_factory_efficiency_gain_factor = 0.06
+				research_speed_factor = 0.08
+				consumer_goods_factor = 0.10
+				political_power_gain = -0.08
+				stability_factor = -0.04
+			}
+		}
+	}
+
+	dd_popularity = {
+		law = yes
+		use_list_view = yes
+
+		dd_popularity_none = {
+			picture = generic_strike
+			allowed = { always = yes }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				stability_factor = -0.12
+				war_support_factor = -0.12
+				army_org_factor = -0.08
+				army_morale_factor = -0.10
+				production_speed_industrial_complex_factor = -0.15
+				production_speed_arms_factory_factor = -0.10
+				political_power_gain = -0.12
+			}
+		}
+
+		dd_popularity_low = {
+			picture = generic_strike
+			allowed = { always = yes }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				stability_factor = -0.06
+				war_support_factor = -0.06
+				army_org_factor = -0.03
+				army_morale_factor = -0.04
+				production_speed_industrial_complex_factor = -0.06
+				political_power_gain = -0.05
+			}
+		}
+
+		dd_popularity_medium = {
+			picture = generic_pp_unity_bonus
+			allowed = { always = yes }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				stability_factor = 0.01
+				war_support_factor = 0.01
+				political_power_gain = 0.02
+			}
+		}
+
+		dd_popularity_high = {
+			picture = generic_pp_unity_bonus
+			allowed = { always = yes }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				stability_factor = 0.06
+				war_support_factor = 0.05
+				army_org_factor = 0.04
+				army_morale_factor = 0.05
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_arms_factory_factor = 0.04
+				political_power_gain = 0.06
+			}
+		}
+
+		dd_popularity_absolute = {
+			picture = generic_pp_unity_bonus
+			allowed = { always = yes }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				stability_factor = 0.10
+				war_support_factor = 0.08
+				army_org_factor = 0.07
+				army_morale_factor = 0.08
+				production_speed_industrial_complex_factor = 0.08
+				production_speed_arms_factory_factor = 0.06
+				political_power_gain = 0.10
+			}
+		}
+	}
+
+	dd_militarism = {
+		law = yes
+		use_list_view = yes
+
+		dd_militarism_demilitarised_society = {
+			picture = generic_political_discourse
+			allowed = { always = yes }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				stability_factor = 0.06
+				consumer_goods_factor = -0.03
+				production_speed_arms_factory_factor = -0.12
+				industrial_capacity_factory = -0.08
+				army_org_factor = -0.08
+				conscription_factor = -0.08
+				research_speed_factor = 0.02
+			}
+		}
+
+		dd_militarism_civil_guard = {
+			picture = generic_army_support
+			allowed = { always = yes }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				stability_factor = 0.03
+				production_speed_arms_factory_factor = -0.04
+				army_org_factor = -0.02
+				research_speed_factor = 0.01
+			}
+		}
+
+		dd_militarism_military_readiness = {
+			picture = generic_army_support
+			allowed = { always = yes }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				production_speed_arms_factory_factor = 0.04
+				army_org_factor = 0.03
+				conscription_factor = 0.02
+				stability_factor = -0.01
+			}
+		}
+
+		dd_militarism_militarised_state = {
+			picture = generic_army_support
+			allowed = { always = yes }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				production_speed_arms_factory_factor = 0.10
+				industrial_capacity_factory = 0.05
+				army_org_factor = 0.05
+				army_attack_factor = 0.03
+				army_defence_factor = 0.03
+				conscription_factor = 0.06
+				land_doctrine_cost_factor = -0.04
+				stability_factor = -0.04
+				consumer_goods_factor = 0.03
+			}
+		}
+
+		dd_militarism_war_society = {
+			picture = generic_army_support
+			allowed = { always = yes }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				production_speed_arms_factory_factor = 0.16
+				industrial_capacity_factory = 0.08
+				army_org_factor = 0.08
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+				conscription_factor = 0.10
+				land_doctrine_cost_factor = -0.06
+				stability_factor = -0.07
+				consumer_goods_factor = 0.05
+				production_speed_industrial_complex_factor = -0.06
+			}
+		}
+
+		dd_militarism_total_militarisation = {
+			picture = generic_army_support
+			allowed = { always = yes }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				production_speed_arms_factory_factor = 0.24
+				industrial_capacity_factory = 0.12
+				army_org_factor = 0.12
+				army_attack_factor = 0.08
+				army_defence_factor = 0.08
+				conscription_factor = 0.16
+				land_doctrine_cost_factor = -0.08
+				stability_factor = -0.12
+				consumer_goods_factor = 0.08
+				production_speed_industrial_complex_factor = -0.10
+			}
+		}
+	}
+
+	country = {
+		dd_militarism_public_backlash = {
+			picture = generic_strike
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.03
+				war_support_factor = -0.03
+				political_power_gain = -0.05
+			}
+		}
+
+		dd_militarism_mass_politics_bonus = {
+			picture = generic_propaganda
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = {
+				war_support_factor = 0.04
+				army_morale_factor = 0.03
+			}
+		}
+	}
+}

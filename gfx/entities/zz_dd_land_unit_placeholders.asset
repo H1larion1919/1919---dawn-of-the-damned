@@ -1,0 +1,124 @@
+entity = {
+    clone = "infantry_rifle_entity"
+    name = "soldier_entity"
+}
+
+entity = {
+    clone = "infantry_rifle_entity"
+    name = "militiaman_entity"
+}
+
+entity = {
+    clone = "infantry_rifle_entity"
+    name = "tactical_infantry_entity"
+}
+
+entity = {
+    clone = "infantry_rifle_entity"
+    name = "guerrilla_infantry_entity"
+}
+
+entity = {
+    clone = "infantry_rifle_entity"
+    name = "shock_troops_entity"
+}
+
+entity = {
+    clone = "infantry_rifle_entity"
+    name = "security_infantry_entity"
+}
+
+entity = {
+    clone = "infantry_rifle_entity"
+    name = "worker_militia_entity"
+}
+
+entity = {
+    clone = "infantry_rifle_entity"
+    name = "national_guard_entity"
+}
+
+entity = {
+    clone = "cavalry_entity"
+    name = "dragoon_infantry_entity"
+}
+
+entity = {
+    clone = "motorized_entity"
+    name = "wagonmen_entity"
+}
+
+entity = {
+    clone = "motorized_entity"
+    name = "war_trucks_entity"
+}
+
+entity = {
+    clone = "light_armor_entity"
+    name = "small_tank_entity"
+}
+
+entity = {
+    clone = "medium_armor_entity"
+    name = "mid_tank_entity"
+}
+
+entity = {
+    clone = "heavy_armor_entity"
+    name = "large_tank_entity"
+}
+
+entity = {
+    clone = "medium_armor_entity"
+    name = "assault_guns_entity"
+}
+
+entity = {
+    clone = "medium_armor_entity"
+    name = "tank_destroyers_entity"
+}
+
+entity = {
+    clone = "artillery_entity"
+    name = "artillery_battalion_entity"
+}
+
+entity = {
+    clone = "artillery_entity"
+    name = "mortar_battalion_entity"
+}
+
+entity = {
+    clone = "anti_tank_entity"
+    name = "anti_tank_battalion_entity"
+}
+
+entity = {
+    clone = "artillery_entity"
+    name = "anti_air_battalion_entity"
+}
+
+entity = {
+    clone = "infantry_rifle_entity"
+    name = "engineer_battalion_entity"
+}
+
+entity = {
+    clone = "infantry_rifle_entity"
+    name = "recon_battalion_entity"
+}
+
+entity = {
+    clone = "infantry_rifle_entity"
+    name = "signal_battalion_entity"
+}
+
+entity = {
+    clone = "motorized_entity"
+    name = "logistics_battalion_entity"
+}
+
+entity = {
+    clone = "motorized_entity"
+    name = "medical_battalion_entity"
+}
