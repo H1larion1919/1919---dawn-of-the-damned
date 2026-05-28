@@ -1,0 +1,57 @@
+# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+set_politics = {
+	ruling_party = fascism
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 0
+	libertarian_socialism = 0
+	social_democracy = 0
+	democratic = 15
+	market_liberalism = 0
+	fascism = 70
+	neutrality = 15
+	esotericism = 0
+}
+set_party_name = {
+	ideology = fascism
+	long_name = "Turkic Congress"
+	name = "Turkic Congress"
+}
+set_party_name = {
+	ideology = neutrality
+	long_name = "Khanates"
+	name = "Khanates"
+}
+set_party_name = {
+	ideology = democratic
+	long_name = "Reform Movement"
+	name = "Reform Movement"
+}
+create_country_leader = {
+	name = "Regional Coalition"
+	picture = "Portrait_TRK_Regional_Coalition.dds"
+	ideology = ee_pan_turkic_nationalism
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Local Khans"
+	picture = "Portrait_TRK_Local_Khans.dds"
+	ideology = ee_tribal_rule
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Reformists"
+	picture = "Portrait_TRK_Reformists.dds"
+	ideology = ee_jadidism
+	expire = "1965.1.1"
+	traits = { }
+}
+
+capital = 416
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.3
+set_convoys = 0

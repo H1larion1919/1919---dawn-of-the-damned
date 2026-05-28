@@ -1,0 +1,26 @@
+state = {
+	id = 200
+	name = "STATE_200"
+	manpower = 1294082
+	state_category = city
+	history = {
+		owner = FSU
+		add_core_of = FSU
+		add_core_of = UPR
+		add_core_of = HUK
+		add_core_of = UKS
+		victory_points = { 
+			11405 5
+		}
+
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			11405 = {
+			dam = 1
+			}
+		}
+	}
+	provinces = { 453 472 11405 11452 }
+	local_supplies = 0.0
+}

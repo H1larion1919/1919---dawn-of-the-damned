@@ -1,0 +1,31 @@
+state = {
+	id = 1082
+	name = "STATE_1082" # Novi Pazar
+	resources = {
+		chromium = 10.000
+		aluminium = 20.000
+		steel = 30
+		coal = 30
+	}
+	history = {
+		victory_points = { 
+			937 3
+		}
+
+		owner = YUG
+		add_core_of = YUG
+		add_core_of = BNT
+		add_core_of = MNT
+		add_claim_by = BOS
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+	}
+	provinces = { 982 937 3922 }
+	manpower = 482736
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 3.0
+} 

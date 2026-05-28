@@ -1,0 +1,72 @@
+# load_focus_tree = HEL_focus
+capital = 47
+# Recruit Characters
+recruit_character = greece_eleftherios_venizelos
+recruit_character = greece_eleftherios_venizelos_nationalist
+recruit_character = greece_dimitrios_gounaris
+recruit_character = greece_constantine_i_of_greece
+recruit_character = greece_alexander_of_greece
+recruit_character = greece_alexandros_zaimis
+recruit_character = greece_nikolaos_plastiras
+recruit_character = greece_theodoros_pangalos
+recruit_character = greece_ioannis_metaxas
+recruit_character = greece_george_ii_of_greece
+recruit_character = greece_aristotle_onassis
+recruit_character = greece_emmanouil_tsouderos
+recruit_character = greece_dimitrios_glinos
+recruit_character = greece_avraam_benaroya
+recruit_character = greece_alexandros_papanastasiou
+recruit_character = greece_anastasios_papoulas
+recruit_character = greece_georgios_hatzianestis
+recruit_character = greece_nikolaos_trikoupis
+recruit_character = greece_georgios_leonardopoulos
+recruit_character = greece_panagiotis_gargalidis
+recruit_character = greece_konstantinos_sapountzakis
+recruit_character = greece_viktor_dousmanis
+recruit_character = greece_dimitrios_ioannou
+recruit_character = greece_konstantinos_mazarakis_ainian
+recruit_character = greece_georgios_stratigos
+recruit_character = greece_georgios_kondylis
+recruit_character = greece_stylianos_gonatas
+recruit_character = greece_alexandros_othonaios
+recruit_character = greece_konstantinos_nider
+recruit_character = greece_leonidas_paraskevopoulos
+recruit_character = greece_panagiotis_danglis
+recruit_character = greece_georgios_katechakis
+recruit_character = greece_stefanos_sarafis
+recruit_character = greece_napoleon_soukatzidis
+recruit_character = greece_pantelis_pouliopoulos
+recruit_character = greece_seraphim_maximos
+recruit_character = greece_kostas_hatzopoulos
+oob = "HEL_1919"
+starting_train_buffer = 100
+set_research_slots = 3
+set_stability = 0.53
+set_war_support = 0.65
+add_command_power = 50
+set_convoys = 300
+give_guarantee = THR
+give_military_access = THR
+set_autonomy = { target = THR autonomy_state = autonomy_ee_protectorate }
+set_politics = {
+	ruling_party = democratic
+	last_election = "1915.1.1"
+	election_frequency = 36
+	elections_allowed = yes
+}
+set_popularities = {
+	communism = 12
+	libertarian_socialism = 0
+	social_democracy = 0
+	democratic = 38
+	market_liberalism = 0
+	fascism = 15
+	neutrality = 35
+	esotericism = 0
+}
+add_ideas = {
+	extensive_conscription
+	limited_conscription
+	volunteer_only
+	low_economic_mobilisation
+}

@@ -1,0 +1,64 @@
+# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+set_politics = {
+	ruling_party = fascism
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 0
+	libertarian_socialism = 0
+	social_democracy = 0
+	democratic = 15
+	market_liberalism = 0
+	fascism = 70
+	neutrality = 15
+	esotericism = 0
+}
+set_party_name = {
+	ideology = fascism
+	long_name = "Pahlavi State"
+	name = "Pahlavi State"
+}
+set_party_name = {
+	ideology = neutrality
+	long_name = "Qajar Loyalists / Tribal Networks"
+	name = "Qajar Loyalists / Tribal Networks"
+}
+set_party_name = {
+	ideology = democratic
+	long_name = "Majlis Bloc"
+	name = "Majlis Bloc"
+}
+create_country_leader = {
+	name = "Reza Shah"
+	picture = "Portrait_IRN_Reza_Shah.dds"
+	ideology = ee_modernizing_authoritarianism
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Ahmad Shah Qajar"
+	picture = "Portrait_IRN_Ahmad_Shah_Qajar.dds"
+	ideology = ee_dynastic_restoration
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Tribal Confederations"
+	picture = "Portrait_IRN_Tribal_Confederations.dds"
+	ideology = ee_tribal_autonomy
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Reformists"
+	picture = "Portrait_IRN_Reformists.dds"
+	ideology = ee_constitutional_reformism
+	expire = "1965.1.1"
+	traits = { }
+}
+
+capital = 266
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.3
+set_convoys = 0

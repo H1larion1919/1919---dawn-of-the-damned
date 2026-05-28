@@ -1,0 +1,30 @@
+state = {
+    id = 161
+    name = "STATE_161"
+    manpower = 1650000
+    state_category = large_city
+    resources = {
+        aluminium = 1
+    }
+    history = {
+        owner = UIS
+        victory_points = {
+            6790 5
+        }
+        victory_points = {
+            3976 3
+        }
+        victory_points = {
+            9752 1
+        }
+        buildings = {
+            infrastructure = 4
+            industrial_complex = 2
+            arms_factory = 1
+        }
+        add_core_of = ITA
+        add_core_of = UIS
+    }
+    provinces = { 3773 3976 6790 9752 }
+    local_supplies = 0.0
+}

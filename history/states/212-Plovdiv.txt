@@ -1,0 +1,29 @@
+state = {
+	id = 211
+	name = "Varna"
+	manpower = 1358394
+	state_category = city
+	history = {
+		owner = BPR
+		victory_points = { 
+			6923 7
+		}
+
+		victory_points = { 
+			6814 3
+		}
+
+		victory_points = { 
+			6952 1
+		}
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		add_core_of = BUL
+		add_core_of = BPR
+	}
+	provinces = { 6923 6814 6952 }
+	local_supplies = 4.0
+}

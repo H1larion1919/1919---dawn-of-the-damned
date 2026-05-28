@@ -1,0 +1,30 @@
+state = {
+	id = 762
+	name = "STATE_762"
+	manpower = 1000000
+	resources = {
+		steel = 19
+		aluminium = 7
+	}
+	state_category = city
+	history = {
+		owner = PGN
+		add_core_of = GER
+		add_core_of = WRE
+		add_core_of = SBK
+		add_claim_by = CZE
+		add_core_of = PFA
+		add_core_of = PGN
+		add_core_of = POL
+		victory_points = { 
+			6464 5
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+	provinces = { 506 6464 13205 }
+	local_supplies = 0.0
+}

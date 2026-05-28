@@ -1,0 +1,24 @@
+state = {
+	id = 80
+	name = "STATE_80"
+	manpower = 474600
+	state_category = town
+	history = {
+		victory_points = { 
+			6761 1
+		}
+
+		owner = ROM
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+		add_core_of = ROM
+		add_claim_by = HUK
+		add_claim_by = UPR
+		add_claim_by = UKS
+		add_claim_by = FSU
+	}
+	provinces = { 6761 11689 }
+	local_supplies = 0.0
+}

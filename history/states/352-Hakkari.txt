@@ -1,0 +1,34 @@
+state = {
+	id = 352
+	name = "STATE_352"
+	resources = {
+	}
+	manpower = 120000
+	state_category = city
+	history = {
+		owner = ASY
+		victory_points = { 
+			12476 4
+		}
+
+		victory_points = { 
+			7530 2
+		}
+
+		victory_points = { 
+			1463 4
+		}
+
+		buildings = {
+			infrastructure = 1
+		}
+		add_claim_by = KUW
+		add_core_of = KUR
+		add_core_of = ASY
+		add_claim_by = KTR
+		add_claim_by = OTT
+		add_claim_by = TSR
+	}
+	provinces = { 864 1463 7530 12476 }
+	local_supplies = 0.0
+}

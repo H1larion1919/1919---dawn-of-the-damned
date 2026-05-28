@@ -1,0 +1,37 @@
+state = {
+	id = 182
+	name = "STATE_182"
+	manpower = 280000
+	state_category = town
+	resources = {
+		chromium = 2
+	}
+	history = {
+		owner = HEL
+		victory_points = { 
+			9940 5
+		}
+
+		victory_points = { 
+			12058 3
+		}
+
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			dockyard = 5
+			12058 = {
+				naval_base = 1
+			}
+			9940 = {
+				naval_base = 3
+			}
+			3401 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = HEL
+	}
+	provinces = { 1164 4170 9940 12058 3401 }
+	local_supplies = 0.0
+}

@@ -1,0 +1,27 @@
+state = {
+	id = 1064
+	name = "STATE_1064" # Thessaly
+	resources = {
+		chromium = 2
+	}
+	history = {
+		owner = HEL
+		buildings = {
+			infrastructure = 2
+		}
+				victory_points = { 
+			3973 5 # "Volos"
+		}
+		victory_points = { 
+			863 3 # "Larissa"
+		}
+		
+		add_core_of = HEL
+
+	}
+	provinces = { 13377 863 3864 3973 6930 11895 11786 }
+	manpower = 420000
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 5.0
+}

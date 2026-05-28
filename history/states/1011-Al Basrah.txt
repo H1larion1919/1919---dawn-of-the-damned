@@ -1,0 +1,31 @@
+state = {
+	id = 1011
+	name = "STATE_1011"
+	state_category = town
+	manpower = 980164
+	history = {
+		owner = KUW
+		add_core_of = IRQ
+		add_core_of = KUW
+		victory_points = { 
+			2004 5
+		}
+
+		victory_points = { 
+			8001 3
+		}
+
+		victory_points = { 
+			12726 1
+		}
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+		}
+	}
+	provinces = { 78 2004 7977 8001 12726 12879 13368 }
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

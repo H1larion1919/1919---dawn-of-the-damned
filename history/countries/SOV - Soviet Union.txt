@@ -1,0 +1,64 @@
+# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+set_politics = {
+	ruling_party = communism
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 70
+	libertarian_socialism = 0
+	social_democracy = 30
+	democratic = 0
+	market_liberalism = 0
+	fascism = 0
+	neutrality = 0
+	esotericism = 0
+}
+set_party_name = {
+	ideology = communism
+	long_name = "Communist Party"
+	name = "Communist Party"
+}
+set_party_name = {
+	ideology = libertarian_socialism
+	long_name = "Right Communists"
+	name = "Right Communists"
+}
+create_country_leader = {
+	name = "Leon Trotsky"
+	picture = "Portrait_SOV_Leon_Trotsky.dds"
+	ideology = ee_permanent_revolution
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Nikolai Bukharin"
+	picture = "Portrait_SOV_Nikolai_Bukharin.dds"
+	ideology = ee_moderate_communism
+	expire = "1965.1.1"
+	traits = { }
+}
+
+capital = 219
+# Recruit Characters
+oob = "SOV_1919"
+starting_train_buffer = 300
+set_research_slots = 4
+set_stability = 0.6
+set_war_support = 0.8
+add_command_power = 50
+set_convoys = 100
+
+# Politics for 1919.1.1
+
+# Government/National Spirits
+add_ideas = {
+	scraping_the_barrel
+	all_adults_serve
+	extensive_conscription
+	limited_conscription
+	volunteer_only
+	civilian_economy
+	EE_great_marxist_schism
+	EE_fire_of_russia_red
+	EE_dekulakisation
+}

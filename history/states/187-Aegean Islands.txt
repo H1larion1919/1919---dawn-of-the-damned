@@ -1,0 +1,25 @@
+state = {
+	id = 187
+	name = "STATE_187" # Western Thrace
+	manpower = 140000
+	state_category = city
+	resources = {
+		chromium = 1
+	}
+	history = {
+		victory_points = { 
+			893 4
+		}
+
+		owner = THR
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+		}
+		add_core_of = HEL
+		add_core_of = BUL
+		add_core_of = BPR
+	}
+	provinces = { 893 9791 9930 }
+	local_supplies = 9.0
+}

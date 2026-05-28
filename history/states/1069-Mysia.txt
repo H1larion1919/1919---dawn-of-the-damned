@@ -1,0 +1,26 @@
+state = {
+	id = 1069
+	name = "STATE_1069" # Mysia
+	manpower = 1077853
+	resources = {
+		steel = 9
+	}
+	state_category = rural
+	history = {
+		owner = HEL
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = { 
+			11778 10 # Troy
+		}
+
+		add_core_of = HEL
+		add_core_of = TSR
+		add_core_of = KTR
+		add_core_of = OTT
+	}
+	provinces = { 785 9921 11778 }
+	local_supplies = 6.0
+}

@@ -1,0 +1,38 @@
+state = {
+	id = 765
+	name = "STATE_765"
+	manpower = 51600
+	state_category = pastoral
+
+	history = {
+		owner = GLF
+		add_core_of = GLF
+		add_claim_by = IRN
+
+		victory_points = {
+			8051 1 # Doha
+		}
+
+				victory_points = {
+			13313 2 # Manama
+		}
+
+		buildings = {
+			infrastructure = 1
+			8051 = {
+				naval_base = 2
+			}
+
+			infrastructure = 1
+			13313 = {
+				naval_base = 2
+			}
+		}
+	}
+
+	provinces = {
+		8051 13313
+	}
+
+	local_supplies = 0.0 
+}

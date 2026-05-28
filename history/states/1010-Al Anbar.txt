@@ -1,0 +1,21 @@
+state = {
+	id = 1010
+	name = "STATE_1010"
+	state_category = rural
+	manpower = 479801
+	resources = {
+		oil = 3
+	}
+	history = {
+		owner = KUW
+		add_core_of = IRQ
+		add_core_of = KUW
+		victory_points = { 
+			12413 1
+		}
+
+	}
+	provinces = { 1631 4951 12413 12839 }
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}

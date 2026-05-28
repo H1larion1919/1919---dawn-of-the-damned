@@ -1,0 +1,74 @@
+﻿# Create units
+division_template = {
+	name = "Infantry Division"
+	division_names_group = "KUR_DIV_0_0"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		artillery_brigade = { x = 2 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Reserve Division"
+	division_names_group = "KUR_DIV_0_0"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Cavalry Brigade"
+	division_names_group = "KUR_DIV_0_0"
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Mountain Brigade"
+	division_names_group = "KUR_DIV_0_0"
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+
+# Spawn units
+units = {
+	division = { name = "1th Kurdish Brigade" location = 8123 division_template = "Mountain Brigade" }
+	division = { name = "2th Kurdish Brigade" location = 6826 division_template = "Infantry Division" }
+	division = { name = "3th Kurdish Brigade" location = 12773 division_template = "Reserve Division" }
+	division = { name = "4th Kurdish Brigade" location = 1606 division_template = "Cavalry Brigade" }
+	division = { name = "5th Kurdish Brigade" location = 10882 division_template = "Mountain Brigade" }
+	division = { name = "6th Kurdish Brigade" location = 4512 division_template = "Infantry Division" }
+	division = { name = "7th Kurdish Brigade" location = 9823 division_template = "Reserve Division" }
+	division = { name = "8th Kurdish Brigade" location = 12387 division_template = "Cavalry Brigade" }
+}
