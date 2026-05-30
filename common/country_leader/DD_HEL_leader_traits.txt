@@ -1,0 +1,65 @@
+leader_traits = {
+	efficient_bureaucrat = {
+		random = no
+		sprite = 13
+		political_power_factor = 0.05
+		stability_factor = 0.03
+	}
+
+	cornered_market = {
+		random = no
+		sprite = 13
+		industrial_capacity_factory = 0.03
+		consumer_goods_factor = 0.02
+	}
+
+	cautious_reformer = {
+		random = no
+		sprite = 13
+		stability_factor = 0.05
+		political_power_factor = -0.03
+	}
+
+	strong_leader = {
+		random = no
+		sprite = 13
+		political_power_factor = 0.08
+		stability_factor = 0.03
+	}
+
+	compromise_king = {
+		random = no
+		sprite = 13
+		stability_factor = 0.06
+		party_popularity_stability_factor = 0.05
+	}
+
+	constitutional_king = {
+		random = no
+		sprite = 13
+		stability_factor = 0.08
+		political_power_factor = 0.03
+	}
+
+	junta_member = {
+		random = no
+		sprite = 13
+		army_org_factor = 0.03
+		war_support_factor = 0.03
+		political_power_factor = -0.03
+	}
+
+	war_hero = {
+		random = no
+		sprite = 13
+		war_support_factor = 0.05
+		army_morale_factor = 0.03
+	}
+
+	hidden_sympathizer = {
+		random = no
+		sprite = 13
+		subversive_activites_upkeep = -0.05
+		political_power_factor = -0.02
+	}
+}

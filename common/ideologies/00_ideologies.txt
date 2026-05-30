@@ -303,6 +303,8 @@ ideologies = {
             libertarianism = { }
             right_wing_anarchism = { }
             ee_fiscal_conservatism = { }
+            ee_social_conservatism = { }
+            ee_autocratic_capitalism = { }
         }
         dynamic_faction_names = {
             "FACTION_NAME_DEMOCRATIC_1"
@@ -559,6 +561,7 @@ ideologies = {
             ee_personal_dictatorship = { }
             ee_germanic_occultism = { }
             ee_völkisch_occultism = { }
+            ee_hellenic_rebirthist = { }
         }
         war_impact_on_world_tension = 0.65
         faction_impact_on_world_tension = 0.35
