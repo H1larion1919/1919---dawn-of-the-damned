@@ -1,0 +1,28 @@
+state = {
+	id = 1062
+	name = "STATE_1062" # Osetia
+	manpower = 58248
+	resources = {
+		steel = 14
+	}
+	state_category = large_town
+	history = {
+		owner = GEO
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+		}
+
+		victory_points = { 
+			1530 2
+		}
+
+		add_core_of = GEO
+		add_core_of = NOA
+		add_core_of = MRC
+
+	}
+	provinces = { 1530 9626 }
+	local_supplies = 3.0
+}

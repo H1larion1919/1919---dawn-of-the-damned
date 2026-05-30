@@ -1,0 +1,41 @@
+# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+set_politics = {
+	ruling_party = neutrality
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 0
+	libertarian_socialism = 0
+	social_democracy = 0
+	democratic = 0
+	market_liberalism = 0
+	fascism = 0
+	neutrality = 100
+	esotericism = 0
+}
+set_party_name = {
+	ideology = neutrality
+	long_name = "Joint Command Authority"
+	name = "Joint Command Authority"
+}
+create_country_leader = {
+	name = "Hans von Seeckt"
+	picture = "Portrait_PGN_Hans_von_Seeckt.dds"
+	ideology = ee_military_administration
+	expire = "1965.1.1"
+	traits = { }
+}
+
+capital = 85
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.55
+
+add_ideas = {
+	scraping_the_barrel
+	all_adults_serve
+	extensive_conscription
+	limited_conscription
+	volunteer_only
+	civilian_economy
+}

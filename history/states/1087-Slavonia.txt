@@ -1,0 +1,24 @@
+state = {
+	id = 1087
+	name = "STATE_1087" # Slavonia 
+	manpower = 2224400
+	state_category = large_town
+	history = {
+		owner = CRO
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+		}
+
+		victory_points = { 
+			9595 3
+		}
+
+		add_core_of = YUG
+		add_core_of = CRO
+		add_core_of = BNT
+	}
+	provinces = { 3627 6647 9595 }
+	local_supplies = 0.0
+}

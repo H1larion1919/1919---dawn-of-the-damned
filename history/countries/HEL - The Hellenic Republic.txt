@@ -1,0 +1,232 @@
+# load_focus_tree = HEL_focus
+capital = 47
+# Recruit Characters
+recruit_character = greece_eleftherios_venizelos
+recruit_character = greece_eleftherios_venizelos_nationalist
+recruit_character = greece_dimitrios_gounaris
+recruit_character = greece_constantine_i_of_greece
+recruit_character = greece_alexander_of_greece
+recruit_character = greece_alexandros_zaimis
+recruit_character = greece_nikolaos_plastiras
+recruit_character = greece_theodoros_pangalos
+recruit_character = greece_ioannis_metaxas
+recruit_character = greece_aristotle_onassis
+recruit_character = greece_emmanouil_tsouderos
+recruit_character = greece_dimitrios_glinos
+recruit_character = greece_avraam_benaroya
+recruit_character = greece_alexandros_papanastasiou
+recruit_character = greece_anastasios_papoulas
+recruit_character = greece_georgios_hatzianestis
+recruit_character = greece_nikolaos_trikoupis
+recruit_character = greece_georgios_leonardopoulos
+recruit_character = greece_panagiotis_gargalidis
+recruit_character = greece_konstantinos_sapountzakis
+recruit_character = greece_viktor_dousmanis
+recruit_character = greece_dimitrios_ioannou
+recruit_character = greece_konstantinos_mazarakis_ainian
+recruit_character = greece_georgios_stratigos
+recruit_character = greece_georgios_kondylis
+recruit_character = greece_stylianos_gonatas
+recruit_character = greece_alexandros_othonaios
+recruit_character = greece_konstantinos_nider
+recruit_character = greece_leonidas_paraskevopoulos
+recruit_character = greece_panagiotis_danglis
+recruit_character = greece_georgios_katechakis
+recruit_character = greece_stefanos_sarafis
+recruit_character = greece_napoleon_soukatzidis
+recruit_character = greece_pantelis_pouliopoulos
+recruit_character = greece_seraphim_maximos
+recruit_character = greece_kostas_hatzopoulos
+oob = "HEL_1919"
+starting_train_buffer = 100
+set_research_slots = 3
+set_stability = 0.53
+set_war_support = 0.65
+add_command_power = 50
+set_convoys = 300
+give_guarantee = THR
+give_military_access = THR
+set_autonomy = { target = THR autonomy_state = autonomy_ee_protectorate }
+set_politics = {
+	ruling_party = democratic
+	last_election = "1915.1.1"
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 14
+	libertarian_socialism = 4
+	social_democracy = 8
+	democratic = 28
+	market_liberalism = 12
+	fascism = 10
+	neutrality = 18
+	esotericism = 6
+}
+set_party_name = {
+	ideology = communism
+	long_name = "Socialist Labour Party of Greece"
+	name = "SEKE"
+}
+set_party_name = {
+	ideology = libertarian_socialism
+	long_name = "Federation of Thessaloniki"
+	name = "Fédération"
+}
+set_party_name = {
+	ideology = social_democracy
+	long_name = "Agrarian Party of Greece"
+	name = "AKE"
+}
+set_party_name = {
+	ideology = democratic
+	long_name = "Political wing of the Liberal Party"
+	name = "Liberal Party (L)"
+}
+set_party_name = {
+	ideology = market_liberalism
+	long_name = "Freethinker's party (Gounaris)"
+	name = "Freethinker's party (Gounarist)"
+}
+set_party_name = {
+	ideology = fascism
+	long_name = "Military wing of the Liberal Party"
+	name = "Liberal Party (N)"
+}
+set_party_name = {
+	ideology = neutrality
+	long_name = "Freethinker's party (Mataxas)"
+	name = "Freethinker's party (Metaxist)"
+}
+set_party_name = {
+	ideology = esotericism
+	long_name = "Military Council"
+	name = "Council of Rejuvination"
+}
+
+# === COMMUNISM ===
+create_country_leader = {
+	name = "Pantelis Pouliopoulos"
+	picture = "HEL_pantelis_pouliopoulos.dds"
+	ideology = bolshevism
+	expire = "1965.1.1"
+	traits = { popular_figurehead }
+}
+
+# === LIBERTARIAN SOCIALISM ===
+create_country_leader = {
+	name = "Avraam Benaroya"
+	picture = "HEL_avraam_benaroya.dds"
+	ideology = ee_communal_federalism
+	expire = "1965.1.1"
+	traits = { efficient_bureaucrat }
+}
+
+# === SOCIAL DEMOCRACY ===
+create_country_leader = {
+	name = "Ioannis Sofianopoulos"
+	picture = "HEL_Ioannis_Sofianopoulos.dds"
+	ideology = ee_agrarian_social_democracy
+	expire = "1965.1.1"
+	traits = { cornered_market }
+}
+
+# === DEMOCRATIC ===
+create_country_leader = {
+	name = "Alexandros Zaimis"
+	picture = "HEL_alexandros_zaimis.dds"
+	ideology = ee_conservative_liberalism
+	expire = "1965.1.1"
+	traits = { cautious_reformer }
+}
+
+create_country_leader = {
+	name = "Eleftherios Venizelos"
+	picture = "HEL_eleftherios_venizelos.dds"
+	ideology = ee_liberal_nationalism
+	expire = "1965.1.1"
+	traits = { strong_leader }
+}
+
+# === MARKET LIBERALISM ===
+create_country_leader = {
+	name = "Alexander of Greece"
+	picture = "HEL_alexander_of_greece.dds"
+	ideology = ee_social_conservatism
+	expire = "1965.1.1"
+	traits = { compromise_king }
+}
+
+create_country_leader = {
+	name = "Aristotle Onassis"
+	picture = "HEL_aristotle_onassis.dds"
+	ideology = ee_fiscal_conservatism
+	expire = "1965.1.1"
+	traits = { financial_expert }
+}
+
+create_country_leader = {
+	name = "Dimitrios Gounaris"
+	picture = "HEL_dimitrios_gounaris.dds"
+	ideology = ee_autocratic_capitalism
+	expire = "1965.1.1"
+	traits = { constitutional_king }
+}
+
+# === FASCISM ===
+create_country_leader = {
+	name = "Elefthérios Venizélos"
+	picture = "HEL_eleftherios_venizelos.dds"
+	ideology = palingenesis
+	expire = "1965.1.1"
+	traits = { dictator }
+}
+
+create_country_leader = {
+	name = "Nikolaos Plastiras"
+	picture = "HEL_nikolaos_plastiras.dds"
+	ideology = palingenesis
+	expire = "1965.1.1"
+	traits = { junta_member }
+}
+
+# === AUTHORITARIAN ===
+create_country_leader = {
+	name = "George II of Greece"
+	picture = "HEL_prince_george_ii_of_greece.dds"
+	ideology = ee_reactionary_constitutionalism
+	expire = "1965.1.1"
+	traits = { cautious_reformer }
+}
+
+create_country_leader = {
+	name = "Ioannis Metaxas"
+	picture = "HEL_ioannis_metaxas.dds"
+	ideology = ee_national_authoritarianism
+	expire = "1965.1.1"
+	traits = { war_hero }
+}
+
+create_country_leader = {
+	name = "Constantine I of Greece"
+	picture = "HEL_constantine_i_of_greece.dds"
+	ideology = ee_centralized_monarchy
+	expire = "1923.3.5"
+	traits = { cornered_market }
+}
+
+# === ESOTERICISM ===
+create_country_leader = {
+	name = "Georgios Tsolakogou"
+	picture = "HEL_georgios_tsolakoglou.dds"
+	ideology = ee_hellenic_rebirthist
+	expire = "1965.1.1"
+	traits = { hidden_sympathizer }
+}
+
+create_country_leader = {
+	name = "Theodoros Pangalos"
+	picture = "HEL_theodoros_pangalos.dds"
+	ideology = ee_hellenic_rebirthist
+	expire = "1965.1.1"
+	traits = { junta_member }
+}

@@ -1,0 +1,97 @@
+# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+set_politics = {
+	ruling_party = democratic
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 0
+	libertarian_socialism = 0
+	social_democracy = 15
+	democratic = 70
+	market_liberalism = 0
+	fascism = 15
+	neutrality = 0
+	esotericism = 0
+}
+set_party_name = {
+	ideology = democratic
+	long_name = "Directorate"
+	name = "Directorate"
+}
+set_party_name = {
+	ideology = libertarian_socialism
+	long_name = "Exiled Central Rada"
+	name = "Exiled Central Rada"
+}
+set_party_name = {
+	ideology = fascism
+	long_name = "OUN"
+	name = "OUN"
+}
+create_country_leader = {
+	name = "Symon Petliura"
+	picture = "Portrait_UPR_Symon_Petliura.dds"
+	ideology = ee_national_republicanism
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Mykhailo Hrushevsky"
+	picture = "Portrait_UPR_Mykhailo_Hrushevsky.dds"
+	ideology = ee_parliamentary_social_democracy
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Stepan Bandera"
+	picture = "Portrait_UPR_Stepan_Bandera.dds"
+	ideology = ee_radical_ukrainian_nationalism
+	expire = "1965.1.1"
+	traits = { }
+}
+
+capital = 91
+# Recruit Characters
+oob = "UPR_1919"
+starting_train_buffer = 200
+set_research_slots = 3
+set_stability = 0.7
+set_war_support = 0.8
+add_command_power = 24
+set_convoys = 0
+
+# Politics for 1919.1.1
+
+# Government/National Spirits
+add_ideas = {
+	all_adults_serve
+	extensive_conscription
+	limited_conscription
+	volunteer_only
+	partial_economic_mobilisation
+}
+
+1936.1.1 = {
+	oob = "UPR_1936"
+	starting_train_buffer = 0
+	set_research_slots = 3
+	set_stability = 0.5
+	set_war_support = 0.5
+	add_command_power = 0
+	set_convoys = 0
+
+	# Politics for 1936.1.1
+	
+}
+1939.1.1 = {
+	oob = "UPR_1939"
+	starting_train_buffer = 0
+	set_research_slots = 3
+	set_stability = 0.5
+	set_war_support = 0.5
+	add_command_power = 0
+	set_convoys = 0
+
+	# Politics for 1939.1.1
+	
+}

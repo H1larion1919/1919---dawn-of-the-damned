@@ -1,0 +1,15 @@
+state={
+	id=855
+	name="STATE_855"
+	history = {
+		owner = HEJ
+		add_core_of = HEJ
+	}
+	provinces={
+		1033 2027 2095 5099 8092 10835 12101 12455 13380 13381 13382 13392 
+	}
+	manpower=500000
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

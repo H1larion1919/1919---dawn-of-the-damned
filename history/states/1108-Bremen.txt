@@ -1,0 +1,48 @@
+state = {
+    id = 1108
+    name = "STATE_1108" # Bremen
+	manpower = 4096495
+	resources = {
+		oil = 4
+	}
+
+	state_category = large_city 
+	
+	history = {
+
+		owner = ENG
+		add_core_of = ENG
+		add_core_of = GER
+		add_core_of = WRE
+		add_core_of = SBK
+
+		victory_points = { 
+			6377 10
+		}
+
+
+
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 1
+			air_base = 4
+			dockyard = 2
+			6325 = {
+				naval_base = 1
+			}
+			374 = {
+				naval_base = 1
+			}
+		}
+
+		set_demilitarized_zone = yes
+
+	}
+
+	provinces = {
+		374 3271 3326 3395 6263 6298 6325 6349 6377
+	}
+	
+	local_supplies = 0.0 
+}

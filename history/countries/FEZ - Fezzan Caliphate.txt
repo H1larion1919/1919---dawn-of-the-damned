@@ -1,0 +1,32 @@
+# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+set_politics = {
+	ruling_party = neutrality
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 0
+	libertarian_socialism = 0
+	social_democracy = 0
+	democratic = 0
+	market_liberalism = 0
+	fascism = 0
+	neutrality = 0
+	esotericism = 100
+}
+set_party_name = {
+	ideology = neutrality
+	long_name = "Senussi Caliphate"
+	name = "Senussi Caliphate"
+}
+create_country_leader = {
+	name = "Ahmad al-Sharif al-Senussi"
+	picture = "Portrait_FEZ_Ahmad_al_Sharif_al_Senussi.dds"
+	ideology = ee_caliphal_theocracy
+	expire = "1965.1.1"
+	traits = { }
+}
+capital = 273
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.3
+set_convoys = 0

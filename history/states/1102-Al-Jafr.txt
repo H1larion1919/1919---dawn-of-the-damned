@@ -1,0 +1,22 @@
+state = {
+    id = 1102
+    name = "STATE_1102" # Al Jafr
+	manpower = 932000
+	state_category = rural
+	history = {
+		owner = PAL
+		add_core_of = PAL
+		add_core_of = KUW
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = { 
+			4562 2
+		}
+
+	}
+	provinces = { 4562 4603 11976  }
+	local_supplies = 0.0
+}

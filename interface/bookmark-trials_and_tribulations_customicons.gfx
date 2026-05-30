@@ -1,0 +1,7 @@
+spriteTypes = { 
+	##Icon For: Trials and Tribulations
+	SpriteType = { 
+		name = "trials_and_tribulations-853500"
+		texturefile = "gfx/interface/bookmarks/trials_and_tribulations-bookmark/trials_and_tribulations-853500.dds"
+	}
+}

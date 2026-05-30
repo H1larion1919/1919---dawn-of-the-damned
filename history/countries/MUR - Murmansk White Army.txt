@@ -1,0 +1,45 @@
+# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+set_politics = {
+	ruling_party = neutrality
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 0
+	libertarian_socialism = 0
+	social_democracy = 0
+	democratic = 0
+	market_liberalism = 0
+	fascism = 0
+	neutrality = 100
+	esotericism = 0
+}
+set_party_name = {
+	ideology = neutrality
+	long_name = "Northern White Command / White Command"
+	name = "Northern White Command / White Command"
+}
+create_country_leader = {
+	name = "Evgeny Miller"
+	picture = "Portrait_MUR_Evgeny_Miller.dds"
+	ideology = ee_military_administration
+	expire = "1965.1.1"
+	traits = { }
+}
+
+capital = 213
+set_research_slots = 2
+set_stability = 0.45
+set_war_support = 0.55
+set_convoys = 0
+
+add_ideas = {
+	scraping_the_barrel
+	all_adults_serve
+	extensive_conscription
+	limited_conscription
+	volunteer_only
+	civilian_economy
+	EE_no_clear_goal
+	EE_disunited_resistance
+	EE_fire_of_russia_white
+}

@@ -1,0 +1,28 @@
+state = {
+	id = 1050
+	name = "STATE_1050" # Syunik
+	manpower = 180000
+	resources = {
+		steel = 2
+	}
+	state_category = town
+	history = {
+		owner = AZR
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+		}
+
+		set_demilitarized_zone = yes
+
+		victory_points = { 
+			12450 5
+		}
+
+		add_core_of = AZR
+		add_core_of = ARM
+	}
+	provinces = { 4660 11708 12450 13123 }
+	local_supplies = 4.0
+}

@@ -1,0 +1,28 @@
+state = {
+	id = 341
+	name = "STATE_341"
+	resources = {
+	} # Adrianople
+	manpower = 300000
+	state_category = dd_capacity_7
+	history = {
+		owner = HEL
+		victory_points = { 
+			3893 5 # If HEL Adrianoupoli, if KTR, TSR or OTT: Edirne, else; Hadrianople
+		}
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = HEL
+		add_core_of = BUL
+		add_core_of = BPR
+		add_claim_by = KTR
+		add_claim_by = TSR
+		add_claim_by = OTT
+	}
+	provinces = { 922 3893 11842 }
+	local_supplies = 0.0
+}

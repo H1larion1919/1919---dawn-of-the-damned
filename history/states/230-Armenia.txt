@@ -1,0 +1,30 @@
+state = {
+	id = 230
+	name = "STATE_230"
+	resources = {
+	} # Erivan
+	history = {
+		owner = ARM
+		victory_points = { 
+			12320 3
+		}
+
+		victory_points = { 
+			12441 1
+		}
+
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			air_base = 2
+		}
+		add_core_of = ARM
+		add_claim_by = AZR
+	}
+	provinces = { 3564 12320 12380 12441 }
+	manpower = 650000
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.0
+}

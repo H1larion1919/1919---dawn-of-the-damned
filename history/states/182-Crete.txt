@@ -1,0 +1,38 @@
+state = {
+	id = 182
+	name = "STATE_182"
+	manpower = 280000
+	state_category = dd_capacity_5
+	resources = {
+		chromium = 2
+	}
+	history = {
+		owner = HEL
+		victory_points = { 
+			9940 5 # Irakleio
+		}
+
+		victory_points = { 
+			12058 3 # Khania
+		}
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 2
+			air_base = 2
+			12058 = {
+				naval_base = 1
+			}
+			9940 = {
+				naval_base = 3
+			}
+			3401 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = HEL
+	}
+	provinces = { 1164 4170 9940 12058 3401 }
+	local_supplies = 0.0
+}

@@ -1,0 +1,25 @@
+state = {
+	id = 1048
+	name = "STATE_1048"
+	resources = {
+	} # Erbil
+	manpower = 220000
+	state_category = large_city
+	history = {
+		owner = ASY
+		victory_points = { 
+			5014 3
+		}
+
+
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = KUR
+		add_claim_by = IRN
+		add_core_of = ASY
+		add_claim_by = AZR
+	}
+	provinces = { 10811 5014 }
+	local_supplies = 0.0
+}

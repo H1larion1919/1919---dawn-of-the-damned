@@ -1,0 +1,11 @@
+
+spriteTypes = {
+    spriteType = {
+        name = "GFX_focus_Victors_in_Asia_Minor"
+        texturefile = "gfx/interface/Vitctors in Asia Minor.dds"
+    }
+    spriteType = {
+        name = "GFX_focus_Retirement_of_Venizelos_A_new_age"
+        texturefile = "gfx/interface/Retirement of Venizelos, A new age.dds"
+    }
+}

@@ -1,0 +1,25 @@
+state = {
+    id = 1116
+    name = "STATE_1116" # Beogorod
+	history = {
+		owner = UKS
+
+		buildings = {
+			infrastructure = 3
+			air_base = 8
+		}
+		victory_points = { 
+			9449 8
+		}
+		add_claim_by = SOV
+		add_core_of = FSU
+		add_core_of = UPR
+		add_core_of = HUK
+		add_core_of = UKS
+		add_claim_by = PET
+	}
+	provinces = { 3409 3492 6432 6481 6517 9449 11439 }
+	manpower = 283827 
+	state_category = city
+	local_supplies = 0.0
+} 

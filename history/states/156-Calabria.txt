@@ -1,0 +1,24 @@
+state = {
+    id = 156
+    name = "STATE_156"
+    manpower = 760000
+    state_category = town
+    history = {
+        owner = SIM
+        victory_points = {
+            9990 2
+        }
+
+        buildings = {
+            infrastructure = 2
+            dockyard = 1
+            9990 = { naval_base = 2 }
+        }
+        add_core_of = ITA
+        add_core_of = IAR
+        add_core_of = SIM
+        add_core_of = UIS
+    }
+    provinces = { 9990 12066 }
+    local_supplies = 0.0
+}

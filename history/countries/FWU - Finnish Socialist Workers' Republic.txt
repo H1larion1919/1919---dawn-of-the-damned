@@ -1,0 +1,27 @@
+# capital = 1 # removed: tag owns no state at startup
+set_research_slots = 2
+set_stability = 0.4
+set_war_support = 0.3
+set_convoys = 0
+set_politics = {
+	ruling_party = communism
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 85
+	libertarian_socialism = 0
+	social_democracy = 0
+	democratic = 10
+	market_liberalism = 0
+	fascism = 0
+	neutrality = 5
+	esotericism = 0
+}
+create_country_leader = {
+    name = "Workers' Council"
+    desc = ""
+    picture = "Portrait_FWU_Workers_Council.dds"
+    expire = "1965.1.1"
+    ideology = bolshevism
+    traits = { }
+}

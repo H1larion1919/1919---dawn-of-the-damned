@@ -1,0 +1,27 @@
+state = {
+	id = 1078
+	name = "STATE_1078" # Aidin
+	manpower = 362689
+	resources = {
+		chromium = 35
+	}
+	state_category = large_city
+	history = {
+		owner = TSR
+		victory_points = { 
+			10038 5
+		}
+
+
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+		}
+		add_core_of = TSR
+		add_core_of = HEL
+		add_core_of = KTR
+		add_core_of = OTT
+	}
+	provinces = { 9929 9941 10038 }
+	local_supplies = 3.0
+}

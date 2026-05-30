@@ -1,0 +1,49 @@
+# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+set_politics = {
+	ruling_party = esotericism
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 0
+	libertarian_socialism = 0
+	social_democracy = 0
+	democratic = 0
+	market_liberalism = 0
+	fascism = 0
+	neutrality = 0
+	esotericism = 100
+}
+set_party_name = {
+	ideology = esotericism
+	long_name = "Tyrolean Defense League"
+	name = "Tyrolean Defense League"
+}
+create_country_leader = {
+	name = "Eduard Reut-Nicolussi"
+	picture = "Portrait_TYR_Eduard_Reut_Nicolussi.dds"
+	ideology = ee_clerical_regionalism
+	expire = "1965.1.1"
+	traits = { }
+}
+
+capital = 39
+# Recruit Characters
+oob = "TYR_1919"
+starting_train_buffer = 101
+set_research_slots = 2
+set_stability = 0.7
+set_war_support = 0.3
+add_command_power = 25
+set_convoys = 0
+
+# Politics for 1919.1.1
+
+# Government/National Spirits
+add_ideas = {
+	scraping_the_barrel
+	all_adults_serve
+	extensive_conscription
+	limited_conscription
+	volunteer_only
+	civilian_economy
+}

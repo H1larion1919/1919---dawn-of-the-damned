@@ -1,0 +1,27 @@
+state = {
+	id = 413
+	name = "STATE_413"
+	manpower = 500000
+	resources = {
+		oil = 18
+	}
+	state_category = rural
+	history = {
+		owner = KUW
+		add_core_of = KUW
+		add_claim_by = IRN
+
+		buildings = {
+			infrastructure = 3
+			5005 = {
+				naval_base = 1
+			}
+		}
+		victory_points = { 
+			7953 1
+		}
+
+	}
+	provinces = { 5005 5089 7953 10774 }
+	local_supplies = 0.0
+}

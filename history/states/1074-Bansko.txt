@@ -1,0 +1,28 @@
+state = {
+	id = 1074
+	name = "STATE_1074" 
+	manpower = 200000
+	resources = {
+		chromium = 2
+		aluminium = 1
+	}
+	state_category = large_city
+	history = {
+		owner = BUL
+		victory_points = { 
+			6857 5
+		}
+
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 6
+			air_base = 3
+		}
+		add_core_of = BUL
+		add_core_of = BPR
+		add_core_of = MAC
+	}
+	provinces = { 6857 9818 }
+	local_supplies = 8.0
+}

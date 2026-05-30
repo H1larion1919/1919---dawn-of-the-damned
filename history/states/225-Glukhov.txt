@@ -1,0 +1,25 @@
+state = {
+	id = 225
+	name = "STATE_225"
+	manpower = 1338280
+	state_category = town
+	history = {
+		victory_points = { 
+			522 4
+		}
+
+		owner = UKS
+
+		buildings = {
+			infrastructure = 3
+		}
+		add_claim_by = SOV
+		add_core_of = FSU
+		add_core_of = UPR
+		add_core_of = HUK
+		add_core_of = UKS
+		add_claim_by = PET
+	}
+	provinces = { 463 522 6565 9477 9566 11462 } 
+	local_supplies = 0.0
+}

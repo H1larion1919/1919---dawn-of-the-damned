@@ -1,0 +1,71 @@
+# Create units
+division_template = {
+	name = "Imperial Infantry Division"
+	division_names_group = "OTT_DIV_0_0"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		artillery_brigade = { x = 2 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Hamidian Reserve Division"
+	division_names_group = "OTT_DIV_0_0"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Imperial Cavalry Brigade"
+	division_names_group = "OTT_DIV_0_0"
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+
+# Spawn units
+units = {
+	division = { name = "1th Imperial Division" location = 11883 division_template = "Imperial Infantry Division" }
+	division = { name = "2th Imperial Division" location = 904 division_template = "Imperial Infantry Division" }
+	division = { name = "3th Imperial Division" location = 11881 division_template = "Hamidian Reserve Division" }
+	division = { name = "4th Imperial Division" location = 6919 division_template = "Hamidian Reserve Division" }
+	division = { name = "5th Imperial Division" location = 11826 division_template = "Imperial Infantry Division" }
+	division = { name = "6th Imperial Division" location = 919 division_template = "Imperial Cavalry Brigade" }
+	division = { name = "7th Imperial Division" location = 11881 division_template = "Imperial Infantry Division" }
+	division = { name = "8th Imperial Division" location = 11883 division_template = "Imperial Infantry Division" }
+	division = { name = "9th Imperial Division" location = 904 division_template = "Imperial Infantry Division" }
+	division = { name = "10th Imperial Division" location = 11881 division_template = "Hamidian Reserve Division" }
+	division = { name = "11th Imperial Division" location = 6919 division_template = "Hamidian Reserve Division" }
+	division = { name = "12th Imperial Division" location = 11826 division_template = "Imperial Infantry Division" }
+	division = { name = "13th Imperial Division" location = 919 division_template = "Imperial Cavalry Brigade" }
+	division = { name = "14th Imperial Division" location = 11881 division_template = "Imperial Infantry Division" }
+	division = { name = "15th Imperial Division" location = 11883 division_template = "Imperial Infantry Division" }
+	division = { name = "16th Imperial Division" location = 904 division_template = "Imperial Infantry Division" }
+	division = { name = "17th Imperial Division" location = 11881 division_template = "Hamidian Reserve Division" }
+	division = { name = "18th Imperial Division" location = 6919 division_template = "Hamidian Reserve Division" }
+	division = { name = "19th Imperial Division" location = 11826 division_template = "Imperial Infantry Division" }
+	division = { name = "20th Imperial Division" location = 919 division_template = "Imperial Cavalry Brigade" }
+}

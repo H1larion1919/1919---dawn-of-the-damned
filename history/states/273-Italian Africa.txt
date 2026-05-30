@@ -1,0 +1,27 @@
+state = {
+	id = 273
+	name = "STATE_273" # Libyan Desert
+	manpower = 42633
+	
+	state_category = wasteland
+	impassable = yes
+	force_link_ownership_to = 662 # Fazzan
+
+	history = {
+
+		owner = FEZ
+		add_core_of = FEZ
+
+
+		buildings = {
+			infrastructure = 0
+		}
+		
+	}
+
+	provinces = {
+		1057 1994 10754 
+	}
+
+	local_supplies = 0.0 
+}

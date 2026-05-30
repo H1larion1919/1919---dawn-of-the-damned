@@ -1,0 +1,45 @@
+# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+set_politics = {
+	ruling_party = fascism
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 0
+	libertarian_socialism = 0
+	social_democracy = 30
+	democratic = 0
+	market_liberalism = 0
+	fascism = 70
+	neutrality = 0
+	esotericism = 0
+}
+set_party_name = {
+	ideology = fascism
+	long_name = "Akali Movement"
+	name = "Akali Movement"
+}
+set_party_name = {
+	ideology = libertarian_socialism
+	long_name = "Congress"
+	name = "Congress"
+}
+create_country_leader = {
+	name = "Kharak Singh"
+	picture = "Portrait_SNG_Kharak_Singh.dds"
+	ideology = ee_sikh_nationalism
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Congress Influence"
+	picture = "Portrait_SNG_Congress_Influence.dds"
+	ideology = ee_pan_indian_reformism
+	expire = "1965.1.1"
+	traits = { }
+}
+
+capital = 986
+set_research_slots = 2
+set_stability = 0.68
+set_war_support = 0.44
+set_convoys = 0

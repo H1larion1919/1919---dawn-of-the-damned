@@ -1,0 +1,27 @@
+# capital = 586 # removed: tag owns no state at startup
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.3
+set_convoys = 0
+set_politics = {
+	ruling_party = democratic
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 0
+	libertarian_socialism = 0
+	social_democracy = 0
+	democratic = 70
+	market_liberalism = 0
+	fascism = 0
+	neutrality = 30
+	esotericism = 0
+}
+create_country_leader = {
+	name = "Kyrgyz Republic Council"
+	desc = ""
+	picture = "Portrait_KYR_Kyrgyz_Republic_Council.dds"
+	expire = "1965.1.1"
+	ideology = republicanism
+	traits = { }
+}

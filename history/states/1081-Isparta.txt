@@ -1,0 +1,23 @@
+state = {
+	id = 1081
+	name = "STATE_1081"
+	manpower = 362689
+	state_category = town
+	history = {
+		owner = TSR
+		victory_points = { 
+			11907 3 # Isparta
+		}
+
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = TSR
+		add_core_of = KTR
+		add_core_of = OTT
+	}
+	provinces = { 784 3876 9878 11907 12016 }
+	local_supplies = 4.0
+}

@@ -1,0 +1,25 @@
+state = {
+	id = 5
+	name = "STATE_5"
+	manpower = 1238108
+	state_category = town
+	history = {
+		owner = PGN
+		add_core_of = GER
+		add_core_of = WRE
+		add_core_of = SBK
+		add_core_of = PFA
+		add_core_of = PGN
+		add_core_of = POL
+		victory_points = { 
+			6375 3
+		}
+
+
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = { 3351 6375 9327 9346 9372 11386 }
+	local_supplies = 12.0
+}

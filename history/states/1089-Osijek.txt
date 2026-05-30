@@ -1,0 +1,24 @@
+state = {
+	id = 1089
+	name = "STATE_1089" # Osijek
+	history = {
+		victory_points = { 
+			9608 3
+		}
+
+		owner = HNG
+
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = HNG
+		add_claim_by = CRO
+		add_core_of = YUG
+		add_core_of = BNT
+	}
+	provinces = { 619 3623 9608 }
+	manpower = 328287
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.0
+}
