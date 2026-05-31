@@ -1,4 +1,4 @@
 graphical_culture = european_gfx
 graphical_culture_2d = european_2d
-color = { 76 132 104 }
+color = rgb { 81 104 92 }
 

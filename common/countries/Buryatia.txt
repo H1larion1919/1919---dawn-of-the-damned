@@ -3,4 +3,4 @@
 graphical_culture = asian_gfx
 graphical_culture_2d = asian_2d
 
-color = { 0 64 255 }
+color = rgb { 55 81 162 }

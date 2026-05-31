@@ -3,7 +3,7 @@
 graphical_culture = sami_gfx
 graphical_culture_2d = sami_2d
 
-color = rgb { 242 236 99 }
+color = rgb { 185 180 90 }
 
 #BLUE 161, 202, 238
 
