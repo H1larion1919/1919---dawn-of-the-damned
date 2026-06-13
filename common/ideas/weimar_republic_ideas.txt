@@ -2,10 +2,8 @@ ideas = {
 	country = {
 		WRE_institutional_legitimacy = {
 			picture = generic_political_discourse
-			allowed = { original_tag = WRE }
-			available = { always = no }
+			allowed = { always = yes }
 			removal_cost = -1
-			cancel_if_invalid = no
 			modifier = {
 				stability_factor = 0.12
 				political_power_gain = 0.20
@@ -14,10 +12,8 @@ ideas = {
 		}
 		WRE_bundestag = {
 			picture = generic_political_discourse
-			allowed = { original_tag = WRE }
-			available = { always = no }
+			allowed = { always = yes }
 			removal_cost = -1
-			cancel_if_invalid = no
 			modifier = {
 				stability_factor = 0.05
 				political_power_gain = 0.08
@@ -28,10 +24,8 @@ ideas = {
 		}
 		WRE_military_shadow = {
 			picture = generic_army_support
-			allowed = { original_tag = WRE }
-			available = { always = no }
+			allowed = { always = yes }
 			removal_cost = -1
-			cancel_if_invalid = no
 			modifier = {
 				stability_factor = -0.03
 				war_support_factor = 0.08
@@ -43,10 +37,8 @@ ideas = {
 		}
 		WRE_hyperinflation = {
 			picture = generic_strike
-			allowed = { original_tag = WRE }
-			available = { always = no }
+			allowed = { always = yes }
 			removal_cost = -1
-			cancel_if_invalid = no
 			modifier = {
 				stability_factor = -0.20
 				political_power_gain = -0.35
@@ -57,61 +49,37 @@ ideas = {
 			}
 		}
 		WRE_treaty_of_westfallia = {
-			picture = generic_disjointed_government
-			allowed = {
-				original_tag = WRE
-				NOT = {
-					owns_state = 42
-					owns_state = 50
-					owns_state = 51
-					owns_state = 52
-					owns_state = 53
-					owns_state = 54
-					owns_state = 59
-					owns_state = 60
-					owns_state = 61
-					owns_state = 62
-					owns_state = 64
-					owns_state = 65
-					owns_state = 66
-					owns_state = 68
-					owns_state = 763
-					owns_state = 978
-					owns_state = 1103
-					owns_state = 1104
-					owns_state = 1106
-					owns_state = 1109
-					owns_state = 1110
-				}
-			}
-			available = {
-				original_tag = WRE
-				NOT = {
-					owns_state = 42
-					owns_state = 50
-					owns_state = 51
-					owns_state = 52
-					owns_state = 53
-					owns_state = 54
-					owns_state = 59
-					owns_state = 60
-					owns_state = 61
-					owns_state = 62
-					owns_state = 64
-					owns_state = 65
-					owns_state = 66
-					owns_state = 68
-					owns_state = 763
-					owns_state = 978
-					owns_state = 1103
-					owns_state = 1104
-					owns_state = 1106
-					owns_state = 1109
-					owns_state = 1110
-				}
-			}
+			picture = WRE_treaty_of_westfallia
+			allowed = { always = yes }
 			removal_cost = -1
-			cancel_if_invalid = yes
+			cancel = {
+				OR = {
+					NOT = { original_tag = WRE }
+					AND = {
+						owns_state = 42
+						owns_state = 50
+						owns_state = 51
+						owns_state = 52
+						owns_state = 53
+						owns_state = 54
+						owns_state = 59
+						owns_state = 60
+						owns_state = 61
+						owns_state = 62
+						owns_state = 64
+						owns_state = 65
+						owns_state = 66
+						owns_state = 68
+						owns_state = 763
+						owns_state = 978
+						owns_state = 1103
+						owns_state = 1104
+						owns_state = 1106
+						owns_state = 1109
+						owns_state = 1110
+					}
+				}
+			}
 			modifier = {
 				stability_factor = -0.30
 				war_support_factor = -0.25
@@ -128,19 +96,16 @@ ideas = {
 			}
 		}
 		WRE_germany_divided = {
-			picture = generic_political_discourse
-			allowed = {
-				original_tag = WRE
-				GER = { exists = yes }
-				SBK = { exists = yes }
-			}
-			available = {
-				original_tag = WRE
-				GER = { exists = yes }
-				SBK = { exists = yes }
-			}
+			picture = GER_germany_divided
+			allowed = { always = yes }
 			removal_cost = -1
-			cancel_if_invalid = yes
+			cancel = {
+				OR = {
+					NOT = { original_tag = WRE }
+					NOT = { GER = { exists = yes } }
+					NOT = { SBK = { exists = yes } }
+				}
+			}
 			modifier = {
 				stability_factor = -0.08
 				political_power_gain = -0.10
@@ -149,3 +114,4 @@ ideas = {
 		}
 	}
 }
+

@@ -1,16 +1,17 @@
 # Generated from world_data_master_file.txt by rebuild_world_leaders.py
 set_politics = {
-	ruling_party = democratic
+	ruling_party = military_junta
 	elections_allowed = no
 }
 set_popularities = {
 	communism = 0
-	libertarian_socialism = 0
+	libertarian_socialism = 0
 	social_democracy = 0
-	democratic = 70
+	democratic = 0
 	market_liberalism = 0
-	fascism = 15
-	neutrality = 15
+	military_junta = 33
+	fascism = 33
+	neutrality = 34
 	esotericism = 0
 }
 # Freikorps triangle initial state. Kept direct here because country history is safer with native effects than scripted-effect calls.
@@ -19,12 +20,6 @@ set_variable = { GER_freikorps_reform = 0 }
 set_variable = { GER_freikorps_radicalism = 0 }
 set_country_flag = GER_freikorps_dot_center
 add_ideas = {
-	GER_freikorps_voran
-	GER_germany_divided
-	GER_stabbed_in_the_back
-	GER_prussian_legacy
-	GER_split_in_twane
-	GER_unstable_triumvirate
 	dd_governance_oligarchy
 	dd_law_heresay_laws
 	dd_society_traditionalism
@@ -32,8 +27,16 @@ add_ideas = {
 	dd_popularity_high
 	dd_militarism_war_society
 }
+add_ideas = {
+	GER_freikorps_voran
+	GER_germany_divided
+	GER_stabbed_in_the_back
+	GER_prussian_legacy
+	GER_split_in_twane
+	GER_unstable_triumvirate
+}
 set_party_name = {
-	ideology = democratic
+	ideology = military_junta
 	long_name = "Luttwitz Liberal Directorate"
 	name = "Luttwitz Directorate"
 }

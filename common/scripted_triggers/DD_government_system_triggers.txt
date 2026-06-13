@@ -1,0 +1,11 @@
+dd_has_history_government_laws = {
+	OR = {
+		has_idea = dd_governance_anarchy
+		has_idea = dd_governance_libertarianism
+		has_idea = dd_governance_decentralised
+		has_idea = dd_governance_representativism
+		has_idea = dd_governance_authoritarianism
+		has_idea = dd_governance_oligarchy
+		has_idea = dd_governance_totalitarianism
+	}
+}

@@ -1,27 +1,29 @@
-﻿# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+# Generated from world_data_master_file.txt by rebuild_world_leaders.py
 set_politics = {
-	ruling_party = communism
+	ruling_party = syndicate_socialism
 	elections_allowed = no
 }
 set_popularities = {
-	communism = 70
+	syndicate_socialism = 70
 	libertarian_socialism = 0
+
 	social_democracy = 30
 	democratic = 0
 	market_liberalism = 0
+
 	fascism = 0
 	neutrality = 0
 	esotericism = 0
 }
 set_party_name = {
-	ideology = communism
-	long_name = "Communist Party"
-	name = "Communist Party"
+	ideology = syndicate_socialism
+	long_name = "Menshevik Faction of the Social Revolutionaries"
+	name = "Mensheviks"
 }
 set_party_name = {
-	ideology = libertarian_socialism
-	long_name = "Right Communists"
-	name = "Right Communists"
+	ideology = social_democracy
+	long_name = "Left Social Revolutionaries"
+	name = "Left SRs"
 }
 create_country_leader = {
 	name = "Leon Trotsky"
@@ -32,7 +34,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	name = "Nikolai Bukharin"
-	picture = "Portrait_SOV_Nikolai_Bukharin.dds"
+	picture = "reformist_socialism.dds"
 	ideology = ee_moderate_communism
 	expire = "1965.1.1"
 	traits = { }

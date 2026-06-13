@@ -27,6 +27,9 @@ idea_categories = {
 		character_slot = political_advisor
 		character_slot = political_advisor
 		character_slot = political_advisor
+		slot = dd_coalition_first_party
+		slot = dd_coalition_second_party
+		slot = dd_coalition_dominance
 		
 		ledger = civilian
 		
@@ -221,4 +224,7 @@ slot_ledgers = {
 	dd_economy = civilian
 	dd_popularity = civilian
 	dd_militarism = civilian
+	dd_coalition_first_party = civilian
+	dd_coalition_second_party = civilian
+	dd_coalition_dominance = civilian
 }

@@ -1,4 +1,4 @@
-﻿capital = 184
+capital = 184
 # Recruit Characters
 recruit_character = un_coincil_league_of_nations_council
 oob = "THR_1919"
@@ -22,10 +22,10 @@ set_politics = {
 }
 set_popularities = {
 	communism = 17
-	libertarian_socialism = 0
+	libertarian_socialism = 0
 	social_democracy = 0
 	democratic = 66
-	market_liberalism = 0
+	market_liberalism = 0
 	fascism = 11
 	neutrality = 6
 	esotericism = 0

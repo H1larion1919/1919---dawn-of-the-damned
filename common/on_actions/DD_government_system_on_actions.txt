@@ -2,7 +2,15 @@ on_actions = {
 	on_startup = {
 		effect = {
 			every_country = {
-				dd_assign_ideology_government_laws = yes
+				if = {
+					limit = { dd_has_history_government_laws = yes }
+					dd_preserve_history_government_laws = yes
+				}
+				else = {
+					dd_assign_ideology_government_laws = yes
+				}
+				dd_apply_starting_national_spirits = yes
+				dd_apply_starting_coalitions = yes
 			}
 		}
 	}
@@ -11,6 +19,7 @@ on_actions = {
 		effect = {
 			every_country = {
 				dd_refresh_government_system = yes
+				dd_refresh_coalition_system = yes
 			}
 		}
 	}

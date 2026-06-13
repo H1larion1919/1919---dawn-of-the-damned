@@ -154,7 +154,7 @@ country_event = {
 		name = ee_scandinavia.10.a
 		ai_chance = { factor = 0 }
 		set_politics = { ruling_party = communism elections_allowed = no }
-		set_popularities = { democratic = 0 communism = 100 libertarian_socialism = 0 fascism = 0 neutrality = 0 }
+		set_popularities = { democratic = 0 communism = 100 libertarian_socialism = 0 fascism = 0 neutrality = 0 syndicate_socialism = 0 military_junta = 0 }
 		remove_ideas = EE_ved_nordsjoen
 		add_ideas = EE_sapmi_resistance
 		every_state = {
@@ -168,7 +168,7 @@ country_event = {
 		trigger = { has_political_power > 149 }
 		add_political_power = -150
 		set_politics = { ruling_party = libertarian_socialism elections_allowed = no }
-		set_popularities = { democratic = 0 communism = 0 libertarian_socialism = 100 fascism = 0 neutrality = 0 }
+		set_popularities = { democratic = 0 communism = 0 libertarian_socialism = 100 fascism = 0 neutrality = 0 syndicate_socialism = 0 military_junta = 0 }
 		remove_ideas = EE_sapmi_resistance
 		add_ideas = EE_ved_nordsjoen
 		add_manpower = 150000

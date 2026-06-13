@@ -1,4 +1,4 @@
-# load_focus_tree = HEL_focus
+load_focus_tree = HEL_focus
 capital = 47
 # Recruit Characters
 recruit_character = greece_eleftherios_venizelos
@@ -40,7 +40,7 @@ recruit_character = greece_kostas_hatzopoulos
 oob = "HEL_1919"
 starting_train_buffer = 100
 set_research_slots = 3
-set_stability = 0.53
+set_stability = 0
 set_war_support = 0.65
 add_command_power = 50
 set_convoys = 300
@@ -56,6 +56,8 @@ add_ideas = {
 	dd_economy_state_capitalism
 	dd_popularity_high
 	dd_militarism_war_society
+}
+add_ideas = {
 	HEL_scars_from_national_schism
 	HEL_a_decade_of_war
 	HEL_age_of_venizelos
@@ -67,14 +69,14 @@ if = {
 		owns_state = 1068
 		owns_state = 1072
 	}
-	add_ideas = HEL_revenge_for_1453
+	add_ideas = { HEL_revenge_for_1453 }
 	add_opinion_modifier = { target = KTR modifier = HEL_revenge_for_1453_opinion }
 	add_opinion_modifier = { target = OTT modifier = HEL_revenge_for_1453_opinion }
 	add_opinion_modifier = { target = TSR modifier = HEL_revenge_for_1453_opinion }
 }
 if = {
 	limit = { owns_state = 339 }
-	add_ideas = HEL_both_sides_of_the_shore
+	add_ideas = { HEL_both_sides_of_the_shore }
 }
 give_guarantee = THR
 give_military_access = THR
@@ -83,10 +85,10 @@ set_popularities = {
 	communism = 14
 	libertarian_socialism = 4
 	social_democracy = 8
-	democratic = 28
+	democratic = 34
 	market_liberalism = 12
 	fascism = 10
-	neutrality = 18
+	neutrality = 12
 	esotericism = 6
 }
 set_party_name = {

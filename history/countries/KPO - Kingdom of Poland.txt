@@ -1,4 +1,4 @@
-﻿# Recruit Characters
+# Recruit Characters
 oob = "KPO_1919"
 starting_train_buffer = 200
 set_research_slots = 2
@@ -16,10 +16,10 @@ set_politics = {
 }
 set_popularities = {
 	communism = 33
-	libertarian_socialism = 0
+	libertarian_socialism = 0
 	social_democracy = 0
 	democratic = 34
-	market_liberalism = 0
+	market_liberalism = 0
 	fascism = 22
 	neutrality = 11
 	esotericism = 0

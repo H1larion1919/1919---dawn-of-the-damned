@@ -1,14 +1,14 @@
-﻿# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+# Generated from world_data_master_file.txt by rebuild_world_leaders.py
 set_politics = {
 	ruling_party = neutrality
 	elections_allowed = no
 }
 set_popularities = {
 	communism = 0
-	libertarian_socialism = 0
+	libertarian_socialism = 0
 	social_democracy = 20
 	democratic = 10
-	market_liberalism = 0
+	market_liberalism = 0
 	fascism = 35
 	neutrality = 35
 	esotericism = 0
@@ -114,9 +114,14 @@ set_autonomy = { target = SAF autonomy_state = autonomy_ee_colony }
 
 # Government/National Spirits
 add_ideas = {
-	volunteer_only
-	war_economy
+	dd_governance_oligarchy
+	dd_law_strong_norms
+	dd_society_strict_hierarchy
+	dd_economy_state_capitalism
 	dd_popularity_medium
+	dd_militarism_militarised_state
+}
+add_ideas = {
 	ENG_royal_act_of_national_security_and_sovereignty
 	ENG_oswald_mosley
 	ENG_anti_communist_watchdogs

@@ -1,4 +1,4 @@
-﻿capital = 114
+capital = 114
 # Recruit Characters
 oob = "TRH_1919"
 starting_train_buffer = 100
@@ -17,10 +17,10 @@ set_politics = {
 }
 set_popularities = {
 	communism = 15
-	libertarian_socialism = 0
+	libertarian_socialism = 0
 	social_democracy = 0
 	democratic = 65
-	market_liberalism = 0
+	market_liberalism = 0
 	fascism = 10
 	neutrality = 10
 	esotericism = 0

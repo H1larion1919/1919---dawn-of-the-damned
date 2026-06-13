@@ -1,20 +1,21 @@
-﻿# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+# Generated from world_data_master_file.txt by rebuild_world_leaders.py
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = military_junta
 	elections_allowed = no
 }
 set_popularities = {
 	communism = 0
-	libertarian_socialism = 0
+	libertarian_socialism = 0
 	social_democracy = 0
 	democratic = 0
 	market_liberalism = 0
+	military_junta = 100
 	fascism = 0
-	neutrality = 100
+	neutrality = 0
 	esotericism = 0
 }
 set_party_name = {
-	ideology = neutrality
+	ideology = military_junta
 	long_name = "Joint Command Authority"
 	name = "Joint Command Authority"
 }

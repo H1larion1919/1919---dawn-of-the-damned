@@ -1,14 +1,14 @@
-﻿# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+# Generated from world_data_master_file.txt by rebuild_world_leaders.py
 set_politics = {
 	ruling_party = social_democracy
 	elections_allowed = no
 }
 set_popularities = {
 	communism = 0
-	libertarian_socialism = 0
+	libertarian_socialism = 0
 	social_democracy = 86
 	democratic = 0
-	market_liberalism = 0
+	market_liberalism = 0
 	fascism = 7
 	neutrality = 7
 	esotericism = 0
@@ -25,8 +25,8 @@ set_party_name = {
 }
 set_party_name = {
 	ideology = social_democracy
-	long_name = "Sozialdemokratische Arbeiterpartei Ã–sterreichs"
-	name = "Sozialdemokratische Arbeiterpartei Ã–sterreichs"
+	long_name = "Sozialdemokratische Arbeiterpartei Österreichs"
+	name = "Sozialdemokratische Arbeiterpartei Österreichs"
 }
 set_party_name = {
 	ideology = neutrality

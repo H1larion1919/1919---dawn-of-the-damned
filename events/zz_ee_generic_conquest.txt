@@ -62,7 +62,8 @@ country_event = {
 					communism = 0
 					neutrality = 0
 					libertarian_socialism = 0
-				}
+					syndicate_socialism = 0 military_junta = 0
+}
 				every_owned_state = {
 					limit = { OR = { is_core_of = ROOT is_claimed_by = ROOT } }
 					transfer_state_to = ROOT
@@ -135,7 +136,8 @@ country_event = {
 				communism = 0
 				neutrality = 0
 				libertarian_socialism = 0
-			}
+				syndicate_socialism = 0 military_junta = 0
+}
 			every_owned_state = {
 				limit = { OR = { is_core_of = ROOT is_claimed_by = ROOT } }
 				transfer_state_to = ROOT

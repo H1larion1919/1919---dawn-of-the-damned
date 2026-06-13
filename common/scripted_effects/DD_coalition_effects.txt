@@ -1,0 +1,288 @@
+dd_clear_coalition_first_party = {
+	remove_ideas = {
+		dd_coalition_first_vacant
+		dd_coalition_first_communism
+		dd_coalition_first_libertarian_socialism
+		dd_coalition_first_syndicate_socialism
+		dd_coalition_first_social_democracy
+		dd_coalition_first_democratic
+		dd_coalition_first_market_liberalism
+		dd_coalition_first_military_junta
+		dd_coalition_first_neutrality
+		dd_coalition_first_fascism
+		dd_coalition_first_esotericism
+	}
+}
+
+dd_clear_coalition_second_party = {
+	remove_ideas = {
+		dd_coalition_second_vacant
+		dd_coalition_second_communism
+		dd_coalition_second_libertarian_socialism
+		dd_coalition_second_syndicate_socialism
+		dd_coalition_second_social_democracy
+		dd_coalition_second_democratic
+		dd_coalition_second_market_liberalism
+		dd_coalition_second_military_junta
+		dd_coalition_second_neutrality
+		dd_coalition_second_fascism
+		dd_coalition_second_esotericism
+	}
+}
+
+dd_clear_coalition_dominance = {
+	remove_ideas = {
+		dd_coalition_dominant_member
+		dd_coalition_contested_authority
+		dd_coalition_least_influential
+		dd_coalition_collapsed
+		dd_coalition_absolute_popularity
+	}
+}
+
+dd_clear_coalition_ministries = {
+	dd_clear_coalition_first_party = yes
+	dd_clear_coalition_second_party = yes
+	dd_clear_coalition_dominance = yes
+	remove_ideas = dd_national_supermajority
+}
+
+dd_ensure_coalition_slots_filled = {
+	if = {
+		limit = {
+			NOT = {
+				OR = {
+					has_idea = dd_coalition_first_vacant
+					has_idea = dd_coalition_first_communism
+					has_idea = dd_coalition_first_libertarian_socialism
+					has_idea = dd_coalition_first_syndicate_socialism
+					has_idea = dd_coalition_first_social_democracy
+					has_idea = dd_coalition_first_democratic
+					has_idea = dd_coalition_first_market_liberalism
+					has_idea = dd_coalition_first_military_junta
+					has_idea = dd_coalition_first_neutrality
+					has_idea = dd_coalition_first_fascism
+					has_idea = dd_coalition_first_esotericism
+				}
+			}
+		}
+		add_ideas = dd_coalition_first_vacant
+	}
+	if = {
+		limit = {
+			NOT = {
+				OR = {
+					has_idea = dd_coalition_second_vacant
+					has_idea = dd_coalition_second_communism
+					has_idea = dd_coalition_second_libertarian_socialism
+					has_idea = dd_coalition_second_syndicate_socialism
+					has_idea = dd_coalition_second_social_democracy
+					has_idea = dd_coalition_second_democratic
+					has_idea = dd_coalition_second_market_liberalism
+					has_idea = dd_coalition_second_military_junta
+					has_idea = dd_coalition_second_neutrality
+					has_idea = dd_coalition_second_fascism
+					has_idea = dd_coalition_second_esotericism
+				}
+			}
+		}
+		add_ideas = dd_coalition_second_vacant
+	}
+}
+
+dd_clear_invalid_coalition_partners = {
+	if = { limit = { has_idea = dd_coalition_first_communism NOT = { dd_can_select_coalition_partner_communism = yes } } dd_clear_coalition_first_party = yes add_ideas = dd_coalition_first_vacant }
+	if = { limit = { has_idea = dd_coalition_first_libertarian_socialism NOT = { dd_can_select_coalition_partner_libertarian_socialism = yes } } dd_clear_coalition_first_party = yes add_ideas = dd_coalition_first_vacant }
+	if = { limit = { has_idea = dd_coalition_first_syndicate_socialism NOT = { dd_can_select_coalition_partner_syndicate_socialism = yes } } dd_clear_coalition_first_party = yes add_ideas = dd_coalition_first_vacant }
+	if = { limit = { has_idea = dd_coalition_first_social_democracy NOT = { dd_can_select_coalition_partner_social_democracy = yes } } dd_clear_coalition_first_party = yes add_ideas = dd_coalition_first_vacant }
+	if = { limit = { has_idea = dd_coalition_first_democratic NOT = { dd_can_select_coalition_partner_democratic = yes } } dd_clear_coalition_first_party = yes add_ideas = dd_coalition_first_vacant }
+	if = { limit = { has_idea = dd_coalition_first_market_liberalism NOT = { dd_can_select_coalition_partner_market_liberalism = yes } } dd_clear_coalition_first_party = yes add_ideas = dd_coalition_first_vacant }
+	if = { limit = { has_idea = dd_coalition_first_military_junta NOT = { dd_can_select_coalition_partner_military_junta = yes } } dd_clear_coalition_first_party = yes add_ideas = dd_coalition_first_vacant }
+	if = { limit = { has_idea = dd_coalition_first_neutrality NOT = { dd_can_select_coalition_partner_neutrality = yes } } dd_clear_coalition_first_party = yes add_ideas = dd_coalition_first_vacant }
+	if = { limit = { has_idea = dd_coalition_first_fascism NOT = { dd_can_select_coalition_partner_fascism = yes } } dd_clear_coalition_first_party = yes add_ideas = dd_coalition_first_vacant }
+	if = { limit = { has_idea = dd_coalition_first_esotericism NOT = { dd_can_select_coalition_partner_esotericism = yes } } dd_clear_coalition_first_party = yes add_ideas = dd_coalition_first_vacant }
+
+	if = { limit = { has_idea = dd_coalition_second_communism NOT = { dd_can_select_coalition_partner_communism = yes } } dd_clear_coalition_second_party = yes add_ideas = dd_coalition_second_vacant }
+	if = { limit = { has_idea = dd_coalition_second_libertarian_socialism NOT = { dd_can_select_coalition_partner_libertarian_socialism = yes } } dd_clear_coalition_second_party = yes add_ideas = dd_coalition_second_vacant }
+	if = { limit = { has_idea = dd_coalition_second_syndicate_socialism NOT = { dd_can_select_coalition_partner_syndicate_socialism = yes } } dd_clear_coalition_second_party = yes add_ideas = dd_coalition_second_vacant }
+	if = { limit = { has_idea = dd_coalition_second_social_democracy NOT = { dd_can_select_coalition_partner_social_democracy = yes } } dd_clear_coalition_second_party = yes add_ideas = dd_coalition_second_vacant }
+	if = { limit = { has_idea = dd_coalition_second_democratic NOT = { dd_can_select_coalition_partner_democratic = yes } } dd_clear_coalition_second_party = yes add_ideas = dd_coalition_second_vacant }
+	if = { limit = { has_idea = dd_coalition_second_market_liberalism NOT = { dd_can_select_coalition_partner_market_liberalism = yes } } dd_clear_coalition_second_party = yes add_ideas = dd_coalition_second_vacant }
+	if = { limit = { has_idea = dd_coalition_second_military_junta NOT = { dd_can_select_coalition_partner_military_junta = yes } } dd_clear_coalition_second_party = yes add_ideas = dd_coalition_second_vacant }
+	if = { limit = { has_idea = dd_coalition_second_neutrality NOT = { dd_can_select_coalition_partner_neutrality = yes } } dd_clear_coalition_second_party = yes add_ideas = dd_coalition_second_vacant }
+	if = { limit = { has_idea = dd_coalition_second_fascism NOT = { dd_can_select_coalition_partner_fascism = yes } } dd_clear_coalition_second_party = yes add_ideas = dd_coalition_second_vacant }
+	if = { limit = { has_idea = dd_coalition_second_esotericism NOT = { dd_can_select_coalition_partner_esotericism = yes } } dd_clear_coalition_second_party = yes add_ideas = dd_coalition_second_vacant }
+
+	if = { limit = { has_idea = dd_coalition_first_communism has_idea = dd_coalition_second_communism } dd_clear_coalition_second_party = yes add_ideas = dd_coalition_second_vacant }
+	if = { limit = { has_idea = dd_coalition_first_libertarian_socialism has_idea = dd_coalition_second_libertarian_socialism } dd_clear_coalition_second_party = yes add_ideas = dd_coalition_second_vacant }
+	if = { limit = { has_idea = dd_coalition_first_syndicate_socialism has_idea = dd_coalition_second_syndicate_socialism } dd_clear_coalition_second_party = yes add_ideas = dd_coalition_second_vacant }
+	if = { limit = { has_idea = dd_coalition_first_social_democracy has_idea = dd_coalition_second_social_democracy } dd_clear_coalition_second_party = yes add_ideas = dd_coalition_second_vacant }
+	if = { limit = { has_idea = dd_coalition_first_democratic has_idea = dd_coalition_second_democratic } dd_clear_coalition_second_party = yes add_ideas = dd_coalition_second_vacant }
+	if = { limit = { has_idea = dd_coalition_first_market_liberalism has_idea = dd_coalition_second_market_liberalism } dd_clear_coalition_second_party = yes add_ideas = dd_coalition_second_vacant }
+	if = { limit = { has_idea = dd_coalition_first_military_junta has_idea = dd_coalition_second_military_junta } dd_clear_coalition_second_party = yes add_ideas = dd_coalition_second_vacant }
+	if = { limit = { has_idea = dd_coalition_first_neutrality has_idea = dd_coalition_second_neutrality } dd_clear_coalition_second_party = yes add_ideas = dd_coalition_second_vacant }
+	if = { limit = { has_idea = dd_coalition_first_fascism has_idea = dd_coalition_second_fascism } dd_clear_coalition_second_party = yes add_ideas = dd_coalition_second_vacant }
+	if = { limit = { has_idea = dd_coalition_first_esotericism has_idea = dd_coalition_second_esotericism } dd_clear_coalition_second_party = yes add_ideas = dd_coalition_second_vacant }
+}
+
+dd_calculate_coalition_support = {
+	set_temp_variable = { dd_coalition_support = party_popularity@ruling_party }
+	set_temp_variable = { dd_coalition_ruling_pop = party_popularity@ruling_party }
+	set_temp_variable = { dd_coalition_partner_max = 0 }
+
+	if = {
+		limit = { OR = { has_idea = dd_coalition_first_communism has_idea = dd_coalition_second_communism } NOT = { has_government = communism } }
+		add_to_temp_variable = { dd_coalition_support = party_popularity@communism }
+		if = { limit = { check_variable = { party_popularity@communism > dd_coalition_partner_max } } set_temp_variable = { dd_coalition_partner_max = party_popularity@communism } }
+	}
+	if = {
+		limit = { OR = { has_idea = dd_coalition_first_libertarian_socialism has_idea = dd_coalition_second_libertarian_socialism } NOT = { has_government = libertarian_socialism } }
+		add_to_temp_variable = { dd_coalition_support = party_popularity@libertarian_socialism }
+		if = { limit = { check_variable = { party_popularity@libertarian_socialism > dd_coalition_partner_max } } set_temp_variable = { dd_coalition_partner_max = party_popularity@libertarian_socialism } }
+	}
+	if = {
+		limit = { OR = { has_idea = dd_coalition_first_syndicate_socialism has_idea = dd_coalition_second_syndicate_socialism } NOT = { has_government = syndicate_socialism } }
+		add_to_temp_variable = { dd_coalition_support = party_popularity@syndicate_socialism }
+		if = { limit = { check_variable = { party_popularity@syndicate_socialism > dd_coalition_partner_max } } set_temp_variable = { dd_coalition_partner_max = party_popularity@syndicate_socialism } }
+	}
+	if = {
+		limit = { OR = { has_idea = dd_coalition_first_social_democracy has_idea = dd_coalition_second_social_democracy } NOT = { has_government = social_democracy } }
+		add_to_temp_variable = { dd_coalition_support = party_popularity@social_democracy }
+		if = { limit = { check_variable = { party_popularity@social_democracy > dd_coalition_partner_max } } set_temp_variable = { dd_coalition_partner_max = party_popularity@social_democracy } }
+	}
+	if = {
+		limit = { OR = { has_idea = dd_coalition_first_democratic has_idea = dd_coalition_second_democratic } NOT = { has_government = democratic } }
+		add_to_temp_variable = { dd_coalition_support = party_popularity@democratic }
+		if = { limit = { check_variable = { party_popularity@democratic > dd_coalition_partner_max } } set_temp_variable = { dd_coalition_partner_max = party_popularity@democratic } }
+	}
+	if = {
+		limit = { OR = { has_idea = dd_coalition_first_market_liberalism has_idea = dd_coalition_second_market_liberalism } NOT = { has_government = market_liberalism } }
+		add_to_temp_variable = { dd_coalition_support = party_popularity@market_liberalism }
+		if = { limit = { check_variable = { party_popularity@market_liberalism > dd_coalition_partner_max } } set_temp_variable = { dd_coalition_partner_max = party_popularity@market_liberalism } }
+	}
+	if = {
+		limit = { OR = { has_idea = dd_coalition_first_military_junta has_idea = dd_coalition_second_military_junta } NOT = { has_government = military_junta } }
+		add_to_temp_variable = { dd_coalition_support = party_popularity@military_junta }
+		if = { limit = { check_variable = { party_popularity@military_junta > dd_coalition_partner_max } } set_temp_variable = { dd_coalition_partner_max = party_popularity@military_junta } }
+	}
+	if = {
+		limit = { OR = { has_idea = dd_coalition_first_neutrality has_idea = dd_coalition_second_neutrality } NOT = { has_government = neutrality } }
+		add_to_temp_variable = { dd_coalition_support = party_popularity@neutrality }
+		if = { limit = { check_variable = { party_popularity@neutrality > dd_coalition_partner_max } } set_temp_variable = { dd_coalition_partner_max = party_popularity@neutrality } }
+	}
+	if = {
+		limit = { OR = { has_idea = dd_coalition_first_fascism has_idea = dd_coalition_second_fascism } NOT = { has_government = fascism } }
+		add_to_temp_variable = { dd_coalition_support = party_popularity@fascism }
+		if = { limit = { check_variable = { party_popularity@fascism > dd_coalition_partner_max } } set_temp_variable = { dd_coalition_partner_max = party_popularity@fascism } }
+	}
+	if = {
+		limit = { OR = { has_idea = dd_coalition_first_esotericism has_idea = dd_coalition_second_esotericism } NOT = { has_government = esotericism } }
+		add_to_temp_variable = { dd_coalition_support = party_popularity@esotericism }
+		if = { limit = { check_variable = { party_popularity@esotericism > dd_coalition_partner_max } } set_temp_variable = { dd_coalition_partner_max = party_popularity@esotericism } }
+	}
+
+	set_temp_variable = { dd_coalition_partner_gap = dd_coalition_partner_max }
+	subtract_from_temp_variable = { dd_coalition_partner_gap = dd_coalition_ruling_pop }
+}
+
+dd_set_absolute_popularity_coalition = {
+	dd_clear_coalition_ministries = yes
+	add_ideas = {
+		dd_coalition_first_vacant
+		dd_coalition_second_vacant
+		dd_coalition_absolute_popularity
+	}
+}
+
+dd_apply_starting_coalitions = {
+	if = {
+		limit = { tag = HEL NOT = { has_country_flag = dd_starting_coalition_assigned } }
+		dd_clear_coalition_ministries = yes
+		add_ideas = {
+			dd_coalition_first_fascism
+			dd_coalition_second_social_democracy
+			dd_coalition_dominant_member
+		}
+		set_country_flag = dd_starting_coalition_assigned
+	}
+	if = {
+		limit = { tag = ENG NOT = { has_country_flag = dd_starting_coalition_assigned } }
+		dd_clear_coalition_ministries = yes
+		add_ideas = {
+			dd_coalition_first_fascism
+			dd_coalition_second_vacant
+			dd_coalition_contested_authority
+		}
+		set_country_flag = dd_starting_coalition_assigned
+	}
+	if = {
+		limit = { tag = WRE NOT = { has_country_flag = dd_starting_coalition_assigned } }
+		dd_clear_coalition_ministries = yes
+		add_ideas = {
+			dd_coalition_first_market_liberalism
+			dd_coalition_second_democratic
+			dd_coalition_dominant_member
+		}
+		set_country_flag = dd_starting_coalition_assigned
+	}
+	if = {
+		limit = { tag = GER NOT = { has_country_flag = dd_starting_coalition_assigned } }
+		dd_clear_coalition_ministries = yes
+		add_ideas = {
+			dd_coalition_first_neutrality
+			dd_coalition_second_fascism
+			dd_coalition_contested_authority
+		}
+		set_country_flag = dd_starting_coalition_assigned
+	}
+	dd_refresh_coalition_system = yes
+}
+
+dd_refresh_coalition_system = {
+	if = {
+		limit = { check_variable = { party_popularity@ruling_party > 0.5 } }
+		dd_set_absolute_popularity_coalition = yes
+	}
+	else = {
+		dd_ensure_coalition_slots_filled = yes
+		dd_clear_invalid_coalition_partners = yes
+		dd_ensure_coalition_slots_filled = yes
+		dd_calculate_coalition_support = yes
+		dd_clear_coalition_dominance = yes
+		remove_ideas = dd_national_supermajority
+
+		if = {
+			limit = {
+				OR = {
+					NOT = { dd_has_three_political_parties = yes }
+					check_variable = { dd_coalition_support < 0.5 }
+				}
+			}
+			add_ideas = dd_coalition_collapsed
+		}
+		else_if = {
+			limit = { has_country_flag = HEL_plastiras_intervention_coalition }
+			add_ideas = dd_coalition_dominant_member
+		}
+		else_if = {
+			limit = { check_variable = { dd_coalition_partner_gap > 0.05 } }
+			add_ideas = dd_coalition_least_influential
+		}
+		else_if = {
+			limit = { NOT = { check_variable = { dd_coalition_ruling_pop > dd_coalition_partner_max } } }
+			add_ideas = dd_coalition_contested_authority
+		}
+		else = {
+			add_ideas = dd_coalition_dominant_member
+		}
+
+		if = {
+			limit = {
+				check_variable = { dd_coalition_support > 0.66 }
+				NOT = { has_idea = dd_coalition_absolute_popularity }
+				NOT = { has_idea = dd_coalition_collapsed }
+			}
+			add_ideas = dd_national_supermajority
+		}
+	}
+}

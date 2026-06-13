@@ -70,15 +70,40 @@ dd_clear_dd_government_laws = {
 dd_clear_law_ideology_flags = {
 	clr_country_flag = dd_laws_communism
 	clr_country_flag = dd_laws_libertarian_socialism
+	clr_country_flag = dd_laws_syndicate_socialism
 	clr_country_flag = dd_laws_social_democracy
 	clr_country_flag = dd_laws_democratic
 	clr_country_flag = dd_laws_market_liberalism
+	clr_country_flag = dd_laws_military_junta
 	clr_country_flag = dd_laws_fascism
 	clr_country_flag = dd_laws_neutrality
 	clr_country_flag = dd_laws_esotericism
 }
 
+dd_mark_current_government_laws = {
+	dd_clear_law_ideology_flags = yes
+
+	if = { limit = { has_government = communism } set_country_flag = dd_laws_communism }
+	else_if = { limit = { has_government = libertarian_socialism } set_country_flag = dd_laws_libertarian_socialism }
+	else_if = { limit = { has_government = syndicate_socialism } set_country_flag = dd_laws_syndicate_socialism }
+	else_if = { limit = { has_government = social_democracy } set_country_flag = dd_laws_social_democracy }
+	else_if = { limit = { has_government = market_liberalism } set_country_flag = dd_laws_market_liberalism }
+	else_if = { limit = { has_government = military_junta } set_country_flag = dd_laws_military_junta }
+	else_if = { limit = { has_government = fascism } set_country_flag = dd_laws_fascism }
+	else_if = { limit = { has_government = neutrality } set_country_flag = dd_laws_neutrality }
+	else_if = { limit = { has_government = esotericism } set_country_flag = dd_laws_esotericism }
+	else = { set_country_flag = dd_laws_democratic }
+}
+
+dd_preserve_history_government_laws = {
+	set_country_flag = dd_history_government_laws_locked
+	dd_clear_legacy_government_laws = yes
+	dd_mark_current_government_laws = yes
+	dd_update_militarism_reaction = yes
+}
+
 dd_assign_ideology_government_laws = {
+	clr_country_flag = dd_history_government_laws_locked
 	dd_clear_legacy_government_laws = yes
 	dd_clear_dd_government_laws = yes
 	dd_clear_law_ideology_flags = yes
@@ -106,6 +131,17 @@ dd_assign_ideology_government_laws = {
 		set_country_flag = dd_laws_libertarian_socialism
 	}
 	else_if = {
+		limit = { has_government = syndicate_socialism }
+		add_ideas = {
+			dd_governance_decentralised
+			dd_law_strong_norms
+			dd_society_absolute_equality
+			dd_economy_syndicalism
+			dd_militarism_military_readiness
+		}
+		set_country_flag = dd_laws_syndicate_socialism
+	}
+	else_if = {
 		limit = { has_government = social_democracy }
 		add_ideas = {
 			dd_governance_representativism
@@ -126,6 +162,17 @@ dd_assign_ideology_government_laws = {
 			dd_militarism_civil_guard
 		}
 		set_country_flag = dd_laws_market_liberalism
+	}
+	else_if = {
+		limit = { has_government = military_junta }
+		add_ideas = {
+			dd_governance_authoritarianism
+			dd_law_low_corruption
+			dd_society_strict_hierarchy
+			dd_economy_state_capitalism
+			dd_militarism_militarised_state
+		}
+		set_country_flag = dd_laws_military_junta
 	}
 	else_if = {
 		limit = { has_government = fascism }
@@ -283,6 +330,8 @@ dd_update_militarism_reaction = {
 			limit = {
 				OR = {
 					has_government = communism
+					has_government = syndicate_socialism
+					has_government = military_junta
 					has_government = fascism
 				}
 			}
@@ -299,8 +348,10 @@ dd_refresh_government_system = {
 
 	if = { limit = { has_government = communism NOT = { has_country_flag = dd_laws_communism } } dd_assign_ideology_government_laws = yes }
 	else_if = { limit = { has_government = libertarian_socialism NOT = { has_country_flag = dd_laws_libertarian_socialism } } dd_assign_ideology_government_laws = yes }
+	else_if = { limit = { has_government = syndicate_socialism NOT = { has_country_flag = dd_laws_syndicate_socialism } } dd_assign_ideology_government_laws = yes }
 	else_if = { limit = { has_government = social_democracy NOT = { has_country_flag = dd_laws_social_democracy } } dd_assign_ideology_government_laws = yes }
 	else_if = { limit = { has_government = market_liberalism NOT = { has_country_flag = dd_laws_market_liberalism } } dd_assign_ideology_government_laws = yes }
+	else_if = { limit = { has_government = military_junta NOT = { has_country_flag = dd_laws_military_junta } } dd_assign_ideology_government_laws = yes }
 	else_if = { limit = { has_government = fascism NOT = { has_country_flag = dd_laws_fascism } } dd_assign_ideology_government_laws = yes }
 	else_if = { limit = { has_government = neutrality NOT = { has_country_flag = dd_laws_neutrality } } dd_assign_ideology_government_laws = yes }
 	else_if = { limit = { has_government = esotericism NOT = { has_country_flag = dd_laws_esotericism } } dd_assign_ideology_government_laws = yes }
@@ -323,6 +374,9 @@ dd_refresh_government_system = {
 		dd_assign_ideology_government_laws = yes
 	}
 
-	dd_update_popularity_law = yes
+	if = {
+		limit = { NOT = { has_country_flag = dd_history_government_laws_locked } }
+		dd_update_popularity_law = yes
+	}
 	dd_update_militarism_reaction = yes
 }

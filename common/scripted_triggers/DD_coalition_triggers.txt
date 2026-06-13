@@ -1,0 +1,127 @@
+dd_has_three_political_parties = {
+	count_triggers = {
+		amount > 2
+		check_variable = { party_popularity@libertarian_socialism > 0.001 }
+		check_variable = { party_popularity@syndicate_socialism > 0.001 }
+		check_variable = { party_popularity@communism > 0.001 }
+		check_variable = { party_popularity@social_democracy > 0.001 }
+		check_variable = { party_popularity@democratic > 0.001 }
+		check_variable = { party_popularity@market_liberalism > 0.001 }
+		check_variable = { party_popularity@military_junta > 0.001 }
+		check_variable = { party_popularity@neutrality > 0.001 }
+		check_variable = { party_popularity@fascism > 0.001 }
+		check_variable = { party_popularity@esotericism > 0.001 }
+	}
+}
+
+dd_can_select_coalition_partner_communism = {
+	dd_has_three_political_parties = yes
+	NOT = { has_government = communism }
+	OR = {
+		has_government = libertarian_socialism
+		has_government = syndicate_socialism
+		has_government = social_democracy
+		has_government = fascism
+		has_government = democratic
+	}
+}
+
+dd_can_select_coalition_partner_libertarian_socialism = {
+	dd_has_three_political_parties = yes
+	NOT = { has_government = libertarian_socialism }
+	OR = {
+		has_government = syndicate_socialism
+		has_government = communism
+		has_government = social_democracy
+	}
+}
+
+dd_can_select_coalition_partner_syndicate_socialism = {
+	dd_has_three_political_parties = yes
+	NOT = { has_government = syndicate_socialism }
+	OR = {
+		has_government = libertarian_socialism
+		has_government = communism
+		has_government = social_democracy
+	}
+}
+
+dd_can_select_coalition_partner_social_democracy = {
+	dd_has_three_political_parties = yes
+	NOT = { has_government = social_democracy }
+	OR = {
+		has_government = communism
+		has_government = libertarian_socialism
+		has_government = syndicate_socialism
+		has_government = democratic
+		has_government = market_liberalism
+	}
+}
+
+dd_can_select_coalition_partner_democratic = {
+	dd_has_three_political_parties = yes
+	NOT = { has_government = democratic }
+	OR = {
+		has_government = communism
+		has_government = social_democracy
+		has_government = market_liberalism
+		has_government = fascism
+	}
+}
+
+dd_can_select_coalition_partner_market_liberalism = {
+	dd_has_three_political_parties = yes
+	NOT = { has_government = market_liberalism }
+	OR = {
+		has_government = social_democracy
+		has_government = democratic
+		has_government = military_junta
+		has_government = neutrality
+	}
+}
+
+dd_can_select_coalition_partner_military_junta = {
+	dd_has_three_political_parties = yes
+	NOT = { has_government = military_junta }
+	OR = {
+		has_government = market_liberalism
+		has_government = neutrality
+		has_government = fascism
+	}
+}
+
+dd_can_select_coalition_partner_neutrality = {
+	dd_has_three_political_parties = yes
+	NOT = { has_government = neutrality }
+	OR = {
+		has_government = market_liberalism
+		has_government = military_junta
+		has_government = fascism
+		has_government = esotericism
+	}
+}
+
+dd_can_select_coalition_partner_fascism = {
+	dd_has_three_political_parties = yes
+	NOT = { has_government = fascism }
+	OR = {
+		has_government = communism
+		has_government = democratic
+		has_government = military_junta
+		has_government = neutrality
+		has_government = esotericism
+		AND = {
+			tag = GER
+			has_government = market_liberalism
+		}
+	}
+}
+
+dd_can_select_coalition_partner_esotericism = {
+	dd_has_three_political_parties = yes
+	NOT = { has_government = esotericism }
+	OR = {
+		has_government = neutrality
+		has_government = fascism
+	}
+}

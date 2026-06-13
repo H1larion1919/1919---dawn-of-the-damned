@@ -28,7 +28,7 @@
  GER_freikorps_back_reform:0 "Back Luttwitz's Reform Bloc"
  GER_freikorps_back_reform_desc:0 "Move the organisation toward §YReform§!: liberal-military administration, practical modernization, and controlled institutional repair.\n\nEffects: §G+10§! Reform, §R-4§! Tradition, §R-6§! Radicalism. Also shifts public popularity toward §YLiberalism§!."
  GER_freikorps_back_radicalism:0 "Back Strasser's Radical Bloc"
- GER_freikorps_back_radicalism_desc:0 "Move the organisation toward §YRadicalism§!: worker nationalism, revolutionary veterans, mass mobilisation, and anti-old-order violence.\n\nEffects: §G+10§! Radicalism, §R-4§! Reform, §R-6§! Tradition. Also shifts public popularity toward §YWorker Nationalism§!."
+ GER_freikorps_back_radicalism_desc:0 "Move the organisation toward §YRadicalism§!: palingenetic nationalism, revolutionary veterans, mass mobilisation, and anti-old-order violence.\n\nEffects: §G+10§! Radicalism, §R-4§! Reform, §R-6§! Tradition. Also shifts public popularity toward §YPalingenetic Nationalism§!."
  GER_summon_freikorps_convention:0 "Summon the Freikorps Convention"
  GER_summon_freikorps_convention_desc:0 "One wing has reached §Y80+§! support. The organisation may now be forced into a binding convention. A pure victory gives stronger buffs but harsher abandonment effects. Appeasing a rival faction softens the penalties while weakening the final bonuses."
  GER_freikorps.100.t:0 "The Freikorps Convention"

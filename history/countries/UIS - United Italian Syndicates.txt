@@ -1,37 +1,39 @@
-﻿# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+# Generated from world_data_master_file.txt by rebuild_world_leaders.py
 set_politics = {
 	ruling_party = communism
 	elections_allowed = no
 }
 set_popularities = {
-	communism = 70
+	communism = 40
 	libertarian_socialism = 0
+	syndicate_socialism = 30
 	social_democracy = 20
 	democratic = 0
 	market_liberalism = 0
+	military_junta = 0
 	fascism = 10
 	neutrality = 0
 	esotericism = 0
 }
 set_party_name = {
 	ideology = communism
-	long_name = "Il Corpo Bolscevico"
-	name = "Il Corpo Bolscevico"
+	long_name = "The Communist party"
+	name = "The Radicals"
+}
+set_party_name = {
+	ideology = syndicate_socialism
+	long_name = "The Worker's Syndicates"
+	name = "The Syndicalists"
 }
 set_party_name = {
 	ideology = social_democracy
-	long_name = "Il Corpo Federalista"
-	name = "Il Corpo Federalista"
-}
-set_party_name = {
-	ideology = social_democracy
-	long_name = "Il Corpo Federalista"
-	name = "Il Corpo Federalista"
+	long_name = "The Federalists Movement"
+	name = "The Federalists"
 }
 set_party_name = {
 	ideology = fascism
-	long_name = "I Fasci di Combattimento"
-	name = "I Fasci di Combattimento"
+	long_name = "The Fasces of Comat"
+	name = "The 'Fascists'"
 }
 create_country_leader = {
 	name = "Amadeo Bordiga"
@@ -43,7 +45,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Antonio Gramsci"
 	picture = "Portrait_UIS_Antonio_Gramsci.dds"
-	ideology = ee_syndicalist_democracy
+	ideology = ee_revolutionary_syndicalism
 	expire = "1965.1.1"
 	traits = { }
 }

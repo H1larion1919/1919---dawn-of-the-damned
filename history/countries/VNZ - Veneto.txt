@@ -1,4 +1,4 @@
-﻿capital = 160
+capital = 160
 # Recruit Characters
 oob = "VNZ_1919"
 starting_train_buffer = 200
@@ -17,10 +17,10 @@ set_politics = {
 }
 set_popularities = {
 	communism = 10
-	libertarian_socialism = 0
+	libertarian_socialism = 0
 	social_democracy = 0
 	democratic = 0
-	market_liberalism = 55
+	market_liberalism = 55
 	fascism = 15
 	neutrality = 20
 	esotericism = 0

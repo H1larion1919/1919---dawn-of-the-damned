@@ -358,7 +358,8 @@ country_event = {
 				communism = 24
 				fascism = 43
 				neutrality = 2
-			}
+				syndicate_socialism = 0 military_junta = 0
+}
 		}
 	}
 
@@ -514,7 +515,7 @@ country_event = {
 			start_civil_war = { ideology = neutrality ruling_party = democratic size = 0.10 army_ratio = 0.10 keep_political_leader = no }
 		}
 		set_politics = { ruling_party = democratic elections_allowed = yes }
-		set_popularities = { democratic = 25 neutrality = 0 communism = 25 libertarian_socialism = 25 fascism = 25 }
+		set_popularities = { democratic = 25 neutrality = 0 communism = 25 libertarian_socialism = 25 fascism = 25 syndicate_socialism = 0 military_junta = 0 }
 		country_event = { id = ee_start.113 days = 7 }
 		every_state = {
 			limit = { NOT = { is_owned_by = ROOT } NOT = { state = 1082 } }
@@ -681,7 +682,7 @@ country_event = {
 			start_civil_war = { ideology = neutrality ruling_party = democratic size = 0.10 army_ratio = 0.10 keep_political_leader = no }
 		}
 		set_politics = { ruling_party = democratic elections_allowed = yes }
-		set_popularities = { democratic = 25 neutrality = 0 communism = 25 libertarian_socialism = 25 fascism = 25 }
+		set_popularities = { democratic = 25 neutrality = 0 communism = 25 libertarian_socialism = 25 fascism = 25 syndicate_socialism = 0 military_junta = 0 }
 		country_event = { id = ee_start.113 days = 7 }
 	}
 }

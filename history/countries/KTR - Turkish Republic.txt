@@ -1,14 +1,14 @@
-﻿# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+# Generated from world_data_master_file.txt by rebuild_world_leaders.py
 set_politics = {
 	ruling_party = democratic
 	elections_allowed = no
 }
 set_popularities = {
 	communism = 0
-	libertarian_socialism = 0
+	libertarian_socialism = 0
 	social_democracy = 0
 	democratic = 70
-	market_liberalism = 0
+	market_liberalism = 0
 	fascism = 30
 	neutrality = 0
 	esotericism = 0
@@ -24,7 +24,7 @@ set_party_name = {
 	name = "Karakol Society"
 }
 create_country_leader = {
-	name = "Ä°smet Ä°nÃ¶nÃ¼"
+	name = "İsmet İnönü"
 	desc = ""
 	picture = "Portrait_KTR_smet_nn.dds"
 	ideology = ee_republican_nationalism

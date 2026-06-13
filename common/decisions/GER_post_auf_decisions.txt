@@ -37,7 +37,8 @@ GER_picking_back_up_the_pieces = {
 					communism = 0
 					neutrality = 0
 					libertarian_socialism = 0
-				}
+					syndicate_socialism = 0 military_junta = 0
+}
 			}
 			set_autonomy = { target = HOL autonomy_state = autonomy_ee_federated_state }
 		}

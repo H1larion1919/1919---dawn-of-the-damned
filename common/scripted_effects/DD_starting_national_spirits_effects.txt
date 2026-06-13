@@ -1,0 +1,65 @@
+dd_apply_starting_national_spirits = {
+	if = {
+		limit = { tag = HEL }
+		if = { limit = { NOT = { has_idea = HEL_scars_from_national_schism } } add_ideas = HEL_scars_from_national_schism }
+		if = { limit = { NOT = { has_idea = HEL_a_decade_of_war } } add_ideas = HEL_a_decade_of_war }
+		if = { limit = { NOT = { has_idea = HEL_age_of_venizelos } } add_ideas = HEL_age_of_venizelos }
+		if = {
+			limit = {
+				owns_state = 797
+				owns_state = 347
+				owns_state = 1068
+				owns_state = 1072
+				NOT = { has_idea = HEL_revenge_for_1453 }
+			}
+			add_ideas = HEL_revenge_for_1453
+		}
+		if = {
+			limit = {
+				owns_state = 339
+				NOT = { has_idea = HEL_both_sides_of_the_shore }
+			}
+			add_ideas = HEL_both_sides_of_the_shore
+		}
+	}
+
+	if = {
+		limit = { tag = ENG }
+		if = { limit = { NOT = { has_idea = ENG_royal_act_of_national_security_and_sovereignty } } add_ideas = ENG_royal_act_of_national_security_and_sovereignty }
+		if = { limit = { NOT = { has_idea = ENG_oswald_mosley } } add_ideas = ENG_oswald_mosley }
+		if = { limit = { NOT = { has_idea = ENG_anti_communist_watchdogs } } add_ideas = ENG_anti_communist_watchdogs }
+		if = { limit = { NOT = { has_idea = ENG_axis_of_reaction } } add_ideas = ENG_axis_of_reaction }
+		if = { limit = { NOT = { has_idea = ENG_ira_activity } } add_ideas = ENG_ira_activity }
+		if = { limit = { NOT = { has_idea = ENG_empire_is_crumbling } } add_ideas = ENG_empire_is_crumbling }
+		if = { limit = { NOT = { has_idea = ENG_overextension } } add_ideas = ENG_overextension }
+	}
+
+	if = {
+		limit = { tag = WRE }
+		if = { limit = { NOT = { has_idea = WRE_institutional_legitimacy } } add_ideas = WRE_institutional_legitimacy }
+		if = { limit = { NOT = { has_idea = WRE_bundestag } } add_ideas = WRE_bundestag }
+		if = { limit = { NOT = { has_idea = WRE_military_shadow } } add_ideas = WRE_military_shadow }
+		if = { limit = { NOT = { has_idea = WRE_hyperinflation } } add_ideas = WRE_hyperinflation }
+		if = { limit = { NOT = { has_idea = WRE_treaty_of_westfallia } } add_ideas = WRE_treaty_of_westfallia }
+		if = { limit = { NOT = { has_idea = WRE_germany_divided } } add_ideas = WRE_germany_divided }
+	}
+
+	if = {
+		limit = { tag = SBK }
+		if = { limit = { NOT = { has_idea = SBK_marxs_homeland } } add_ideas = SBK_marxs_homeland }
+		if = { limit = { NOT = { has_idea = SBK_das_vereinte_proletariat } } add_ideas = SBK_das_vereinte_proletariat }
+		if = { limit = { NOT = { has_idea = SBK_a_germany_for_all } } add_ideas = SBK_a_germany_for_all }
+		if = { limit = { NOT = { has_idea = SBK_germany_divided } } add_ideas = SBK_germany_divided }
+		if = { limit = { NOT = { has_idea = SBK_die_arbeiter_von_berlin } } add_ideas = SBK_die_arbeiter_von_berlin }
+		if = { limit = { NOT = { has_idea = SBK_inherited_state_infrastructure } } add_ideas = SBK_inherited_state_infrastructure }
+		if = { limit = { NOT = { has_idea = SBK_limited_military_experience } } add_ideas = SBK_limited_military_experience }
+		if = { limit = { NOT = { has_idea = SBK_hern_der_fabriker } } add_ideas = SBK_hern_der_fabriker }
+		if = { limit = { NOT = { has_idea = SBK_kriegskommunismus } } add_ideas = SBK_kriegskommunismus }
+		if = { limit = { NOT = { has_idea = SBK_armed_syndicates } } add_ideas = SBK_armed_syndicates }
+	}
+
+	if = {
+		limit = { tag = GER }
+		if = { limit = { NOT = { has_idea = GER_freikorps_voran } } add_ideas = GER_freikorps_voran }
+	}
+}

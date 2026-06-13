@@ -11,6 +11,9 @@ state = {
 		add_claim_by = GER
 		add_claim_by = WRE
 		add_claim_by = SBK
+
+		set_demilitarized_zone = yes
+		
 		victory_points = { 
 			6558 10
 		}

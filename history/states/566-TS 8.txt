@@ -7,7 +7,7 @@ state = {
 		aluminium = 7
 	}
 	history = {
-		owner = BUR
+		owner = KWA
 		add_core_of = KWA
 		add_core_of = CLE
 		victory_points = { 

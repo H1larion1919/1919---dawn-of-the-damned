@@ -1,4 +1,4 @@
-﻿# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+# Generated from world_data_master_file.txt by rebuild_world_leaders.py
 set_politics = {
 	ruling_party = neutrality
 	elections_allowed = no
@@ -6,17 +6,29 @@ set_politics = {
 set_popularities = {
 	communism = 0
 	libertarian_socialism = 0
+	syndicate_socialism = 0
 	social_democracy = 0
-	democratic = 15
+	democratic = 30
 	market_liberalism = 0
-	fascism = 15
-	neutrality = 0
-	esotericism = 70
+	military_junta = 0
+	fascism = 30
+	neutrality = 20
+	esotericism = 20
+}
+set_party_name = {
+	ideology = military_junta
+	long_name = "Cadorna's hell"
+	name = "Cadorna's Personal Fiefdom"
+}
+set_party_name = {
+	ideology = neutrality
+	long_name = "House of Savoy"
+	name = "House of Savoy"
 }
 set_party_name = {
 	ideology = esotericism
-	long_name = "House of Savoy"
-	name = "House of Savoy"
+	long_name = "The Holy Sea"
+	name = "The Holy Sea"
 }
 set_party_name = {
 	ideology = fascism
@@ -33,7 +45,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_ITA_Pope_Benedict_XV.dds"
 	expire = "1965.1.1"
-	ideology = ee_pope_catholic_theocracy
+	ideology = fundamentalist_theocracy
 	traits = { }
 }
 create_country_leader = {
@@ -41,13 +53,13 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_ITA_Luigi_Cadorna.dds"
 	expire = "1965.1.1"
-	ideology = ee_cult_of_personality
+	ideology = absolutist_personal_rule
 	traits = { }
 }
 create_country_leader = {
 	name = "Victor Emmanuel III"
 	picture = "Portrait_ITA_Victor_Emmanuele_III.dds"
-	ideology = ee_royal_militarism
+	ideology = ee_centralized_monarchy
 	expire = "1965.1.1"
 	traits = { }
 }
@@ -76,14 +88,6 @@ set_war_support = 0.5
 add_command_power = 50
 set_convoys = 200
 set_autonomy = { target = LBA autonomy_state = autonomy_ee_colony }
-if = {
-	limit = { has_guaranteed = ALB }
-	diplomatic_relation = {
-		country = ALB
-		relation = guarantee
-		active = no
-	}
-}
 
 # Politics for 1919.1.1
 

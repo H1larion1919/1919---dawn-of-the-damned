@@ -1,14 +1,14 @@
-﻿# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+# Generated from world_data_master_file.txt by rebuild_world_leaders.py
 set_politics = {
 	ruling_party = neutrality
 	elections_allowed = no
 }
 set_popularities = {
 	communism = 0
-	libertarian_socialism = 10
+	libertarian_socialism = 10
 	social_democracy = 0
 	democratic = 40
-	market_liberalism = 0
+	market_liberalism = 0
 	fascism = 10
 	neutrality = 40
 	esotericism = 0

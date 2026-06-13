@@ -6,9 +6,11 @@ set_politics = {
 set_popularities = {
 	communism = 0
 	libertarian_socialism = 100
+	syndicate_socialism = 0
 	social_democracy = 0
 	democratic = 0
 	market_liberalism = 0
+
 	fascism = 0
 	neutrality = 0
 	esotericism = 0
@@ -21,7 +23,7 @@ set_party_name = {
 create_country_leader = {
 	name = "Wilhelm Pieck"
 	picture = "Portrait_BWB_Wilhelm_Pieck.dds"
-	ideology = ee_leninist_council_socialism
+	ideology = ee_labour_radicalism
 	expire = "1965.1.1"
 	traits = { }
 }

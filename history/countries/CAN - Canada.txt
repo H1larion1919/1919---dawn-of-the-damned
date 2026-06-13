@@ -5,10 +5,10 @@ set_politics = {
 }
 set_popularities = {
 	communism = 0
-	libertarian_socialism = 0
+	libertarian_socialism = 0
 	social_democracy = 70
 	democratic = 10
-	market_liberalism = 0
+	market_liberalism = 0
 	fascism = 10
 	neutrality = 10
 	esotericism = 0

@@ -1,4 +1,4 @@
-﻿capital = 103
+capital = 103
 oob = "DIZ_1919"
 starting_train_buffer = 0
 set_research_slots = 3
@@ -16,10 +16,10 @@ set_politics = {
 }
 set_popularities = {
 	communism = 16
-	libertarian_socialism = 0
+	libertarian_socialism = 0
 	social_democracy = 0
 	democratic = 68
-	market_liberalism = 0
+	market_liberalism = 0
 	fascism = 11
 	neutrality = 5
 	esotericism = 0

@@ -5,10 +5,10 @@ set_politics = {
 }
 set_popularities = {
 	communism = 0
-	libertarian_socialism = 0
+	libertarian_socialism = 0
 	social_democracy = 55
 	democratic = 15
-	market_liberalism = 0
+	market_liberalism = 0
 	fascism = 0
 	neutrality = 10
 	esotericism = 20
@@ -37,7 +37,7 @@ create_country_leader = {
 	name = "Guido von List" 
 	picture = "Portrait_FKO_Guifo_von_List.dds"
 	expire = "1965.1.1"
-	ideology = ee_völkisch_occultism
+	ideology = ee_volkisch_occultism
 	traits = { }
 }
 create_country_leader = {
@@ -62,7 +62,7 @@ create_country_leader = {
 	traits = { }
 }
 
-capital = 12
+capital = 812
 set_research_slots = 2
 set_stability = 0.45
 set_war_support = 0.65

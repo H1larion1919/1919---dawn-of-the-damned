@@ -16,6 +16,9 @@ state = {
 		add_core_of = PFA
 		add_core_of = PGN
 		add_core_of = POL
+		
+		set_demilitarized_zone = yes
+		
 		victory_points = { 
 			6464 5
 		}

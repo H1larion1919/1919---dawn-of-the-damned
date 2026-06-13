@@ -1,14 +1,12 @@
 ideologies = {    
     libertarian_socialism = {
-        color = { 0.298 0.078 0.071 }
+        color = { 0.310 0.000 0.000 }
         types = {
             libertarian_socialism = { }
             ee_reformist_nationalism = { }
             anarchism = { }
             anarcho_communism = { }
             anarchist_communism = { }
-            ansynds = { }
-            syndicalism = { }
             makhnovian = { }
             ee_anarchism = { }
             ee_agrarian_socialism = { }
@@ -16,23 +14,16 @@ ideologies = {
             ee_anti_colonial_socialism = { }
             ee_communal_federalism = { }
             ee_communal_resistance = { }
-            ee_council_communism = { }
-            ee_council_socialism = { }
             ee_early_socialism = { }
             ee_indigenous_communalism = { }
             ee_labour_radicalism = { }
-            ee_leninist_council_socialism = { }
             ee_local_communal_resistance = { }
             ee_local_socialism = { }
             ee_macedonian_federalism = { }
             ee_menshevik_regional_socialism = { }
             ee_national_anarchist_pan_slavism = { }
             ee_nomadic_federalism = { }
-            ee_revolutionary_socialism = { }
-            ee_revolutionary_syndicalism = { }
             ee_socialist_nationalism = { }
-            ee_syndicalism = { }
-            ee_syndicalist_democracy = { }
             ee_transitional_socialism = { }
             ee_egalitarian_socialism = { }
         }
@@ -77,8 +68,60 @@ ideologies = {
         ai_give_core_state_control_threshold = 25
     }
 
+    syndicate_socialism = {
+        color = { 0.498 0.114 0.114 }
+        types = {
+            syndicate_socialism = { }
+            ansynds = { }
+            syndicalism = { }
+            ee_council_communism = { }
+            ee_council_socialism = { }
+            ee_leninist_council_socialism = { }
+            ee_luxemburgism = { }
+            ee_revolutionary_socialism = { }
+            ee_revolutionary_syndicalism = { }
+            ee_syndicalism = { }
+            ee_syndicalist_democracy = { }
+            ee_permanent_revolution = { }
+        }
+        dynamic_faction_names = {
+            "FACTION_NAME_COMMUNIST_1"
+            "FACTION_NAME_COMMUNIST_2"
+            "FACTION_NAME_COMMUNIST_3"
+            "FACTION_NAME_COMMUNIST_4"
+            "FACTION_NAME_COMMUNIST_5"
+        }
+        war_impact_on_world_tension = 0.65
+        faction_impact_on_world_tension = 0.4
+        rules = {
+            can_force_government = yes
+            can_send_volunteers = yes
+            can_puppet = yes
+            can_guarantee_other_ideologies = no
+        }
+        can_collaborate = yes
+        modifiers = {
+            generate_wargoal_tension = 1.00
+            join_faction_tension = 0.40
+            lend_lease_tension = 0.40
+            send_volunteers_tension = 0.20
+            justify_war_goal_when_in_major_war_time = -0.35
+            production_factory_efficiency_gain_factor = 0.05
+            industrial_capacity_factory = 0.03
+            stability_factor = -0.02
+            political_power_gain = -0.03
+            resistance_growth = 0.02
+        }
+        faction_modifiers = {
+            faction_trade_opinion_factor = 0.20
+        }
+        ai_communist = yes
+        ai_ideology_wanted_units_factor = 1.18
+        ai_give_core_state_control_threshold = 15
+    }
+
     communism = {
-        color = { 0.769 0.251 0.212 }
+        color = { 0.729 0.184 0.094 }
         types = {
             communism = { }
             bolshevism = { }
@@ -90,8 +133,6 @@ ideologies = {
             ee_bolshevism = { }
             ee_hardline_communism = { }
             ee_leninism = { }
-            ee_luxemburgism = { }
-            ee_permanent_revolution = { }
             ee_proto_communism = { }
             ee_radical_marxism = { }
             ee_revolutionary_communism = { }
@@ -133,7 +174,7 @@ ideologies = {
     }
 
     social_democracy = {
-        color = { 0.827 0.314 0.596 }
+        color = { 0.871 0.400 0.569 }
         types = {
             social_democracy = { }
             democratic_socialism = { }
@@ -197,7 +238,7 @@ ideologies = {
     }
    
     democratic = {
-        color = { 0.263 0.592 0.827 }
+        color = { 0.518 0.820 0.769 }
         types = {
             democratic = { }
             agrarianism = { }
@@ -240,7 +281,6 @@ ideologies = {
             ee_progressive_liberalism = { }
             ee_proto_national_federalism = { }
             ee_reformist_democracy = { }
-            ee_reformist_military_junta = { }
             ee_reformist_modernization = { }
             ee_reformist_monarchy = { }
             ee_reformist_republicanism = { }
@@ -295,7 +335,7 @@ ideologies = {
     }
     
     market_liberalism = {
-        color = { 0.898 0.769 0.306 }
+        color = { 0.902 0.776 0.114 }
         types = {
             market_liberalism = { }
             laissez_faire_liberalism = { }
@@ -345,13 +385,63 @@ ideologies = {
         ai_give_core_state_control_threshold = 0
     }
 
+    military_junta = {
+        color = { 0.510 0.510 0.510 }
+        types = {
+            military_junta = { }
+            ee_colonial_militarism = { }
+            ee_colonial_military_administration = { }
+            ee_conservative_militarism = { }
+            ee_foreign_military_occupation = { }
+            ee_legionary_militarism = { }
+            ee_militarist_republicanism = { }
+            ee_military_administration = { }
+            ee_military_conservatism = { }
+            ee_military_dictatorship = { }
+            ee_military_interventionism = { }
+            ee_military_neutralism = { }
+            ee_military_regency = { }
+            ee_military_restoration = { }
+            ee_military_restorationism = { }
+            ee_reformist_military_junta = { }
+            ee_republican_militarism = { }
+            ee_revolutionary_militarism = { }
+            ee_royal_militarism = { }
+            ee_white_military_dictatorship = { }
+            japan_militarism_ideology = { }
+            absolutist_personal_rule = { }
+        }
+        war_impact_on_world_tension = 0.55
+        faction_impact_on_world_tension = 0.25
+        rules = {
+            can_force_government = yes
+            can_puppet = yes
+            can_send_volunteers = yes
+        }
+        modifiers = {
+            generate_wargoal_tension = 0.65
+            join_faction_tension = 0.45
+            lend_lease_tension = 0.55
+            send_volunteers_tension = 0.35
+            guarantee_tension = 0.35
+            mobilization_speed = 0.08
+            army_org_factor = 0.03
+            war_support_factor = 0.06
+            stability_factor = 0.02
+            political_power_gain = 0.03
+        }
+        faction_modifiers = { }
+        ai_neutral = yes
+        ai_ideology_wanted_units_factor = 1.35
+        ai_give_core_state_control_threshold = 10000
+    }
+
     neutrality = {
-        color = { 0.470 0.370 0.588 }
+        color = { 0.345 0.220 0.392 }
         types = {
             neutrality = { }
             reactionaries = { }
             absolutism = { }
-            military_junta = { }
             oligarchism = { }
             ee_agrarian_traditionalism = { }
             ee_aristocratic_confederation = { }
@@ -364,26 +454,15 @@ ideologies = {
             ee_colonial_bureaucratic_rule = { }
             ee_colonial_corporatism = { }
             ee_colonial_indirect_rule = { }
-            ee_colonial_militarism = { }
-            ee_colonial_military_administration = { }
-            ee_conservative_militarism = { }
             ee_constitutional_monarchism = { }
             ee_corporate_colonialism = { }
             ee_corporate_extractive_rule = { }
             ee_crisis_monarchy = { }
             ee_dynastic_restoration = { }
             ee_emirate_monarchy = { }
-            ee_foreign_military_occupation = { }
             ee_imperial_absolutism = { }
             ee_imperial_loyalism = { }
             ee_imperial_nationalism = { }
-            ee_military_administration = { }
-            ee_military_dictatorship = { }
-            ee_military_interventionism = { }
-            ee_military_neutralism = { }
-            ee_military_regency = { }
-            ee_military_restoration = { }
-            ee_military_restorationism = { }
             ee_monarchical_tribal_authority = { }
             ee_national_authoritarianism = { }
             ee_national_democracy = { }
@@ -400,7 +479,6 @@ ideologies = {
             ee_royal_centralism = { }
             ee_royal_emergency_rule = { }
             ee_royal_isolationism = { }
-            ee_royal_militarism = { }
             ee_cult_of_personality = { }
             ee_royal_national_unity = { }
             ee_royal_nationalism = { }
@@ -411,7 +489,6 @@ ideologies = {
             ee_tribal_confederation = { }
             ee_tribal_rule = { }
             ee_tribal_traditionalism = { }
-            ee_white_military_dictatorship = { }
             despotism = { }
             ee_religious_anti_colonialism = { }
             ee_religious_conservatism = { }
@@ -448,7 +525,7 @@ ideologies = {
     }
 
     fascism = {
-        color = { 0.486 0.357 0.306 }
+        color = { 0.286 0.243 0.239 }
         types = {
             fascism = { }
             ee_afrikaner_nationalism = { }
@@ -467,9 +544,6 @@ ideologies = {
             ee_greater_serbian_nationalism = { }
             ee_guerrilla_nationalism = { }
             ee_kurdish_expansionism = { }
-            ee_legionary_militarism = { }
-            ee_militarist_republicanism = { }
-            ee_military_conservatism = { }
             ee_modernizing_authoritarianism = { }
             ee_modernizing_nationalism = { }
             ee_national_progressivism = { }
@@ -485,8 +559,6 @@ ideologies = {
             ee_quebecois_nationalism = { }
             ee_radical_nationalism = { }
             ee_radical_ukrainian_nationalism = { }
-            ee_republican_militarism = { }
-            ee_revolutionary_militarism = { }
             ee_revolutionary_nationalism = { }
             ee_sikh_nationalism = { }
             ee_strasserism = { }
@@ -504,7 +576,6 @@ ideologies = {
             falangism = { }
             rexism = { }
             emperor_fascism = { }
-            japan_militarism_ideology = { }
         }
         war_impact_on_world_tension = 1.0
         faction_impact_on_world_tension = 1.0
@@ -536,7 +607,7 @@ ideologies = {
 
 
     esotericism = {
-        color = { 0.035 0.012 0.169 }
+        color = { 0.094 0.090 0.098 }
         types = {
             esotericism = { }
             fundamentalist_theocracy = { }
@@ -561,7 +632,7 @@ ideologies = {
             ee_zaydi_imamate = { }
             ee_personal_dictatorship = { }
             ee_germanic_occultism = { }
-            ee_völkisch_occultism = { }
+            ee_volkisch_occultism = { }
             ee_hellenic_rebirthist = { }
         }
         war_impact_on_world_tension = 0.65

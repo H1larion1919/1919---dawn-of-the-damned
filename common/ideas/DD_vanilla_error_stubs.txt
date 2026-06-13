@@ -1,0 +1,28 @@
+ideas = {
+	country = {
+		SOV_vyacheslav_molotov = {
+			picture = generic_political_discourse
+			allowed = { always = no }
+			visible = { always = no }
+		}
+
+		SOV_maksim_litvinov = {
+			picture = generic_political_discourse
+			allowed = { always = no }
+			visible = { always = no }
+		}
+
+		USA_joseph_mccarthy = {
+			picture = generic_political_discourse
+			allowed = { always = no }
+			visible = { always = no }
+		}
+
+		COG_eugene_jungers = {
+			picture = generic_political_discourse
+			allowed = { always = no }
+			visible = { always = no }
+		}
+	}
+}
+

@@ -5,11 +5,12 @@ set_politics = {
 }
 set_popularities = {
 	communism = 0
-	libertarian_socialism = 0
+	libertarian_socialism = 0
 	social_democracy = 0
 	democratic = 70
 	market_liberalism = 0
-	fascism = 30
+	military_junta = 30
+	fascism = 0
 	neutrality = 0
 	esotericism = 0
 }
@@ -19,7 +20,7 @@ set_party_name = {
 	name = "Rhenish Movement"
 }
 set_party_name = {
-	ideology = fascism
+	ideology = military_junta
 	long_name = "The European Movement"
 	name = "The European Movement"
 }

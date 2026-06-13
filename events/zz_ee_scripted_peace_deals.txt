@@ -162,7 +162,7 @@ country_event = {
 			limit = { NOT = { has_global_flag = ee_spd_lat_fko_done } LAT = { exists = yes has_war_with = FKO } FKO = { exists = yes surrender_progress > 0.50 } }
 			set_global_flag = ee_spd_lat_fko_done
 			LAT = { white_peace = FKO transfer_state = 12 transfer_state = 810 }
-			FKO = { white_peace = LAT set_politics = { ruling_party = democratic elections_allowed = yes } set_popularities = { democratic = 100 fascism = 0 communism = 0 neutrality = 0 libertarian_socialism = 0 } add_ideas = EE_sour_krauts set_cosmetic_tag = FKO_north_western_white_army }
+			FKO = { white_peace = LAT set_politics = { ruling_party = democratic elections_allowed = yes } set_popularities = { democratic = 100 fascism = 0 communism = 0 neutrality = 0 libertarian_socialism = 0 syndicate_socialism = 0 military_junta = 0 } add_ideas = EE_sour_krauts set_cosmetic_tag = FKO_north_western_white_army }
 			if = { limit = { NOT = { EST = { exists = yes } } } FKO = { release = EST } }
 			EST = {
 				transfer_state = 13

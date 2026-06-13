@@ -1,14 +1,14 @@
-﻿# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+# Generated from world_data_master_file.txt by rebuild_world_leaders.py
 set_politics = {
 	ruling_party = democratic
 	elections_allowed = no
 }
 set_popularities = {
 	communism = 0
-	libertarian_socialism = 0
+	libertarian_socialism = 0
 	social_democracy = 85
 	democratic = 0
-	market_liberalism = 0
+	market_liberalism = 0
 	fascism = 0
 	neutrality = 15
 	esotericism = 0
@@ -29,21 +29,21 @@ set_party_name = {
 	name = "ÄŒSSD"
 }
 create_country_leader = {
-	name = "TomÃ¡Å¡ Garrigue Masaryk"
+	name = "Tomáš Garrigue Masaryk"
 	picture = "Portrait_CZE_Tom_Garrigue_Masaryk.dds"
 	ideology = ee_liberal_nationalism
 	expire = "1965.1.1"
 	traits = { }
 }
 create_country_leader = {
-	name = "Karel KramÃ¡Å™"
+	name = "Karel Kramář"
 	picture = "Portrait_CZE_Karel_Kram.dds"
 	ideology = ee_pan_slav_conservatism
 	expire = "1965.1.1"
 	traits = { }
 }
 create_country_leader = {
-	name = "AntonÃ­n NÄ›mec"
+	name = "Antonín Němec"
 	picture = "Portrait_CZE_Antonn_Nmec.dds"
 	desc = ""
 	ideology = ee_social_democracy

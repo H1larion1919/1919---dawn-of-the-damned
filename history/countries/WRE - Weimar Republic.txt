@@ -5,12 +5,13 @@ set_politics = {
 }
 set_popularities = {
 	communism = 0
-	libertarian_socialism = 0
+	libertarian_socialism = 0
 	social_democracy = 30
 	democratic = 12
 	market_liberalism = 24
+	military_junta = 10
 	fascism = 19
-	neutrality = 10
+	neutrality = 0
 	esotericism = 5
 }
 set_party_name = {
@@ -29,7 +30,7 @@ set_party_name = {
 	name = "German People's Party"
 }
 set_party_name = {
-	ideology = neutrality
+	ideology = military_junta
 	long_name = "Deutschnationale Volkspartei"
 	name = "DNVP (Military Wing)"
 }
@@ -74,7 +75,7 @@ create_country_leader = {
 create_country_leader = { 
 	name = "Ernst Röhm"
 	picture = "Portrait_WRE_Ernst_Rohm.dds"
-	ideology = ee_revolutionary_militarism
+	ideology = ee_national_revivalism
 	expire = "1965.1.1"
 	traits = { }
 }
@@ -98,6 +99,8 @@ add_ideas = {
 	dd_economy_state_capitalism
 	dd_popularity_high
 	dd_militarism_militarised_state
+}
+add_ideas = {
 	WRE_institutional_legitimacy
 	WRE_bundestag
 	WRE_military_shadow

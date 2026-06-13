@@ -12,7 +12,7 @@ tags={
 	"Historical"
 }
 name="1919 - Dawn of the damned"
-supported_version="1.18.*"
+supported_version="1.19.*"
 replace_path="history/states"
 replace_path="history/countries"
 replace_path="common/country_tags"

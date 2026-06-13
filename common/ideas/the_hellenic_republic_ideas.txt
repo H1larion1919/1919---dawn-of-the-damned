@@ -1,23 +1,18 @@
 ideas = {
 	country = {
 		HEL_revenge_for_1453 = {
-			picture = generic_war_preparation
-			allowed = {
-				original_tag = HEL
-				owns_state = 797
-				owns_state = 347
-				owns_state = 1068
-				owns_state = 1072
-			}
-			available = {
-				original_tag = HEL
-				owns_state = 797
-				owns_state = 347
-				owns_state = 1068
-				owns_state = 1072
-			}
+			picture = HEL_revenge_for_1453
+			allowed = { always = yes }
 			removal_cost = -1
-			cancel_if_invalid = yes
+			cancel = {
+				OR = {
+					NOT = { original_tag = HEL }
+					NOT = { owns_state = 797 }
+					NOT = { owns_state = 347 }
+					NOT = { owns_state = 1068 }
+					NOT = { owns_state = 1072 }
+				}
+			}
 			modifier = {
 				stability_factor = 0.25
 				war_support_factor = 0.20
@@ -29,11 +24,9 @@ ideas = {
 		}
 
 		HEL_scars_from_national_schism = {
-			picture = generic_disjointed_government
-			allowed = { original_tag = HEL }
-			available = { always = no }
+			picture = HEL_scars_from_national_schism
+			allowed = { always = yes }
 			removal_cost = -1
-			cancel_if_invalid = no
 			modifier = {
 				stability_factor = -0.15
 				political_power_gain = -0.15
@@ -42,11 +35,9 @@ ideas = {
 		}
 
 		HEL_a_decade_of_war = {
-			picture = generic_strike
-			allowed = { original_tag = HEL }
-			available = { always = no }
+			picture = HEL_a_decade_of_war
+			allowed = { always = yes }
 			removal_cost = -1
-			cancel_if_invalid = no
 			modifier = {
 				war_support_factor = -0.15
 				conscription_factor = -0.25
@@ -57,29 +48,17 @@ ideas = {
 		}
 
 		HEL_age_of_venizelos = {
-			picture = generic_political_discourse
-			allowed = {
-				original_tag = HEL
-				OR = {
-					has_government = democratic
-					has_government = fascism
-					has_government = esotericism
-					has_government = market_liberalism
-					has_government = social_democracy
-				}
-			}
-			available = {
-				original_tag = HEL
-				OR = {
-					has_government = democratic
-					has_government = fascism
-					has_government = esotericism
-					has_government = market_liberalism
-					has_government = social_democracy
-				}
-			}
+			picture = HEL_age_of_venizelos
+			allowed = { always = yes }
 			removal_cost = -1
-			cancel_if_invalid = yes
+			cancel = {
+				OR = {
+					NOT = { original_tag = HEL }
+					has_government = neutrality
+					has_government = libertarian_socialism
+					has_government = communism
+				}
+			}
 			modifier = {
 				political_power_gain = 0.30
 				stability_factor = 0.10
@@ -90,22 +69,35 @@ ideas = {
 		}
 
 		HEL_both_sides_of_the_shore = {
-			picture = generic_political_discourse
-			allowed = {
-				original_tag = HEL
-				owns_state = 339
-			}
-			available = {
-				original_tag = HEL
-				owns_state = 339
-			}
+			picture = HEL_both_sides_of_the_shore
+			allowed = { always = yes }
 			removal_cost = -1
-			cancel_if_invalid = yes
+			cancel = {
+				OR = {
+					NOT = { original_tag = HEL }
+					NOT = { owns_state = 339 }
+				}
+			}
 			modifier = {
 				production_speed_industrial_complex_factor = 0.25
 				production_speed_arms_factory_factor = 0.15
 				consumer_goods_factor = -0.05
 			}
 		}
+
+		HEL_constantinople_smyrna_highway_spirit = {
+			picture = generic_construction_bonus
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				production_speed_infrastructure_factor = 0.25
+				production_speed_rail_way_factor = 0.35
+				production_speed_supply_node_factor = 0.35
+				production_speed_industrial_complex_factor = 0.15
+				production_speed_arms_factory_factor = 0.15
+				production_factory_efficiency_gain_factor = 0.10
+			}
+		}
 	}
 }
+

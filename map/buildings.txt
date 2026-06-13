@@ -57151,7 +57151,6 @@
 192;naval_headquarters;3297.00;9.53;1452.00;1.25;0
 192;naval_headquarters;3300.00;9.57;1463.00;1.43;0
 192;naval_headquarters;3283.00;9.57;1442.00;0.93;0
-192;naval_base_spawn;3300.00;9.55;1462.00;1.43;0
 195;naval_supply_hub;3278.00;9.50;1733.00;-2.82;0
 195;naval_supply_hub;3275.00;9.50;1736.00;-0.93;0
 195;naval_headquarters;3276.00;9.50;1736.00;-0.93;0
@@ -57167,7 +57166,6 @@
 197;naval_supply_hub;3315.00;9.50;1450.00;-0.12;0
 197;naval_headquarters;3304.00;9.50;1462.00;0.00;0
 197;naval_headquarters;3305.00;9.50;1459.00;-0.32;0
-197;naval_base_spawn;3304.00;9.50;1462.00;0.00;0
 204;special_project_facility_spawn;3247.00;9.80;1565.00;0.26;0
 208;naval_supply_hub;3267.00;9.55;1734.00;-3.14;0
 208;naval_supply_hub;3254.00;9.62;1730.00;-2.98;0

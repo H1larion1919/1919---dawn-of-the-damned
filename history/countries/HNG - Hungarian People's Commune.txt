@@ -1,14 +1,14 @@
-﻿# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+# Generated from world_data_master_file.txt by rebuild_world_leaders.py
 set_politics = {
 	ruling_party = communism
 	elections_allowed = no
 }
 set_popularities = {
 	communism = 30
-	libertarian_socialism = 20
+	libertarian_socialism = 20
 	social_democracy = 0
 	democratic = 17
-	market_liberalism = 0
+	market_liberalism = 0
 	fascism = 20
 	neutrality = 13
 	esotericism = 0
@@ -30,8 +30,8 @@ set_party_name = {
 }
 set_party_name = {
 	ideology = neutrality
-	long_name = "Christian National Union Party (IF) / Christian National Union Party (HuszÃ¡rists)"
-	name = "CNUP (HuszÃ¡r)"
+	long_name = "Christian National Union Party (IF) / Christian National Union Party (Huszárists)"
+	name = "CNUP (Huszár)"
 }
 set_party_name = {
 	ideology = libertarian_socialism
@@ -39,7 +39,7 @@ set_party_name = {
 	name = "NSALP"
 }
 create_country_leader = {
-	name = "BÃ©la Kun"
+	name = "Béla Kun"
 	desc = ""
 	picture = "Portrait_HNG_Bela_Kun.dds"
 	ideology = ee_revolutionary_communism
@@ -54,7 +54,7 @@ create_country_leader = {
 	traits = { }
 }
 create_country_leader = {
-	name = "IstvÃ¡n Friedrich"
+	name = "István Friedrich"
 	desc = ""
 	picture = "Portrait_HNG_Istvn_Friedrich.dds"
 	ideology = ee_constitutional_conservatism
@@ -62,7 +62,7 @@ create_country_leader = {
 	traits = { }
 }
 create_country_leader = {
-	name = "KÃ¡roly HuszÃ¡r"
+	name = "Károly Huszár"
 	desc = ""
 	picture = "Portrait_HNG_Kroly_Huszr.dds"
 	ideology = ee_constitutional_conservatism
