@@ -1,4 +1,5 @@
 # Generated from world_data_master_file.txt by rebuild_world_leaders.py
+capital = 6
 set_politics = {
 	ruling_party = neutrality
 	elections_allowed = no

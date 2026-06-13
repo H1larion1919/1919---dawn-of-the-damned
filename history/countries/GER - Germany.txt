@@ -19,11 +19,18 @@ set_variable = { GER_freikorps_reform = 0 }
 set_variable = { GER_freikorps_radicalism = 0 }
 set_country_flag = GER_freikorps_dot_center
 add_ideas = {
+	GER_freikorps_voran
 	GER_germany_divided
 	GER_stabbed_in_the_back
 	GER_prussian_legacy
 	GER_split_in_twane
 	GER_unstable_triumvirate
+	dd_governance_oligarchy
+	dd_law_heresay_laws
+	dd_society_traditionalism
+	dd_economy_free_markets
+	dd_popularity_high
+	dd_militarism_war_society
 }
 set_party_name = {
 	ideology = democratic
@@ -75,7 +82,7 @@ recruit_character = EE_GER_wilfried_von_loewenfeld
 recruit_character = EE_GER_waldemar_pabst
 recruit_character = EE_GER_ernst_rohm
 recruit_character = EE_GER_rudolf_berthold
-capital = 59
+capital = 1103
 set_research_slots = 3
 set_stability = 0.45
 set_war_support = 0.4

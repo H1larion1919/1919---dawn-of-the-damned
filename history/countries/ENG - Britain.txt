@@ -1,4 +1,4 @@
-# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+﻿# Generated from world_data_master_file.txt by rebuild_world_leaders.py
 set_politics = {
 	ruling_party = neutrality
 	elections_allowed = no
@@ -6,11 +6,11 @@ set_politics = {
 set_popularities = {
 	communism = 0
 	libertarian_socialism = 0
-	social_democracy = 10
+	social_democracy = 20
 	democratic = 10
 	market_liberalism = 0
-	fascism = 10
-	neutrality = 70
+	fascism = 35
+	neutrality = 35
 	esotericism = 0
 }
 set_party_name = {
@@ -62,7 +62,7 @@ create_country_leader = {
 	traits = { }
 }
 
-capital = 14
+capital = 126
 # Recruit Characters
 oob = "UKB_1919"
 starting_train_buffer = 200
@@ -91,6 +91,8 @@ give_military_access = SAF
 give_military_access = BEL
 give_military_access = HOL
 give_military_access = DEN
+give_military_access = GLF
+give_military_access = RHO
 
 # Guarantees
 give_guarantee = CAN
@@ -99,7 +101,10 @@ give_guarantee = RAJ
 give_guarantee = SAF
 give_guarantee = BEL
 give_guarantee = HOL
+give_guarantee = GLF
+give_guarantee = RHO
 set_autonomy = { target = CAN autonomy_state = autonomy_ee_protectorate }
+set_autonomy = { target = HAN autonomy_state = autonomy_ee_protectorate }
 set_autonomy = { target = RAJ autonomy_state = autonomy_ee_colony }
 set_autonomy = { target = GLF autonomy_state = autonomy_ee_colony }
 set_autonomy = { target = RHO autonomy_state = autonomy_ee_colony }
@@ -109,9 +114,23 @@ set_autonomy = { target = SAF autonomy_state = autonomy_ee_colony }
 
 # Government/National Spirits
 add_ideas = {
-	all_adults_serve
-	extensive_conscription
-	limited_conscription
 	volunteer_only
 	war_economy
+	dd_popularity_medium
+	ENG_royal_act_of_national_security_and_sovereignty
+	ENG_oswald_mosley
+	ENG_anti_communist_watchdogs
+	ENG_axis_of_reaction
+	ENG_ira_activity
+	ENG_empire_is_crumbling
+	ENG_overextension
+}
+every_other_country = {
+	limit = {
+		OR = {
+			has_government = communism
+			has_government = libertarian_socialism
+		}
+	}
+	ENG = { add_opinion_modifier = { target = PREV modifier = ENG_anti_communist_watchdogs_opinion } }
 }

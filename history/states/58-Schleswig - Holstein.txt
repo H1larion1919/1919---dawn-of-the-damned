@@ -4,12 +4,12 @@ state = {
 	manpower = 3095630
 	state_category = large_city
 	history = {
-		owner = ENG
+		owner = HAN
 		add_core_of = GER
 		add_core_of = WRE
 		add_core_of = SBK
 		add_claim_by = DEN
-		add_core_of = ENG
+		add_core_of = HAN
 
 		victory_points = { 
 			6389 10
@@ -30,8 +30,6 @@ state = {
 			}
 
 		}
-		
-		set_demilitarized_zone = yes
 
 	}
 	provinces = { 3368 6257 6389 9320 9347 11331 }

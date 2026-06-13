@@ -1,0 +1,151 @@
+ideas = {
+	country = {
+		WRE_institutional_legitimacy = {
+			picture = generic_political_discourse
+			allowed = { original_tag = WRE }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				stability_factor = 0.12
+				political_power_gain = 0.20
+				consumer_goods_factor = -0.03
+			}
+		}
+		WRE_bundestag = {
+			picture = generic_political_discourse
+			allowed = { original_tag = WRE }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = 0.08
+				democratic_drift = 0.03
+				social_democracy_drift = 0.03
+				market_liberalism_drift = 0.03
+			}
+		}
+		WRE_military_shadow = {
+			picture = generic_army_support
+			allowed = { original_tag = WRE }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				stability_factor = -0.03
+				war_support_factor = 0.08
+				neutrality_drift = 0.04
+				fascism_drift = 0.03
+				army_org_factor = 0.06
+				army_morale_factor = 0.05
+			}
+		}
+		WRE_hyperinflation = {
+			picture = generic_strike
+			allowed = { original_tag = WRE }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				stability_factor = -0.20
+				political_power_gain = -0.35
+				consumer_goods_factor = 0.20
+				production_factory_efficiency_gain_factor = -0.15
+				production_factory_max_efficiency_factor = -0.10
+				research_speed_factor = -0.05
+			}
+		}
+		WRE_treaty_of_westfallia = {
+			picture = generic_disjointed_government
+			allowed = {
+				original_tag = WRE
+				NOT = {
+					owns_state = 42
+					owns_state = 50
+					owns_state = 51
+					owns_state = 52
+					owns_state = 53
+					owns_state = 54
+					owns_state = 59
+					owns_state = 60
+					owns_state = 61
+					owns_state = 62
+					owns_state = 64
+					owns_state = 65
+					owns_state = 66
+					owns_state = 68
+					owns_state = 763
+					owns_state = 978
+					owns_state = 1103
+					owns_state = 1104
+					owns_state = 1106
+					owns_state = 1109
+					owns_state = 1110
+				}
+			}
+			available = {
+				original_tag = WRE
+				NOT = {
+					owns_state = 42
+					owns_state = 50
+					owns_state = 51
+					owns_state = 52
+					owns_state = 53
+					owns_state = 54
+					owns_state = 59
+					owns_state = 60
+					owns_state = 61
+					owns_state = 62
+					owns_state = 64
+					owns_state = 65
+					owns_state = 66
+					owns_state = 68
+					owns_state = 763
+					owns_state = 978
+					owns_state = 1103
+					owns_state = 1104
+					owns_state = 1106
+					owns_state = 1109
+					owns_state = 1110
+				}
+			}
+			removal_cost = -1
+			cancel_if_invalid = yes
+			modifier = {
+				stability_factor = -0.30
+				war_support_factor = -0.25
+				political_power_gain = -0.50
+				consumer_goods_factor = 0.20
+				research_speed_factor = -0.10
+				production_factory_efficiency_gain_factor = -0.18
+				production_factory_max_efficiency_factor = -0.12
+				army_org_factor = -0.15
+				army_attack_factor = -0.15
+				army_defence_factor = -0.15
+				conscription_factor = -0.20
+				justify_war_goal_time = 1.00
+			}
+		}
+		WRE_germany_divided = {
+			picture = generic_political_discourse
+			allowed = {
+				original_tag = WRE
+				GER = { exists = yes }
+				SBK = { exists = yes }
+			}
+			available = {
+				original_tag = WRE
+				GER = { exists = yes }
+				SBK = { exists = yes }
+			}
+			removal_cost = -1
+			cancel_if_invalid = yes
+			modifier = {
+				stability_factor = -0.08
+				political_power_gain = -0.10
+				war_support_factor = 0.04
+			}
+		}
+	}
+}

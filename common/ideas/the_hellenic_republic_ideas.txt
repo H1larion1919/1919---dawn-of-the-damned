@@ -1,2 +1,111 @@
 ideas = {
+	country = {
+		HEL_revenge_for_1453 = {
+			picture = generic_war_preparation
+			allowed = {
+				original_tag = HEL
+				owns_state = 797
+				owns_state = 347
+				owns_state = 1068
+				owns_state = 1072
+			}
+			available = {
+				original_tag = HEL
+				owns_state = 797
+				owns_state = 347
+				owns_state = 1068
+				owns_state = 1072
+			}
+			removal_cost = -1
+			cancel_if_invalid = yes
+			modifier = {
+				stability_factor = 0.25
+				war_support_factor = 0.20
+				army_attack_factor = 0.25
+				army_defence_factor = 0.20
+				army_org_factor = 0.15
+				mobilization_speed = 0.20
+			}
+		}
+
+		HEL_scars_from_national_schism = {
+			picture = generic_disjointed_government
+			allowed = { original_tag = HEL }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				stability_factor = -0.15
+				political_power_gain = -0.15
+				war_support_factor = -0.05
+			}
+		}
+
+		HEL_a_decade_of_war = {
+			picture = generic_strike
+			allowed = { original_tag = HEL }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				war_support_factor = -0.15
+				conscription_factor = -0.25
+				mobilization_speed = -0.25
+				justify_war_goal_time = 1.00
+				training_time_army_factor = 0.15
+			}
+		}
+
+		HEL_age_of_venizelos = {
+			picture = generic_political_discourse
+			allowed = {
+				original_tag = HEL
+				OR = {
+					has_government = democratic
+					has_government = fascism
+					has_government = esotericism
+					has_government = market_liberalism
+					has_government = social_democracy
+				}
+			}
+			available = {
+				original_tag = HEL
+				OR = {
+					has_government = democratic
+					has_government = fascism
+					has_government = esotericism
+					has_government = market_liberalism
+					has_government = social_democracy
+				}
+			}
+			removal_cost = -1
+			cancel_if_invalid = yes
+			modifier = {
+				political_power_gain = 0.30
+				stability_factor = 0.10
+				research_speed_factor = 0.05
+				production_speed_industrial_complex_factor = 0.10
+				army_org_factor = 0.05
+			}
+		}
+
+		HEL_both_sides_of_the_shore = {
+			picture = generic_political_discourse
+			allowed = {
+				original_tag = HEL
+				owns_state = 339
+			}
+			available = {
+				original_tag = HEL
+				owns_state = 339
+			}
+			removal_cost = -1
+			cancel_if_invalid = yes
+			modifier = {
+				production_speed_industrial_complex_factor = 0.25
+				production_speed_arms_factory_factor = 0.15
+				consumer_goods_factor = -0.05
+			}
+		}
+	}
 }

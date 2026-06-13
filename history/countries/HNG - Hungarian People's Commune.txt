@@ -1,4 +1,4 @@
-# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+﻿# Generated from world_data_master_file.txt by rebuild_world_leaders.py
 set_politics = {
 	ruling_party = communism
 	elections_allowed = no
@@ -30,8 +30,8 @@ set_party_name = {
 }
 set_party_name = {
 	ideology = neutrality
-	long_name = "Christian National Union Party (IF) / Christian National Union Party (Huszárists)"
-	name = "CNUP (Huszár)"
+	long_name = "Christian National Union Party (IF) / Christian National Union Party (HuszÃ¡rists)"
+	name = "CNUP (HuszÃ¡r)"
 }
 set_party_name = {
 	ideology = libertarian_socialism
@@ -39,7 +39,7 @@ set_party_name = {
 	name = "NSALP"
 }
 create_country_leader = {
-	name = "Béla Kun"
+	name = "BÃ©la Kun"
 	desc = ""
 	picture = "Portrait_HNG_Bela_Kun.dds"
 	ideology = ee_revolutionary_communism
@@ -54,7 +54,7 @@ create_country_leader = {
 	traits = { }
 }
 create_country_leader = {
-	name = "István Friedrich"
+	name = "IstvÃ¡n Friedrich"
 	desc = ""
 	picture = "Portrait_HNG_Istvn_Friedrich.dds"
 	ideology = ee_constitutional_conservatism
@@ -62,7 +62,7 @@ create_country_leader = {
 	traits = { }
 }
 create_country_leader = {
-	name = "Károly Huszár"
+	name = "KÃ¡roly HuszÃ¡r"
 	desc = ""
 	picture = "Portrait_HNG_Kroly_Huszr.dds"
 	ideology = ee_constitutional_conservatism
@@ -84,10 +84,6 @@ set_stability = 0.5
 set_war_support = 0.65
 
 add_ideas = {
-	scraping_the_barrel
-	all_adults_serve
-	extensive_conscription
-	limited_conscription
 	volunteer_only
 	civilian_economy
 }

@@ -1,4 +1,4 @@
-# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+﻿# Generated from world_data_master_file.txt by rebuild_world_leaders.py
 set_politics = {
 	ruling_party = neutrality
 	elections_allowed = no
@@ -41,7 +41,7 @@ create_country_leader = {
 	traits = { }
 }
 create_country_leader = {
-	name = "Ion I. C. Brătianu"
+	name = "Ion I. C. BrÄƒtianu"
 	picture = "Portrait_ROM_Ion_I_C_Brtianu.dds"
 	desc = ""
 	ideology = ee_national_liberalism
@@ -69,10 +69,6 @@ set_stability = 0.65
 set_war_support = 0.45
 
 add_ideas = {
-	scraping_the_barrel
-	all_adults_serve
-	extensive_conscription
-	limited_conscription
 	volunteer_only
 	civilian_economy
 }

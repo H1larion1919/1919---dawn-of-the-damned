@@ -31,3 +31,21 @@ set_research_slots = 2
 set_stability = 0.5
 set_war_support = 0.3
 set_convoys = 0
+add_ideas = {
+	dd_governance_decentralised
+	dd_law_oral_traditions
+	dd_society_general_emancipation
+	dd_economy_socialism
+	dd_popularity_medium
+	dd_militarism_military_readiness
+	SBK_marxs_homeland
+	SBK_das_vereinte_proletariat
+	SBK_a_germany_for_all
+	SBK_germany_divided
+	SBK_die_arbeiter_von_berlin
+	SBK_inherited_state_infrastructure
+	SBK_limited_military_experience
+	SBK_hern_der_fabriker
+	SBK_kriegskommunismus
+	SBK_armed_syndicates
+}

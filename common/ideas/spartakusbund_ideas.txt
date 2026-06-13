@@ -1,0 +1,151 @@
+ideas = {
+	country = {
+		SBK_marxs_homeland = {
+			picture = generic_communism_drift_bonus
+			allowed = { original_tag = SBK }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				stability_factor = 0.03
+				political_power_gain = 0.05
+				communism_drift = 0.10
+			}
+		}
+		SBK_das_vereinte_proletariat = {
+			picture = generic_propaganda
+			allowed = { original_tag = SBK }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				production_speed_industrial_complex_factor = 0.04
+				production_speed_arms_factory_factor = 0.03
+				production_factory_efficiency_gain_factor = 0.05
+			}
+		}
+		SBK_a_germany_for_all = {
+			picture = generic_political_discourse
+			allowed = { original_tag = SBK }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				stability_factor = 0.06
+				research_speed_factor = 0.04
+				justify_war_goal_time = -0.25
+				generate_wargoal_tension = -0.25
+			}
+		}
+		SBK_germany_divided = {
+			picture = generic_political_discourse
+			allowed = {
+				original_tag = SBK
+				GER = { exists = yes }
+				WRE = { exists = yes }
+			}
+			available = {
+				original_tag = SBK
+				GER = { exists = yes }
+				WRE = { exists = yes }
+			}
+			removal_cost = -1
+			cancel_if_invalid = yes
+			modifier = {
+				stability_factor = -0.06
+				political_power_gain = -0.08
+				war_support_factor = 0.06
+			}
+		}
+		SBK_die_arbeiter_von_berlin = {
+			picture = generic_war_preparation
+			allowed = {
+				original_tag = SBK
+				owns_state = 64
+			}
+			available = {
+				original_tag = SBK
+				owns_state = 64
+			}
+			removal_cost = -1
+			cancel_if_invalid = yes
+			modifier = {
+				war_support_factor = 0.15
+				army_attack_factor = 0.25
+				army_defence_factor = 0.20
+				army_org_factor = 0.15
+				army_morale_factor = 0.15
+				production_speed_arms_factory_factor = 0.10
+			}
+		}
+		SBK_inherited_state_infrastructure = {
+			picture = generic_political_discourse
+			allowed = { original_tag = SBK }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				stability_factor = 0.08
+				political_power_gain = 0.15
+				consumer_goods_factor = -0.03
+			}
+		}
+		SBK_limited_military_experience = {
+			picture = generic_army_support
+			allowed = { original_tag = SBK }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				training_time_army_factor = 0.25
+				conscription_factor = -0.05
+				army_org_factor = 0.03
+				army_attack_factor = 0.03
+				army_defence_factor = 0.03
+			}
+		}
+		SBK_hern_der_fabriker = {
+			picture = generic_production_bonus
+			allowed = { original_tag = SBK }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				production_speed_arms_factory_factor = 0.06
+				production_factory_efficiency_gain_factor = 0.10
+				production_factory_max_efficiency_factor = 0.05
+			}
+		}
+		SBK_kriegskommunismus = {
+			picture = generic_disjointed_government
+			allowed = { original_tag = SBK }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				stability_factor = -0.15
+				political_power_gain = -0.20
+				consumer_goods_factor = 0.10
+				research_speed_factor = -0.05
+				production_factory_efficiency_gain_factor = -0.10
+				army_org_factor = -0.08
+				army_attack_factor = -0.05
+			}
+		}
+		SBK_armed_syndicates = {
+			picture = generic_army_support
+			allowed = { original_tag = SBK }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				recruitable_population_factor = 0.10
+				mobilization_speed = 0.25
+				training_time_army_factor = 0.30
+				army_org_factor = -0.08
+				army_morale_factor = -0.08
+				planning_speed = -0.10
+			}
+		}
+	}
+}

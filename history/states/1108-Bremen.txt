@@ -10,8 +10,8 @@ state = {
 	
 	history = {
 
-		owner = ENG
-		add_core_of = ENG
+		owner = HAN
+		add_core_of = HAN
 		add_core_of = GER
 		add_core_of = WRE
 		add_core_of = SBK
@@ -35,8 +35,6 @@ state = {
 				naval_base = 1
 			}
 		}
-
-		set_demilitarized_zone = yes
 
 	}
 

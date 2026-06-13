@@ -1,1 +1,1 @@
-﻿# Disabled by 1919 - Dawn of the Damned: vanilla WTT/China decision content has invalid categories or triggers in this timeline.
+# Disabled in 1919DD. Kept empty to avoid loading obsolete vanilla decision logic.

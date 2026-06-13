@@ -1,4 +1,3 @@
-# Generated from world_data_master_file.txt by rebuild_world_leaders.py
 set_politics = {
 	ruling_party = neutrality
 	elections_allowed = no
@@ -15,19 +14,21 @@ set_popularities = {
 }
 set_party_name = {
 	ideology = neutrality
-	long_name = "Oil Consortium"
-	name = "Oil Consortium"
+	long_name = "House of Glucksburg"
+	name = "Glucksburg"
 }
 create_country_leader = {
-	name = "British Corporate Authority"
-	picture = "Portrait_GLF_British_Corporate_Authority.dds"
-	ideology = ee_corporate_extractive_rule
+	name = "Haakon VII"
+	picture = "Portrait_NOR_Haakon_VII.dds"
+	ideology = absolutism
 	expire = "1965.1.1"
 	traits = { }
 }
 
-capital = 294
+capital = 110
 set_research_slots = 2
-set_stability = 0.5
-set_war_support = 0.3
+set_stability = 0.55
+set_war_support = 0.55
 set_convoys = 0
+
+add_ideas = { EE_frihetskamp EE_arm_our_brothers }

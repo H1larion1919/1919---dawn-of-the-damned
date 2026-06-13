@@ -5,8 +5,8 @@ state = {
 	state_category = rural
 	
 	history = {
-		owner = DEN
-		add_core_of = NOR
+		owner = KNO
+		add_core_of = KNO
 
 		start_resistance = yes
 		set_compliance = 0

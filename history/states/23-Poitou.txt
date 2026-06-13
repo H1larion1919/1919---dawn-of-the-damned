@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = AQU
+		owner = FRA
 		victory_points = {
 			6657 5
 		}
@@ -24,8 +24,7 @@ state={
 			}
 		}
 		add_core_of = FRA
-		add_core_of = AQU
-		add_core_of = FRC
+
 	}
 
 	provinces={

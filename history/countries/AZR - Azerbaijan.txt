@@ -1,4 +1,4 @@
-# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+﻿# Generated from world_data_master_file.txt by rebuild_world_leaders.py
 set_politics = {
 	ruling_party = social_democracy
 	elections_allowed = no
@@ -40,9 +40,6 @@ set_convoys = 100
 
 # Government/National Spirits
 add_ideas = {
-	all_adults_serve
-	extensive_conscription
-	limited_conscription
 	volunteer_only
 	partial_economic_mobilisation
 }

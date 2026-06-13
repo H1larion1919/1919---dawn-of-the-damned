@@ -4,9 +4,7 @@ state = {
 	manpower = 2396600
 	state_category = city
 	history = {
-		owner = ENG
-
-		set_demilitarized_zone = yes
+		owner = FRA
 	
 		victory_points = { 
 			3552 20
@@ -38,10 +36,7 @@ state = {
 			}
 		}
 		add_core_of = FRA
-		add_core_of = AQU
-		add_core_of = FRC
 		add_core_of = BRI
-		add_core_of = ENG
 	}
 	provinces = { 527 542 3552 3758 6536 6548 6572 9495 9510 9525 11508 }
 	local_supplies = 0.0

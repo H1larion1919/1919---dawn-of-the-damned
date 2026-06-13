@@ -1,4 +1,4 @@
-# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+﻿# Generated from world_data_master_file.txt by rebuild_world_leaders.py
 set_politics = {
 	ruling_party = democratic
 	elections_allowed = no
@@ -29,7 +29,7 @@ set_party_name = {
 	name = "Sanatacja Regime"
 }
 create_country_leader = {
-	name = "Józef Piłsudski (L)"
+	name = "JÃ³zef PiÅ‚sudski (L)"
 	desc = ""
 	picture = "Portrait_PFA_Jozef_Pilsudski.dds"
 	ideology = ee_militarized_republicanism
@@ -37,7 +37,7 @@ create_country_leader = {
 	traits = { }
 }
 create_country_leader = {
-	name = "Ignacy Mościcki"
+	name = "Ignacy MoÅ›cicki"
 	desc = ""
 	picture = "Portrait_PFA_Ignacy_Moscicki.dds"
 	ideology = ee_agrarian_social_democracy
@@ -45,7 +45,7 @@ create_country_leader = {
 	traits = { }
 }
 create_country_leader = {
-	name = "Józef Piłsudski (N)"
+	name = "JÃ³zef PiÅ‚sudski (N)"
 	desc = ""
 	picture = "Portrait_PFA_Jozef_Pilsudski.dds"
 	ideology = ee_nationalist_social_democracy
@@ -59,10 +59,6 @@ set_stability = 0.45
 set_war_support = 0.65
 
 add_ideas = {
-	scraping_the_barrel
-	all_adults_serve
-	extensive_conscription
-	limited_conscription
 	volunteer_only
 	civilian_economy
 }

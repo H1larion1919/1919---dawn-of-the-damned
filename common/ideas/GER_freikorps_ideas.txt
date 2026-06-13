@@ -8,6 +8,19 @@ ideas = {
 				political_power_gain = -0.05
 			}
 		}
+		GER_freikorps_voran = {
+			picture = GER_army
+			allowed = { original_tag = GER }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				war_support_factor = 0.05
+				army_org_factor = 0.03
+				army_morale_factor = 0.03
+				mobilization_speed = 0.05
+			}
+		}
 		GER_germany_divided = {
 			picture = generic_political_discourse
 			allowed = { original_tag = GER }

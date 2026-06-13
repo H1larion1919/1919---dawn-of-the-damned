@@ -1,4 +1,4 @@
-# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+﻿# Generated from world_data_master_file.txt by rebuild_world_leaders.py
 set_politics = {
 	ruling_party = democratic
 	elections_allowed = no
@@ -25,25 +25,25 @@ set_party_name = {
 }
 set_party_name = {
 	ideology = libertarian_socialism
-	long_name = "ČSSD"
-	name = "ČSSD"
+	long_name = "ÄŒSSD"
+	name = "ÄŒSSD"
 }
 create_country_leader = {
-	name = "Tomáš Garrigue Masaryk"
+	name = "TomÃ¡Å¡ Garrigue Masaryk"
 	picture = "Portrait_CZE_Tom_Garrigue_Masaryk.dds"
 	ideology = ee_liberal_nationalism
 	expire = "1965.1.1"
 	traits = { }
 }
 create_country_leader = {
-	name = "Karel Kramář"
+	name = "Karel KramÃ¡Å™"
 	picture = "Portrait_CZE_Karel_Kram.dds"
 	ideology = ee_pan_slav_conservatism
 	expire = "1965.1.1"
 	traits = { }
 }
 create_country_leader = {
-	name = "Antonín Němec"
+	name = "AntonÃ­n NÄ›mec"
 	picture = "Portrait_CZE_Antonn_Nmec.dds"
 	desc = ""
 	ideology = ee_social_democracy
@@ -57,10 +57,6 @@ set_stability = 0.45
 set_war_support = 0.35
 
 add_ideas = {
-	scraping_the_barrel
-	all_adults_serve
-	extensive_conscription
-	limited_conscription
 	volunteer_only
 	civilian_economy
 }

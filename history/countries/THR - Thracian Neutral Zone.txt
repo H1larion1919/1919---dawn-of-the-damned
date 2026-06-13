@@ -1,4 +1,4 @@
-capital = 184
+﻿capital = 184
 # Recruit Characters
 recruit_character = un_coincil_league_of_nations_council
 oob = "THR_1919"
@@ -32,10 +32,6 @@ set_popularities = {
 }
 # Government/National Spirits
 add_ideas = {
-	scraping_the_barrel
-	all_adults_serve
-	extensive_conscription
-	limited_conscription
 	volunteer_only
 	civilian_economy
 }

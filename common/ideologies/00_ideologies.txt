@@ -305,6 +305,7 @@ ideologies = {
             ee_fiscal_conservatism = { }
             ee_social_conservatism = { }
             ee_autocratic_capitalism = { }
+            ee_cleptocracy = { }
         }
         dynamic_faction_names = {
             "FACTION_NAME_DEMOCRATIC_1"

@@ -13,8 +13,8 @@ state = {
 			9296 3 
 		}
 		
-		owner = DEN
-		add_core_of = NOR
+		owner = KNO
+		add_core_of = KNO
 
 		start_resistance = yes
 		set_compliance = 0

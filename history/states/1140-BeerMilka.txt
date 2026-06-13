@@ -1,0 +1,32 @@
+state = {
+	id = 1140
+	name = "STATE_1140" 
+	manpower = 24012
+	
+	state_category = town
+
+	history = {
+
+		owner = PAL
+		add_core_of = PAL
+		add_claim_by = ISR
+		add_claim_by = SYR
+
+
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 3
+			air_base = 2
+		}
+		victory_points = {
+			11970 2 # Acre
+		}
+
+	}
+
+	provinces = {
+		11970
+	}
+
+	local_supplies = 0.0 
+}

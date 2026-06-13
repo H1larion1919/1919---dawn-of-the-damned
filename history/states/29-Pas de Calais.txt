@@ -12,7 +12,7 @@ state={
 	}
 
 	history={
-		owner = BEL
+		owner = FRA
 		victory_points = {
 			575 5
 		}
@@ -32,9 +32,7 @@ state={
 			}
 		}
 		add_core_of = FRA
-		add_core_of = AQU
-		add_core_of = FRC
-		add_core_of = BEL
+		add_claim_by = BEL
 
 	}
 

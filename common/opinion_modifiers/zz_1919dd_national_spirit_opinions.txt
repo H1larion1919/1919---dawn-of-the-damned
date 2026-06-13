@@ -1,0 +1,11 @@
+opinion_modifiers = {
+	HEL_revenge_for_1453_opinion = {
+		value = -150
+		decay = 0.0
+	}
+
+	ENG_anti_communist_watchdogs_opinion = {
+		value = -100
+		decay = 0.0
+	}
+}

@@ -13,6 +13,7 @@ set_popularities = {
 	neutrality = 100
 	esotericism = 0
 }
+capital = 1035
 set_research_slots = 2
 set_stability = 0.5
 set_war_support = 0.1

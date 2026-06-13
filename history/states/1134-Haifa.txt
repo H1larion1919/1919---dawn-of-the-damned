@@ -1,0 +1,37 @@
+state = {
+	id = 1134
+	name = "STATE_1134" 
+	manpower = 45640
+	
+	state_category = city
+
+	history = {
+
+		owner = PAL
+		add_core_of = PAL
+		add_core_of = ISR
+		add_claim_by = SYR
+
+
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 4
+			air_base = 3
+			1201 = {
+				naval_base = 3
+			}
+
+		}
+
+		victory_points = {
+			13398 1 # Nazareth
+		}
+		
+	}
+
+	provinces = {
+		1201 13398
+	}
+
+	local_supplies = 0.0 
+}

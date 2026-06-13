@@ -1,4 +1,141 @@
 ideas = {
+	country = {
+		ENG_royal_act_of_national_security_and_sovereignty = {
+			picture = generic_political_discourse
+			allowed = {
+				original_tag = ENG
+				OR = {
+					has_government = neutrality
+					has_government = market_liberalism
+				}
+			}
+			available = {
+				original_tag = ENG
+				OR = {
+					has_government = neutrality
+					has_government = market_liberalism
+				}
+			}
+			removal_cost = -1
+			cancel_if_invalid = yes
+			modifier = {
+				stability_factor = 0.12
+				political_power_gain = 0.25
+				war_support_factor = 0.05
+			}
+		}
+
+		ENG_oswald_mosley = {
+			picture = generic_fascism_drift_bonus
+			allowed = { original_tag = ENG }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				fascism_drift = 0.10
+				stability_factor = 0.05
+				political_power_gain = 0.10
+				army_org_factor = 0.05
+				army_attack_factor = 0.03
+				mobilization_speed = 0.10
+			}
+		}
+
+		ENG_anti_communist_watchdogs = {
+			picture = CHL_anti_communist_action
+			allowed = {
+				original_tag = ENG
+				OR = {
+					has_government = fascism
+					has_government = esotericism
+					has_government = democratic
+					has_government = market_liberalism
+					has_government = neutrality
+				}
+			}
+			available = {
+				original_tag = ENG
+				OR = {
+					has_government = fascism
+					has_government = esotericism
+					has_government = democratic
+					has_government = market_liberalism
+					has_government = neutrality
+				}
+			}
+			removal_cost = -1
+			cancel_if_invalid = yes
+			modifier = {
+				communism_drift = -0.10
+				libertarian_socialism_drift = -0.10
+				stability_factor = 0.05
+			}
+		}
+
+		ENG_axis_of_reaction = {
+			picture = generic_war_preparation
+			allowed = {
+				original_tag = ENG
+				is_faction_leader = yes
+			}
+			available = {
+				original_tag = ENG
+				is_faction_leader = yes
+			}
+			removal_cost = -1
+			cancel_if_invalid = yes
+			modifier = {
+				war_support_factor = 0.10
+				army_org_factor = 0.08
+				army_defence_factor = 0.05
+				mobilization_speed = 0.10
+			}
+		}
+
+		ENG_ira_activity = {
+			picture = generic_strike
+			allowed = { original_tag = ENG }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				stability_factor = -0.08
+				political_power_gain = -0.05
+				resistance_growth_on_our_occupied_states = 0.20
+			}
+		}
+
+		ENG_empire_is_crumbling = {
+			picture = generic_disjointed_government
+			allowed = { original_tag = ENG }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				stability_factor = -0.05
+				political_power_gain = -0.10
+				subjects_autonomy_gain = 1.00
+			}
+		}
+
+		ENG_overextension = {
+			picture = generic_strike
+			allowed = { original_tag = ENG }
+			available = { always = no }
+			removal_cost = -1
+			cancel_if_invalid = no
+			modifier = {
+				research_speed_factor = 0.06
+				navy_org_factor = -0.15
+				naval_damage_factor = -0.10
+				naval_defense_factor = -0.10
+				training_time_army_factor = 5.00
+				weekly_manpower = -5000
+				mobilization_speed = -0.35
+			}
+		}
+	}
+
 	mobilization_laws = {
 	}
 	economy = {

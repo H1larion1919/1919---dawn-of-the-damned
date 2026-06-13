@@ -43,4 +43,34 @@ spriteTypes = {
 		name = "GFX_idea_slot_dd_militarism"
 		textureFile = "gfx/interface/idea_slot_army_chief.dds"
 	}
+
+	spriteType = {
+		name = "GFX_idea_generic_political_discourse"
+		textureFile = "gfx/interface/ideas/idea_generic_political_support.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_army_support"
+		textureFile = "gfx/interface/ideas/generic_morale_bonus.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_disjointed_government"
+		textureFile = "gfx/interface/ideas/generic_disjointed_gov.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_strike"
+		textureFile = "gfx/interface/ideas/FRA_factory_strikes.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_research"
+		textureFile = "gfx/interface/ideas/generic_research_bonus.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_propaganda"
+		textureFile = "gfx/interface/ideas/idea_generic_fascism_rising.dds"
+	}
 }

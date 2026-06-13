@@ -4,7 +4,14 @@ state = {
 	manpower = 941400
 	state_category = town
 	history = {
-		owner = IRE
+		owner = ENG
+		add_core_of = IRE
+		add_claim_by = ENG
+
+		set_demilitarized_zone = yes
+		start_resistance = yes
+		set_compliance = 0
+		set_resistance = 70
 
 		buildings = {
 			infrastructure = 3
@@ -17,9 +24,6 @@ state = {
 		victory_points = { 
 			6313 1
 		}
-
-		add_core_of = IRE
-		add_core_of = ENG
 	}
 	provinces = { 6289 6313 6405 7394 9284 9310 9405 11237 11267 11334 }
 	local_supplies = 0.0

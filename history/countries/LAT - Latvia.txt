@@ -1,4 +1,4 @@
-# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+﻿# Generated from world_data_master_file.txt by rebuild_world_leaders.py
 set_politics = {
 	ruling_party = communism
 	elections_allowed = no
@@ -26,17 +26,17 @@ set_party_name = {
 set_party_name = {
 	ideology = democratic
 	long_name = "Latvian Farmers' Union"
-	name = "People’s Council"
+	name = "Peopleâ€™s Council"
 }
 create_country_leader = {
-	name = "Pēteris Stučka"
+	name = "PÄ“teris StuÄka"
 	picture = "Portrait_LAT_Peteris_Stucka.dds"
 	ideology = ee_leninism
 	expire = "1965.1.1"
 	traits = { }
 }
 create_country_leader = {
-	name = "Kārlis Ulmanis"
+	name = "KÄrlis Ulmanis"
 	picture = "Portrait_LAT_Krlis_Ulmanis.dds"
 	desc = ""
 	ideology = ee_national_authoritarianism
@@ -44,7 +44,7 @@ create_country_leader = {
 	traits = { }
 }
 create_country_leader = {
-	name = "Jānis Čakste"
+	name = "JÄnis ÄŒakste"
 	picture = "Portrait_LAT_Jnis_akste.dds"
 	desc = ""
 	ideology = ee_democratic_republicanism
@@ -58,10 +58,6 @@ set_stability = 0.45
 set_war_support = 0.55
 
 add_ideas = {
-	scraping_the_barrel
-	all_adults_serve
-	extensive_conscription
-	limited_conscription
 	volunteer_only
 	civilian_economy
 }

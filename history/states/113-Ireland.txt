@@ -8,7 +8,15 @@ state = {
 	}
 	state_category = city
 	history = {
-		owner = IRE
+		owner = ENG
+		add_core_of = IRE
+		add_claim_by = ENG
+
+		set_demilitarized_zone = yes
+		start_resistance = yes
+		set_compliance = 0
+		set_resistance = 70
+		
 		victory_points = { 
 			285 1
 		}
@@ -31,8 +39,6 @@ state = {
 				naval_base = 6
 			}
 		}
-		add_core_of = IRE
-		add_core_of = ENG
 	}
 	provinces = { 285 303 369 3342 3359 7377 11293 11303 }
 	local_supplies = 0.0

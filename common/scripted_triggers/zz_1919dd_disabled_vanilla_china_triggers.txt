@@ -1,0 +1,10 @@
+is_potentially_communist_china = { always = no }
+is_current_communist_china = { always = no }
+PRC_is_infiltrated_by_PREV = { always = no }
+PRC_has_low_popular_support = { always = no }
+PRC_state_is_fully_infiltrated = { always = no }
+PRC_state_is_infiltrated = { always = no }
+PRC_neighboring_SOV = { always = no }
+has_any_PRC_infiltration_flag = { always = no }
+ROOT_any_state_infiltration_detected = { always = no }
+ROOT_any_anti_JAP_state_infiltration_detected = { always = no }

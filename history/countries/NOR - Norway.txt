@@ -1,4 +1,5 @@
 # Generated from world_data_master_file.txt by rebuild_world_leaders.py
+capital = 920
 set_politics = {
 	ruling_party = libertarian_socialism
 	elections_allowed = no
@@ -39,7 +40,6 @@ create_country_leader = {
 	traits = { }
 }
 
-capital = 920
 set_research_slots = 2
 set_stability = 0.55
 set_war_support = 0.75

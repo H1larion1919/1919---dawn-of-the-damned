@@ -91,3 +91,17 @@ set_research_slots = 2
 set_stability = 0.5
 set_war_support = 0.3
 set_convoys = 0
+add_ideas = {
+	dd_governance_representativism
+	dd_law_strong_norms
+	dd_society_general_emancipation
+	dd_economy_state_capitalism
+	dd_popularity_high
+	dd_militarism_militarised_state
+	WRE_institutional_legitimacy
+	WRE_bundestag
+	WRE_military_shadow
+	WRE_hyperinflation
+	WRE_treaty_of_westfallia
+	WRE_germany_divided
+}

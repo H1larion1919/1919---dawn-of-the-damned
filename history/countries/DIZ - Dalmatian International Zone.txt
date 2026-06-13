@@ -1,4 +1,4 @@
-capital = 103
+﻿capital = 103
 oob = "DIZ_1919"
 starting_train_buffer = 0
 set_research_slots = 3
@@ -26,10 +26,6 @@ set_popularities = {
 }
 # Government/National Spirits
 add_ideas = {
-	scraping_the_barrel
-	all_adults_serve
-	extensive_conscription
-	limited_conscription
 	volunteer_only
 	civilian_economy
 }

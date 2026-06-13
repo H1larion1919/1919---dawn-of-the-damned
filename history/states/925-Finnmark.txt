@@ -19,7 +19,7 @@ state = {
 		owner = NAO
 
 		add_core_of = NAO
-		add_core_of = NOR
+		add_core_of = KNO
 		add_core_of = SMI
 
 buildings = {

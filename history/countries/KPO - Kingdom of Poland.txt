@@ -1,4 +1,4 @@
-# Recruit Characters
+﻿# Recruit Characters
 oob = "KPO_1919"
 starting_train_buffer = 200
 set_research_slots = 2
@@ -26,10 +26,6 @@ set_popularities = {
 }
 # Government/National Spirits
 add_ideas = {
-	scraping_the_barrel
-	all_adults_serve
-	extensive_conscription
-	limited_conscription
 	volunteer_only
 	civilian_economy
 }

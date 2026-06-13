@@ -24,14 +24,6 @@ state={
 		}
 
 		add_core_of = FRA
-		add_core_of = AQU
-		add_core_of = FRC
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 2
-				industrial_complex = 3
-			}
-		}
 	}
 
 	provinces={

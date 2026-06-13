@@ -785,7 +785,7 @@ SAX = {
 	color_ui = rgb { 116 116 15 }
 }
 
-HAN = { color = rgb { 135 169 192 } color_ui = rgb { 189 223 242 } }
+HAN = { color = rgb { 70 87 150 } color_ui = rgb { 70 87 150 } }
 
 WUR = {
 	color = rgb { 206 163 122 }
@@ -1506,7 +1506,10 @@ KFN = {
 	color = rgb { 140 103 124 }
 	color_ui = rgb { 166 119 146 }
 }
-
+HAN = {
+	color = rgb { 45 56 96 }
+	color_ui = rgb { 45 56 96 }
+}
 NAO = {
 	color = rgb { 82 92 125 }
 	color_ui = rgb { 79 103 159 }

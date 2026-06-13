@@ -1,0 +1,72 @@
+EE_disabled_vanilla_decision_stubs = {
+	icon = generic_political_discourse
+	allowed = { always = no }
+	visible = { always = no }
+	visible_when_empty = no
+}
+
+CHI_army_reform = {
+	icon = generic_political_discourse
+	allowed = { always = no }
+	visible = { always = no }
+}
+
+CHI_build_up_our_faction_cat = {
+	icon = generic_political_discourse
+	allowed = { always = no }
+	visible = { always = no }
+}
+
+CHI_industrial_evacuations = {
+	icon = generic_political_discourse
+	allowed = { always = no }
+	visible = { always = no }
+}
+
+CHI_integrate_the_warlords = {
+	icon = generic_political_discourse
+	allowed = { always = no }
+	visible = { always = no }
+}
+
+CHI_integrate_the_warlords_sea_cat = {
+	icon = generic_political_discourse
+	allowed = { always = no }
+	visible = { always = no }
+}
+
+CHI_seek_japanese_support = {
+	icon = generic_political_discourse
+	allowed = { always = no }
+	visible = { always = no }
+}
+
+PRC_28_bolshevik_faction_cat = {
+	icon = generic_political_discourse
+	allowed = { always = no }
+	visible = { always = no }
+}
+
+PRC_anti_japanese_expedition = {
+	icon = generic_political_discourse
+	allowed = { always = no }
+	visible = { always = no }
+}
+
+PRC_guerilla_warfare_sea_cat = {
+	icon = generic_political_discourse
+	allowed = { always = no }
+	visible = { always = no }
+}
+
+PRC_infiltrate_nationalist_areas = {
+	icon = generic_political_discourse
+	allowed = { always = no }
+	visible = { always = no }
+}
+
+PRC_infiltration_sea_cat = {
+	icon = generic_political_discourse
+	allowed = { always = no }
+	visible = { always = no }
+}

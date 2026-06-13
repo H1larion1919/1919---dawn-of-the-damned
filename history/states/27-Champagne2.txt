@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = FRC
+		owner = FRA
 		victory_points = {
 			3652 5 
 		}
@@ -22,13 +22,6 @@ state={
 			air_base = 2
 		}
 		add_core_of = FRA
-		add_core_of = AQU
-		add_core_of = FRC
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 3
-			}
-		}
 	}
 
 	provinces={

@@ -1,4 +1,4 @@
-# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+﻿# Generated from world_data_master_file.txt by rebuild_world_leaders.py
 set_politics = {
 	ruling_party = neutrality
 	elections_allowed = no
@@ -15,7 +15,7 @@ set_popularities = {
 }
 set_party_name = {
 	ideology = neutrality
-	long_name = "Karađorđević Family"
+	long_name = "KaraÄ‘orÄ‘eviÄ‡ Family"
 	name = "Royal Government"
 }
 set_party_name = {
@@ -34,7 +34,7 @@ set_party_name = {
 	name = "Chetniks"
 }
 create_country_leader = {
-	name = "Alexander I Karađorđević"
+	name = "Alexander I KaraÄ‘orÄ‘eviÄ‡"
 	desc = ""
 	picture = "Portrait_YUG_Alexander_I_Karaorevi.dds"
 	ideology = ee_royal_centralism
@@ -42,7 +42,7 @@ create_country_leader = {
 	traits = { }
 }
 create_country_leader = {
-	name = "Stojan Protić"
+	name = "Stojan ProtiÄ‡"
 	desc = ""
 	picture = "Portrait_YUG_Stojan.dds"
 	ideology = ee_federal_republicanism
@@ -50,14 +50,14 @@ create_country_leader = {
 	traits = { }
 }
 create_country_leader = {
-	name = "Dragutin Dimitrijević"
+	name = "Dragutin DimitrijeviÄ‡"
 	picture = "Portrait_YUG_Dragutin_Dimitrijevi.dds"
 	ideology = ee_national_anarchist_pan_slavism
 	expire = "1965.1.1"
 	traits = { }
 }
 create_country_leader = {
-	name = "Draža Mihailović"
+	name = "DraÅ¾a MihailoviÄ‡"
 	desc = ""
 	picture = "Portrait_YUG_Draa_Mihailovi.dds"
 	ideology = ee_greater_serbian_nationalism
@@ -65,7 +65,7 @@ create_country_leader = {
 	traits = { }
 }
 
-capital = 104
+capital = 107
 # Recruit Characters
 oob = "YUG_1919"
 starting_train_buffer = 60
@@ -80,10 +80,6 @@ set_convoys = 0
 # Government/National Spirits
 add_ideas = {
 	EE_imro_insurrectionists
-	scraping_the_barrel
-	all_adults_serve
-	extensive_conscription
-	limited_conscription
 	volunteer_only
 	civilian_economy
 }
