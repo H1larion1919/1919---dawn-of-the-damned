@@ -1,0 +1,81 @@
+set_politics = {
+	ruling_party = social_democracy
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 0
+	libertarian_socialism = 0
+	syndicate_socialism = 0
+
+	social_democracy = 100
+	democratic = 0
+	market_liberalism = 0
+	military_junta = 0
+
+	fascism = 0
+	neutrality = 0
+	esotericism = 0
+}
+set_party_name = {
+	ideology = libertarian_socialism
+	long_name = "KKK (LS)"
+	name = "KKK (LS)"
+}
+set_party_name = {
+	ideology = syndicate_socialism
+	long_name = "EDEK"
+	name = "EDEK"
+}
+set_party_name = {
+	ideology = communism
+	long_name = "KKK (SM)"
+	name = "KKK (SM)"
+}
+set_party_name = {
+	ideology = social_democracy
+	long_name = "DIKO"
+	name = "DIKO"
+}
+set_party_name = {
+	ideology = democratic
+	long_name = "DISY (CL)"
+	name = "DISY (CL)"
+}
+set_party_name = {
+	ideology = market_liberalism
+	long_name = "DISY (ML)"
+	name = "DISY (ML)"
+}
+set_party_name = {
+	ideology = military_junta
+	long_name = "EOKA (MJ)"
+	name = "EOKA (MJ)"
+}
+set_party_name = {
+	ideology = fascism
+	long_name = "EOKA (PN)"
+	name = "EOKA (PN)"
+}
+set_party_name = {
+	ideology = neutrality
+	long_name = "EOKA (RA)"
+	name = "EOKA (RA)"
+}
+set_party_name = {
+	ideology = esotericism
+	long_name = "Cypriot orthodox church"
+	name = "Cypriot orthodox church"
+}
+create_country_leader = {
+	name = "Cypriot Government"
+	picture = "Portrait_Generic.dds"
+	ideology = ee_social_democracy
+	expire = "1965.1.1"
+	traits = { }
+}
+
+capital = 1143
+set_research_slots = 2
+set_stability = 0.45
+set_war_support = 0.1
+set_convoys = 20

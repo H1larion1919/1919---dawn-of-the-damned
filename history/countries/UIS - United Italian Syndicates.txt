@@ -1,0 +1,83 @@
+# Generated from world_data_master_file.txt by rebuild_world_leaders.py
+set_politics = {
+	ruling_party = communism
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 40
+	libertarian_socialism = 0
+	syndicate_socialism = 30
+	social_democracy = 20
+	democratic = 0
+	market_liberalism = 0
+	military_junta = 0
+	fascism = 10
+	neutrality = 0
+	esotericism = 0
+}
+set_party_name = {
+	ideology = communism
+	long_name = "The Communist party"
+	name = "The Radicals"
+}
+set_party_name = {
+	ideology = syndicate_socialism
+	long_name = "The Worker's Syndicates"
+	name = "The Syndicalists"
+}
+set_party_name = {
+	ideology = social_democracy
+	long_name = "The Federalists Movement"
+	name = "The Federalists"
+}
+set_party_name = {
+	ideology = fascism
+	long_name = "The Fasces of Comat"
+	name = "The 'Fascists'"
+}
+create_country_leader = {
+	name = "Amadeo Bordiga"
+	picture = "Portrait_UIS_Amadeo_Bordiga.dds"
+	ideology = ee_revolutionary_communism
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Antonio Gramsci"
+	picture = "Portrait_UIS_Antonio_Gramsci.dds"
+	ideology = ee_revolutionary_syndicalism
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Alceste De Ambris"
+	picture = "Portrait_UIS_Alceste_De_Ambris.dds"
+	ideology = ee_social_democracy
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Benito Mussolini"
+	picture = "Portrait_UIS_Benito_Mussolini.dds"
+	ideology = ee_national_syndicalism
+	expire = "1965.1.1"
+	traits = { }
+}
+
+capital = 158
+# Recruit Characters
+oob = "UIS_1919"
+starting_train_buffer = 300
+set_research_slots = 3
+set_stability = 0.46
+set_war_support = 0.8
+add_command_power = 100
+set_convoys = 80
+
+# Politics for 1919.1.1
+
+# Government/National Spirits
+add_ideas = {
+	volunteer_only
+	civilian_economy
+}

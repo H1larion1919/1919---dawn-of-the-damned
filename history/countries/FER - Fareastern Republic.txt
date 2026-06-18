@@ -1,0 +1,31 @@
+# Minimal restored history for FER. This tag is referenced in EE state history.
+capital = 408
+set_politics = {
+	ruling_party = democratic
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 0
+	libertarian_socialism = 0
+	social_democracy = 0
+	democratic = 100
+	market_liberalism = 0
+	fascism = 0
+	neutrality = 0
+	esotericism = 0
+}
+set_party_name = {
+	ideology = democratic
+	long_name = "Far Eastern Republic Council"
+	name = "Republic Council"
+}
+create_country_leader = {
+	name = "Far Eastern Republic Council"
+	picture = "Portrait_VLA_Provisional_Russian_Republic_Council.dds"
+	ideology = ee_republicanism
+	expire = "1965.1.1"
+	traits = { }
+}
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.1

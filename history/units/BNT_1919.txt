@@ -1,0 +1,61 @@
+﻿# Create units
+division_template = {
+	name = "Infantry Division"
+	division_names_group = "BNT_DIV_0_0"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		artillery_brigade = { x = 2 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Reserve Division"
+	division_names_group = "BNT_DIV_0_0"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Cavalry Brigade"
+	division_names_group = "BNT_DIV_0_0"
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+
+# Spawn units
+units = {
+	division = { name = "1th Banat Brigade" location = 3617 division_template = "Infantry Division" }
+	division = { name = "2th Banat Brigade" location = 3614 division_template = "Reserve Division" }
+	division = { name = "3th Banat Brigade" location = 9606 division_template = "Cavalry Brigade" }
+	division = { name = "4th Banat Brigade" location = 3617 division_template = "Infantry Division" }
+	division = { name = "5th Banat Brigade" location = 3614 division_template = "Reserve Division" }
+	division = { name = "6th Banat Brigade" location = 9606 division_template = "Cavalry Brigade" }
+	division = { name = "7th Banat Brigade" location = 3617 division_template = "Infantry Division" }
+	division = { name = "8th Banat Brigade" location = 3614 division_template = "Reserve Division" }
+	division = { name = "9th Banat Brigade" location = 9606 division_template = "Cavalry Brigade" }
+	division = { name = "10th Banat Brigade" location = 3617 division_template = "Infantry Division" }
+}

@@ -1,0 +1,24 @@
+state = {
+	id = 45
+	name = "STATE_45"
+	history = {
+		victory_points = { 
+			3617 3
+		}
+
+		owner = BNT
+
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = HNG
+		add_claim_by = CRO
+		add_core_of = YUG
+		add_core_of = BNT
+	}
+	provinces = { 3617 6643 9621 }
+	manpower = 838621
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 0.0
+}

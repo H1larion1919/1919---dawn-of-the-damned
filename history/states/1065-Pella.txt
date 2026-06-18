@@ -1,0 +1,32 @@
+state = {
+	id = 1065
+	name = "STATE_1065" # Pella
+	resources = {
+		chromium = 2
+		steel = 4
+	}
+	history = {
+		owner = HEL
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+			victory_points = { 
+			936 5 # "Veria"
+		}
+		victory_points = { 
+			3844 3 # "Katerini"
+		}
+		
+		add_core_of = HEL
+		add_core_of = MAC
+		add_claim_by = BPR
+		add_claim_by = BUL
+
+	}
+	provinces = { 936 966 3844 3980 9837 }
+	manpower = 380000
+	state_category = dd_capacity_5
+	local_supplies = 5.0
+}

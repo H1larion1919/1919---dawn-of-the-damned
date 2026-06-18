@@ -1,0 +1,36 @@
+state = {
+	id = 797
+	name = "STATE_797"
+	resources = {
+	} # Constantinople 
+	provinces = { 9833 6895 }
+	manpower = 950000
+	state_category = dd_capacity_20
+	history = {
+		owner = HEL
+		victory_points = { 
+			9833 25 # If owned by HEL Kostantinoupoli, if owned by TUR or TSR: Konstantiniyye, if owned by KTR: Istanbul, if owned by a slavic nation: Tsargran, else: Contantinople
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 2
+			air_base = 4
+			9833 = {
+				naval_base = 8
+				landmark_hagia_sophia = {
+                    level = 1
+                }
+			}
+		}
+		add_core_of = HEL
+		add_claim_by = KTR
+		add_claim_by = TSR
+		add_claim_by = OTT
+		add_claim_by = BUL
+		add_claim_by = BPR
+
+	}
+	local_supplies = 9.0
+}

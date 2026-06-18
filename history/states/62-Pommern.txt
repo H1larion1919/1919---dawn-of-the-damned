@@ -1,0 +1,40 @@
+state = {
+	id = 62
+	name = "STATE_62"
+	manpower = 1124417
+	
+	
+	state_category = large_city
+
+	history = {
+		owner = SBK
+		add_core_of = GER
+		add_core_of = WRE
+		add_core_of = SBK
+
+		victory_points = {
+			11372 6 # Stolp 
+		}
+
+		victory_points = {
+			9334 1 # Köslin  
+		}
+
+		
+		buildings = {
+			infrastructure = 3
+			fuel_silo = 1
+			industrial_complex = 1
+			11372 = {
+				naval_base = 1
+			}
+		}
+
+	}
+
+	provinces = {
+		6334 6309 6390 9277 9306 9334 9361 11372
+	}
+
+	local_supplies = 3.0 
+}

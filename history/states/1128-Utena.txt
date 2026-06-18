@@ -1,0 +1,25 @@
+state = {
+	id = 1128
+	name = "STATE_1128"
+	history = {
+		owner = PFA
+		victory_points = { 
+			11498 3
+		}
+
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 4
+		}
+		add_core_of = LIT
+		add_core_of = PFA
+		add_claim_by = PET
+	}
+	provinces = { 327 9404 11498 }
+	manpower = 103201
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+}

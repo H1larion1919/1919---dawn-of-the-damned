@@ -1,0 +1,23 @@
+
+state={
+	id=1004
+	name="STATE_1004"
+	manpower = 353246
+	state_category = rural
+
+	history={
+		owner = TRK
+		add_core_of = TRK
+		add_claim_by = IRN
+
+		buildings = {
+			infrastructure = 2
+		}
+
+	}
+	provinces={
+		7573 7602 1521 10351 12359 
+	}
+
+	local_supplies=0.0 
+}

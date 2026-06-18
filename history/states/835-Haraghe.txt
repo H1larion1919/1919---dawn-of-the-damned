@@ -1,0 +1,42 @@
+state = {
+	id = 835 # Hararghe
+	name = "STATE_835"
+	manpower = 1500000
+	resources = {
+	}
+	
+	state_category = rural
+
+	history = {
+
+	
+		buildings = {
+			industrial_complex = 1
+			air_base = 1
+		}
+		
+		victory_points = { 
+			12757 2 
+		}
+		victory_points = { 
+			12812 3
+		}
+		victory_points = { 
+			12714 1
+		}
+		victory_points = { 
+			5068 1
+		}
+		
+		owner = SOM
+		add_core_of = ETH
+		add_core_of = SOM
+
+	}
+
+	provinces = {
+ 		1905 1964 5068 4909 8094 12714 12757 12812 
+ 	}
+
+	local_supplies=0.0 
+}

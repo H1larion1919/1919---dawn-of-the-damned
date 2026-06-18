@@ -1,0 +1,38 @@
+state = {
+    id = 1110
+    name = "STATE_1110" # Potsdam
+	manpower = 1398144
+
+	state_category = large_town 
+	
+	history = {
+
+		owner = GER
+		add_core_of = GER
+		add_core_of = WRE
+		add_core_of = SBK
+
+		victory_points = {
+			9375 8 # Braunschweig
+		}
+
+		victory_points = {
+			3522 3 # Wulfsburg
+		}
+
+
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 1
+			air_base = 4
+		}
+
+	}
+
+	provinces = {
+		3522 6218 6487 9238 9264 9375 11359
+	} 
+	
+	local_supplies = 0.0 
+}

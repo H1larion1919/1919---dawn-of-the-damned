@@ -1,0 +1,28 @@
+state = {
+    id = 1112
+    name = "STATE_1112" # Palieski
+	history = {
+		owner = HUK
+
+		buildings = {
+			infrastructure = 2
+		}
+
+		victory_points = { 
+			3507 3
+		}
+
+		add_core_of = BLR
+		add_core_of = UPR
+		add_core_of = HUK
+		add_core_of = UKS
+		add_core_of = FSU
+		add_claim_by = POL
+		add_claim_by = PFA
+	}
+	provinces = { 3203 3507 6319 9249  }
+	manpower = 372623 
+	buildings_max_level_factor = 5.000
+	state_category = town
+	local_supplies = 0.0
+} 

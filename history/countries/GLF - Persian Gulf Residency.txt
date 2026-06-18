@@ -1,0 +1,32 @@
+set_politics = {
+	ruling_party = market_liberalism
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 0
+	libertarian_socialism = 0
+	social_democracy = 0
+	democratic = 0
+	market_liberalism = 100
+	fascism = 0
+	neutrality = 0
+	esotericism = 0
+}
+set_party_name = {
+	ideology = market_liberalism
+	long_name = "Oil Consortium"
+	name = "Oil Consortium"
+}
+create_country_leader = {
+	name = "British Corporate Authority"
+	picture = "Portrait_GLF_British_Corporate_Authority.dds"
+	ideology = ee_cleptocracy
+	expire = "1965.1.1"
+	traits = { }
+}
+
+capital = 294
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.3
+set_convoys = 0

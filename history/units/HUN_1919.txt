@@ -1,0 +1,75 @@
+# Create units
+division_template = {
+	name = "Infantry Division"
+	division_names_group = "HUN_DIV_0_0"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		artillery_brigade = { x = 2 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Reserve Division"
+	division_names_group = "HUN_DIV_0_0"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Cavalry Brigade"
+	division_names_group = "HUN_DIV_0_0"
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+
+# Spawn units
+units = {
+	division = { name = "1th Red Division" location = 679 division_template = "Infantry Division" }
+	division = { name = "2th Red Division" location = 699 division_template = "Infantry Division" }
+	division = { name = "3th Red Division" location = 730 division_template = "Reserve Division" }
+	division = { name = "4th Red Division" location = 686 division_template = "Infantry Division" }
+	division = { name = "5th Red Division" location = 701 division_template = "Cavalry Brigade" }
+	division = { name = "6th Red Division" location = 3683 division_template = "Infantry Division" }
+	division = { name = "7th Red Division" location = 684 division_template = "Infantry Division" }
+	division = { name = "8th Red Division" location = 716 division_template = "Reserve Division" }
+	division = { name = "9th Red Division" location = 3713 division_template = "Infantry Division" }
+	division = { name = "10th Red Division" location = 3565 division_template = "Cavalry Brigade" }
+	division = { name = "11th Red Division" location = 6573 division_template = "Infantry Division" }
+	division = { name = "12th Red Division" location = 9537 division_template = "Infantry Division" }
+	division = { name = "13th Red Division" location = 3548 division_template = "Reserve Division" }
+	division = { name = "14th Red Division" location = 11691 division_template = "Infantry Division" }
+	division = { name = "15th Red Division" location = 696 division_template = "Cavalry Brigade" }
+	division = { name = "16th Red Division" location = 746 division_template = "Infantry Division" }
+	division = { name = "17th Red Division" location = 6682 division_template = "Infantry Division" }
+	division = { name = "18th Red Division" location = 3623 division_template = "Reserve Division" }
+	division = { name = "19th Red Division" location = 3670 division_template = "Infantry Division" }
+	division = { name = "20th Red Division" location = 6670 division_template = "Cavalry Brigade" }
+	division = { name = "21th Red Division" location = 682 division_template = "Infantry Division" }
+	division = { name = "22th Red Division" location = 3680 division_template = "Infantry Division" }
+	division = { name = "23th Red Division" location = 6685 division_template = "Reserve Division" }
+	division = { name = "24th Red Division" location = 3700 division_template = "Infantry Division" }
+}

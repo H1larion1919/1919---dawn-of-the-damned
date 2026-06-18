@@ -1,0 +1,65 @@
+﻿# Create units
+division_template = {
+	name = "Infantry Division"
+	division_names_group = "AUS_DIV_0_0"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		artillery_brigade = { x = 2 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Reserve Division"
+	division_names_group = "AUS_DIV_0_0"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Cavalry Brigade"
+	division_names_group = "AUS_DIV_0_0"
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+
+# Spawn units
+units = {
+	division = { name = "1th Workers Division" location = 688 division_template = "Infantry Division" }
+	division = { name = "2th Workers Division" location = 9665 division_template = "Infantry Division" }
+	division = { name = "3th Workers Division" location = 11666 division_template = "Reserve Division" }
+	division = { name = "4th Workers Division" location = 732 division_template = "Cavalry Brigade" }
+	division = { name = "5th Workers Division" location = 557 division_template = "Infantry Division" }
+	division = { name = "6th Workers Division" location = 688 division_template = "Infantry Division" }
+	division = { name = "7th Workers Division" location = 9665 division_template = "Reserve Division" }
+	division = { name = "8th Workers Division" location = 11666 division_template = "Cavalry Brigade" }
+	division = { name = "9th Workers Division" location = 732 division_template = "Infantry Division" }
+	division = { name = "10th Workers Division" location = 557 division_template = "Infantry Division" }
+	division = { name = "11th Workers Division" location = 688 division_template = "Reserve Division" }
+	division = { name = "12th Workers Division" location = 9665 division_template = "Cavalry Brigade" }
+	division = { name = "13th Workers Division" location = 11666 division_template = "Infantry Division" }
+	division = { name = "14th Workers Division" location = 732 division_template = "Infantry Division" }
+}

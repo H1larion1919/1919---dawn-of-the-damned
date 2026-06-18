@@ -1,0 +1,33 @@
+state = {
+	id = 1127
+	name = "STATE_1127" # Nachgivan
+	manpower = 372123
+	resources = {
+		steel = 2
+	}
+	state_category = town
+	history = {
+		owner = AZR
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+		}
+
+		set_demilitarized_zone = yes
+
+		victory_points = { 
+			6997 5
+		}
+
+		add_core_of = AZR
+		add_core_of = ARM
+		add_claim_by = KTR
+		add_claim_by = OTT
+		add_claim_by = KUR
+		add_claim_by = PER
+		add_claim_by = TSR
+	}
+	provinces = { 6642 6997  }
+	local_supplies = 4.0
+}

@@ -1,0 +1,27 @@
+state = {
+	id = 1086
+	name = "STATE_1086" # Southern Dobruja 
+	manpower = 490000
+	state_category = city
+	history = {
+		owner = ROM
+		add_core_of = ROM
+		add_core_of = BUL
+		add_core_of = BPR
+		victory_points = { 
+			657 3
+		}
+
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			657 = {
+				naval_base = 8
+			}
+			dockyard = 1
+		}
+	}
+	provinces = { 657 9614 11597 }
+	local_supplies = 0.0
+}

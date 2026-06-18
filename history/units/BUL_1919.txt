@@ -1,0 +1,47 @@
+﻿# Create units
+division_template = {
+	name = "Tsarist Infantry Division"
+	division_names_group = "BUL_DIV_0_0"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		artillery_brigade = { x = 2 y = 0 }
+	}
+	support = { engineer = { x = 0 y = 0 } recon = { x = 0 y = 1 } }
+}
+division_template = {
+	name = "Tsarist Reserve Division"
+	division_names_group = "BUL_DIV_0_0"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+	}
+	support = { engineer = { x = 0 y = 0 } }
+}
+units = {
+	division = { name = "1st Tsarist Division" location = 6857 division_template = "Tsarist Infantry Division" start_experience_factor = 0.20 }
+	division = { name = "2nd Tsarist Division" location = 3937 division_template = "Tsarist Infantry Division" start_experience_factor = 0.20 }
+	division = { name = "3rd Tsarist Division" location = 9771 division_template = "Tsarist Reserve Division" start_experience_factor = 0.15 }
+	division = { name = "4th Tsarist Division" location = 793 division_template = "Tsarist Infantry Division" start_experience_factor = 0.20 }
+	division = { name = "5th Tsarist Division" location = 949 division_template = "Tsarist Infantry Division" start_experience_factor = 0.20 }
+	division = { name = "6th Tsarist Division" location = 935 division_template = "Tsarist Reserve Division" start_experience_factor = 0.15 }
+	division = { name = "7th Tsarist Division" location = 6857 division_template = "Tsarist Infantry Division" start_experience_factor = 0.20 }
+	division = { name = "8th Tsarist Division" location = 3937 division_template = "Tsarist Infantry Division" start_experience_factor = 0.20 }
+	division = { name = "9th Tsarist Division" location = 9771 division_template = "Tsarist Reserve Division" start_experience_factor = 0.15 }
+	division = { name = "10th Tsarist Division" location = 793 division_template = "Tsarist Infantry Division" start_experience_factor = 0.20 }
+	division = { name = "11th Tsarist Division" location = 949 division_template = "Tsarist Infantry Division" start_experience_factor = 0.20 }
+	division = { name = "12th Tsarist Division" location = 935 division_template = "Tsarist Reserve Division" start_experience_factor = 0.15 }
+	division = { name = "13th Tsarist Division" location = 6857 division_template = "Tsarist Infantry Division" start_experience_factor = 0.20 }
+	division = { name = "14th Tsarist Division" location = 3937 division_template = "Tsarist Infantry Division" start_experience_factor = 0.20 }
+	division = { name = "15th Tsarist Division" location = 9771 division_template = "Tsarist Reserve Division" start_experience_factor = 0.15 }
+	division = { name = "16th Tsarist Division" location = 793 division_template = "Tsarist Infantry Division" start_experience_factor = 0.20 }
+	division = { name = "17th Tsarist Division" location = 949 division_template = "Tsarist Infantry Division" start_experience_factor = 0.20 }
+	division = { name = "18th Tsarist Division" location = 935 division_template = "Tsarist Reserve Division" start_experience_factor = 0.15 }
+}

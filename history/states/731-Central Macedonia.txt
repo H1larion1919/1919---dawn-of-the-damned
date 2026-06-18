@@ -1,0 +1,33 @@
+state = {
+	id = 731
+	name = "STATE_731" # Salonica
+	history = {
+		owner = HEL
+		victory_points = { 
+			11818 5 # If HEL owned; Thessaloniki, if Slavic owned; Solun, if OTT, KTR or TSR owned; Selanik, else: Salonica
+		}
+		
+		victory_points = { 
+			895 3 # Mount Athos
+		}
+
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 3
+			11818 = {
+				naval_base = 6
+			}
+		}
+		add_core_of = HEL
+		add_claim_by = BUL
+		add_claim_by = BPR
+		add_claim_by = MAC
+		add_claim_by = ISR
+	}
+	provinces = { 895 11818 }
+	manpower = 1155700
+	state_category = dd_capacity_12
+	local_supplies = 0.0
+}

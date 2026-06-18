@@ -1,0 +1,31 @@
+state = {
+	id = 342
+	name = "STATE_342"
+	resources = {
+	}
+	history = {
+		owner = TSR
+		victory_points = { 
+			1005 10
+		}
+		victory_points = { 
+			4008 5
+		}
+
+		buildings = {
+			infrastructure = 2
+			1005 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = TSR
+		add_claim_by = HEL
+		add_core_of = KTR
+		add_core_of = OTT
+	}
+	provinces = { 1005 1119 1122 4008 4127 }
+	manpower = 350000
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.0
+}

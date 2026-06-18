@@ -1,0 +1,166 @@
+#Create units
+division_template = {
+	name = "Sons of Anarchy"
+	division_names_group = "FSU_DIV_0_0"
+	regiments = {
+		infantry = { x = 0 y = 0}
+		infantry = { x = 0 y = 1}
+		infantry = { x = 0 y = 2}
+		infantry = { x = 1 y = 0}
+		infantry = { x = 1 y = 1}
+		infantry = { x = 1 y = 2}
+		infantry = { x = 2 y = 0}
+		infantry = { x = 2 y = 1}
+		artillery_brigade = { x = 3 y = 0}
+		artillery_brigade = { x = 3 y = 1}
+	}
+	support = {
+		anti_air = { x = 0 y = 0}
+		rocket_artillery = { x = 0 y = 1}
+	}
+
+}
+
+#Spawn units
+units = {
+	division= {
+		name = "1st Sons of Anarchy"
+		location = 3399
+		division_template = "Sons of Anarchy"
+	}
+	division= {
+		name = "2nd Sons of Anarchy"
+		location = 3399
+		division_template = "Sons of Anarchy"
+	}
+	division= {
+		name = "3rd Sons of Anarchy"
+		location = 3399
+		division_template = "Sons of Anarchy"
+	}
+	division= {
+		name = "4th Sons of Anarchy"
+		location = 3399
+		division_template = "Sons of Anarchy"
+	}
+	division= {
+		name = "5th Sons of Anarchy"
+		location = 3399
+		division_template = "Sons of Anarchy"
+	}
+	division= {
+		name = "6th Sons of Anarchy"
+		location = 3399
+		division_template = "Sons of Anarchy"
+	}
+	division= {
+		name = "7th Sons of Anarchy"
+		location = 3449
+		division_template = "Sons of Anarchy"
+	}
+	division= {
+		name = "8th Sons of Anarchy"
+		location = 3449
+		division_template = "Sons of Anarchy"
+	}
+	division= {
+		name = "9th Sons of Anarchy"
+		location = 3449
+		division_template = "Sons of Anarchy"
+	}
+	division= {
+		name = "10th Sons of Anarchy"
+		location = 6420
+		division_template = "Sons of Anarchy"
+	}
+	division= {
+		name = "11th Sons of Anarchy"
+		location = 6420
+		division_template = "Sons of Anarchy"
+	}
+	division= {
+		name = "12th Sons of Anarchy"
+		location = 6420
+		division_template = "Sons of Anarchy"
+	}
+	division= {
+		name = "13th Sons of Anarchy"
+		location = 6420
+		division_template = "Sons of Anarchy"
+	}
+	division= {
+		name = "14th Sons of Anarchy"
+		location = 6474
+		division_template = "Sons of Anarchy"
+	}
+	division= {
+		name = "15th Sons of Anarchy"
+		location = 6474
+		division_template = "Sons of Anarchy"
+	}
+	division= {
+		name = "16th Sons of Anarchy"
+		location = 6474
+		division_template = "Sons of Anarchy"
+	}
+	division= {
+		name = "17th Sons of Anarchy"
+		location = 6474
+		division_template = "Sons of Anarchy"
+	}
+	division= {
+		name = "18th Sons of Anarchy"
+		location = 6474
+		division_template = "Sons of Anarchy"
+	}
+	division= {
+		name = "19th Sons of Anarchy"
+		location = 9571
+		division_template = "Sons of Anarchy"
+	}
+	division= {
+		name = "20th Sons of Anarchy"
+		location = 9571
+		division_template = "Sons of Anarchy"
+	}
+	division= {
+		name = "21st Sons of Anarchy"
+		location = 9571
+		division_template = "Sons of Anarchy"
+	}
+	division= {
+		name = "22nd Sons of Anarchy"
+		location = 9571
+		division_template = "Sons of Anarchy"
+	}
+	division= {
+		name = "23rd Sons of Anarchy"
+		location = 11405
+		division_template = "Sons of Anarchy"
+	}
+	division= {
+		name = "24th Sons of Anarchy"
+		location = 11405
+		division_template = "Sons of Anarchy"
+	}
+	division= {
+		name = "25th Sons of Anarchy"
+		location = 11405
+		division_template = "Sons of Anarchy"
+	}
+	division= {
+		name = "26th Sons of Anarchy"
+		location = 11405
+		division_template = "Sons of Anarchy"
+	}
+	division= {
+		name = "27th Sons of Anarchy"
+		location = 11405
+		division_template = "Sons of Anarchy"
+	}
+	division= {
+		name = "28th Sons of Anarchy"
+		location = 11405
+		division_template = "Sons of Anarchy"
+	}
+}

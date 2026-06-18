@@ -1,0 +1,16 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_goal_HEL_hellas_of_two_continents_and_five_seas"
+		texturefile = "gfx/interface/goals/HEL_hellas_of_two_continents_and_five_seas.tga"
+	}
+
+	spriteType = {
+		name = "GFX_goal_HEL_address_the_nation"
+		texturefile = "gfx/interface/goals/HEL_address_the_nation.tga"
+	}
+
+	spriteType = {
+		name = "GFX_goal_HEL_slowly_lift_mobilisation"
+		texturefile = "gfx/interface/goals/HEL_slowly_lift_mobilisation.tga"
+	}
+}

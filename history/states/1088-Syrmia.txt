@@ -1,0 +1,24 @@
+state = {
+	id = 1088
+	name = "STATE_1088" # Syrmia 
+	manpower = 483862
+	state_category = city
+	history = {
+		owner = CRO
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+		}
+
+		victory_points = { 
+			11580 3
+		}
+
+		add_core_of = YUG
+		add_core_of = CRO
+		add_core_of = BNT
+	}
+	provinces = { 11577 11580 }
+	local_supplies = 0.0
+}

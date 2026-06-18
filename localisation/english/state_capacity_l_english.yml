@@ -1,0 +1,12 @@
+﻿l_english:
+ dd_capacity_2:0 "Limited Reconstruction Region"
+ dd_capacity_3:0 "Sparse Reconstruction Region"
+ dd_capacity_4:0 "Minor Reconstruction Region"
+ dd_capacity_5:0 "Modest Reconstruction Region"
+ dd_capacity_7:0 "Developing Reconstruction Region"
+ dd_capacity_9:0 "Urban Reconstruction Region"
+ dd_capacity_10:0 "Major Reconstruction Region"
+ dd_capacity_11:0 "Dense Reconstruction Region"
+ dd_capacity_12:0 "Regional Industrial Center"
+ dd_capacity_18:0 "Major Industrial Center"
+ dd_capacity_20:0 "Dominant Industrial Center"

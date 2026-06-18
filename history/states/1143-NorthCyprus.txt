@@ -1,0 +1,38 @@
+state = {
+	id = 1143
+	name = "STATE_1143"
+	manpower = 100000
+	state_category = city
+	resources = {
+		chromium = 1
+	}
+	history = {
+		owner = HEL
+		add_core_of = HEL
+		add_core_of = CYP
+		add_claim_by = KTR
+		add_claim_by = TSR
+		add_claim_by = OTT
+		add_claim_by = CYP
+
+		victory_points = { 
+			11984 5 # Lefkosia
+		}
+		victory_points = { 
+			13400 3 # Kerynia
+		}
+		victory_points = { 
+			13401 3 # Karpasia
+		}
+
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			11984 = {
+				naval_base = 2
+			}
+		}
+	}
+	provinces = { 11984 13400 13401 } 
+	local_supplies = 0.0
+}

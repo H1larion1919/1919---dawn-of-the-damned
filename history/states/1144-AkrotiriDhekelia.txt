@@ -1,0 +1,41 @@
+state = {
+	id = 1144
+	name = "STATE_1144"
+	manpower = 30000
+	state_category = large_town
+	resources = {
+		chromium = 1
+	}
+	history = {
+		owner = ENG
+		add_claim_by = ENG
+		add_core_of = HEL
+		add_core_of = CYP
+		add_claim_by = KTR
+		add_claim_by = TSR
+		add_claim_by = OTT
+		add_claim_by = CYP
+
+		victory_points = { 
+			13403 3 # Dhekelia
+		}
+
+		victory_points = { 
+			13404 4 # Akrotiri
+		}
+
+
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			13403 = {
+				naval_base = 2
+			}
+			13404 = {
+				naval_base = 2
+			}
+		}
+	}
+	provinces = { 13403 13404 }
+	local_supplies = 0.0
+}

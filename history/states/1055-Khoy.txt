@@ -1,0 +1,25 @@
+state = {
+	id = 1055
+	name = "STATE_1055" # Khoy
+	manpower = 288412
+	state_category = rural
+	history = {
+		owner = AZR
+		victory_points = { 
+			1636 3
+		}
+
+
+		buildings = {
+			infrastructure = 1
+		}
+
+		set_demilitarized_zone = yes
+
+		add_core_of = IRN
+		add_core_of = AZR
+		add_claim_by = ARM
+	}
+	provinces = { 1636 4755 }
+	local_supplies = 2.0
+}

@@ -1,0 +1,42 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ukraine_nestor_makhno_large"
+		texturefile = "gfx/characters/ukraine/ukraine_nestor_makhno_large.dds"
+	}
+	spriteType = {
+		name = "GFX_ukraine_nestor_makhno_small"
+		texturefile = "gfx/characters/ukraine/ukraine_nestor_makhno_small.dds"
+	}
+	spriteType = {
+		name = "GFX_ukraine_maria_nikiforova_large"
+		texturefile = "gfx/characters/ukraine/ukraine_maria_nikiforova_large.dds"
+	}
+	spriteType = {
+		name = "GFX_ukraine_maria_nikiforova_small"
+		texturefile = "gfx/characters/ukraine/ukraine_maria_nikiforova_small.dds"
+	}
+	spriteType = {
+		name = "GFX_ukraine_fedir_shchus_large"
+		texturefile = "gfx/characters/ukraine/ukraine_fedir_shchus_large.dds"
+	}
+	spriteType = {
+		name = "GFX_ukraine_fedir_shchus_small"
+		texturefile = "gfx/characters/ukraine/ukraine_fedir_shchus_small.dds"
+	}
+	spriteType = {
+		name = "GFX_ukraine_symon_petliura_large"
+		texturefile = "gfx/characters/ukraine/ukraine_symon_petliura_large.dds"
+	}
+	spriteType = {
+		name = "GFX_ukraine_symon_petliura_small"
+		texturefile = "gfx/characters/ukraine/ukraine_symon_petliura_small.dds"
+	}
+	spriteType = {
+		name = "GFX_ukraine_roman_von_ungernsternberg_large"
+		texturefile = "gfx/characters/ukraine/ukraine_roman_von_ungernsternberg_large.dds"
+	}
+	spriteType = {
+		name = "GFX_ukraine_roman_von_ungernsternberg_small"
+		texturefile = "gfx/characters/ukraine/ukraine_roman_von_ungernsternberg_small.dds"
+	}
+}

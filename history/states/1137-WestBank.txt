@@ -1,0 +1,32 @@
+state = {
+	id = 1137
+	name = "STATE_1137" 
+	manpower = 136005
+	
+	state_category = large_town
+
+	history = {
+
+		owner = PAL
+		add_core_of = PAL
+		add_claim_by = ISR
+		add_claim_by = SYR
+
+
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 3
+			air_base = 2
+		}
+		victory_points = {
+			13395 3 # Habron
+		}
+
+	}
+
+	provinces = {
+		7107 13396 13395
+	}
+
+	local_supplies = 0.0 
+}

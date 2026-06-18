@@ -1,0 +1,32 @@
+state = {
+	id = 766
+	name = "Outer Bessarabia"
+	resources = {
+	}
+	manpower = 420000
+	state_category = rural
+	history = {
+		victory_points = { 
+			6727 1
+		}
+		victory_points = { 
+			414 1
+		}
+
+		add_core_of = ROM
+		add_core_of = FSU
+		add_core_of = UPR
+		add_core_of = HUK
+		owner = HUK
+
+		buildings = {
+			infrastructure = 2
+			dockyard = 1
+			6727 = {
+				naval_base = 3
+			}
+		}
+	}
+	provinces = { 414 6727 6743 9683 6600 11686 11705 }
+	local_supplies = 0.0
+}

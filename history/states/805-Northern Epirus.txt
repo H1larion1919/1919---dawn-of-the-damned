@@ -1,0 +1,31 @@
+state = {
+	id = 805
+	name = "STATE_805"
+	resources = {
+	}
+	provinces = { 914 6900 13234 13235 }
+	manpower = 170000
+	state_category = dd_capacity_3
+	history = {
+		owner = ALB
+		victory_points = { 
+			914 1 # If HEL owned: Agia Saranta, if ALB owned: Sarande, of neither: Sancti
+		}
+		victory_points = { 
+			6900 2 # If HEL owned: Koryta, if ALB owned: Korce, of neither: Koricha
+		}
+
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+
+		set_demilitarized_zone = yes
+
+		add_core_of = ALB
+		add_core_of = HEL
+		add_claim_by = ITA
+	}
+	local_supplies = 0.0
+}

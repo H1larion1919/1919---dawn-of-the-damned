@@ -1,0 +1,11 @@
+
+spriteTypes = {
+    spriteType = {
+        name = "GFX_focus_Victors_in_Asia_Minor"
+        texturefile = "gfx/interface/goals/HEL_hellas_of_two_continents_and_five_seas.tga"
+    }
+    spriteType = {
+        name = "GFX_focus_Retirement_of_Venizelos_A_new_age"
+        texturefile = "gfx/interface/ideas/HEL_age_of_venizelos.tga"
+    }
+}

@@ -1,0 +1,26 @@
+state = {
+    id = 1101
+    name = "STATE_1101"
+    manpower = 700000
+    state_category = rural
+    history = {
+        owner = ITA
+        victory_points = {
+            9856 4
+        }
+
+
+        buildings = {
+            infrastructure = 1
+            industrial_complex = 1
+        }
+
+        set_demilitarized_zone = yes
+
+        add_core_of = ITA
+        add_core_of = UIS
+        add_core_of = IAR
+    }
+    provinces = { 851 3958 3968 6972 9856 }
+    local_supplies = 0.0
+}

@@ -1,0 +1,29 @@
+state = {
+	id = 1059
+	name = "STATE_1059" # Rize
+	manpower = 180000
+	resources = {
+		steel = 1
+	}
+	state_category = town
+	history = {
+		owner = GEO
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+		}
+
+		victory_points = { 
+			7454 4
+		}
+
+		add_core_of = GEO
+		add_claim_by = KTR
+		add_claim_by = OTT
+		add_claim_by = TSR
+		add_claim_by = ARM
+	}
+	provinces = { 7454 10403 }
+	local_supplies = 4.0
+}

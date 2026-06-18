@@ -1,0 +1,256 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ideology_social_democracy_group"
+		textureFile = "gfx/interface/ideologies/social_democracy_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_market_liberalism_group"
+		textureFile = "gfx/interface/ideologies/market_liberalism_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_esotericism_group"
+		textureFile = "gfx/interface/ideologies/esotericism_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_syndicate_socialism_group"
+		textureFile = "gfx/interface/ideologies/syndicate_socialism_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_military_junta_group"
+		textureFile = "gfx/interface/ideologies/military_junta_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_slot_dd_governance"
+		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_slot_dd_law"
+		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_slot_dd_society"
+		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_slot_dd_economy"
+		textureFile = "gfx/interface/idea_slot_industrial_concern.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_slot_dd_popularity"
+		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_slot_dd_militarism"
+		textureFile = "gfx/interface/idea_slot_army_chief.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_slot_dd_coalition_first_party"
+		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_slot_dd_coalition_second_party"
+		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_slot_dd_coalition_dominance"
+		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_political_discourse"
+		textureFile = "gfx/interface/ideas/idea_generic_political_support.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_army_support"
+		textureFile = "gfx/interface/ideas/generic_morale_bonus.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_disjointed_government"
+		textureFile = "gfx/interface/ideas/generic_disjointed_gov.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_strike"
+		textureFile = "gfx/interface/ideas/FRA_factory_strikes.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_research"
+		textureFile = "gfx/interface/ideas/generic_research_bonus.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_propaganda"
+		textureFile = "gfx/interface/ideas/idea_generic_fascism_rising.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_production_bonus"
+		textureFile = "gfx/interface/ideas/generic_production_bonus.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_economic_increase"
+		textureFile = "gfx/interface/ideas/generic_economic_increase.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_pp_unity_bonus"
+		textureFile = "gfx/interface/ideas/generic_pp_unity_bonus.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_communism_drift_bonus"
+		textureFile = "gfx/interface/ideas/generic_communism_drift_bonus.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_fascism_drift_bonus"
+		textureFile = "gfx/interface/ideas/generic_fascism_drift_bonus.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_war_preparation"
+		textureFile = "gfx/interface/ideas/idea_generic_war_preparation.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_dd_ideology_communism"
+		textureFile = "gfx/interface/ideologies/communism_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_dd_ideology_libertarian_socialism"
+		textureFile = "gfx/interface/ideologies/libertarian_socialism_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_dd_ideology_syndicate_socialism"
+		textureFile = "gfx/interface/ideologies/syndicate_socialism_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_dd_ideology_social_democracy"
+		textureFile = "gfx/interface/ideologies/social_democracy_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_dd_ideology_democratic"
+		textureFile = "gfx/interface/ideologies/democratic_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_dd_ideology_market_liberalism"
+		textureFile = "gfx/interface/ideologies/market_liberalism_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_dd_ideology_military_junta"
+		textureFile = "gfx/interface/ideologies/military_junta_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_dd_ideology_neutrality"
+		textureFile = "gfx/interface/ideologies/neutrality_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_dd_ideology_fascism"
+		textureFile = "gfx/interface/ideologies/fascism_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_dd_ideology_esotericism"
+		textureFile = "gfx/interface/ideologies/esotericism_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CHL_anti_communist_action"
+		textureFile = "gfx/interface/ideas/idea_CHL_anti_communist_action.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_army"
+		textureFile = "gfx/interface/ideas/idea_generic_army_europe_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_supply_bonus"
+		textureFile = "gfx/interface/ideas/idea_generic_supply_depot.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_army_bonus"
+		textureFile = "gfx/interface/ideas/idea_generic_army_war_college.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_HEL_revenge_for_1453"
+		textureFile = "gfx/interface/ideas/HEL_revenge_for_1453.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_HEL_scars_from_national_schism"
+		textureFile = "gfx/interface/ideas/HEL_scars_from_national_schism.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_HEL_a_decade_of_war"
+		textureFile = "gfx/interface/ideas/HEL_a_decade_of_war.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_HEL_age_of_venizelos"
+		textureFile = "gfx/interface/ideas/HEL_age_of_venizelos.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_HEL_both_sides_of_the_shore"
+		textureFile = "gfx/interface/ideas/HEL_both_sides_of_the_shore.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ENG_anti_communist_watchdogs"
+		textureFile = "gfx/interface/ideas/ENG_anti_communist_watchdogs.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_ENG_ira_activity"
+		textureFile = "gfx/interface/ideas/ENG_ira_activity.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GER_freikorps_voran"
+		textureFile = "gfx/interface/ideas/GER_freikorps_voran.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GER_germany_divided"
+		textureFile = "gfx/interface/ideas/GER_germany_divided.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_WRE_treaty_of_westfallia"
+		textureFile = "gfx/interface/ideas/WRE_treaty_of_westfallia.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SBK_marxs_homeland"
+		textureFile = "gfx/interface/ideas/SBK_marxs_homeland.tga"
+	}
+}

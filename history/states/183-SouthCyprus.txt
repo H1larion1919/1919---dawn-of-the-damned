@@ -1,0 +1,47 @@
+state = {
+	id = 183
+	name = "STATE_183"
+	manpower = 150000
+	state_category = city
+	resources = {
+		chromium = 1
+	}
+	history = {
+		owner = HEL
+		add_core_of = HEL
+		add_core_of = CYP
+		add_claim_by = KTR
+		add_claim_by = TSR
+		add_claim_by = OTT
+		add_claim_by = CYP
+
+		victory_points = { 
+			7193 5 # Strovolos
+		}
+		victory_points = { 
+			13399 2 # Trodos
+		}
+		victory_points = { 
+			13402 2 # Ammochostos
+		}
+		victory_points = { 
+			13405 4 # Lemesos
+		}
+		victory_points = { 
+			13406 3 # Pafos
+		}
+		victory_points = { 
+			13407 3 # Skala
+		}
+
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			7193 = {
+				naval_base = 2
+			}
+		}
+	}
+	provinces = { 7193 13399 13402 13405 13406 13407 }
+	local_supplies = 0.0
+}

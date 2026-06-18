@@ -1,0 +1,21 @@
+state = {
+    id = 1092
+    name = "STATE_1092"
+    manpower = 650000
+    state_category = city
+    history = {
+        owner = ITA
+        victory_points = {
+            9907 6
+        }
+
+        buildings = {
+            infrastructure = 3
+            industrial_complex = 1
+        }
+        add_core_of = ITA
+        add_core_of = UIS
+    }
+    provinces = { 1616 6985 9907 11889 }
+    local_supplies = 0.0
+}

@@ -1,0 +1,44 @@
+state = {
+	id = 233
+	name = "STATE_233" # South Kuban
+	resources = {
+		tungsten = 17
+		oil = 12
+	}
+	history = {
+		owner = KUB
+		add_core_of = KUB
+
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 
+			717 5 
+		}
+
+		victory_points = { 
+			9694 3
+		}
+
+		victory_points = { 
+			3720 5 
+		}
+
+		victory_points = { 
+			9649 6
+		}
+
+		add_core_of = FSU
+		add_core_of = UPR
+		add_core_of = HUK
+
+		add_core_of = MRC
+		add_core_of = CPR
+
+	}
+	provinces = { 717 735 3698 3720 3717 6692 6721 6736 6738 9649 9674 9691 9694 9696 11664 11681 }
+	manpower = 1451686
+	buildings_max_level_factor = 3.000
+	state_category = town
+	local_supplies = 5.0
+}

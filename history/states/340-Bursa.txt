@@ -1,0 +1,30 @@
+state = {
+	id = 340
+	name = "STATE_340" # Prousa
+	manpower = 800000
+	resources = {
+		chromium = 8
+	}
+	state_category = dd_capacity_9
+	history = {
+		owner = HEL
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+			6912 = {
+				naval_base = 2
+			}
+		}
+		victory_points = { 
+			6912 10 # Prousa
+		}
+
+		add_core_of = HEL
+		add_core_of = TSR
+		add_core_of = KTR
+		add_core_of = OTT
+	}
+	provinces = { 11867 6912 }
+	local_supplies = 5.0
+}

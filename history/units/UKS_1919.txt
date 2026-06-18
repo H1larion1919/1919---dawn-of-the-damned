@@ -1,0 +1,69 @@
+# Create units
+division_template = {
+	name = "Infantry Division"
+	division_names_group = "UKS_DIV_0_0"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		artillery_brigade = { x = 2 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Reserve Division"
+	division_names_group = "UKS_DIV_0_0"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Cavalry Brigade"
+	division_names_group = "UKS_DIV_0_0"
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+
+# Spawn units
+units = {
+	division = { name = "1th Red Ukrainian Division" location = 3542 division_template = "Infantry Division" }
+	division = { name = "2th Red Ukrainian Division" location = 9506 division_template = "Infantry Division" }
+	division = { name = "3th Red Ukrainian Division" location = 6589 division_template = "Reserve Division" }
+	division = { name = "4th Red Ukrainian Division" location = 418 division_template = "Cavalry Brigade" }
+	division = { name = "5th Red Ukrainian Division" location = 501 division_template = "Infantry Division" }
+	division = { name = "6th Red Ukrainian Division" location = 3455 division_template = "Infantry Division" }
+	division = { name = "7th Red Ukrainian Division" location = 238 division_template = "Reserve Division" }
+	division = { name = "8th Red Ukrainian Division" location = 9288 division_template = "Cavalry Brigade" }
+	division = { name = "9th Red Ukrainian Division" location = 9342 division_template = "Infantry Division" }
+	division = { name = "10th Red Ukrainian Division" location = 522 division_template = "Infantry Division" }
+	division = { name = "11th Red Ukrainian Division" location = 3225 division_template = "Reserve Division" }
+	division = { name = "12th Red Ukrainian Division" location = 3520 division_template = "Cavalry Brigade" }
+	division = { name = "13th Red Ukrainian Division" location = 473 division_template = "Infantry Division" }
+	division = { name = "14th Red Ukrainian Division" location = 534 division_template = "Infantry Division" }
+	division = { name = "15th Red Ukrainian Division" location = 3469 division_template = "Reserve Division" }
+	division = { name = "16th Red Ukrainian Division" location = 559 division_template = "Cavalry Brigade" }
+	division = { name = "17th Red Ukrainian Division" location = 6495 division_template = "Infantry Division" }
+	division = { name = "18th Red Ukrainian Division" location = 6605 division_template = "Infantry Division" }
+}

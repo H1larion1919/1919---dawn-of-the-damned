@@ -1,0 +1,27 @@
+state = {
+	id = 1077
+	name = "STATE_1077" 
+	manpower = 109212
+	state_category = city
+	history = {
+		owner = BUL
+		victory_points = { 
+			9771 5
+		}
+
+		victory_points = { 
+			793 3
+		}
+
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = BUL
+		add_core_of = BPR
+		add_claim_by = ROM
+	}
+	provinces = { 793 965 9771 11754 }
+	local_supplies = 3.0
+}

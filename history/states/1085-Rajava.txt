@@ -1,0 +1,30 @@
+state = {
+	id = 1085
+	name = "STATE_1085" # Rojava
+	resources = {
+	}
+	history = {
+		owner = KUR
+		victory_points = { 
+			1606 5
+		}
+
+		victory_points = { 
+			10882 1
+		}
+
+
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+		}
+		add_core_of = KUR
+		add_core_of = SYR
+		add_claim_by = KUW
+		add_core_of = ASY
+	}
+	provinces = { 901 1606 1578 1634 6883 10882 }
+	manpower = 260000
+	state_category = town
+	local_supplies = 0.0
+}

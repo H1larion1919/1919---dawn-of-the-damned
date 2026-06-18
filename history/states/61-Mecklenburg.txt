@@ -1,0 +1,51 @@
+state = {
+	id = 61
+	name = "STATE_61"
+	manpower = 836353
+
+
+	state_category = city
+
+	history = {
+
+		owner = SBK
+		add_core_of = GER
+		add_core_of = WRE
+		add_core_of = SBK
+
+
+		victory_points = {
+			321 5 # Rostocj
+		}
+
+		victory_points = {
+			11305 3 # Lübeck
+		}
+
+		victory_points = {
+			6282 6 # Stettin
+		}
+
+
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			321 = {
+				naval_base = 6
+
+			}
+			6282 = {
+				naval_base = 4
+			}
+			air_base = 3
+		}
+		
+	}
+
+	provinces={
+		268 293 321 349 3258 3312 3340 6282 9294 9388 11276 11305 13257
+	}
+
+	local_supplies=3.0 
+}

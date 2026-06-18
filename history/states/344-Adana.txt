@@ -1,0 +1,40 @@
+state = {
+	id = 344
+	name = "STATE_344"
+	resources = {
+	}
+	manpower = 700000
+	state_category = town
+	history = {
+		owner = SYR
+		victory_points = { 
+			9893 15
+		}
+
+		victory_points = { 
+			7620 10
+		}
+
+		victory_points = { 
+			6813 3
+		}
+
+		victory_points = { 
+			806 5
+		}
+
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = ARM
+		add_claim_by = KUR
+		add_core_of = SYR
+		add_core_of = KTR
+		add_core_of = OTT
+		add_core_of = TSR
+	}
+	provinces = { 806 3889 6813 7620 9893 9912 }
+	local_supplies = 0.0
+}

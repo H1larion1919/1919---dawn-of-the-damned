@@ -1,0 +1,44 @@
+state = {
+	id = 50
+	name = "STATE_50" # Württemberg
+	manpower = 3076854 
+
+	resources = {
+		aluminium = 10
+	}
+
+	state_category = large_city
+
+	history = {
+
+		owner = BWB
+		add_core_of = BWB
+		add_core_of = GER
+		add_core_of = WRE
+		add_core_of = SBK
+
+		victory_points = {
+			9517 20 #Stuttgart
+		}
+
+		victory_points = {
+			11499 3 #Ulm
+		}
+
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 1
+			air_base = 2
+		}
+		
+	}
+
+	provinces = {
+		 6555 6581 9517 9545 11499  
+	}
+	
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.0 
+}
