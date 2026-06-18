@@ -1,0 +1,2 @@
+# Disabled in 1919DD. Vanilla USA decisions reference WTT China event targets
+# that do not exist in this mod setup.

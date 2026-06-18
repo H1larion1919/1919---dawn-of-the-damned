@@ -12,7 +12,7 @@ ideas = {
 		}
 
 		dd_coalition_first_communism = {
-			picture = generic_communism_drift_bonus
+			picture = dd_ideology_communism
 			allowed = { always = yes }
 			available = { dd_can_select_coalition_partner_communism = yes NOT = { has_idea = dd_coalition_second_communism } }
 			removal_cost = -1
@@ -24,7 +24,7 @@ ideas = {
 		}
 
 		dd_coalition_first_libertarian_socialism = {
-			picture = generic_political_discourse
+			picture = dd_ideology_libertarian_socialism
 			allowed = { always = yes }
 			available = { dd_can_select_coalition_partner_libertarian_socialism = yes NOT = { has_idea = dd_coalition_second_libertarian_socialism } }
 			removal_cost = -1
@@ -36,7 +36,7 @@ ideas = {
 		}
 
 		dd_coalition_first_syndicate_socialism = {
-			picture = generic_communism_drift_bonus
+			picture = dd_ideology_syndicate_socialism
 			allowed = { always = yes }
 			available = { dd_can_select_coalition_partner_syndicate_socialism = yes NOT = { has_idea = dd_coalition_second_syndicate_socialism } }
 			removal_cost = -1
@@ -48,7 +48,7 @@ ideas = {
 		}
 
 		dd_coalition_first_social_democracy = {
-			picture = generic_pp_unity_bonus
+			picture = dd_ideology_social_democracy
 			allowed = { always = yes }
 			available = { dd_can_select_coalition_partner_social_democracy = yes NOT = { has_idea = dd_coalition_second_social_democracy } }
 			removal_cost = -1
@@ -60,7 +60,7 @@ ideas = {
 		}
 
 		dd_coalition_first_democratic = {
-			picture = generic_political_discourse
+			picture = dd_ideology_democratic
 			allowed = { always = yes }
 			available = { dd_can_select_coalition_partner_democratic = yes NOT = { has_idea = dd_coalition_second_democratic } }
 			removal_cost = -1
@@ -72,7 +72,7 @@ ideas = {
 		}
 
 		dd_coalition_first_market_liberalism = {
-			picture = generic_economic_increase
+			picture = dd_ideology_market_liberalism
 			allowed = { always = yes }
 			available = { dd_can_select_coalition_partner_market_liberalism = yes NOT = { has_idea = dd_coalition_second_market_liberalism } }
 			removal_cost = -1
@@ -84,7 +84,7 @@ ideas = {
 		}
 
 		dd_coalition_first_military_junta = {
-			picture = generic_army_support
+			picture = dd_ideology_military_junta
 			allowed = { always = yes }
 			available = { dd_can_select_coalition_partner_military_junta = yes NOT = { has_idea = dd_coalition_second_military_junta } }
 			removal_cost = -1
@@ -97,7 +97,7 @@ ideas = {
 		}
 
 		dd_coalition_first_neutrality = {
-			picture = generic_political_discourse
+			picture = dd_ideology_neutrality
 			allowed = { always = yes }
 			available = { dd_can_select_coalition_partner_neutrality = yes NOT = { has_idea = dd_coalition_second_neutrality } }
 			removal_cost = -1
@@ -110,7 +110,7 @@ ideas = {
 		}
 
 		dd_coalition_first_fascism = {
-			picture = generic_fascism_drift_bonus
+			picture = dd_ideology_fascism
 			allowed = { always = yes }
 			available = { dd_can_select_coalition_partner_fascism = yes NOT = { has_idea = dd_coalition_second_fascism } }
 			removal_cost = -1
@@ -123,7 +123,7 @@ ideas = {
 		}
 
 		dd_coalition_first_esotericism = {
-			picture = generic_propaganda
+			picture = dd_ideology_esotericism
 			allowed = { always = yes }
 			available = { dd_can_select_coalition_partner_esotericism = yes NOT = { has_idea = dd_coalition_second_esotericism } }
 			removal_cost = -1
@@ -149,7 +149,7 @@ ideas = {
 		}
 
 		dd_coalition_second_communism = {
-			picture = generic_communism_drift_bonus
+			picture = dd_ideology_communism
 			allowed = { always = yes }
 			available = { dd_can_select_coalition_partner_communism = yes NOT = { has_idea = dd_coalition_first_communism } }
 			removal_cost = -1
@@ -161,7 +161,7 @@ ideas = {
 		}
 
 		dd_coalition_second_libertarian_socialism = {
-			picture = generic_political_discourse
+			picture = dd_ideology_libertarian_socialism
 			allowed = { always = yes }
 			available = { dd_can_select_coalition_partner_libertarian_socialism = yes NOT = { has_idea = dd_coalition_first_libertarian_socialism } }
 			removal_cost = -1
@@ -173,7 +173,7 @@ ideas = {
 		}
 
 		dd_coalition_second_syndicate_socialism = {
-			picture = generic_communism_drift_bonus
+			picture = dd_ideology_syndicate_socialism
 			allowed = { always = yes }
 			available = { dd_can_select_coalition_partner_syndicate_socialism = yes NOT = { has_idea = dd_coalition_first_syndicate_socialism } }
 			removal_cost = -1
@@ -185,7 +185,7 @@ ideas = {
 		}
 
 		dd_coalition_second_social_democracy = {
-			picture = generic_pp_unity_bonus
+			picture = dd_ideology_social_democracy
 			allowed = { always = yes }
 			available = { dd_can_select_coalition_partner_social_democracy = yes NOT = { has_idea = dd_coalition_first_social_democracy } }
 			removal_cost = -1
@@ -197,7 +197,7 @@ ideas = {
 		}
 
 		dd_coalition_second_democratic = {
-			picture = generic_political_discourse
+			picture = dd_ideology_democratic
 			allowed = { always = yes }
 			available = { dd_can_select_coalition_partner_democratic = yes NOT = { has_idea = dd_coalition_first_democratic } }
 			removal_cost = -1
@@ -209,7 +209,7 @@ ideas = {
 		}
 
 		dd_coalition_second_market_liberalism = {
-			picture = generic_economic_increase
+			picture = dd_ideology_market_liberalism
 			allowed = { always = yes }
 			available = { dd_can_select_coalition_partner_market_liberalism = yes NOT = { has_idea = dd_coalition_first_market_liberalism } }
 			removal_cost = -1
@@ -221,7 +221,7 @@ ideas = {
 		}
 
 		dd_coalition_second_military_junta = {
-			picture = generic_army_support
+			picture = dd_ideology_military_junta
 			allowed = { always = yes }
 			available = { dd_can_select_coalition_partner_military_junta = yes NOT = { has_idea = dd_coalition_first_military_junta } }
 			removal_cost = -1
@@ -234,7 +234,7 @@ ideas = {
 		}
 
 		dd_coalition_second_neutrality = {
-			picture = generic_political_discourse
+			picture = dd_ideology_neutrality
 			allowed = { always = yes }
 			available = { dd_can_select_coalition_partner_neutrality = yes NOT = { has_idea = dd_coalition_first_neutrality } }
 			removal_cost = -1
@@ -247,7 +247,7 @@ ideas = {
 		}
 
 		dd_coalition_second_fascism = {
-			picture = generic_fascism_drift_bonus
+			picture = dd_ideology_fascism
 			allowed = { always = yes }
 			available = { dd_can_select_coalition_partner_fascism = yes NOT = { has_idea = dd_coalition_first_fascism } }
 			removal_cost = -1
@@ -260,7 +260,7 @@ ideas = {
 		}
 
 		dd_coalition_second_esotericism = {
-			picture = generic_propaganda
+			picture = dd_ideology_esotericism
 			allowed = { always = yes }
 			available = { dd_can_select_coalition_partner_esotericism = yes NOT = { has_idea = dd_coalition_first_esotericism } }
 			removal_cost = -1

@@ -241,7 +241,12 @@ dd_apply_starting_coalitions = {
 dd_refresh_coalition_system = {
 	if = {
 		limit = { check_variable = { party_popularity@ruling_party > 0.5 } }
-		dd_set_absolute_popularity_coalition = yes
+		if = {
+			limit = {
+				NOT = { has_idea = dd_coalition_absolute_popularity }
+			}
+			dd_set_absolute_popularity_coalition = yes
+		}
 	}
 	else = {
 		dd_ensure_coalition_slots_filled = yes

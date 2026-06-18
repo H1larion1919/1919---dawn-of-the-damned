@@ -1,0 +1,2 @@
+# Disabled in 1919DD. Vanilla Bulgarian decisions reference vanilla map
+# adjacency and border-state setup that the mod has changed.

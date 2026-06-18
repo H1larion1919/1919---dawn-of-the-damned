@@ -1,3 +1,0 @@
-# Empty OOB placeholder for 1.18 load compatibility
-units = {
-}

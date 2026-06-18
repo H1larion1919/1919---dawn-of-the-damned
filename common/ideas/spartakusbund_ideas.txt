@@ -7,6 +7,7 @@ ideas = {
 			modifier = {
 				stability_factor = 0.03
 				political_power_gain = 0.05
+				syndicate_socialism_drift = 0.10
 				communism_drift = 0.10
 			}
 		}

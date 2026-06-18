@@ -1,0 +1,2 @@
+# Disabled in 1919DD. The vanilla German focus tree references removed vanilla
+# characters/countries and was evaluating invalid triggers.
