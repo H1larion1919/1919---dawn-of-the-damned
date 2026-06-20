@@ -1,0 +1,35 @@
+state = {
+	id = 4
+	name = "STATE_4"
+	manpower = 542109 # was 2595983
+
+	resources = {
+		oil = 2 
+	}
+	
+	state_category = large_town
+	
+	history = {
+
+		owner = GER
+		add_core_of = GER
+
+
+		victory_points = {
+			732 10
+		}
+
+		buildings = {
+			infrastructure = 2
+ 
+		}
+		
+
+	}
+
+	provinces = {
+		732 3718 6552 6723 6739 9527 11651
+	}
+
+	local_supplies = 0.0 
+}

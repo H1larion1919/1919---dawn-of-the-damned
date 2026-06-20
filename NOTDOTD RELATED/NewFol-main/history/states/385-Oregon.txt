@@ -1,0 +1,31 @@
+
+state={
+	id=385
+	name="STATE_385"
+	manpower = 481980
+	
+	state_category = town
+
+	history={
+		owner = CSD
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 1
+			air_base = 6
+			12211 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = CSD
+		victory_points = {
+			3513 1 
+		}
+
+	}
+
+	provinces={
+		3513 4328 4380 7398 10183 12183 12211 12281 
+	}
+
+	local_supplies=0.0 
+}

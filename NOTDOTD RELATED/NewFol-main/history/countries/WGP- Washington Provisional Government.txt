@@ -1,0 +1,31 @@
+capital = 1021
+
+set_war_support = 0.2
+set_stability = 0.6
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+add_ideas = AMR_the_end_of_the_american_experiment
+add_ideas = WGP_the_black_lodge
+set_popularities = {
+	conservatism = 20
+	democratic = 60
+	social_democracy = 10
+	neutrality = 10
+}
+create_country_leader = {
+	name = "Dwayne Milford"
+	desc = ""
+	picture = GFX_D_Milford_WGP
+	ideology = progressive_democracy_ideology
+	traits = {
+		#
+	}
+}

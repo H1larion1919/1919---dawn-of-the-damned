@@ -1,0 +1,23 @@
+
+state={
+	id=395
+	name="STATE_395"
+	manpower = 1325781
+	state_category = city
+
+	history={
+		owner = MSI
+		buildings = {
+			infrastructure = 4 #was: 7
+			industrial_complex = 1
+		}
+		add_core_of = MSI
+
+	}
+
+	provinces={
+		1527 4590 6737 10339 10393 12365 12368 
+	}
+
+	local_supplies=0.0 
+}

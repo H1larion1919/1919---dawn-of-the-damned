@@ -1,0 +1,30 @@
+capital = 316
+
+set_war_support = 0.1
+set_stability = 0.8
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+set_politics = {
+	ruling_party = social_democracy
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	social_democracy = 50
+	democratic = 40
+	neutrality = 5
+	conservatism = 5
+}
+create_country_leader = {
+	name = "José Figueres Ferrer"
+	desc = ""
+	picture = GFX_fish
+	ideology = social_democratic_progressive_democracy_ideology
+	traits = {
+		#
+	}
+}

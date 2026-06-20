@@ -1,0 +1,235 @@
+capital = 378
+
+### Orders of Battle ###
+oob = "CAL_1950"
+set_naval_oob =
+set_air_oob = 
+
+set_war_support = 0.1
+set_stability = 0.8
+set_convoys = 50
+set_research_slots = 3
+
+load_focus_tree = CAL_starting_focus_tree
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+###############
+### Puppets ###
+###############
+set_autonomy = {
+	target = NCA
+	autonomous_state = autonomy_integrated_puppet
+	freedom_level = 0.5
+}
+
+####################
+### Popularities ###
+####################
+set_popularities = {
+	democratic = 30
+	market_liberal = 10
+	conservatism = 15
+	social_democracy = 13
+	socialism = 10
+	neutrality = 15
+	paternal_autocrat = 5
+	communism = 2
+}
+
+######################
+### Starting Ideas ###
+######################
+add_ideas = {
+	CAL_the_long_march_west
+	CAL_the_greater_depression
+	CAL_a_shattered_army
+	CAL_an_outdated_air_force
+	CAL_the_mothballed_navy
+	CAL_the_failure_of_democracy
+	AMR_the_end_of_the_american_experiment
+}
+
+#########################
+### Dynamic Modifiers ###
+#########################
+
+### New American Economy ###
+set_variable = { var = CAL_the_new_american_economy_consumer_goods_factor value = 0.75 }
+set_variable = { var = AL_the_new_american_economy_monthly_population value = -0.10 }
+set_variable = { var = CAL_the_new_american_economy_production_speed_arms_factory_factor value = -0.25 }
+set_variable = { var = CAL_the_new_american_economy_production_speed_dockyard_factor value = -0.25 }
+set_variable = { var = CAL_the_new_american_economy_industrial_capacity_factory value = -0.30 }
+set_variable = { var = CAL_the_new_american_economy_industrial_capacity_dockyard value = -0.30 }
+set_variable = { var = CAL_the_new_american_economy_production_lack_of_resource_penalty_factor value = 0 }
+set_variable = { var = CAL_the_new_american_economy_conversion_cost_civ_to_mil_factor value = -0.30 }
+set_variable = { var = CAL_the_new_american_economy_local_resources_factor value = -0.25 }
+set_variable = { var = CAL_the_new_american_economy_production_speed_buildings_factor value = -0.15 }
+set_variable = { var = CAL_the_new_american_economy_research_speed_factor value = -0.30 }
+set_variable = { var = CAL_the_new_american_economy_production_factory_max_efficiency_factor value = -0.15 }
+set_variable = { var = CAL_the_new_american_economy_production_factory_efficiency_gain_factor value = -0.15 }
+set_variable = { var = CAL_the_new_american_economy_production_factory_start_efficiency_factor value = -0.15 }
+add_dynamic_modifier = { modifier = CAL_the_new_american_economy_modifier }
+
+### Halsey Navy ###
+set_variable = { var = navy_capital_ship_attack_factor = CAL_halsey_navy_navy_capital_ship_attack_factor value = 0 }
+set_variable = { var = navy_capital_ship_defence_factor = CAL_halsey_navy_navy_capital_ship_defence_factor value = 0 }
+set_variable = { var = navy_screen_attack_factor = CAL_halsey_navy_navy_screen_attack_factor value = 0 }
+set_variable = { var = navy_screen_defence_factor = CAL_halsey_navy_navy_screen_defence_factor value = 0 }
+set_variable = { var = night_spotting_chance = CAL_halsey_navy_night_spotting_chance value = 0 }
+set_variable = { var = spotting_chance = CAL_halsey_navy_spotting_chance value = 0 }
+set_variable = { var = positioning = CAL_halsey_navy_positioning value = 0 }
+set_variable = { var = naval_hit_chance = CAL_halsey_navy_naval_hit_chance value = 0 }
+set_variable = { var = naval_critical_score_chance_factor = CAL_halsey_navy_naval_critical_score_chance_factor value = 0 }
+set_variable = { var = critical_receive_chance = CAL_halsey_navy_critical_receive_chance value = 0 }
+set_variable = { var = navy_max_range_factor = CAL_halsey_navy_navy_max_range_factor value = 0 } 
+set_variable = { var = naval_speed_factor = CAL_halsey_navy_naval_speed_factor value = 0 }
+set_variable = { var = navy_org = CAL_halsey_navy_navy_org value = 0 }
+set_variable = { var = ships_at_battle_start = CAL_halsey_navy_ships_at_battle_start value = 0 }
+set_variable = { var = naval_damage_factor = CAL_halsey_navy_naval_damage_factor value = 0 }
+add_dynamic_modifier = { modifier = CAL_halsey_navy_modifier }
+
+### King Navy ###
+set_variable = { var = navy_submarine_attack_factor = CAL_king_navy_navy_submarine_attack_factor value = 0 }
+set_variable = { var = navy_submarine_defence_factor = CAL_king_navy_navy_submarine_defence_factor value = 0 }
+set_variable = { var = navy_submarine_detection_factor = CAL_king_navy_navy_submarine_detection_factor value = 0 }
+set_variable = { var = positioning = CAL_king_navy_positioning value = 0 }
+set_variable = { var = naval_torpedo_reveal_chance_factor = CAL_king_navy_naval_torpedo_reveal_chance_factor value = 0 }
+set_variable = { var = naval_torpedo_screen_penetration_factor = CAL_king_navy_submarine_screen_pen value = 0 }
+set_variable = { var = naval_torpedo_cooldown_factor = CAL_king_navy_naval_torpedo_cooldown_factor value = 0 }
+set_variable = { var = naval_retreat_chance = CAL_king_navy_naval_retreat_chance value = 0 }
+set_variable = { var = navy_submarine_attack_factor = CAL_king_navy_navy_submarine_attack_factor value = 0 }
+set_variable = { var = convoy_raiding_efficiency_factor =  CAL_king_navy_convoy_raiding_efficiency_factor value = 0 }
+set_variable = { var = naval_speed_factor = CAL_king_navy_naval_speed_factor value = 0 }
+set_variable = { var = navy_visibility = CAL_king_navy_navy_visibility value = 0 }
+set_variable = { var = navy_max_range_factor = CAL_king_navy_navy_max_range_factor value = 0 }
+set_variable = { var = navy_org =  CAL_king_navy_navy_org value = 0 }
+set_variable = { var = spotting_chance = CAL_king_navy_spotting_chance value = 0 }
+add_dynamic_modifier = { modifier = CAL_king_navy_modifier }
+
+### Nimitz Navy ###
+set_variable = { var = navy_org = CAL_nimitz_navy_navy_org value = 0 } 
+set_variable = { var = navy_carrier_air_agility_factor = CAL_nimitz_navy_navy_carrier_air_agility_factor value = 0 } 
+set_variable = { var = carrier_traffic = CAL_nimitz_navy_carrier_traffic value = 0 } 
+set_variable = { var = carrier_night_traffic = CAL_nimitz_navy_carrier_night_traffic value = 0 } 
+set_variable = { var = naval_coordination = CAL_nimitz_navy_naval_coordination value = 0 } 
+set_variable = { var = navy_carrier_air_attack_factor = CAL_nimitz_navy_navy_carrier_air_attack_factor value = 0 }
+set_variable = { var = navy_carrier_air_targetting_factor = CAL_nimitz_navy_navy_carrier_air_targetting_factor value = 0 }
+set_variable = { var = navy_carrier_air_agility_factor = CAL_nimitz_navy_navy_carrier_air_agility_factor value = 0 }
+set_variable = { var = carrier_capacity_penalty_reduction = CAL_nimitz_navy_carrier_capacity_penalty_reduction value = 0 }
+set_variable = { var = sortie_efficiency = CAL_nimitz_navy_sortie_efficiency value = 0 }
+set_variable = { var = carrier_sortie_hours_delay = CAL_nimitz_navy_carrier_sortie_hours_delay value = 0 }
+set_variable = { var = naval_hit_chance = CAL_nimitz_navy_naval_hit_chance value = 0 }
+set_variable = { var = navy_max_range_factor = CAL_nimitz_navy_navy_max_range_factor value = 0 }
+set_variable = { var = naval_critical_score_chance_factor = CAL_nimitz_navy_naval_critical_score_chance_factor value = 0 }
+set_variable = { var = positioning = CAL_nimitz_navy_positioning value = 0 }
+add_dynamic_modifier = { modifier = CAL_nimitz_navy_modifier }
+
+#####################
+### Dummy Leaders ###
+#####################
+create_country_leader = {
+	name = "Miscellaneous Far-Right Leaders"
+	picture = "gfx/leaders/ANR/Portrait_ANR_William_Dudley_Pelley.dds"
+	ideology = occultist_nazism_ideology
+}
+create_country_leader = {
+	name = "Miscellaneous Far-Right Leaders"
+	picture = "gfx/leaders/ANR/Portrait_ANR_William_Dudley_Pelley.dds"
+	ideology = occultist_nazism_esoteric_ideology
+}
+create_country_leader = {
+	name = "Miscellaneous Far-Right Leaders"
+	picture = "gfx/leaders/ANR/Portrait_ANR_William_Dudley_Pelley.dds"
+	ideology = esoteric_fascism_ideology
+}
+create_country_leader = {
+	name = "Miscellaneous Far-Right Leaders"
+	picture = "gfx/leaders/ANR/Portrait_ANR_William_Dudley_Pelley.dds"
+	ideology = ultranationalism_ideology
+}
+
+
+######################
+### Country Leader ###
+######################
+recruit_character = CAL_henry_agard_wallace
+recruit_character = CAL_provisional_council
+
+################
+### Advsiors ###
+################
+recruit_character = CAL_huey_pierce_long_jr
+recruit_character = CAL_earl_warren
+recruit_character = CAL_john_edgar_hoover
+recruit_character = CAL_thomas_edmund_dewey
+recruit_character = CAL_walter_elias_disney
+
+#############################
+## Second Continental Army ##
+#############################
+recruit_character = CAL_dwight_david_eisenhower
+recruit_character = CAL_omar_nelson_bradley
+recruit_character = CAL_george_catlett_marshall
+recruit_character = CAL_curtis_emerson_lemay
+recruit_character = CAL_daring_do
+recruit_character = CAL_george_smith_patton_jr
+recruit_character = CAL_walton_harris_walker
+recruit_character = CAL_smedley_darlington_butler
+recruit_character = CAL_glynda_goodwitch
+recruit_character = CAL_william_childs_westmoreland
+recruit_character = CAL_maxwell_davenport_taylor
+recruit_character = CAL_mark_wayne_clark
+recruit_character = CAL_henry_harley_arnold
+recruit_character = CAL_jacob_loucks_devers
+recruit_character = CAL_leonard_townsend_gerow
+recruit_character = CAL_claire_lee_chennault
+recruit_character = CAL_lucian_king_truscott
+recruit_character = CAL_benjamin_oliver_davis_sr
+recruit_character = CAL_ulysses_simpson_grant_iii
+recruit_character = CAL_john_daniel_lavelle
+recruit_character = CAL_elizabeth_coleman
+recruit_character = CAL_charity_edna_adams_earley
+recruit_character = CAL_hobart_raymond_gay
+recruit_character = CAL_james_cordie_dozier
+recruit_character = CAL_john_lesesne_dewitt
+recruit_character = CAL_hayes_adlai_ashby_clarke_kroner
+recruit_character = CAL_james_harold_doolittle
+recruit_character = CAL_lewis_burwell_puller
+recruit_character = CAL_john_fujio_aiso
+recruit_character = CAL_simon_bolivar_buckner_jr
+recruit_character = CAL_charles_hartwell_bonesteel_iii
+recruit_character = CAL_joseph_may_swing
+recruit_character = CAL_creighton_williams_abrams_jr
+recruit_character = CAL_albert_coady_wedemeyer
+
+#############
+## US Navy ##
+#############
+recruit_character = CAL_ernest_joseph_king
+recruit_character = CAL_chester_william_nimitz
+recruit_character = CAL_samuel_lee_gravely_Jr
+recruit_character = CAL_william_fredrick_halsey_jr
+recruit_character = CAL_william_daniel_leahy
+recruit_character = CAL_issac_campbell_kidd_sr
+recruit_character = CAL_arleigh_albert_burke
+recruit_character = CAL_felix_budwell_stump
+
+##################
+### Operatives ###
+##################
+
+##################
+### Scientists ###
+##################
+recruit_character = CAL_niels_henrik_david_bohr

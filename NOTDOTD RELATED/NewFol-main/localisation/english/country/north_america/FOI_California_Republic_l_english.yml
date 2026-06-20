@@ -1,0 +1,565 @@
+﻿l_english:
+
+ CAL: "California Republic"
+
+####################################
+### Events - California Republic ###
+####################################
+CAL_start.1.t: "The Fall of the American Republic"
+CAL_start.1.d: "It was that day again. Jamison was at the Fresno City Hall as he climbed the ladder and got near the US flag. Everything that happened flashed before him - the nuking of D.C., the surrender to the Nazis. It all happened so fast. \n\n The orders from the colonel, a once bombastic man who was all army logic, were clear - America was dead. He had to tear down the flag and report back to base for his last salutations and orders from the general. \n\n Jamison then closed his eyes, as he began humming "When Johnny Comes Marching Home", he pulled out an machete and aimed it at the mast of the flag, lowering his head as tears fell out of it. \n\n SWISH! FLOOP! \n\n The flag feel towards the tiled rooftop as it slid over the concrete street below, as Jamison removed his helmet."
+CAL_start.1.a: ""Semper Fi, America. May you rest in peace.""
+#######################################################################################################################
+CAL_start.2.t: "A Stand-Off at the Border"
+CAL_start.2.d: ""
+CAL_start.2.a: ""
+#######################################################################################################################
+CAL_start.3.t: "The Los Angeles Aggreement"
+CAL_start.3.d: ""
+CAL_start.3.a: ""
+#######################################################################################################################
+
+############################################
+### Starting Ideas - California Republic ###
+############################################
+ CAL_the_long_march_west: "The Long, Dead, March West"
+ CAL_the_greater_depression: "The Greater Depression"
+ CAL_a_shattered_army: "A Shattered Army"
+ CAL_an_outdated_air_force: "An Outdated Air Force"
+ CAL_the_mothballed_navy: "The Mothballed Navy"
+ CAL_the_failure_of_democracy: "The Failure of Democracy"
+
+###################################################
+### Added Permanent Ideas - California Republic ###
+###################################################
+ CAL_uncertain_junta: "The Uncertain Junta"
+ CAL_simonds_advice: "Simonds's Advice"
+ CAL_alexander_advice: "Alexander's Advice"
+ CAL_moncel_advice: "Moncel's Advice"
+
+#########################################
+### Timed Ideas - California Republic ###
+#########################################
+ CAL_preparing_for_war_idea: "Preparing for War"
+
+######################################
+### Tooltips - California Republic ###
+######################################
+ CAL_the_long_retreat_west_tt: "§YOur country may have been shattered by the evils of National Socialism, but we will return!§!"
+ CAL_protecting_our_borders_tt: "§YWe shall choose to protect our mexican border, as we are in a very precarious situation.§!"
+ CAL_mexican_negotations_tt: "§YWe will negotiate with the Mexicans, allowing for trade to help improve our weak economy.§!"
+ CAL_volunteer_militias_tt: "§YVolunteer Militas§! shall be formed from soldiers within the Army Reserve forces, allowing for us to field more men on the field."
+ CAL_mercenary_gunmen_tt: "§YMexican Mercenaries§! will be hired to assist and supplement our armed forces."
+ CAL_fortieth_armored_tt: "A new §Yarmored division§! shall be trained and equipped for future battles ahead."
+ CAL_reactivated_divisions_tt: "§YSeveral destroyed division§! shall be reactivated from the men in our reserve."
+
+###############################################
+### Political Parties - California Republic ###
+###############################################
+ CAL_communism_party: "CPUSA"
+ CAL_communism_party_long: "§YCommunist Party of the United States of America§!"
+ CAL_socialism_party: "IWW [L]"
+ CAL_socialism_party_long: "§YIndustrial Workers of the World (Left)§!"
+ CAL_syndicalism_party: "IWW [R]"
+ CAL_syndicalism_party_long: "§YIndustrial Workers of the World (Right)§!"
+ CAL_social_democracy_party: "NPP"
+ CAL_social_democracy_party_long: "§YNational Progressive Party§!"
+ CAL_democratic_party: "Democrats"
+ CAL_democratic_party_long: "§YDemocrat Party§!"
+ CAL_market_liberal_party: "Republicans [M]"
+ CAL_market_liberal_party_long: "§YRepublican Party - Moderates§!"
+ CAL_conservatism_party: "Republicans [C]"
+ CAL_conservatism_party_long: "§YRepublican Party - Conservatives§!"
+ CAL_neutrality_party: "SCA [M]"
+ CAL_neutrality_party_long: "§YSecond Continental Army (Moderates)§!"
+ CAL_paternal_autocrat_party: "SCA [HL]"
+ CAL_paternal_autocrat_party_long: "§YSecond Continental Army (Hardliners)§!"
+ CAL_fascism_party: "Silver Shirts [M]"
+ CAL_fascism_party_long: "§YSilver Legion of America (Moderates)§!"
+ CAL_ultranationalism_party: "Silver Shirts [S]"
+ CAL_ultranationalism_party_long: "§YSilver Legion of America (Sovereignists)§!"
+ CAL_national_socialism_party: "Silver Shirts [P]"
+ CAL_national_socialism_party_long: "§YSilver Legion of America (Pelleyites)§!"
+ CAL_esotericism_party: "Silver Shirts [P]"
+ CAL_esotericism_party_long: "§YSilver Legion of America (Pelleyites)§!"
+ CAL_accelerationism_party: "CAA"
+ CAL_accelerationism_party_long: "§YCalifornia Artist Association§!"
+
+### Decisions ###
+ CAL_warlord_generals_integration_category: "Integrate Warlord Generals"
+ CAL_warlord_generals_integration_category_desc: "Many of the American Warlords had generals who could prove of some use to us. If we offer them certain benefits, they may join us."
+
+########################################
+### Character Localization - Leaders ###
+########################################
+ CAL_provisional_council: "Provisional Council of the United States"
+ CAL_henry_agard_wallace: "Henry Agard Wallace"
+ CAL_huey_pierce_long_jr: "Huey Pierce Long Jr."
+
+##########################################
+### Character Localization - Adivisors ###
+##########################################
+ CAL_earl_warren: "Earl Warren"
+ CAL_walter_elias_disney: "Walter Elias Disney"
+ CAL_thomas_edmund_dewey: "Thomas Edmund Dewey"
+
+#########################################
+### Character Localization - Generals ###
+#########################################
+ CAL_dwight_david_eisenhower: "Dwight David Eisenhower"
+ CAL_omar_nelson_bradley: "Omar Nelson Bradley"
+ CAL_george_catlett_marshall: "George Catlett Marshall"
+ CAL_curtis_emerson_lemay: "Curtis Emerson Lemay"
+ CAL_george_smith_patton_jr: "George Smith Patton Jr"
+ CAL_walton_harris_walker: "Walton Harris Walker"
+ CAL_smedley_darlington_butler: "Smedley Darlington Butler"
+ CAL_glynda_goodwitch: "Glynda Goodwitch"
+ CAL_william_childs_westmoreland: "William Childs Westmoreland"
+ CAL_maxwell_davenport_taylor: "Maxwell Davenport Taylor"
+ CAL_mark_wayne_clark: "Mark Wayne Clark"
+ CAL_henry_harley_arnold: "Henry Harley Arnold"
+ CAL_jacob_loucks_devers: "Jacob Loucks Devers"
+ CAL_leonard_townsend_gerow: "Leonard Townsend Gerow"
+ CAL_claire_lee_chennault: "Claire Lee Chennault"
+ CAL_lucian_king_truscott: "Lucian King Truscott"
+ CAL_benjamin_oliver_davis_sr: "Benjamin Oliver Davis Sr."
+ CAL_ulysses_simpson_grant_iii: "Ulysses Simpson Grant III"
+ CAL_john_daniel_lavelle: "John Daniel Lavelle"
+ CAL_elizabeth_coleman: "Elizabeth Coleman"
+ CAL_charity_edna_adams_earley: "Charity Edna Adams Earley"
+ CAL_hobart_raymond_gay: "Hobart Raymond Gay"
+ CAL_james_cordie_dozier: "James Cordie Dozier"
+ CAL_john_lesesne_dewitt: "John Lesesne Dewitt"
+ CAL_hayes_adlai_ashby_clarke_kroner: "Hayes Adlai Ashby Clarke Kroner"
+ CAL_james_harold_doolittle: James Harold Doolittle"
+ CAL_lewis_burwell_puller: "Lewis Burwell Puller"
+ CAL_john_fujio_aiso: "John Fujio Aiso"
+ CAL_simon_bolivar_buckner_jr: "Simon Bolivar Buckner Jr."
+ CAL_charles_hartwell_bonesteel_iii: "Charles Hartwell Bonesteel III"
+ CAL_curtis_emerson_lemay: "Curtis Emerson Lemay"
+
+#########################################
+### Character Localization - Admirals ###
+#########################################
+CAL_ernest_joseph_king: "Ernest Joseph King"
+CAL_chester_william_nimitz: "Chester William Nimitz"
+CAL_william_daniel_leahy: "William Daniel Leahy"
+CAL_william_fredrick_halsey_jr: "William Fredrick Halsey Jr."
+CAL_samuel_lee_gravely_jr: "Samuel Lee Gravely Jr."
+CAL_arleigh_albert_burke: "Arleigh Albert Burke"
+CAL_issac_campbell_kidd_sr: "Issac Campbell Kidd Sr."
+CAL_felix_budwell_stump: "Felix Budwell Stump"
+
+###########################################
+### Character Localization - Scientists ###
+###########################################
+CAL_niels_henrik_david_bohr: "Niels Henrik David Bohr"
+
+###########################################
+### Character Localization - Operatives ###
+###########################################
+
+#########################################
+### Leader Bios - California Republic ###
+#########################################
+
+
+######################################################
+### General and Admiral Bios - California Republic ###
+######################################################
+
+######################
+### Starting Ideas ###
+######################
+ CAL_the_long_march_west: "The Long March West"
+ CAL_the_long_march_west_desc: ""
+
+ CAL_the_greater_depression: "The Greater Depression"
+ CAL_the_greater_depression_desc: ""
+
+ CAL_a_shattered_army: "A Shattered Army"
+ CAL_a_shattered_army_desc: ""
+
+ CAL_an_outdated_air_force: "An Outdated Airforce"
+ CAL_an_outdated_air_force_desc: ""
+
+ CAL_the_mothballed_navy: "The Mothballed Navy"
+ CAL_the_mothballed_navy_desc: ""
+
+ CAL_the_failure_of_democracy: "The Failure of Democracy"
+ CAL_the_failure_of_democracy_desc: ""
+
+ CAL_the_new_american_economy_modifier: "The New American Economy"
+ CAL_the_new_american_economy_modifier_desc: ""
+
+#####################################################
+### National Focuses Localisation - Starting Tree ###
+#####################################################
+CAL_the_long_dead_march_west: "The Long, Dead, March West"
+CAL_the_long_dead_march_west_desc: ""
+
+CAL_reaffirm_the_treaty_of_guadalupe_hidalgo: "Reaffirm the Treaty of Guadalupe-Hidalgo"
+CAL_reaffirm_the_treaty_of_guadalupe_hidalgo_desc: ""
+
+CAL_a_dangerous_game: "A Dangerous Game"
+CAL_a_dangerous_game_desc: "Granted, we oughta be careful. You never know.\n\n This is a dangerous game we’re playing. We don’t know how the others will react to us reaffirming the treaty. Either they’ll be on board, or they’ll rebel, and that’s why we need to tread carefully."
+
+CAL_tighten_border_patrol: "Tighten Border Patrol"
+CAL_tighten_border_patrol_desc: ""
+
+CAL_expand_the_volunteer_militias: "Expand the Volunteer Militias"
+CAL_expand_the_volunteer_militias_desc: ""
+
+CAL_control_the_sixth_army: "Control the Sixth Army"
+CAL_control_the_sixth_army_desc: "Want to know what’s dangerous? An Army that is not under your control. That would make a coup easy, and we need stability more than ever. As such, we need to have the Sixth Army under our control before it is too late."
+
+CAL_mercenary_gunmen_for_hire: "Mercenary Gunmen for Hire"
+CAL_mercenary_gunmen_for_hire_desc: "We are in dire need of gunmen, thanks to our manpower pool being depleted by the endless anarchy happening around us. If only there were some mercs around here. That'd make it great."
+
+CAL_the_mexican_connection: "The Mexican Connection"
+CAL_the_mexican_connection_desc: "Next to us is Mexico. Perhaps we could leverage our connections with them and help get something of value. We oughta do this before any big war starts so that we don't get caught empty-handed."
+
+CAL_a_pioneer_republic: "A Pioneer Republic"
+CAL_a_pioneer_republic_desc: ""
+
+CAL_san_diego_fleet_command: "San Diego Fleet Command"
+CAL_san_diego_fleet_command_desc: ""
+
+CAL_march_air_force_base: "March Air Force Base"
+CAL_march_air_force_base_desc:
+
+CAL_the_pacific_coast_economy_line: "The Pacific Coast Economy Line"
+CAL_the_pacific_coast_economy_line_desc: ""
+
+CAL_summon_the_general_staff: "Summon the General Staff"
+CAL_summon_the_general_staff_desc: ""
+
+CAL_begin_preparations_for_war: "Begin Preparations for War"
+CAL_begin_preparations_for_war_desc: ""
+
+CAL_the_second_continentaal_army_junta: "The Second Continental Army Junta"
+CAL_the_second_continentaal_army_junta_desc: ""
+
+CAL_dealing_with_the_anarchy_in_our_state: "Dealing with the Anarchy in Our State"
+CAL_dealing_with_the_anarchy_in_our_state_desc: ""
+
+CAL_expand_the_california_national_guard: "Expand the California National Guard"
+CAL_expand_the_california_national_guard_desc: ""
+
+CAL_negotiations_with_the_canadians: "Negotiations with the Canadians"
+CAL_negotiations_with_the_canadians_desc: ""
+
+CAL_rebuilding_south_california_industry: "Rebuilding South California Industry"
+CAL_rebuilding_south_california_industry_desc: ""
+
+CAL_memories_of_the_old_republic: "Memories of the Old Republic"
+CAL_memories_of_the_old_republic_desc: ""
+
+CAL_reform_the_federal_bureau_of_investigation: "Reform the Federal Bureau of Investigation"
+CAL_reform_the_federal_bureau_of_investigation_desc: ""
+
+CAL_expand_the_military_police: "Expand the Military Police"
+CAL_expand_the_military_police_desc: ""
+
+CAL_improved_rifle_designs: "Improved Rifle Designs"
+CAL_improved_rifle_designs_desc: ""
+
+CAL_form_the_fortieth_armored_division: "Form the Fortieth Armored Division"
+CAL_form_the_fortieth_armored_division_desc: ""
+
+CAL_new_artillery_designs: "New Artillery Designs"
+CAL_new_artillery_designs_desc: ""
+
+CAL_solving_the_manpower_problem: "Solving the Manpower Problem"
+CAL_solving_the_manpower_problem_desc: ""
+
+CAL_welcoming_general_alexander: "Welcoming General Alexander"
+CAL_welcoming_general_alexander_desc: ""
+
+CAL_establishing_a_military_based_economy: "Establishing a Military-Based Economy"
+CAL_establishing_a_military_based_economy_desc: ""
+
+CAL_question_of_law: "The Question of Law"
+CAL_question_of_law_desc: ""
+
+CAL_question_of_the_ballot: "The Question of the Ballot"
+CAL_question_of_the_ballot_desc: ""
+
+CAL_question_of_civil_liberties: "The Question of Civil Liberties"
+CAL_question_of_civil_liberties_desc: ""
+
+CAL_dealL_with_communist_guerrillas: "Dealing with Communist Guerrillas"
+CAL_dealL_with_communist_guerrillas_desc: ""
+
+CAL_deal_with_fascist_insurgents: "Dealing with Fascist Insurgents"
+CAL_deal_with_fascist_insurgents_desc: ""
+
+CAL_american_gendarmerie: "American Gendarmerie"
+CAL_american_gendarmerie_desc: ""
+
+CAL_militarize_civil_police: "Militarize Civil Police"
+CAL_militarize_civil_police_desc: ""
+
+CAL_initial_motorization_effforts: "Initial Motorization Efforts"
+CAL_initial_motorization_effforts_desc: ""
+
+CAL_new_tank_research: "New Tank Research"
+CAL_new_tank_research_desc: ""
+
+CAL_anti_air_research: "Anti-Air Research"
+CAL_anti_air_research_desc: ""
+
+CAL_revive_the_minutemen: "Revive the Minutemen"
+CAL_revive_the_minutemen_desc: ""
+
+CAL_reimplement_conscription: "Reimplement Conscription"
+CAL_reimplement_conscription_desc: ""
+
+CAL_general_simmonds_advice: "General Simmonds's Advice"
+CAL_general_simmonds_advice_desc: ""
+
+CAL_general_alexanders_advice: "General Alexander's Advice"
+CAL_general_alexanders_advice_desc: ""
+
+CAL_general_moncels_advice: "General Moncel's Advice"
+CAL_general_moncels_advice_desc: ""
+
+CAL_farmlands_of_caLifornia: "Farmlands of California"
+CAL_farmlands_of_california_desc: ""
+
+CAL_arms_company_subsidies: "Arms Company Subsidies"
+CAL_arms_company_subsidies_desc: ""
+
+CAL_dealing_with_labor_shortages: "Dealing with Labor Shortages"
+CAL_dealing_with_labor_shortages_desc: ""
+
+CAL_state_matters: "State Matters"
+CAL_state_matters_desc: ""
+
+CAL_wiretap_their_meetings: "Wiretap Their Meetings"
+CAL_wiretap_their_meetings_desc: ""
+
+CAL_infiltrate_their_rallies: "Infiltrate Their Rallies"
+CAL_infiltrate_their_rallies_desc: ""
+
+CAL_centralized_mp_command: "Centralized M.P. Command"
+CAL_centralized_mp_command_desc: ""
+
+CAL_military_police_signal_corps: "Military Police Signal Corps"
+CAL_military_police_signal_corps_desc: ""
+
+CAL_initial_mechanization_efforts: "Initial Mechanization Efforts"
+CAL_initial_mechanization_efforts_desc: ""
+
+CAL_military_logistic_corps: "Military Logistic Corps"
+CAL_military_logistic_corps_desc: ""
+
+CAL_anti_tank_research: "Anti-Tank Research"
+CAL_anti_tank_research_desc: ""
+
+CAL_well_relegated_minutemen: "Well-Relegated Minutemen"
+CAL_well_relegated_minutemen_desc: ""
+
+CAL_an_expanded_army_reserve: "An Expanded Army Reserve"
+CAL_an_expanded_army_reserve_desc: ""
+
+CAL_a_permanent_liason_to_california: "A Permanent Liaison to California"
+CAL_a_permanent_liason_to_california_desc: ""
+
+CAL_canadian_funded_factories: "Canadian-Funded Factories"
+CAL_canadian_funded_factories_desc: ""
+
+CAL_ramp_up_ration_production: "Ramp Up Ration Production"
+CAL_ramp_up_ration_production_desc: ""
+
+CAL_create_the_war_research_board: "Create the War Research Board"
+CAL_create_the_war_research_board_desc: ""
+
+CAL_place_factories_under_military_oversight: "Place Factories Under Military Oversight"
+CAL_place_factories_under_military_oversight_desc: ""
+
+CAL_the_protesting_democrats: "The Protesting Democrats"
+CAL_the_protesting_democrats_desc: ""
+
+CAL_the_nationalists: "The Nationalists"
+CAL_the_nationalists_desc: ""
+
+CAL_too_many_reds: "Too Many Reds"
+CAL_too_many_reds_desc: ""
+
+CAL_begin_arresting_extremists: "Begin Arresting Extremists"
+CAL_begin_arresting_extremists_desc: ""
+
+CAL_the_new_american_military_policeman: "The New American Military Policeman"
+CAL_the_new_american_military_policeman_desc: ""
+
+CAL_reactivate_destroyed_divisions: "Reactivate Destroyed Divisions"
+CAL_reactivate_destroyed_divisions_desc: ""
+
+CAL_revitalized_military_medi CAL_infrastructure: "Revitalized Military-Medi CAL Infrastructure"
+CAL_revitalized_military_medi CAL_infrastructure_desc: ""
+
+CAL_export_canadian_equipment: "Export Canadian Equipment"
+CAL_export_canadian_equipment_desc: ""
+
+CAL_improving_trade_relations: "Improving Trade Relations"
+CAL_improving_trade_relations_desc: ""
+
+CAL_rebuilding_civilian_industry: "Rebuilding Civilian Industry"
+CAL_rebuilding_civilian_industry_desc: ""
+
+CAL_rebuilding_destroyed_arms_factories: "Rebuilding Destroyed Arms Factories"
+CAL_rebuilding_destroyed_arms_factories_desc: ""
+
+CAL_forming_a_reconstruction_corps: "Forming a Reconstruction Corps"
+CAL_forming_a_reconstruction_corps_desc: ""
+
+CAL_what_are_we_truly: "What Are We Truly?"
+CAL_what_are_we_truly_desc: ""
+
+CAL_purge_those_bastards: "Purge Those Bastards"
+CAL_purge_those_bastards: ""
+
+CAL_an_army_ready_for_war: "An Army Ready for War"
+CAL_an_army_ready_for_war_desc: ""
+
+CAL_the_beaver_and_the_eagle_march_together: "The Beaver and the Eagle March Together"
+CAL_the_beaver_and_the_eagle_march_together_desc: ""
+
+CAL_a_proper_war_economy: "A Proper War Economy"
+CAL_a_proper_war_economy_desc: ""
+
+CAL_final_preparations: "Final Preparations"
+CAL_final_preparations_desc: ""
+
+CAL_set_the_war_plans_in_motion: "Set the War Plans in Motion"
+CAL_set_the_war_plans_in_motion_desc: ""
+
+####################################################################
+### National Focuses Lo CALisation - Pre-Regional Tree - Part One ###
+####################################################################
+ CAL_beginning_the_ CALifornia_reunfication_war: "Beginning the  CALifornia Reunification War"
+ CAL_beginning_the_ CALifornia_reunfication_war_desc: ""
+
+ CAL_construct_southeastern_defensive_lines: "Construct Southeastern Defensive Lines"
+ CAL_construct_southeastern_defensive_lines_desc: ""
+
+ CAL_construct_northern_defensive_lines: "Construct Northern Defensive Lines"
+ CAL_construct_northern_defensive_lines_desc: ""
+
+ CAL_ultimatum_to_the_river_republic: "Ultimatum to the River Republic"
+ CAL_ultimatum_to_the_river_republic_desc: ""
+
+ CAL_ CALming_the_sandstorm: " CALming the Sandstorm"
+ CAL_ CALming_the_sandstorm_desc: ""
+
+ CAL_crush_the_bay_area_communists: "Crush the Bay Area Communists"
+ CAL_crush_the_bay_area_communists_desc: ""
+
+ CAL_purge_the_nationalists: "Purge the Nationalists"
+ CAL_purge_the_nationalists_desc: ""
+
+ CAL_merge_the_central_and_northern_commands_together: "Merge the Central and Northern Commands Together"
+ CAL_merge_the_central_and_northern_commands_together_desc: ""
+
+ CAL_the_colorado_river: "The Colorado River"
+ CAL_the_colorado_river_desc: ""
+
+ CAL_the_mojave_desert: "The Mojave Desert"
+ CAL_the_mojave_desert_desc: ""
+
+ CAL_the_bay_area: "The Bay Area"
+ CAL_the_bay_area_desc: ""
+
+ CAL_the_redwood_forests: "The Redwood Forests"
+ CAL_the_redwood_forests_desc: ""
+
+ CAL_stablilize_the_current: "Stabilize the Current"
+ CAL_stablilize_the_current_desc: ""
+
+ CAL_leave_the_dead_to_march_aimless: "Leave the Dead to March Aimless"
+ CAL_leave_the_dead_to_march_aimless: ""
+
+ CAL_curb_the_communists: "Curb the Communists"
+ CAL_curb_the_communists_desc: ""
+
+ CAL_issue_bounties: "Issue Bounties"
+ CAL_issue_bounties_desc: ""
+
+ CAL_forcing_forth_the_program: "Forcing Forth the Program"
+ CAL_forcing_forth_the_program_desc: ""
+
+ CAL_the_starved_traitor: "The Starved Traitor"
+ CAL_the_starved_traitor_desc: ""
+
+ CAL_show_them_a_new_flame: "Show them a New Flame"
+ CAL_show_them_a_new_flame: ""
+
+ CAL_the_last_commander: "The Last Commander"
+ CAL_the_last_commander_desc: ""
+
+ CAL_the_quiet_democratic_facade: "The Quiet Democratic Facade"
+ CAL_the_quiet_democratic_facade_desc: ""
+
+ CAL_bones_buried_beneath_the_sands: "Bones Buried Beneath the Sands"
+ CAL_bones_buried_beneath_the_sands_desc: ""
+
+ CAL_the_silence_of_revolutions_failings: "The Silence of Revolution's Failings"
+ CAL_the_silence_of_revolutions_failings_desc: ""
+
+ CAL_the_fading_embers: "The Fading Embers"
+ CAL_the_fading_embers_desc: ""
+
+ CAL_stability_ensured: "Stability Ensured"
+ CAL_stability_ensured_desc: ""
+
+ CAL_a_silent_reflection: "A Silent Reflection"
+ CAL_a_silent_reflection_desc: ""
+
+####################################################################
+### National Focuses Lo CALisation - Pre-Regional Tree - Part Two ###
+####################################################################
+ CAL_resolving_the_water_problem: "Resolving the Water Problem"
+ CAL_resolving_the_water_problem_desc: ""
+
+ CAL_rebuild_uc_ California: "Rebuild U.C. Berkeley"
+ CAL_rebuild_uc_ California_desc: ""
+
+ CAL_state_highway_reconstruction: "State Highway Reconstruction"
+ CAL_state_highway_reconstruction_desc: ""
+
+ CAL_reopen_the_refineries: "Reopen the Refineries"
+ CAL_reopen_the_refineries_desc: ""
+
+ CAL_integrate_armalite: "Nationalize ArmaLite"
+ CAL_integrate_armalite: ""
+
+ CAL_nationalize_hewlett_packard: "Nationalize Hewlett-Packard"
+ CAL_nationalize_hewlett_packard_desc: "
+
+ CAL_increase_funding_for_union_pacific: "Increase Funding for Union Pacific Railroad"
+ CAL_increase_funding_for_union_pacific_desc: ""
+
+ CAL_merge_car_manufacturers: "Merging Car Manufacturers Together"
+ CAL_merge_car_manufacturers: ""
+
+ CAL_retool_automobile_factories_for_tanks: "Retool Automobile Factories for Tanks"
+ CAL_retool_automobile_factories_for_tanks_desc: ""
+
+ CAL_shockley_semiconductors: "Shockley Semiconductors"
+ CAL_shockley_semiconductors_desc: ""
+
+ CAL_agricultural_self_sufficiency: "Agricultural Self-Sufficiency"
+ CAL_agricultural_self_sufficiency_desc: ""
+
+ CAL_refit_ship_manufactories: "Refitting California Drydocks"
+ CAL_refit_ship_manufactories_desc: ""
+
+ CAL_california_aviation_industry: "Restart the California Aviation Industry"
+ CAL_california_aviation_industry_desc: ""
+
+ CAL_the_bear_roars_yet_again: "The Bear Roars Yet Again"
+ CAL_the_bear_roars_yet_again_desc: ""
+
+####################################################################
+### National Focuses Localisation - Pre-Regional Tree - Part Two ###
+####################################################################

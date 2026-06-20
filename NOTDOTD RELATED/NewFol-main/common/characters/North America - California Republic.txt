@@ -1,0 +1,1274 @@
+characters = {
+    #######################
+    ### Country Leaders ###
+    #######################
+    CAL_henry_agard_wallace = {
+        name = CAL_henry_agard_wallace
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CAL/Portrait_CAL_Henry_Agard_Wallace.dds"
+			}
+		}
+		country_leader = {
+			#desc = dont' leave equal symbol empty "POLITICS_HENRY_WALLACE_DESC"
+			expire = "1994.4.20"
+			ideology = social_democratic_progressive_democracy_ideology
+			traits = {
+
+			}
+		}
+    }
+
+	CAL_provisional_council = { ### Starting Council ###
+		name = CAL_provisional_council
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CAL/Portrait_CAL_Provisional_Council.dds"
+			}
+		}
+		country_leader = {
+			#desc = dont' leave equal symbol empty "POLITICS_HENRY_WALLACE_DESC"
+			expire = "1994.4.20"
+			ideology = provisional_government_ideology
+			traits = {
+
+			}
+		}
+	}
+
+	##############################################
+	### Country Advisors - Heads of Government ###
+	##############################################
+    CAL_huey_pierce_long_jr = {
+        name = CAL_huey_pierce_long_jr
+        portraits = {
+			civilian = {
+				large = "gfx/leaders/CAL/Portrait_CAL_Huey_Pierce_Long_jr.dds"
+			}
+		}
+		country_leader = {
+			#desc = dont' leave equal symbol empty "POLITICS_HUEY_LONG_DESC"
+			expire = "1994.4.20"
+			ideology = social_democratic_longism_ideology
+			traits = {
+			}
+		}
+        advisor = {
+			slot = slot_hog
+			idea_token = CAL_huey_pierce_long_jr_hog
+			allowed = { original_tag = CAL }
+			traits = {
+				
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = yes
+			ai_will_do = { factor = 0 }
+		}
+    }
+
+	CAL_earl_warren = {
+		name = CAL_earl_warren
+		portraits = {
+			civillian = {
+				large = GFX_fish
+			}
+		}
+		advisor = {
+			slot = slot_hog
+			idea_token = CAL_earl_warren_hog
+			allowed = { original_tag = CAL }
+			traits = {
+				
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = yes
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	CAL_thomas_edmund_dewey = {
+		name = CAL_thomas_edmund_dewey
+		portraits = {
+			civillian = {
+				large = GFX_fish
+			}
+		}
+		advisor = {
+			slot = slot_hog
+			idea_token = CAL_thomas_edmund_dewey_hog
+			allowed = { original_tag = CAL }
+			traits = {
+				
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = yes
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	CAL_walter_elias_disney = {
+		name = CAL_walter_elias_disney
+		portraits = {
+			civillian = {
+				large = GFX_fish
+			}
+		}
+		advisor = {
+			slot = slot_hog
+			idea_token = CAL_walter_elias_disney_hog
+			allowed = { original_tag = CAL }
+			traits = {
+				
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = yes
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	CAL_howard_robard_hughes_jr = {
+		name = CAL_howard_robard_hughes_jr
+		portraits = {
+			civilian = {
+				large = GFX_fish
+			}
+		}
+		advisor = {
+			slot = slot_hog
+			idea_token = CAL_walter_elias_disney_hog
+			allowed = { original_tag = CAL }
+			traits = {
+				
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = yes
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	CAL_alben_william_barkley = {
+		name = CAL_alben_william_barkley
+		portraits = {
+			civilian = {
+				small = GFX_fish
+			}
+		}
+		advisor = {
+			slot = slot_hog
+			idea_token = CAL_walter_elias_disney_hog
+			allowed = { original_tag = CAL }
+			traits = {
+				
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = yes
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	CAL_james_byron_dean = {
+		name = CAL_james_byron_dean
+		portraits = {
+			civillian = {
+				large = GFX_fish
+			}
+		}
+		advisor = {
+			slot = slot_hog
+			idea_token = CAL_walter_elias_disney_hog
+			allowed = { original_tag = CAL }
+			traits = {
+				
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = yes
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	############################################
+	### Country Advisors - Foreign Ministers ###
+	############################################
+	CAL_dean_gooderham_acherson = {
+		name = CAL_dean_gooderham_acherson
+		portraits = {
+			civilian = {
+				small = GFX_fish
+			}
+		}
+		advisor = {
+			slot = slot_foreign_minister
+			idea_token = CAL_dean_gooderham_acherson
+			allowed = { original_tag = CAL }
+			traits = {
+				
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = yes
+			ai_will_do = { factor = 0 }
+		}
+	}
+
+	############################################
+    ### California Republic - Field Marshals ###
+	############################################
+
+	CAL_dwight_david_eisenhower = {
+		name = CAL_dwight_david_eisenhower
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CAL/Portrait_CAL_Dwight_David_Eisenhower.dds"
+			}
+			army = {
+				large = "gfx/leaders/CAL/Portrait_CAL_Dwight_David_Eisenhower.dds"
+				#small = GFX_fish
+			}
+		}
+		field_marshal = {
+			#desc = dont' leave equal symbol empty
+			traits = {
+				logistics_wizard
+				offensive_doctrine
+				panzer_leader
+				cautious
+				politically_connected
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 3
+		}
+		advisor = {
+			cost = 150
+			slot = army_theorist
+			idea_token = dwight_david_eisenhower_idea
+			ledger = army
+			traits = {
+				superior_firepower_expert
+			}
+		}
+	}
+
+	CAL_george_catlett_marshall = {
+		name = CAL_george_catlett_marshall
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CAL/Portrait_CAL_George_Catlett_Marshall.dds"
+			}
+			army = {
+				large = "gfx/leaders/CAL/Portrait_CAL_George_Catlett_Marshall.dds"
+				small = GFX_fish
+			}
+		}
+		field_marshal = {
+			#desc = dont' leave equal symbol empty
+			traits = {
+				career_officer
+				politically_connected
+				organizer
+				offensive_doctrine
+				logistics_wizard
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 4
+		}
+		advisor = {
+			cost = 150
+			slot = army_theorist
+			idea_token = george_catlett_marshall
+			ledger = army
+			traits = {
+				grand_battle_plan_expert
+			}
+		}
+	}
+	
+	CAL_omar_nelson_bradley = {
+		name = CAL_omar_nelson_bradley
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CAL/Portrait_CAL_Omar_Nelson_Bradley.dds"
+			}
+			army = {
+				large = "gfx/leaders/CAL/Portrait_CAL_Omar_Nelson_Bradley.dds"
+				small = GFX_fish
+			}
+		}
+		field_marshal = {
+			#desc = dont' leave equal symbol empty
+			traits = {
+				trait_engineer
+				cautious
+				organizer
+				brilliant_strategist
+				career_officer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 5
+			logistics_skill = 3
+		}
+	}
+
+	CAL_curtis_emerson_lemay = {
+        name = CAL_curtis_emerson_lemay
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/CAL/Portrait_CAL_Curtis_Emerson_Lemay.dds"
+            }
+            army = {
+                large = "gfx/leaders/CAL/Portrait_CAL_Curtis_Emerson_Lemay.dds"
+				small = GFX_fish
+            }
+        }
+        field_marshal = {
+            traits = {
+                politically_connected
+                trait_reckless
+                air_commander
+            }
+            skill = 3
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 3
+            logistics_skill = 3
+        }
+		advisor = {
+			cost = 200
+			slot = air_chief
+			idea_token = curtis_emerson_lemay
+			traits = {
+				air_chief_reform_3
+			}
+		}
+    }
+
+	#############################
+	### Generals - Level Five ###
+	#############################
+	CAL_george_smith_patton_jr = {
+		name = CAL_george_smith_patton_jr
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CAL/Portrait_CAL_George_Smith_Patton_Jr.dds"
+			}
+			army = {
+				large = "gfx/leaders/CAL/Portrait_CAL_George_Smith_Patton_Jr.dds"
+				#small = 
+			}
+		}
+		corps_commander = {
+			#desc = dont' leave equal symbol empty
+			traits = {
+				trait_reckless
+				panzer_leader
+				armor_officer
+				trickster
+				cavalry_leader
+			}
+			skill = 5 
+			attack_skill = 7
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 4 
+		}
+		advisor = {
+			cost = 150
+			slot = army_theorist
+			idea_token = george_smith_patton_jr
+			ledger = army
+			traits = {
+				mobile_warfare_expert
+			}
+		}
+	}
+	
+	CAL_creighton_williams_abrams_jr = {
+        name = CAL_creighton_williams_abrams_jr
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/CAL/Portrait_CAL_Creighton_Williams_Abrams_Jr.dds"
+            }
+            army = {
+                large = "gfx/leaders/CAL/Portrait_CAL_Creighton_Williams_Abrams_Jr.dds"
+				small = GFX_fish
+            }
+        }
+        corps_commander = {
+			#desc = dont' leave equal symbol empty 
+            traits = { 
+				panzer_leader
+				organizer
+				thorough_planner
+				brilliant_strategist
+				panzer_expert
+			}
+			skill = 5
+            attack_skill = 4
+            defense_skill = 3
+            planning_skill = 3
+            logistics_skill = 5
+        }
+		advisor = {
+			cost = 150
+			slot = army_high_command
+			idea_token = creighton_williams_abrams_jr
+			ledger = army
+			traits = {
+				army_CombinedArms_2
+			}
+		}
+    }
+
+	#############################
+	### Generals - Level Four ###
+	#############################
+	CAL_william_childs_westmoreland = {
+		name = CAL_william_childs_westmoreland 
+		portraits = {
+			army = {
+				large = "gfx/leaders/CAL/Portrait_CAL_William_Childs_Westmoreland.dds"
+				small = GFX_fish
+			}
+		}
+		corps_commander = {
+			#desc = dont' leave equal symbol empty
+			traits = {
+				brilliant_strategist
+				organizer
+				fast_planner
+				aggressive_assaulter
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 4
+		}
+		advisor = {
+			cost = 150
+			slot = army_theorist
+			idea_token = william_childs_westmoreland
+			ledger = army
+			traits = {
+				mass_assault_expert
+			}
+		}
+	}
+	
+	CAL_jacob_loucks_devers = {
+		name = CAL_jacob_loucks_devers
+		portraits = {
+			army = {
+				large = "gfx/leaders/CAL/Portrait_CAL_Jacob_Loucks_Devers.dds"
+				small = GFX_fish
+			}
+		}
+		corps_commander = {
+			#desc = dont' leave equal symbol empty
+			traits = {
+				panzer_leader
+				cavalry_leader
+				skilled_staffer
+				organizer
+				brilliant_strategist
+				career_officer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+		advisor = {
+			slot = army_high_command
+			cost = 100
+			idea_token = jacob_loucks_devers
+			ledger = army
+			traits = { army_armored_2 }
+			can_be_fired = yes
+		}
+	}
+	
+	CAL_henry_harley_arnold = {
+		name = CAL_henry_harley_arnold
+		portraits = {
+			army = {
+				large = "gfx/leaders/CAL/Portrait_CAL_Henry_Harley_Arnold.dds"
+				small = GFX_fish
+			}
+		}
+		corps_commander = {
+			#desc = dont' leave equal symbol empty 
+			traits = {
+				career_officer
+				politically_connected
+				inspirational_leader
+				organizer
+				air_commander
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		advisor = {
+			cost = 200
+			slot = air_chief
+			idea_token = henry_harley_arnold
+			traits = {
+				air_chief_reform_3
+			}
+		}
+	}
+	
+	CAL_walton_harris_walker = {
+		name = CAL_walton_harris_walker
+		portraits = {
+			army = {
+				large = "gfx/leaders/CAL/Portrait_CAL_Walton_Harris_Walker.dds"
+			}
+		}
+		corps_commander = {
+			#desc = dont' leave equal symbol empty
+			traits = {
+				panzer_leader
+				armor_officer
+				panzer_expert
+				brilliant_strategist
+				cavalry_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 4
+		}
+		advisor = {
+			cost = 150
+			slot = army_chief
+			idea_token = walton_harris_walker
+			ledger = army
+			traits = { 
+				army_chief_offensive_3
+			}
+		}
+	}
+	
+	CAL_glynda_goodwitch = {
+		name = CAL_glynda_goodwitch
+		portraits = {
+			army = {
+				large = "gfx/leaders/CAL/Portrait_CAL_Glynda_Goodwitch.dds"
+			}
+		}
+		corps_commander = {
+			#desc = dont' leave equal symbol empty 
+			traits = {
+				brilliant_strategist
+				ranger
+				infantry_leader
+				infantry_expert
+				inspirational_leader
+				career_officer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+		}
+		advisor = {
+			cost = 150
+			slot = army_chief
+			idea_token = glynda_goodwitch
+			ledger = army
+			traits = { 
+				army_chief_drill_2
+			}
+		}
+		gender = female
+	}
+	
+	CAL_smedley_darlington_butler = {
+		name = CAL_smedley_darlington_butler
+		portraits = {
+			army = {
+				large = "gfx/leaders/CAL/Portrait_CAL_Smedley_Darlington_Butler.dds"
+				#small = 
+			}
+		}
+		corps_commander = {
+			#desc = dont' leave equal symbol empty
+			traits = {
+				brilliant_strategist
+				inspirational_leader
+				commando
+				naval_invader
+				career_officer 
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+	
+	CAL_maxwell_davenport_taylor = {
+		name = CAL_maxwell_davenport_taylor
+		portraits = {
+			army = {
+				large = "gfx/leaders/CAL/Portrait_CAL_Maxwell_Davenport_Taylor.dds"
+			}
+		}
+		corps_commander = {
+			#desc = dont' leave equal symbol empty 
+			traits = {
+				paratrooper
+				brilliant_strategist
+				career_officer
+				commando
+				war_hero
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 4
+		}
+	}
+	
+	CAL_lucian_king_truscott = {
+		name = CAL_lucian_king_truscott
+		portraits = {
+			army = {
+				large = "gfx/leaders/CAL/Portrait_CAL_Lucian_King_Truscott.dds"
+			}
+		}
+		corps_commander = {
+			#desc = dont' leave equal symbol empty
+			traits = {
+				trait_engineer
+				commando
+				cavalry_officer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	
+	CAL_lewis_burwell_puller = {
+		name = CAL_lewis_burwell_puller
+		portraits = {
+			army = {
+				large = "gfx/leaders/CAL/Portrait_CAL_Lewis_Burwell_Puller.dds"
+				small = GFX_fish
+			}
+		}
+		corps_commander = {
+			#desc = dont' leave equal symbol empty
+			traits = {
+				harsh_leader
+				career_officer
+				commando
+				naval_invader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 5
+			logistics_skill = 2
+		}
+	}
+	
+	CAL_benjamin_oliver_davis_sr = {
+		name = CAL_benjamin_oliver_davis_sr
+		portraits = {
+			army = {
+				large = "gfx/leaders/CAL/Portrait_CAL_Benjamin_Oliver_davis_Sr.dds"
+			}
+		}
+		corps_commander = {
+			#desc = dont' leave equal symbol empty
+			traits = {
+				career_officer
+				organizer
+				infantry_leader
+				inspirational_leader
+			}
+			skill = 4 
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	
+	CAL_hobart_raymond_gay = {
+		name = CAL_hobart_raymond_gay
+		portraits = {
+			army = {
+				large = "gfx/leaders/CAL/Portrait_CAL_Hobart_Raymond_Gay.dds"
+			}
+		}
+		corps_commander = {
+			#desc = dont' leave equal symbol empty
+			traits = {
+				panzer_leader
+				armor_officer
+				trait_reckless
+			}
+			skill = 4
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	
+	CAL_charles_hartwell_bonesteel_iii = {
+        name = CAL_charles_hartwell_bonesteel_iii
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/CAL/Portrait_CAL_Charles_Hartwell_Bonesteel_III.dds"
+            }
+            army = {
+                large = "gfx/leaders/CAL/Portrait_CAL_Charles_Hartwell_Bonesteel_III.dds"
+            }
+        }
+        corps_commander = {
+			#desc = dont' leave equal symbol empty 
+            traits = {
+				infantry_leader
+				infantry_expert
+				trickster
+				harsh_leader
+			}
+			skill = 4
+            attack_skill = 5
+            defense_skill = 3
+            planning_skill = 3
+            logistics_skill = 2
+        }
+    }
+
+	CAL_albert_coady_wedemeyer = {
+		name = CAL_albert_coady_wedemeyer
+		portraits = {
+            civilian = {
+                large = "gfx/leaders/CAL/Portrait_CAL_Albert_Coady_Wedemeyer.dds"
+            }
+            army = {
+                large = "gfx/leaders/CAL/Portrait_CAL_Albert_Coady_Wedemeyer.dds"
+            }
+        }
+	}
+
+	##############################
+	### Generals - Level Three ###
+	##############################
+	CAL_john_daniel_lavelle = {
+		name = CAL_john_daniel_lavelle
+		portraits = {
+			army = {
+				large = "gfx/leaders/CAL/Portrait_CAL_John_Daniel_Lavelle.dds"
+			}
+		}
+		corps_commander = {
+			#desc = dont' leave equal symbol empty
+			traits = {
+				commando
+				paratrooper
+				trait_reckless
+			}
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	
+	CAL_james_harold_doolittle = {
+		name = CAL_james_harold_doolittle
+		portraits = {
+			army = {
+				large = "gfx/leaders/CAL/Portrait_CAL_James_Harold_Doolittle.dds"
+				small = GFX_fish
+			}
+		}
+		corps_commander = {
+			#desc = dont' leave equal symbol empty
+			traits = {
+				career_officer
+				trickster
+				air_commander
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 4
+		}
+		advisor = {
+			slot = air_high_command
+			cost = 100
+			idea_token = james_harold_doolittle
+			ledger = air_force
+			traits = { air_strategic_bombing_3 }
+		}
+	}
+	
+	CAL_mark_wayne_clark = {
+		name = CAL_mark_wayne_clark
+		portraits = {
+			army = {
+				large = "gfx/leaders/CAL/Portrait_CAL_Mark_Wayne_Clark.dds"
+			}
+		}
+		corps_commander = {
+			#desc = dont' leave equal symbol empty
+			traits = {
+				reckless
+				infantry_officer
+				infantry_leader
+			}
+			skill = 3
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	
+	CAL_claire_lee_chennault = {
+		name = CAL_claire_lee_chennault
+		portraits = {
+			army = {
+				large = "gfx/leaders/CAL/Portrait_CAL_Claire_Lee_Chennault.dds"
+			}
+		}
+		corps_commander = {
+			#desc = dont' leave equal symbol empty 
+			traits = {
+				cautious
+				career_officer
+				air_commander
+			}
+			skill = 3 
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		advisor = {
+			cost = 200
+			slot = air_chief
+			idea_token = claire_lee_chennault
+			traits = {
+				air_close_air_support_2
+			}
+		}
+	}
+	
+	CAL_joseph_may_swing = {
+		name = CAL_joseph_may_swing
+		portraits = {
+			army = {
+				large = "gfx/leaders/CAL/Portrait_CAL_Joseph_May_Swing.dds"
+			}
+		}
+		corps_commander = {
+			#desc = dont' leave equal symbol empty
+			traits = {
+				career_officer
+				artillery_officer
+				artillery_specialist
+				paratrooper
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	
+	CAL_john_lesesne_dewitt = {
+		name = CAL_john_lesesne_dewitt
+		portraits = {
+			army = {
+				large = "gfx/leaders/CAL/Portrait_CAL_John_Lesesne_DeWitt.dds"
+			}
+		}
+		corps_commander = {
+			#desc = dont' leave equal symbol empty
+			traits = {
+				inflexible_strategist
+				cautious
+				infantry_leader
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 4
+		}
+	}
+	
+	CAL_leonard_townsend_gerow = {
+		name = CAL_leonard_townsend_gerow
+		portraits = {
+			army = {
+				large = "gfx/leaders/CAL/Portrait_CAL_Leonard_Townsend_gerow.dds"
+				small = GFX_fish
+			}
+		}
+		corps_commander = {
+			#desc = dont' leave equal symbol empty  
+			traits = {
+				armor_officer
+				panzer_leader
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	
+	CAL_ulysses_simpson_grant_iii = {
+		name = CAL_ulysses_simpson_grant_iii
+		portraits = {
+			army = {
+				large = "gfx/leaders/CAL/Portrait_CAL_Ulysses_Simpson_grant_III.dds"
+				small = GFX_fish
+			}
+		}
+		corps_commander = {
+			#desc = dont' leave equal symbol empty
+			traits = {
+				infantry_leader
+				media_personality
+				skilled_staffer
+				inflexible_strategist
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 5
+			logistics_skill = 3
+		}
+	}
+	
+	CAL_simon_bolivar_buckner_jr = {
+        name = CAL_simon_bolivar_buckner_jr
+        portraits = {
+            army = {
+                large = "gfx/leaders/CAL/Portrait_CAL_Simon_Bolivar_Buckner_Jr.dds"
+            }
+        }
+        corps_commander = {
+			#desc = dont' leave equal symbol empty 
+            traits = {
+				organizer
+				trait_reckless
+				politically_connected
+				winter_expert
+			}
+			skill = 3
+            attack_skill = 3
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 3
+        }
+    }
+
+	############################
+	### Generals - Level Two ###
+	############################
+	CAL_charity_edna_adams_earley = {
+		name = CAL_charity_edna_adams_earley
+		portraits = {
+			army = { 
+				large = "gfx/leaders/CAL/Portrait_CAL_Charity_Edna_Adams_Earley.dds"
+			}
+		}
+		corps_commander = {
+			#desc = dont' leave equal symbol empty
+			traits = {
+				reckless
+				media_personality
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+		gender = female
+	}
+	
+	CAL_elizabeth_coleman = {
+		name = CAL_elizabeth_coleman
+		portraits = {
+			army = {
+				large = "gfx/leaders/CAL/Portrait_CAL_Elizabeth_Coleman.dds"
+			}
+		}
+		corps_commander = {
+			#desc = dont' leave equal symbol empty
+			traits = {
+				engineer
+				trait_reckless
+				air_commander
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+		gender = female
+	}
+	
+	CAL_james_cordie_dozier = {
+		name = CAL_james_cordie_dozier
+		portraits = {
+			army = {
+				large = "gfx/leaders/CAL/Portrait_CAL_James_Cordie_Dozier.dds"
+			}
+		}
+		corps_commander = {
+			#desc = dont' leave equal symbol empty
+			traits = {
+				skilled_staffer
+				infantry_leader
+				infantry_expert
+				trait_cautious
+				inflexible_strategist
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	
+	CAL_hayes_adlai_ashby_clarke_kroner = {
+		name = CAL_hayes_adlai_ashby_clarke_kroner
+		portraits = {
+			army = {
+				large = "gfx/leaders/CAL/Portrait_CAL_Hayes_Adlai_Ashby_Clarke_Kroner.dds"
+				small = GFX_fish
+			}
+		}
+		corps_commander = {
+			#desc = dont' leave equal symbol empty
+			traits = {
+				trait_cautious
+				inflexible_strategist
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	
+	CAL_daring_do = {
+		name = CAL_daring_do
+		portraits = {
+			army = {
+				large = "gfx/leaders/CAL/Portrait_CAL_Daring_Do.dds"
+			}
+		}
+		corps_commander = {
+			#desc = dont' leave equal symbol empty
+			traits = {
+				recon_expert
+				trait_reckless
+				commando
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+		gender = female
+	}
+	
+	############################
+	### Generals - Level One ###
+	############################
+	CAL_john_fujio_aiso = {
+		name = CAL_john_fujio_aiso
+		portraits = {
+			army = { 
+				large = GFX_fish
+			}
+		}
+		corps_commander = {
+			#desc = dont' leave equal symbol empty
+			traits = {
+				politically_connected
+				trickster
+			}
+			skill = 1
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	#############################
+	### Admirals - Level Five ###
+	#############################
+	CAL_ernest_joseph_king = {
+		name = CAL_ernest_joseph_king
+		portraits = {
+			army = {
+				large = "gfx/leaders/CAL/Portrait_CAL_Ernest_Joseph_King.dds"
+				small = "gfx/leaders/CAL/Portrait_CAL_Ernest_Joseph_King_small.dds"
+			}
+		}
+	}
+	
+	CAL_chester_william_nimitz = {
+		name = CAL_chester_william_nimitz
+		portraits = {
+			army = {
+				large = "gfx/leaders/CAL/Portrait_CAL_Chester_William_Nimitz.dds"
+				small = "gfx/leaders/CAL/Portrait_Chester_William_Nimitz_small.dds"
+			}
+		}
+
+	}
+
+	#############################
+	### Admirals - Level Four ###
+	#############################
+	CAL_william_daniel_Leahy = {
+		name = CAL_william_daniel_Leahy
+		portraits = {
+			army = {
+				large = "gfx/leaders/CAL/Portrait_CAL_William_Daniel_Leahy.dds"
+				small = "gfx/leaders/CAL/small/Portrait_William_Daniel_Leahy_small.dds"
+			}
+		}
+	}
+
+	CAL_william_fredrick_halsey_jr = {
+		name = CAL_william_fredrick_halsey_jr
+		portraits = {
+			army = {
+				large = "gfx/leaders/CAL/Portrait_CAL_William_Fredrick_Halsey_Jr.dds"
+				small = "gfx/leaders/CAL/small/Portrait_William_Fredrick_Halsey_Jr_small.dds"
+			}
+		}
+	}
+	
+	CAL_arleigh_albert_burke = {
+		name = CAL_arleigh_albert_burke
+		portraits = {
+			army = {
+				large = "gfx/leaders/CAL/Portrait_CAL_Arleigh_Albert_Burke.dds"
+				small = GFX_fish
+			}
+		}
+	}
+
+	##############################
+	### Admirals - Level Three ###
+	##############################
+	CAL_samuel_Lee_gravely_jr = {
+		name = CAL_samuel_Lee_gravely_jr
+		portraits = {
+			army = {
+				large = "gfx/leaders/CAL/Portrait_CAL_Samuel_Lee_Gravely_Jr.dds"
+				small = GFX_fish
+			}
+		}
+	}
+
+	CAL_issac_campbell_kidd_sr = {
+		name = CAL_issac_campbell_kidd_sr
+		portraits = {
+			army = {
+				large = "gfx/leaders/CAL/Portrait_CAL_Issac_Campbell_Kidd_Sr.dds"
+				small = "gfx/leaders/CAL/small/Portrait_CAL_Issac_Campbell_Kidd_Sr_small.dds"
+			}
+		}
+	}
+
+	CAL_felix_budwell_stump = {
+		name = CAL_felix_budwell_stump
+		portraits = {
+			army = {
+				large = "gfx/leaders/CAL/Portrait_CAL_Felix_Budwell_Stump.dds"
+				small = "gfx/leaders/CAL/Portrait_CAL_Felix_Budwell_Stump_small.dds"
+			}
+		}
+	}
+
+	############################
+	### Admirals - Level Two ###
+	############################
+
+
+	############################
+	### Admirals - Level One ###
+	############################
+
+
+
+	##################
+	### Scientists ###
+	##################
+	CAL_niels_henrik_david_bohr = {
+		portraits = {
+			army = {
+				large = GFX_fish
+				small = GFX_fish
+			}
+		}
+		scientist = {
+			traits = {
+				scientist_trait_nuclear_specialist
+				scientist_trait_bright
+			}
+			skills = {
+				specialization_nuclear = 2
+			}
+		}
+	}
+
+	##################
+	### Operatives ###
+	##################
+	
+
+}

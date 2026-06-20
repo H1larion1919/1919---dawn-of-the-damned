@@ -1,0 +1,11 @@
+l_english: 
+ SDL: "Soviet Directorate of National Liberation"
+
+
+#################################################
+### Character Localization - Military Leaders ###
+#################################################
+ SDL_semyon_mikhailovich_budyonny: "Semyon Mikhailovich Budyonny"
+ SDL_georgy_konstantinovich_zhukov: "Georgy Konstantinovich Zhukov"
+ SDL_mikhail_vasilievich_frunze: "Mikhail Vasilievich Frunze"
+ SDL_mikhail_nikolayevich_tukhachevsky: "Mikhail Nikolayevich Tukhachevsky"

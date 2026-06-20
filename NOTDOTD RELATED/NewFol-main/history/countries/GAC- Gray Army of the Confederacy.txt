@@ -1,0 +1,31 @@
+capital = 1066
+
+set_war_support = 0.3
+set_stability = 0.3
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+set_politics = {
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	fascism = 60
+	national_socialism = 20
+	ultranationalism = 10
+	paternal_autocrat = 10
+	
+}
+create_country_leader = {
+	name = "James Eastland"#He will 100 percent have a pro-mississipi policy
+	desc = ""
+	picture = GFX_fish
+	ideology = nation_first_nationalism_ideology
+	traits = {
+		#
+	}
+}

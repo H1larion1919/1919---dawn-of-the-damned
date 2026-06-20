@@ -1,0 +1,96 @@
+### Event Categories ###
+
+add_namespace = CAL_start
+add_namespace = CAL_pre_reunification
+add_namespace = CAL_military_regional
+add_namespace = CAL_civilian_regional
+add_namespace = CAL_military_superregional
+add_namespace = CAL_civilian_superregional
+add_namespace = CAL_post_unification_civilian
+add_namespace = CAL_post_unification_military_patton
+add_namespace = CAL_post_unification_military_supreme_council
+add_namespace = CAL_post_unification_military_eisenhower
+add_namespace = CAL_post_unification_military_bonesteel
+add_namespace = CAL_post_unification_military_cavalier
+add_namespace = CAL_post_unification_military_butlerite
+add_namespace = CAL_final_battle
+add_namespace = CAL_reconstruction
+
+#### INTRO EVENTS ###
+
+#################################
+#### California Intro Events ####
+#################################
+country_event = {
+    id = CAL_start.1
+    title = CAL_start.1.t
+    desc = CAL_start.1.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+	fire_only_once = yes
+
+    option = {
+        name = CAL_start.1.a
+    }
+}
+
+country_event = {
+    id = CAL_start.2
+    title = CAL_start.2.t
+    desc = CAL_start.2.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+	fire_only_once = yes
+
+    option = {
+        name = CAL_start.2.a
+    }
+}
+
+country_event = {
+    id = CAL_start.3
+    title = CAL_start.3.t
+    desc = CAL_start.3.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+	fire_only_once = yes
+
+    option = {
+        name = CAL_start.3.a
+    }
+}
+
+country_event = {
+    id = CAL_start.4
+    title = CAL_start.4.t
+    desc = CAL_start.4.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+	fire_only_once = yes
+
+    option = {
+        name = CAL_start.4.a
+    }
+}
+
+country_event = {
+    id = CAL_start.4
+    title = CAL_start.4.t
+    desc = CAL_start.4.d
+    picture = GFX_report_event_generic_sign_treaty2
+
+    is_triggered_only = yes
+	fire_only_once = yes
+
+    option = {
+        name = CAL_start.4.a
+    }
+}
+
+########################################
+#### California Pre-Regional Events ####
+########################################
