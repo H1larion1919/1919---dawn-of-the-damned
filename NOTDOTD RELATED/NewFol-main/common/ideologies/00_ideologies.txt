@@ -1,0 +1,415 @@
+ideologies = {
+
+	### Communist Subdeologies ###
+    communism = {
+        types = {
+			communism_ideology = { } # Generic #
+			national_communism_ideology = { }
+			council_communism_ideology = { }
+			marxism_ideology = { }
+			leninism_ideology = { }
+			posadism_ideology = { }
+			stalinism_ideology = { }
+			trotskyism_ideology = { }
+			bukharinism_ideology = { }
+			zinovievism_ideology = { }
+			communism_zhdanovshchina_ideology = { }
+			red_junta_communism_ideology = { }
+			autonomous_communism_ideology = { }
+			autocratic_marxism_ideology = { }
+			communism_broad_communism_ideology = { }
+			securocratic_communism_ideology = { }
+			juche_ideology = { }
+			communism_spartakism_ideology = { }
+			stratocratic_communism_ideology = { }
+			communism_market_leninism_ideology = { }
+        }
+		dynamic_faction_names = { }
+		color = { 117 20 13 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+    }
+	### Syndicalist Subideologies ###
+	syndicalism = {
+		types = {
+			syndicalism_ideology = { } # Generic #
+			syndicalism_anarcho_syndicalism_ideology = { }
+			syndicalism_agrarian_syndicalism_ideology = { }
+			syndicalism_broad_communism_ideology = { }
+			syndicalism_zhdanovshchina_ideology = { }
+			red_junta_syndicalism_ideology = { }
+			democratic_syndicalism_ideology = { }
+			syndicalism_labor_zionism_ideology = { }
+			syndicalism_spartakism_ideology = { }
+			stratocratic_syndicalism_ideology = { }
+			syndicalism_bellamyism_ideology = { }
+			syndicalism_market_leninism_ideology = { }
+		}
+		dynamic_faction_names = { }
+		color = { 255 0 0 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+
+	### Socialist Subideologies ###
+    socialism = {
+        types = {
+			socialism_ideology = { } # Generic #
+			eco_socialism_ideology = { }
+			anarchism_ideology = { }
+			anarcho_communism_ideology = { }
+			anarcho_syndicalism_ideology = { }
+			anarcho_mutualism_ideology = { }
+			socialist_narodnikism_ideology = { }
+			democratic_socialism_ideology = { }
+			red_junta_socialism_ideology = { }
+			pan_africanism_ideology = { }
+			christian_anarchism_ideology = { }
+			anarcho_pacifism_ideology = { }
+			socialism_broad_communism_ideology = { }
+			left_lovecraftism_ideology = { }
+			christian_socialism_ideology = { }
+			socialism_zhdanovshchina_ideology = { }
+			socialism_zionism_ideology = { }
+			socialism_spartakism_ideology = { }
+			stratocratic_socialism_ideology = { }
+			socialism_bellamyism_ideology = { }
+			socialism_market_leninism_ideology = { }
+        }
+		dynamic_faction_names = { }
+		color = { 209 0 0 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+    }
+
+	### Social Democrat Subideologies ###
+    social_democracy = {
+        types = {
+			social_democracy_ideology = { } # Generic #
+			social_democracy_progressive_democracy_ideology = { } 
+			nordic_model_ideology = { }
+			narodnikism_ideology = { }
+			social_democratic_longism_ideology = { }
+			peronism_ideology = { }
+			internationalist_social_democracy_ideology = { }
+			liberal_feminist_socialism_ideology = { }
+			national_progressivism_ideology = { }
+			social_democratic_junta_ideology = { }
+			social_democracy_jeffersonian_democracy_ideology = { }
+		}
+		dynamic_faction_names = { }
+		color = { 148 80 142 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_host_government_in_exile = yes
+		ai_neutral = yes
+		can_be_boosted = no
+    }
+
+	### Social Liberal Subideologies ###
+    democratic = {
+        types = {
+			social_liberalism_ideology = { } # Generic #
+			social_liberalism_progressive_democracy_ideology = { }
+			centrism_ideology = { }
+			social_liberalism_liberal_conservatism_ideology = { }
+			national_liberalism_ideology = { }
+			classical_liberalism_ideology = { }
+			technocratic_liberalism_ideology = { }
+			liberal_statism_ideology = { }
+			social_liberal_stratocratic_liberalism_ideology = { }
+			liberal_national_progressivism_ideology = { }
+			liberal_longism_ideology = { }
+			social_liberalism_jeffersonian_democracy_ideology = { }
+		}
+		dynamic_faction_names = { }
+		color = { 31 121 181 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_host_government_in_exile = yes
+		ai_neutral = yes
+		can_be_boosted = no
+    }
+
+	market_liberal = {
+		types = {
+			market_liberalism_ideology = { } # Generic #
+			market_liberalism_progressive_democracy_ideology = { }
+			libertarianism_ideology = { }
+			anarcho_capitalism_ideology = { }
+			free_market_capitalism_ideology = { }
+			market_liberalism_liberal_conservatism_ideology = { }
+			market_liberal_stratocratic_liberalism_ideology = { }
+		}
+		dynamic_faction_names = { }
+		color = { 160 160 0 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_host_government_in_exile = yes
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+
+	### Conservative Subideologies ###
+    conservatism = {
+        types = {
+			conservatism_ideology = { } # Generic #
+			toryism_ideology = { }
+			conservatism_liberal_conservatism_ideology = { }
+			national_conservatism_ideology = { }
+			christian_democracy_ideology = { }
+			progressive_conservatism_ideology = { }
+			batistaism_ideology = { }
+			gaulism_ideology = { }
+			stratocratic_conservatism_ideology = { }
+			moderate_authoritarianism_ideology = { }
+			whigism_ideology = { }
+			conservative_longism_ideology = { }
+			conservative_oligarchy_ideology = { }
+			conservative_hamiltonian_democracy_ideology = { }
+			conservative_prussian_constitutionalism_ideology = { }
+        }
+		dynamic_faction_names = { }
+		color = { 22 37 138 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_host_government_in_exile = yes
+		ai_neutral = yes
+		can_be_boosted = no
+    }
+
+	### Authoritarian Democracy Subideologies ###
+    neutrality = {
+        types = {
+			authoritarian_democracy_ideology = { } # Generic #
+			social_nationalism_ideology = { }
+			provisional_government_ideology = { }
+			tribal_paternalism_ideology = { }
+			auth_national_conservatism_ideology = { }
+			authoritarian_democracy_longism_ideology = { }
+			semi_constitutional_monarchy_ideology = { }
+			democratic_stratocracy_ideology = { }
+			irish_national_catholicism_ideology = { }
+			kemalism_ideology = { }
+			authoritarian_democracy_jacksonian_democracy_ideology = { }
+			authoritarian_democracy_bonapartism_ideology = { }
+			authoritarian_democracy_oligarchy_ideology = { }
+			moderate_dixiecrat_ideology = { }
+			social_authoritarianism_ideology = { }
+			authoritarian_democracy_police_state_ideology = { }
+			authoritarian_democracy_hamiltonian_democracy_ideology = { }
+			authoritarian_democracy_prussian_constitutionalism_ideology = { }
+			authoritarian_democracy_military_junta_ideology = { }
+        }
+		dynamic_faction_names = { }
+		color = { 135 135 140 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_host_government_in_exile = yes
+		ai_neutral = yes
+		can_be_boosted = no
+    }
+
+	### Accelerationism Subideologies ###
+    accelerationism = {
+        types = {
+			accelerationism_ideology = { } # Generic #
+			nation_rejuvinatism_ideology = { }
+			cosmicism_ideology = { }
+			surrealism_ideology = { }
+			avante_garde_lovecraftism_ideology = { }
+			futurism_ideology = { }
+        }
+		dynamic_faction_names = { }
+		color = { 198 192 207 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+    }
+
+	### Paternal Autocrat Subideologies ###
+    paternal_autocrat = {
+        types = {
+			paternal_autocrat_ideology = { } # Generic #
+			red_junta_ideology = { }
+			paternal_autocrat_military_junta_ideology = { }
+			civilian_dictatorship_ideology = { }
+			authoritarian_social_nationalism_ideology = { }
+			theocracy_ideology = { }
+			moderate_stratocracy_ideology = { }
+			dixiecrat_ideology = { }
+			absolute_monarchy_ideology = { }
+			colonial_government_ideology = { }
+			autocratic_marxism_paternal_ideology = { }
+			horthyism_ideology = { }
+			lovecraftism_ideology = { }
+			paternal_autocrat_jacksonian_democracy_ideology = { }
+			paternal_autocrat_bonapartism_ideology = { }
+			paternal_autocrat_oligarchy_ideology = { }
+			paternal_autocrat_police_state_ideology = { }
+        }
+		dynamic_faction_names = { }
+		color = { 54 54 54 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+    }
+
+	### Fascist Subideologies ###
+    fascism = {
+        types = {
+			fascism_ideology = { } # Generic #
+			classical_fascism_ideology = { }
+			nation_first_nationalism_ideology = { }
+			hardline_dixiecrat_ideology = { }
+			fascist_stratocracy_ideology = { }
+			esoteric_fascism_ideology = { }
+			arrow_cross_movement_ideology = { }
+			british_fascism_ideology = { }
+			french_fascism_ideology = { }
+			american_fascism_ideology = { }
+			rexism_ideology = { }
+			fascism_enlightened_nazism_ideology = { }
+        }
+		dynamic_faction_names = { }
+		color = { 92 58 20 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+    }
+
+	### Ultranationalist Subideologies ###
+    ultranationalism = {
+        types = {
+			ultranationalism_ideology = { } # Generic #
+			stratocratic_nationalism_ideology = { }
+			iron_guard_ideology = { }
+			ultranationalism_klan_nationalism_ideology = { }
+        }
+		dynamic_faction_names = { }
+		color = { 32 43 39 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+    }
+
+	### National Socialist Ideologies ###
+    national_socialism = {
+        types = {
+			nazism_ideology = { } # Generic #
+			national_socialism_enlightened_nazism_ideology = { }
+			technocratic_nazism_ideology = { }
+			stratocratic_nazism_ideology = { }
+			esoteric_nazism_ideology = { }
+			occultist_nazism_ideology = { }
+			clerical_fascism_ideology = { }
+			true_believers_ideology = { }
+			strasserism_ideology = { }
+			national_socialism_klan_nationalism_ideology = { }
+        }
+		dynamic_faction_names = { }
+		color = { 41 33 22 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+    }
+
+	### Esoteric Ideologies ###
+    esotericism = {
+        types = {
+			esotericism_ideology = { } # Generic #
+			anarcho_primitivism_ideology = { }  
+			esoteric_nazism_esoteric_ideology = { }
+			occultist_nazism_esoteric_ideology = { }
+			esoteric_esoteric_fascism_ideology = { }
+			true_believers_esoteric_ideology = { }
+        }
+		dynamic_faction_names = { }
+		color = { 49 24 71 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+    }
+}

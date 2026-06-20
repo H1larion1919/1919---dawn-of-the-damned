@@ -1,0 +1,31 @@
+
+state={
+	id=370
+	name="STATE_370"
+	manpower = 63291
+	
+	state_category = city
+
+	history={
+		owner = KKK
+		victory_points = {
+			4464 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 3
+			4464 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = KKK
+	}
+
+	provinces={
+		1615 4464 7668 12429 
+	}
+	
+
+	local_supplies=0.0 
+}

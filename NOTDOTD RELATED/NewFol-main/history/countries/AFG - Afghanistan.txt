@@ -1,0 +1,36 @@
+capital = 267
+
+
+set_politics = {
+	ruling_party = paternal_autocrat
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+	
+set_popularities = {
+	paternal_autocrat = 70
+	neutrality = 10
+	socialism = 10
+	conservatism = 10
+}
+
+### Techs ###
+set_technology = {
+	gw_artillery = 1
+}
+
+set_autonomy = {
+	target = PAK
+	autonomous_state = autonomy_puppet
+	freedom_level = 0.5
+}
+create_country_leader = {
+	name = "Mohammad Zahir Shah"
+	desc = ""
+	picture = GFX_fish
+	ideology = absolute_monarchy_ideology
+	traits = {
+		#
+	}
+}

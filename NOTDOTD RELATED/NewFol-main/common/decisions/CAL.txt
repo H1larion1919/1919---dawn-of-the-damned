@@ -1,0 +1,342 @@
+CAL_warlord_generals_integration_category = {
+	CAL_merge_the_cascadian_and_california_army_commands = {
+		allowed = { tag = CAL }
+
+		priority = 25
+
+		visible = {
+			has_completed_focus = CAL_begin_rehabilitating_generals_of_other_countries
+			CSD = {
+				has_character = CSD_atsuko_maeda
+				has_character = CSD_yuko_oshima
+				has_character = CSD_minami_takahashi
+				has_character = CSD_mariko_shinoda
+				has_character = CSD_yuki_kashiwagi
+				has_character = CSD_sae_miyazawa
+				has_character = CSD_sayaka_akimoto
+				has_character = CSD_rino_sashihara
+				has_character = CSD_rie_kitahara
+				has_character = CSD_aki_takajo
+				has_character = CSD_jurina_matsui
+				has_character = CSD_tomomi_kasai
+				has_character = CSD_minami_minegishi
+				has_character = CSD_asuka_kuramochi
+				has_character = CSD_miho_miyazaki
+				has_character = CSD_erena_ono
+				has_character = CSD_mayu_watanabe
+				has_character = CSD_tomomi_itano
+				has_character = CSD_haruna_kojima
+			}
+		}
+
+		available = {
+			CSD = { exists = no }
+		}
+
+		cost = 200
+		
+		available = {
+		}
+
+		ai_will_do = {
+			base = 10
+		}
+		
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Complete CAL_merge_the_cascadian_and_california_army_commands"
+
+			every_possible_country = {
+				limit = {
+					has_character = CSD_atsuko_maeda
+					has_character = CSD_yuko_oshima
+					has_character = CSD_minami_takahashi
+					has_character = CSD_mariko_shinoda
+					has_character = CSD_yuki_kashiwagi
+					has_character = CSD_sae_miyazawa
+					has_character = CSD_sayaka_akimoto
+					has_character = CSD_rino_sashihara
+					has_character = CSD_rie_kitahara
+					has_character = CSD_aki_takajo
+					has_character = CSD_jurina_matsui
+					has_character = CSD_tomomi_kasai
+					has_character = CSD_minami_minegishi
+					has_character = CSD_asuka_kuramochi
+					has_character = CSD_miho_miyazaki
+					has_character = CSD_erena_ono
+					has_character = CSD_mayu_watanabe
+					has_character = CSD_tomomi_itano
+					has_character = CSD_haruna_kojima
+				}
+				CSD_atsuko_maeda = {
+					set_nationality = ROOT
+				}
+				CSD_yuko_oshima = {
+					set_nationality = ROOT
+				}
+				CSD_minami_takahashi = {
+					set_nationality = ROOT
+				}
+				CSD_mariko_shinoda = {
+					set_nationality = ROOT
+				}
+				CSD_yuki_kashiwagi = {
+					set_nationality = ROOT
+				}
+				CSD_sae_miyazawa = {
+					set_nationality = ROOT
+				}
+				CSD_sayaka_akimoto = {
+					set_nationality = ROOT
+				}
+				CSD_rino_sashihara = {
+					set_nationality = ROOT
+				}
+				CSD_rie_kitahara = {
+					set_nationality = ROOT
+				}
+				CSD_aki_takajo = {
+					set_nationality = ROOT
+				}
+				CSD_jurina_matsui = {
+					set_nationality = ROOT
+				}
+				CSD_tomomi_kasai = {
+					set_nationality = ROOT
+				}
+				CSD_minami_minegishi = {
+					set_nationality = ROOT
+				}
+				CSD_asuka_kuramochi = {
+					set_nationality = ROOT
+				}
+				CSD_miho_miyazaki = {
+					set_nationality = ROOT
+				}
+				CSD_erena_ono = {
+					set_nationality = ROOT
+				}
+				CSD_mayu_watanabe = {
+					set_nationality = ROOT
+				}
+				CSD_tomomi_itano = {
+					set_nationality = ROOT
+				}
+				CSD_haruna_kojima = {
+					set_nationality = ROOT
+				}
+			}
+		}
+	}
+
+	CAL_recruit_team_rwby = {
+		allowed = { tag = CAL }
+
+		priority = 25
+
+		visible = {
+			has_completed_focus = CAL_begin_rehabilitating_generals_of_other_countries
+			CSD = {
+				has_character = CSD_ruby_rose
+				has_character = CSD_weiss_schnee
+				has_character = CSD_blake_belladonna
+				has_character = CSD_yang_xiao_long
+			}
+		}
+
+		available = {
+			CSD = { exists = no }
+		}
+
+		cost = 100
+		
+		available = {
+		}
+
+		ai_will_do = {
+			base = 10
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Complete CAL_merge_the_cascadian_and_california_army_commands"
+
+			every_possible_country = {
+				limit = {
+					has_character = CSD_ruby_rose
+					has_character = CSD_weiss_schnee
+					has_character = CSD_blake_belladonna
+					has_character = CSD_yang_xiao_long
+				}
+				CSD_ruby_rose = {
+					set_nationality = ROOT
+				}
+				CSD_weiss_schnee = {
+					set_nationality = ROOT
+				}
+				CSD_blake_belladonna = {
+					set_nationality = ROOT
+				}
+				CSD_yang_xiao_long = {
+					set_nationality = ROOT
+				}
+			}
+		}
+	}
+
+	CAL_recruit_team_jnpr = {
+		allowed = { tag = CAL }
+
+		priority = 25
+
+		visible = {
+			has_completed_focus = CAL_begin_rehabilitating_generals_of_other_countries
+			CSD = {
+				has_character = CSD_jaune_arc
+				has_character = CSD_nora_valkyrie
+				has_character = CSD_pyrrha_nikos
+				has_character = CSD_lie_ren
+			}
+		}
+
+		available = {
+			CSD = { exists = no }
+		}
+
+		cost = 100
+		
+		available = {
+		}
+
+		ai_will_do = {
+			base = 10
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Complete CAL_merge_the_cascadian_and_california_army_commands"
+
+			every_possible_country = {
+				limit = {
+					has_character = CSD_jaune_arc
+					has_character = CSD_nora_valkyrie
+					has_character = CSD_pyrrha_nikos
+					has_character = CSD_lie_ren
+				}
+				CSD_jaune_arc = {
+					set_nationality = ROOT
+				}
+				CSD_nora_valkyrie = {
+					set_nationality = ROOT
+				}
+				CSD_pyrrha_nikos = {
+					set_nationality = ROOT
+				}
+				CSD_lie_ren = {
+					set_nationality = ROOT
+				}
+			}
+		}
+	}
+	
+    CAL_utilise_cascadian_generals = {
+        icon = GFX_decision_generic_political_rally
+        fire_only_once = yes
+        available = {
+		owns_state = 386
+		NOT = {
+		country_exists = CSD
+		}
+
+	}
+	cost = 50
+	days_remove = 50
+	
+		modifier = {
+		political_power_factor = -0.15
+		}
+
+		remove_effect = {
+		}
+		ai_will_do = {
+			base = 1
+		}
+
+    }
+    CAL_integrate_washington_generals = {
+        icon = GFX_decision_generic_political_rally
+        fire_only_once = yes
+        available = {
+		owns_state = 1118
+		NOT = {
+			country_exists = WGP
+		}
+
+	}
+	cost = 25
+	days_remove = 25
+	
+		modifier = {
+		political_power_factor = -0.20
+		}
+
+		remove_effect = {
+		}
+
+		ai_will_do = {
+			base = 1
+		}
+
+    }
+    CAL_integrate_oregonian_generals = {
+        icon = GFX_decision_generic_political_rally
+        fire_only_once = yes
+        available = {
+		owns_state = 1115
+		NOT = {
+		country_exists = OPM
+		}
+
+	}
+
+	cost = 20
+	days_remove = 14
+	
+		modifier = {
+		political_power_factor = -0.15
+		}
+
+		remove_effect = {
+		}
+		ai_will_do = {
+			base = 1
+		}
+
+
+    }
+    CAL_the_nevada_connection = {
+        icon = GFX_decision_generic_political_rally
+        fire_only_once = yes
+        available = {
+		owns_state = 379
+		owns_state = 1129
+		NOT = {
+		country_exists = NVM
+		country_exists = NVR
+		}
+
+	}
+
+	cost = 70
+	days_remove = 50
+	
+		modifier = {
+		political_power_factor = -0.30
+		}
+
+		remove_effect = {
+		}
+		ai_will_do = {
+			base = 1
+		}
+
+    }
+
+}

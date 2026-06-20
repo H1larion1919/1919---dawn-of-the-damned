@@ -1,0 +1,251 @@
+characters = {
+    #######################
+    ### Country Leaders ###
+    #######################
+    CAN_Louis_Stephen_St_Laurent = {
+        name = CAN_Louis_Stephen_St_Laurent
+        portraits = {
+			civilian = {
+				large = "gfx/leaders/CAN/Portrait_CAN_Louis_Stephen_St_Laurent.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_LOUIS_ST_LAURENT_DESC"
+			expire = "1994.4.20"
+			ideology = progressive_conservatism_ideology
+			traits = {
+
+			}
+		}
+    }
+
+    CAN_john_george_diefenbaker = {
+        name = CAN_john_george_diefenbaker
+        portraits = {
+            civilian = {
+                large = 
+            }
+        }
+        country_leader = {
+            desc = "POLITICS_JOHN_DIEFENBAKER_DESC"
+            expire = "1994.4.20"
+            ideology = progressive_conservatism_ideology
+            traits = {
+
+            }
+        }
+    }
+
+    CAN_lester_bowles_pearson = {
+        name = CAN_lester_bowles_pearson
+        portraits = {
+            civilian = {
+                large = 
+            }
+        }
+        country_leader = {
+            desc = "POLITICS_LESTER_PEARSON_DESC"
+            expire = "1994.4.20"
+            ideology = social_democratic_progressive_democracy_ideology
+            traits = {
+
+            }
+        }
+    }
+
+
+    ########################
+	### Country Advisors ###
+	########################
+
+
+
+    #######################################
+    ### British Exiles - Field Marshals ###
+	#######################################
+    CAN_bernard_law_montgomery = {
+        name = CAN_bernard_law_montgomery
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/CAN/Portrait_CAN_Bernard_Law_Montgomery.dds"
+            }
+            army = {
+                large = "gfx/leaders/CAN/Portrait_CAN_Bernard_Law_Montgomery.dds"
+            }
+        }
+        field_marshal = {
+            traits = {
+                inflexible_strategist
+                cautious
+                media_personality
+                organizer
+                logistics_wizard
+                offensive_doctrine
+            }
+            skill = 4
+            attack_skill = 3
+            defense_skill = 5
+            planning_skill = 3
+            logistics_skill = 5
+        }
+    }
+
+    CAN_harold_rupert_leofric_george_alexander = {
+        name = CAN_harold_rupert_leofric_george_alexander
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/CAN/Portrait_CAN_Harold_Rupert_Leofric_George_Alexander.dds"
+            }
+            army = {
+                large = "gfx/leaders/CAN/Portrait_CAN_Harold_Rupert_Leofric_George_Alexander.dds"
+            }
+        }
+        field_marshal = {
+            traits = {
+                politically_connected
+            }
+            skill = 5
+            attack_skill = 4
+            defense_skill = 4
+            planning_skill = 3
+            logistics_skill = 5
+        }
+    }
+
+    ##############################################
+	### British Exiles - Generals - Level Five ###
+	##############################################
+    CAN_alan_gordon_cunningham = {
+        name = CAN_alan_gordon_cunningham
+         portraits = {
+            civilian = {
+                large = GFX_fish
+            }
+            army = {
+                large = GFX_fish
+            }
+        }
+        corps_commander = {
+			traits = {
+				
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 4
+			logistics_skill = 4
+		}
+    }
+
+
+    ##############################################
+	### British Exiles - Generals - Level Four ###
+	##############################################
+
+
+
+    ###############################################
+	### British Exiles - Generals - Level Three ###
+	###############################################
+
+
+
+    #############################################
+	### British Exiles - Generals - Level Two ###
+	#############################################
+
+
+
+    #############################################
+	### British Exiles - Generals - Level One ###
+	#############################################
+
+
+
+	#########################################################
+	### British Exiles - Royal Navy Admirals - Level Five ###
+	#########################################################
+
+
+
+	#########################################################
+	### British Exiles - Royal Navy Admirals - Level Four ###
+	#########################################################
+
+
+
+	##########################################################
+	### British Exiles - Royal Navy Admirals - Level Three ###
+	##########################################################
+
+
+	########################################################
+	### British Exiles - Royal Navy Admirals - Level Two ###
+	########################################################
+
+
+	########################################################
+	### British Exiles - Royal Navy Admirals - Level One ###
+	########################################################
+	
+
+
+    ###############################
+    ### Canadian Field Marshals ###
+    ###############################
+
+
+
+    ######################################
+	### Canadian Generals - Level Five ###
+	######################################
+
+
+
+    ######################################
+	### Canadian Generals - Level Four ###
+	######################################
+
+
+
+    #######################################
+	### Canadian Generals - Level Three ###
+	#######################################
+
+
+
+    #####################################
+	### Canadian Generals - Level Two ###
+	#####################################
+
+
+
+    #####################################
+	### Canadian Generals - Level One ###
+	#####################################
+
+
+
+	##################
+	### Scientists ###
+	##################
+
+
+	
+	##################
+	### Operatives ###
+	##################
+    
+
+    # British Exiles Generals #
+    
+
+
+    # Royal Navy Admirals #
+
+
+    # Canadian Admirals #
+
+
+    # Exiles Generals #
+}

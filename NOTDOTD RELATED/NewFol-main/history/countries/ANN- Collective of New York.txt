@@ -1,0 +1,32 @@
+capital = 392
+set_war_support = 0.3
+set_stability = 0.3
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+set_politics = {
+	ruling_party = socialism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	socialism = 90
+	social_democracy = 5
+	communism = 5
+	
+	
+	
+	
+}
+create_country_leader = {
+	name = "Marie Ganz"
+	desc = ""
+	picture = GFX_fish
+	ideology = anarchism_ideology
+	traits = {
+		#
+	}
+}

@@ -1,0 +1,57 @@
+capital = 16
+
+set_war_support = 0.1
+set_stability = 0.4
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+set_politics = {
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	fascism = 45
+	neutrality = 20
+	conservatism = 15
+	democratic = 10
+	social_democracy = 2
+	paternal_autocrat = 7
+	national_socialism = 1
+}
+create_country_leader = {
+	name = "Pierre Laval"
+	desc = ""
+	picture = GFX_Laval_FRA
+	ideology = french_fascism_ideology
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Philippe Pétain"
+	desc = ""
+	picture = GFX_Petain_FRA
+	ideology = french_fascism_ideology
+	traits = {
+		#
+	}
+}
+set_autonomy = {
+	target = SYR
+	autonomous_state = autonomy_integrated_puppet
+	freedom_level = 0.5
+}
+set_autonomy = {
+	target = ALG
+	autonomous_state = autonomy_integrated_puppet
+	freedom_level = 0.5
+}
+set_autonomy = {
+	target = CMR
+	autonomous_state = autonomy_integrated_puppet
+	freedom_level = 0.5
+}

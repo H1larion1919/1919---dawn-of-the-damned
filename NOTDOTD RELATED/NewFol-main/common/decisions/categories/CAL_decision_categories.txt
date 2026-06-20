@@ -1,0 +1,11 @@
+CAL_warlord_generals_integration_category = {
+    allowed = {
+        original_tag = CAL
+    }
+    visible = {
+        has_completed_focus = CAL_begin_rehabilitating_generals_of_other_countries
+    }
+    priority = {
+        base = 90
+    } 
+}

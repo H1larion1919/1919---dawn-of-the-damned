@@ -1,0 +1,8 @@
+l_english:
+ artillery_officer: "Artillery Officer"
+ artillery_officer_desc: "§LTrained as an artillery officer.§!"
+ artillery_specialist: "Artillery Leader"
+ artillery_specialist_desc: "§LSkilled at directing artillery in combat.§!"
+ artillery_expert: "Artillery Expert"
+ artillery_expert_desc: "A true expert in directing artillery."
+ artillery_ratio_over_20: "Artillery ratio > §H20%§!"

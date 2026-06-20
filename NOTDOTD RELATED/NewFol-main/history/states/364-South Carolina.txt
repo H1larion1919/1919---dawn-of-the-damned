@@ -1,0 +1,25 @@
+
+state={
+	id=364
+	name="STATE_364"
+	manpower = 1738764
+	
+	state_category = city
+
+	history={
+		owner = ANR
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 2
+		}
+		add_core_of = ANR
+		
+
+	}
+
+	provinces={
+		1485 4491 4653 7012 7134 7527 10047 11927 
+	}
+
+	local_supplies=0.0 
+}

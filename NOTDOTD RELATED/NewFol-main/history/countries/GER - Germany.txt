@@ -1,0 +1,150 @@
+capital = 64
+
+set_war_support = 0.3
+set_stability = 0.7
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+set_politics = {
+	ruling_party = national_socialism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	national_socialism = 80
+	fascism = 10
+	neutrality = 5
+	paternal_autocrat = 4
+	conservatism = 1
+}
+
+set_autonomy = {
+	target = RKM
+	autonomous_state = autonomy_integrated_puppet
+	freedom_level = 0.5
+}
+set_autonomy = {
+	target = RKO
+	autonomous_state = autonomy_integrated_puppet
+	freedom_level = 0.5
+}
+set_autonomy = {
+	target = RKU
+	autonomous_state = autonomy_integrated_puppet
+	freedom_level = 0.5
+}
+set_autonomy = {
+	target = RKG
+	autonomous_state = autonomy_integrated_puppet
+	freedom_level = 0.5
+}
+set_autonomy = {
+	target = RKN
+	autonomous_state = autonomy_integrated_puppet
+	freedom_level = 0.5
+}
+set_autonomy = {
+	target = DEN
+	autonomous_state = autonomy_integrated_puppet
+	freedom_level = 0.5
+}
+set_autonomy = {
+	target = CRI
+	autonomous_state = autonomy_integrated_puppet
+	freedom_level = 0.5
+}
+set_autonomy = {
+	target = SLO
+	autonomous_state = autonomy_integrated_puppet
+	freedom_level = 0.5
+}
+set_autonomy = {
+	target = RKK
+	autonomous_state = autonomy_integrated_puppet
+	freedom_level = 0.5
+}
+set_autonomy = {
+	target = RKA
+	autonomous_state = autonomy_integrated_puppet
+	freedom_level = 0.5
+}
+set_autonomy = {
+	target = RNA
+	autonomous_state = autonomy_integrated_puppet
+	freedom_level = 0.5
+}
+
+create_faction = "Reichsordung Pakt"
+add_to_faction = ROM
+add_to_faction = HUN
+add_to_faction = FRA
+add_to_faction = ENG
+add_to_faction = ANR
+
+### Country Leader ###
+recruit_character = GER_adolf_hitler
+recruit_character = GER_heinrich_luitpold_himmler
+recruit_character = GER_ferdinand_schörner
+recruit_character = GER_hermann_wilhelm_goring
+
+# Wehrmacht Generals (Heer) #
+recruit_character = GER_hans_speidel
+recruit_character = GER_heinz_wilhelm_guderian
+recruit_character = GER_fritz_erich_georg_eduard_von_manstein
+recruit_character = GER_johannes_erwin_eugen_rommel
+
+# Waffen-SS Generals #
+recruit_character = GER_felix_martin_julius_steiner
+recruit_character = GER_josef_dietrich
+
+# Kriegsmarine Admirals #
+
+
+create_country_leader = {
+	name = "CDU Guy"
+	desc = ""
+	picture = GFX_Fish
+	ideology = christian_democracy_ideology
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "FDP Guy"
+	desc = ""
+	picture = GFX_Fish
+	ideology = market_liberalism_ideology
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "SPD Guy"
+	desc = ""
+	picture = GFX_Fish
+	ideology = social_democracy_ideology
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "SED Guy"
+	desc = ""
+	picture = GFX_Fish
+	ideology = leninism_ideology
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Die Linke Guy"
+	desc = ""
+	picture = GFX_Fish
+	ideology = democratic_socialism_ideology
+	traits = {
+		#
+	}
+}

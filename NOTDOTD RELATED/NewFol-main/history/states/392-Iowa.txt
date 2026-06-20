@@ -1,0 +1,29 @@
+
+state={
+	id=392
+	name="STATE_392"
+	manpower = 2111233
+	
+	state_category = city
+
+	history={
+		owner = IOS
+		buildings = {
+			infrastructure = 3 #was: 6
+			industrial_complex = 3
+		}
+		add_core_of = IOS
+		victory_points = {
+			1770 3 
+		}
+
+		
+
+	}
+
+	provinces={
+		1586 1678 1770 9892 10666 11788 12646 
+	}
+
+	local_supplies=6.0 
+}

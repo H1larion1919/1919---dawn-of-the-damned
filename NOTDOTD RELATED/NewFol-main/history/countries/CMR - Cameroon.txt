@@ -1,0 +1,35 @@
+capital = 773
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 20
+
+
+
+
+
+
+set_politics = {
+	ruling_party = paternal_autocrat
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	paternal_autocrat = 60
+	neutrality = 10
+	conservatism = 30
+}
+create_country_leader = {
+	name = "Alfred Albert Martineau"
+	desc = ""
+	picture = GFX_fish
+	ideology = colonial_government_ideology
+	traits = {
+		#
+	}
+}

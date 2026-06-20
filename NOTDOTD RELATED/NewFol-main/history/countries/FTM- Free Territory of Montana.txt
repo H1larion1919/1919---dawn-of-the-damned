@@ -1,0 +1,27 @@
+capital = 1070
+set_war_support = 0.4
+set_stability = 0.3
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+set_politics = {
+	ruling_party = socialism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	socialism = 100
+	
+}
+create_country_leader = {
+	name = "David Wieck"
+	desc = ""
+	picture = GFX_fish
+	ideology = anarcho_pacifism_ideology
+	traits = {
+		#
+	}
+}

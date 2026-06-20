@@ -1,0 +1,1659 @@
+characters = {
+############################################## AKB48 Members (Second Continental Army - Old Guard Aligned Generals) ##############################################
+
+	###################################################################
+    ### Second Continental Army Main Adminstration - Field Marshals ###
+	###################################################################
+    CSD_atsuko_maeda = {
+        name = CSD_atsuko_maeda
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Atsuko_Maeda.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Atsuko_Maeda.dds"
+			}
+		}
+		country_leader = {
+			# desc = POLITICS_ATSUKO_MAEDA_DESC
+			expire = "1994.4.20"
+			ideology = stratocratic_conservatism_ideology
+			#traits = {
+			#	CSD_the_iron_mare
+			#}
+		}
+		field_marshal = {
+			traits = {
+				career_officer
+				armor_officer
+				skilled_staffer
+				organizer
+				panzer_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 4
+		}
+		gender = female
+    }
+
+	CSD_yuko_oshima = {
+		name = CSD_yuko_oshima
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Yuko_Oshima.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Yuko_Oshima.dds"
+			}
+		}
+		field_marshal = {
+			traits = { 
+				trait_cautious
+				inflexible_strategist
+				cavalry_officer
+				cavalry_leader
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 5
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		gender = female
+	}
+	
+	CSD_minami_takahashi = {
+		name = CSD_minami_takahashi
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Minami_Takahashi.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Minami_Takahashi.dds"
+			}
+		}
+		field_marshal = {
+			traits = {
+				trickster
+				commando
+				skilled_staffer
+				artillery_specialist
+				artillery_expert
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 3
+		}
+		gender = female
+	}
+
+	CSD_mariko_shinoda = {
+		name = CSD_mariko_shinoda
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Mariko_Shinoda.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Mariko_Shinoda.dds"
+			}
+		}
+		field_marshal = {
+			traits = { 
+				logistics_wizard
+				offensive_doctrine
+				media_personality
+				trait_cautious
+				inflexible_strategist
+				organizer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 4
+		}
+		advisor = {
+			cost = 150
+			slot = army_chief
+			idea_token = mariko_shinoda
+			ledger = army
+			traits = { 
+				army_chief_offensive_2
+			}
+		}
+		gender = female
+	}
+
+	########################################################################
+	### Second Continental Army Main Adminstration Generals - Level Five ###
+	########################################################################
+	CSD_yuki_kashiwagi = {
+		name = CSD_yuki_kashiwagi
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Yuki_Kashiwagi.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Yuki_Kashiwagi.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				armor_officer
+				trickster
+				panzer_leader
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+		}
+		advisor = {
+			slot = army_high_command
+			cost = 150
+			idea_token = yuki_kashiwagi
+			ledger = army
+			traits = { army_armored_1 }
+			can_be_fired = yes
+		}
+		gender = female
+	}
+
+	########################################################################
+	### Second Continental Army Main Adminstration Generals - Level Four ###
+	########################################################################
+	CSD_sae_miyazawa = {
+		name = CSD_sae_miyazawa
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Sae_Miyazawa.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Sae_Miyazawa.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				brilliant_strategist
+				trait_cautious
+				harsh_leader
+				politically_connected
+				trickster
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 5
+			planning_skill = 2
+			logistics_skill = 3
+		}
+		gender = female
+	}
+
+	CSD_sayaka_akimoto = {
+		name = CSD_sayaka_akimoto
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Sayaka_Akimoto.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Sayaka_Akimoto.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				trait_reckless
+				armor_officer
+				trickster
+				panzer_leader
+				skilled_staffer
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+		}
+		gender = female
+	}
+	
+	CSD_rino_sashihara = {
+		name = CSD_rino_sashihara
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Rino_Sashihara.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Rino_Sashihara.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				commando
+				ranger
+				winter_specialist
+				trait_engineer
+				trait_cautious
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 4
+		}
+		gender = female
+	}
+	
+	CSD_rie_kitahara = {
+		name = CSD_rie_kitahara
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Rie_Kitahara.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Rie_Kitahara.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				politically_connected
+				brilliant_strategist
+				skilled_staffer
+				artillery_specialist
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+		}
+		advisor = {
+			slot = army_high_command
+			cost = 150
+			idea_token = rie_kitahara
+			ledger = army
+			traits = { army_artillery_1 }
+			can_be_fired = yes
+		}
+		gender = female
+	}
+	
+	CSD_aki_takajo = {
+		name = CSD_aki_takajo
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Aki_Takajo.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Aki_Takajo.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				brilliant_strategist
+				trait_cautious
+				trait_engineer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 3
+		}
+		gender = female
+	}
+	
+	#########################################################################
+	### Second Continental Army Main Adminstration Generals - Level Three ###
+	#########################################################################
+	CSD_jurina_matsui = {
+		name = CSD_jurina_matsui		
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Jurina_Matsui.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Jurina_Matsui.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				artillery_officer
+				artillery_specialist
+				skilled_staffer
+				infantry_officer
+			}
+			skill = 3
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 2
+		}
+		gender = female
+	}
+
+	CSD_tomomi_kasai = {
+		name = CSD_tomomi_kasai
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Tomomi_Kasai.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Tomomi_Kasai.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				commando
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+		gender = female
+	}
+
+	CSD_minami_minegishi = {
+		name = CSD_minami_minegishi
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Minami_Minegishi.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Minami_Minegishi.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				politically_connected
+				infantry_leader
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+		advisor = {
+			cost = 150
+			slot = army_high_command
+			idea_token = minami_minegishi
+			ledger = army
+			traits = {
+				army_logistics_1
+			}
+		}
+		gender = female
+	}
+	
+	CSD_asuka_kuramochi = {
+		name = CSD_asuka_kuramochi
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Asuka_Kuramochi.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Asuka_Kuramochi.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				politically_connected
+				trait_engineer
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		gender = female
+	}
+	
+	#######################################################################
+	### Second Continental Army Main Adminstration Generals - Level Two ###
+	#######################################################################
+	CSD_miho_miyazaki = {
+		name = CSD_miho_miyazaki
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Miho_Miyazaki.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Miho_Miyazaki.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				inflexible_strategist
+				trait_cautious
+				commando
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+		gender = female
+	}
+
+	CSD_erena_ono = {
+		name = CSD_erena_ono
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Erena_Ono.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Erena_Ono.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				cavalry_officer
+				trait_engineer
+				commando
+				skilled_staffer
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+		gender = female
+	}
+
+    #######################################################################
+	### Second Continental Army Main Adminstration Generals - Level One ###
+	#######################################################################
+
+
+
+	########################################################################
+	### Second Continental Army Main Adminstration Admirals - Level Five ###
+	########################################################################
+
+
+
+	########################################################################
+	### Second Continental Army Main Adminstration Admirals - Level Four ###
+	########################################################################
+	CSD_mayu_watanabe = {
+		name = CSD_mayu_watanabe
+		portraits = {
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Mayu_Watanabe.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Mayu_Watanabe.dds"
+			}
+		}
+		navy_leader = {
+			traits = {
+				old_guard_navy
+				superior_tactician
+				ironside
+				fleet_protector
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			maneuvering_skill = 3
+			coordination_skill = 4
+		}
+		advisor = { 
+			slot = navy_chief
+			cost = 150
+			idea_token = mayu_watanabe
+			ledger = navy
+			traits = { navy_chief_decisive_battle_2 }
+		}
+		gender = female
+	}
+
+	#########################################################################
+	### Second Continental Army Main Adminstration Admirals - Level Three ###
+	#########################################################################
+	CSD_tomomi_itano = {
+		name = CSD_tomomi_itano
+		portraits = {
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Tomomi_Itano.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Tomomi_Itano.dds"
+			}
+		}
+		navy_leader = {
+			traits = {
+				bold
+				ironside
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			maneuvering_skill = 2
+			coordination_skill = 2 
+		}
+		advisor = { 
+			slot = navy_high_command
+			cost = 150
+			idea_token = tomomi_itano
+			ledger = navy
+			traits = { navy_capital_ship_2 }
+		}
+		gender = female
+	}
+
+	CSD_haruna_kojima = {
+		name = CSD_haruna_kojima
+		portraits = {
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Haruna_Kojima.dds"
+			}
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Haruna_Kojima.dds"
+			}
+		}
+		navy_leader = {
+			traits = {
+				superior_tactician
+				ironside
+				blockade_runner
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			maneuvering_skill = 2
+			coordination_skill = 4
+		}
+		advisor = { 
+			slot = navy_high_command
+			cost = 150
+			idea_token = haruna_kojima
+			ledger = navy
+			traits = { navy_carrier_2 }
+		}
+		gender = female
+	}
+
+	###############################################################
+	### Second Continental Army/AKB Clique Admirals - Level Two ###
+	###############################################################
+
+
+	###############################################################
+	### Second Continental Army/AKB Clique Admirals - Level One ###
+	###############################################################
+
+############################################## Power Rangers Characters (Second Continental Army - Old Guard Aligned Generals) ##############################################
+
+	################################################################
+    ### Second Continental Army/US Army Rangers - Field Marshals ###
+	################################################################
+	CSD_tommy_oliver = {
+		name = CSD_tommy_oliver
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Tommy_Oliver.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Tommy_Oliver.dds"
+			}
+		}
+		field_marshal = {
+			traits = {
+				organizer
+				infantry_leader
+				infantry_expert
+				commando
+				ranger
+			}
+			skill = 4
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+		}
+		advisor = {
+			slot = army_high_command
+			cost = 150
+			idea_token = tommy_oliver
+			ledger = army
+			traits = { army_commando_1 }
+			can_be_fired = yes
+		}
+	}
+
+	CSD_jason_lee_scott = {
+		name = CSD_jason_lee_scott
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Jason_Lee_Scott.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Jason_Lee_Scott.dds"
+			}
+		}
+		field_marshal = {
+			traits = {
+				infantry_leader
+				commando
+				organizer
+				skilled_staffer
+				ranger
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 2
+		}
+	}
+
+	CSD_zack_taylor = {
+		name = CSD_zack_taylor
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Zack_Taylor.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Zack_Taylor.dds"
+			}
+		}
+		field_marshal = {
+			traits = {
+				harsh_leader
+				trait_reckless
+				infantry_leader
+				ranger
+			}
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	
+	CSD_billy_cranston = {
+		name = CSD_billy_cranston
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Billy_Cranston.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Billy_Cranston.dds"
+			}
+		}
+		field_marshal = {
+			traits = {
+				cavalry_leader
+				inspirational_leader
+				offensive_doctrine
+				war_hero
+				politically_connected
+				ranger
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+
+	#####################################################################
+	### Second Continental Army/US Army Rangers Generals - Level Five ###
+	#####################################################################
+	CSD_adam_park = {
+		name = CSD_adam_park
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Adam_Park.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Adam_Park.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				ranger 
+				career_officer
+				politically_connected
+				organizer
+				winter_expert
+			}
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 5
+			logistics_skill = 4
+		}
+	}
+	
+    #####################################################################
+	### Second Continental Army/US Army Rangers Generals - Level Four ###
+	#####################################################################
+	CSD_trini_kwan = {
+		name = CSD_trini_kwan
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Trini_Kwan.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Trini_Kwan.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				winter_expert
+				organizer
+				ranger
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 4
+		}
+		gender = female
+	}
+
+	CSD_kimberly_ann_hart = {
+		name = CSD_kimberly_ann_hart
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Kimberly_Ann_Hart.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Kimberly_Ann_Hart.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				war_hero
+				ranger
+				infantry_leader
+				infantry_expert
+				organizer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 4
+		}
+		gender = female
+	}
+
+	CSD_ashley_hammond = {
+		name = CSD_ashley_hammond
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Ashley_Hammond.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Ashley_Hammond.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				brilliant_strategist
+				artillery_specialist
+				panzer_leader
+				trait_engineer
+				ranger
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 4
+		}
+		gender = female
+	}
+	
+	CSD_rocky_de_santos = {
+		name = CSD_rocky_de_santos
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Rocky_De_Santos.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Rocky_De_Santos.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				offensive_doctrine
+				brilliant_strategist
+				infantry_officer
+				infantry_leader
+				trait_reckless
+				ranger
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 2
+		}
+	}
+
+	######################################################################
+	### Second Continental Army/US Army Rangers Generals - Level Three ###
+	######################################################################
+	CSD_tanya_sloan = {
+		name = CSD_tanya_sloan
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Tanya_Sloan.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Tanya_Sloan.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				commando
+				ranger
+				skilled_staffer
+				winter_expert
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+		gender = female
+	}
+
+	CSD_theodore_jarvis_johnson = {
+		name = CSD_theodore_jarvis_johnson
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Theodore_Jarvis_Johnson.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Theodore_Jarvis_Johnson.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				trait_cautious
+				infantry_leader
+				skilled_staffer
+				organizer
+				ranger
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	
+	CSD_carlos_vallerte = {
+		name = CSD_carlos_vallerte
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Carlos_Vallerte.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Carlos_Vallerte.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_leader
+				infantry_expert
+				winter_expert
+				ranger
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	
+	CSD_katherine_hillard = {
+		name = CSD_katherine_hillard
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Katherine_Hillard.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Katherine_Hillard.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				trickster
+				ranger
+				winter_expert
+				commando
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+		gender = female
+	}
+
+    ####################################################################
+	### Second Continental Army/US Army Rangers Generals - Level Two ###
+	####################################################################
+	CSD_cassie_chan = {
+		name = CSD_cassie_chan
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Cassie_Chan.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Cassie_Chan.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				trait_reckless
+				trait_engineer
+				commando
+				trickster
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 3
+		}
+		gender = female
+	}
+	
+	CSD_aisha_campbell = {
+		name = CSD_aisha_campbell
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Aisha_Campbell.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Aisha_Campbell.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				politically_connected
+				infantry_leader
+				ranger
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+
+	####################################################################
+	### Second Continental Army/US Army Rangers Generals - Level One ###
+	####################################################################
+	
+############################################## My Little Pony Characters (Second Continental Army - Progressive-Aligned Generals) ##############################################
+
+	#############################################################
+	### Second Continental Army Progressives (Field Marshals) ###
+	#############################################################
+	CSD_twilight_sparkle = {
+		name = CSD_twilight_sparkle
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Twilight_Sparkle.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Twilight_Sparkle.dds"
+			}
+		}
+		country_leader = {
+			# desc = POLITICS_TWILIGHT_SPARKLE_DESC
+			expire = "1994.4.20"
+			ideology = social_democratic_junta_ideology
+			#traits = {
+			#	CSD_element_of_magic
+			#}
+		}
+		field_marshal = {
+			traits = {
+				inspirational_leader
+				organizer
+				thorough_planner
+				skilled_staffer
+			}
+			skill= 3
+			attack_skill= 2
+			defense_skill= 2
+			planning_skill= 6
+			logistics_skill= 5
+		}
+		scientist = {
+			traits = {
+				scientist_trait_bright
+				scientist_trait_genius
+				scientist_trait_brilliant_theorist
+				scientist_trait_fast_learner
+			}
+			skills = {
+				specialization_nuclear = 1
+			}
+		}
+		gender = female
+	}
+
+
+	##################################################################
+	### Second Continental Army Progressives - Level Five Generals ###
+	##################################################################
+
+
+
+	##################################################################
+	### Second Continental Army Progressives - Level Four Generals ###
+	##################################################################
+
+
+
+	###################################################################
+	### Second Continental Army Progressives - Level Three Generals ###
+	###################################################################
+
+	
+
+	#################################################################
+	### Second Continental Army Progressives - Level Two Generals ###
+	#################################################################
+
+
+
+	#################################################################
+	### Second Continental Army Progressives - Level One Generals ###
+	#################################################################
+
+
+
+	############################################## RWBY Characters (Second Continental Army - Militarist-Aligned Generals) ##############################################
+
+	############################################################
+	### Second Continental Army Militarists (Field Marshals) ###
+	############################################################
+	CSD_jaune_arc = {
+		name = CSD_jaune_arc
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Jaune_Arc.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Jaune_Arc.dds"
+			}
+		}
+		field_marshal = {
+			traits = {
+				armor_officer
+				panzer_leader
+				cavalry_leader
+				combined_arms_expert
+				skilled_staffer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 4
+		}
+		advisor = {
+			cost = 150
+			slot = army_high_command
+			idea_token = jaune_arc
+			ledger = army
+			traits = {
+				army_CombinedArms_1
+			}
+		}
+	}
+
+	CSD_ruby_rose = {
+		name = CSD_ruby_rose
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Ruby_Rose.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Ruby_Rose.dds"
+			}
+		}
+		country_leader = {
+			# desc = POLITICS_RUBY_ROSE_DESC
+			expire = "1994.4.20"
+			ideology = authoritarian_democracy_military_junta_ideology
+			#traits = {
+			#	CSD_the_red_rose_of_remnant
+			#}
+		}
+		field_marshal = {
+			traits = {
+				old_guard
+				war_hero
+				offensive_doctrine
+				skilled_staffer
+				expert_delegator
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		gender = female
+	}
+
+	CSD_weiss_schnee = {
+		name = CSD_weiss_schnee
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Weiss_Schnee.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Weiss_Schnee.dds"
+				small = GFX_fish
+			}
+		}
+		field_marshal = {
+			traits = {
+				brilliant_strategist
+				artillery_specialist
+				infantry_officer
+				infantry_leader
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+		gender = female
+	}
+
+	CSD_oscar_pine = {
+		name = CSD_oscar_pine
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Oscar_Pine.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Oscar_Pine.dds"
+			}
+		}
+		field_marshal = {
+			traits = { 
+				brilliant_strategist
+        		offensive_doctrine
+        		war_hero
+        		infantry_officer
+        		infantry_leader
+			}
+			skill = 5
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 5
+		}
+	}
+
+	#################################################################
+	### Second Continental Army Militarists - Level Five Generals ###
+	#################################################################
+	CSD_blake_belladonna = {
+		name = CSD_blake_belladonna
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Blake_Belladonna.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Blake_Belladonna.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				war_hero
+				offensive_doctrine
+				skilled_staffer
+				expert_delegator
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		gender = female
+	}
+	
+	CSD_yang_xiao_long = {
+		name = CSD_yang_xiao_long
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Yang_Xiao_Long.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Yang_Xiao_Long.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				panzer_leader
+				trait_reckless
+				engineer
+			}
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 5
+			logistics_skill = 4
+		}
+		advisor = {
+			slot = high_command
+			cost = 150
+			idea_token = yang_xiao_long
+			ledger = army
+			traits = { army_armored_2 }
+			can_be_fired = yes
+		}
+		gender = female
+	}
+	
+	#################################################################
+	### Second Continental Army Militarists - Level Four Generals ###
+	#################################################################
+	CSD_pyrrha_nikos = {
+		name = CSD_pyrrha_nikos
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Pyrrha_Nikos.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Pyrrha_Nikos.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				infantry_officer
+				infantry_expert
+				infantry_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 4
+		}
+		gender = female
+	}
+	
+	CSD_nora_valkyrie = {
+		name = CSD_nora_valkyrie
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Nora_Valkyrie.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Nora_Valkyrie.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				brilliant_strategist
+				artillery_specialist
+				panzer_leader
+				trait_engineer
+				trait_reckless
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 4
+		}
+		advisor = {
+			slot = high_command
+			cost = 100
+			idea_token = nora_valkyrie
+			ledger = army
+			traits = { army_artillery_1 }
+			can_be_fired = yes
+		}
+		gender = female
+	}
+
+	CSD_lie_ren = {
+		name = CSD_lie_ren
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Lie_Ren.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Lie_Ren.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				brilliant_strategist
+				fast_planner
+				trait_cautious
+				infantry_officer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+
+	CSD_cardin_winchester = {
+		name = CSD_cardin_winchester
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Cardin_Winchester.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Cardin_Winchester.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				trickster
+				commando
+				paratrooper
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3 
+		}
+	}
+
+	##################################################################
+	### Second Continental Army Militarists - Level Three Generals ###
+	##################################################################
+	CSD_coco_adel = {
+		name = CSD_coco_adel
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Coco_Adel.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Coco_Adel.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				politically_connected
+				media_personality
+				inflexible_strategist
+				trait_cautious
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+		gender = female
+	}
+	
+	CSD_velvet_scarlatina = {
+		name = CSD_velvet_scarlatina
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Velvet_Scarlatina.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Velvet_Scarlatina.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				trickster
+				media_personality
+				fast_planner
+				cavalry_officer
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+		gender = female
+	}
+
+	CSD_fox_alistair = {
+		name = CSD_fox_alistair
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Fox_Alistair.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Fox_Alistair.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				artillery_officer
+				artillery_specialist
+				career_officer
+				organizer
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+
+	CSD_yatsuhashi_daichi = {
+		name = CSD_yatsuhashi_daichi
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Yatsuhashi_Daichi.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Yatsuhashi_Daichi.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				infantry_officer
+				infantry_leader
+				artillery_specialist
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+
+	CSD_dove_bronzewing = {
+		name = CSD_dove_bronzewing
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Dove_Bronzewing.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Dove_Bronzewing.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				commando
+				armor_officer
+				artillery_specialist
+			}
+			skill = 3
+			attack_skill = 5
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 3 
+		}
+	}
+
+	CSD_russel_thursh = {
+		name = CSD_russel_thursh
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Russel_Thursh.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Russel_Thursh.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				infantry_leader
+				artillery_specialist
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	CSD_sky_lark = {
+		name = CSD_sky_lark
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Sky_Lark.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Sky_Lark.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				trickster
+				trait_reckless
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2 
+		}
+	}
+
+	CSD_penny_polendina = {
+		name = CSD_penny_polendina
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Penny_Polendina.dds"
+			}
+			army = {
+				large = "gfx/leaders/CSD/Portrait_CSD_Penny_Polendina.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				organizer
+				infantry_officer
+				trait_engineer
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		gender = female
+	}
+
+	################################################################
+	### Second Continental Army Militarists - Level Two Generals ###
+	################################################################
+
+
+
+	################################################################
+	### Second Continental Army Militarists - Level One Generals ###
+	################################################################
+
+
+
+	############################################## High School DxD Characters (Second Continental Army - Conservative-Aligned Generals) ##############################################
+
+	##############################################################
+	### Second Continental Army Conservatives (Field Marshals) ###
+	##############################################################
+
+
+
+	###################################################################
+	### Second Continental Army Conservatives - Level Five Generals ###
+	###################################################################
+
+
+
+	###################################################################
+	### Second Continental Army Conservatives - Level Four Generals ###
+	###################################################################
+
+
+
+	####################################################################
+	### Second Continental Army Conservatives - Level Three Generals ###
+	####################################################################
+
+
+
+	##################################################################
+	### Second Continental Army Conservatives - Level Two Generals ###
+	##################################################################
+
+
+
+	##################################################################
+	### Second Continental Army Conservatives - Level One Generals ###
+	##################################################################
+}

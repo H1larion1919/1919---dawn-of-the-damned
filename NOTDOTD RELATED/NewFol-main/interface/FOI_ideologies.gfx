@@ -1,0 +1,162 @@
+spriteTypes = {
+	
+#Main Ideologies
+	spriteType = {
+		name = "GFX_ideology_communism_main_ideology"
+		texturefile = "gfx/interface/ideologies/communism_main_ideology.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_democratic_group"
+		texturefile = "gfx/interface/ideologies/democratic_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_neutrality_group"
+		texturefile = "gfx/interface/ideologies/neutrality_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_fascism_group"
+		texturefile = "gfx/interface/ideologies/fascism_group.dds"
+	}
+
+### Communist Subideologies ###
+	spriteType = {
+		name = "GFX_ideology_communism_red_junta_ideology"
+		texturefile = "gfx/interface/ideologies/red_junta_communism_ideology.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_trotskyism_ideology"
+		texturefile = "gfx/interface/ideologies/trotskyism_ideology.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_GER_leninism_ideology"
+		texturefile = "gfx/interface/ideologies/GER_leninism_ideology.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_maoism_ideology"
+		texturefile = "gfx/interface/ideologies/maoism_ideology.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_stalinism_ideology"
+		texturefile = "gfx/interface/ideologies/stalinism_ideology.png"
+	}
+
+### Syndicalist Subideologies ###
+
+
+### Socialist Subideologies ###
+	spriteType = {
+		name = "GFX_ideology_GER_democratic_socialism_ideology"
+		texturefile = "gfx/interface/ideologies/GER_democratic_socialism_ideology.png"
+	}
+
+### Social Democrat Subideologies ###
+	spriteType = {
+		name = "GFX_ideology_GER_social_democracy_ideology"
+		texturefile = "gfx/interface/ideologies/GER_social_democracy_ideology.png"
+	}
+
+### Social Liberal Subideologies ###
+	spriteType = {
+		name = "GFX_ideology_GER_market_liberalism_ideology"
+		texturefile = "gfx/interface/ideologies/GER_market_liberalism_ideology.png"
+	}
+
+### Market Liberal Subideologies ###
+
+
+### Conservative Subideologies ###
+	spriteType = {
+		name = "GFX_ideology_GER_christian_democracy_ideology"
+		texturefile = "gfx/interface/ideologies/GER_christian_democracy_ideology.png"
+	}
+
+### Authoritarian Democracy Subideologies ###
+	spriteType = {
+		name = "GFX_ideology_irish_national_catholicism_ideology"
+		texturefile = "gfx/interface/ideologies/irish_national_catholicism.png"
+	}
+
+### Paternal Autocrat Subideologies ###
+	spriteType = {
+		name = "GFX_ideology_paternal_autocrat_military_junta_ideology"
+		texturefile = "gfx/interface/ideologies/paternal_autocrat_military_junta_ideology.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_horthyism_ideology"
+		texturefile = "gfx/interface/ideologies/horthyism_ideology.png"
+	}
+
+### Accelerationist Subideologies ###
+
+
+### Fascist Subideologies ###
+	spriteType = {
+		name = "GFX_ideology_british_fascism_ideology"
+		texturefile = "gfx/interface/ideologies/british_fascism_ideology.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_french_fascism_ideology"
+		texturefile = "gfx/interface/ideologies/french_fascism_ideology.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_clerical_fascism_ideology"
+		texturefile = "gfx/interface/ideologies/clerical_fascism_ideology.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_american_fascism_ideology"
+		texturefile = "gfx/interface/ideologies/american_fascism_ideology.png"
+	}
+
+### Ultranationalist Subideologies ###
+	spriteType = {
+		name = "GFX_ideology_stratocratic_nationalism_ideology"
+		texturefile = "gfx/interface/ideologies/stratocratic_nationalism_ideology.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_iron_guard_ideology"
+		texturefile = "gfx/interface/ideologies/iron_guard_ideology.png"
+	}
+
+
+### National Socialist Ideologies ###
+	spriteType = {
+		name = "GFX_ideology_nazism_ideology"
+		texturefile = "gfx/interface/ideologies/nazism_ideology.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_stratocratic_nazism_ideology"
+		texturefile = "gfx/interface/ideologies/stratocratic_nazism_ideology.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_esoteric_nazism_ideology"
+		texturefile = "gfx/interface/ideologies/esoteric_nazism_ideology.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_enlightened_nazism_ideology"
+		texturefile = "gfx/interface/ideologies/enlightened_nazism_ideology.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_technocratic_nazism_ideology"
+		texturefile = "gfx/interface/ideologies/technocratic_nazism_ideology.png"
+	}
+
+### Esoteric Subideologies ###
+	spriteType = {
+		name = "GFX_ideology_esoteric_nazism_esoteric_ideology"
+		texturefile = "gfx/interface/ideologies/esoteric_nazism_esoteric_ideology.png"
+	}
+	
+
+#Subideologies
+	spriteType = {
+		name = "GFX_ideology_anarchism"
+		texturefile = "gfx/interface/ideologies/anarchism.dds"
+	}
+
+#Unknown
+	spriteType = {
+		name = "GFX_ideology_unknown"
+		texturefile = "gfx/interface/ideologies/unknown.dds"
+		legacy_lazy_load = no
+	}
+}

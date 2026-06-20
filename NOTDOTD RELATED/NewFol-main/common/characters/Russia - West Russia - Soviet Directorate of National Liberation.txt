@@ -1,0 +1,687 @@
+characters = {
+	##########################################
+    ### Country Leaders - Starting Leaders ###
+    ##########################################
+    SDL_semyon_mikhailovich_budyonny = {
+		name = SDL_semyon_mikhailovich_budyonny
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SDL/Portrait_SDL_semyon_mikhailovich_budyonny.dds"
+			}
+			army = {
+				large = "gfx/leaders/SDL/Portrait_SDL_semyon_mikhailovich_budyonny.dds"
+			}
+		}
+		country_leader = {
+			expire = "1999.1.1"
+#			desc = "POLITICS_SEMYON_BUDYONNY_DESC"
+			ideology = leninism_ideology
+            traits = {
+#				SDL_the_old_warhorse
+            }
+		}
+		field_marshal = {
+			traits = {
+				inspirational_leader
+				media_personality
+				cavalry_officer
+				cavalry_expert
+				skilled_staffer
+			}
+			skill = 3
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	
+	##########################################
+    ### Country Leaders - Military Leaders ###
+    ##########################################
+	SDL_mikhail_nikolayevich_tukhachevsky = {
+		name = SDL_mikhail_nikolayevich_tukhachevsky
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SDL/Portrait_SDL_mikhail_nikolayevich_tukhachevsky"
+			}
+			army = {
+				large = "gfx/leaders/SDL/Portrait_SDL_mikhail_nikolayevich_tukhachevsky"
+			}
+		}
+		field_marshal = {
+			traits = {
+				offensive_doctrine
+				career_officer
+				panzer_leader
+				aggressive_assaulter
+				cavalry_leader
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+	
+	SDL_mikhail_vasilievich_frunze = { 
+		name = SDL_mikhail_vasilievich_frunze
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SDL/Portrait_SDL_mikhail_vasilievich_frunze.png"
+			}
+			army = {
+				large = "gfx/leaders/SDL/Portrait_SDL_mikhail_vasilievich_frunze.png"
+			}
+		}
+		field_marshal = {
+			traits = {
+				inspirational_leader
+				offensive_doctrine
+				war_hero
+				politically_connected
+				infantry_leader
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 2
+			planning_skill = 7
+			logistics_skill = 2
+		}
+	}
+
+    SDL_georgy_konstantinovich_zhukov = {
+		name = SDL_georgy_konstantinovich_zhukov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SDL/Portrait_SDL_georgy_konstantinovich_zhukov.dds"
+			}
+			army = {
+				large = "gfx/leaders/SDL/Portrait_SDL_georgy_konstantinovich_zhukov.dds"
+			}
+		}
+		field_marshal = {
+			traits = {
+				offensive_doctrine
+				winter_specialist
+				panzer_leader
+				armor_officer
+				media_personality
+				war_hero
+			}
+			skill = 5
+			attack_skill = 5
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 5
+		}
+    }
+
+    ########################
+	### Country Advisors ###
+	########################
+
+
+
+    ##################################################################
+    ### Soviet Directorate of National Liberation - Field Marshals ###
+	##################################################################
+
+    #############################
+	### Generals - Level Five ###
+	#############################
+
+
+
+    #############################
+	### Generals - Level Four ###
+	#############################
+	SDL_vasily_danilovich_sokolovsky = { ### Zhukov General ###
+		name = SDL_vasily_danilovich_sokolovsky
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SDL/Portrait_SDL_Vasily_Danilovich_Sokolovsky.dds"
+			}
+			army = {
+				large = "gfx/leaders/SDL/Portrait_SDL_Vasily_Danilovich_Sokolovsky.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				organizer
+				war_hero
+				infantry_expert
+				infantry_leader
+				trait_engineer
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SDL_dimitry_timofeyevich_yazov = { ### Tukhachevsky General ###
+		name = SDL_dimitry_timofeyevich_yazov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SDL/Portrait_SDL_Dimitry_Timofeyevich_Yazov.dds"
+			}
+			army = {
+				large = "gfx/leaders/SDL/Portrait_SDL_Dimitry_Timofeyevich_Yazov.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				politically_connected
+				winter_specialist
+				brilliant_strategist
+				trickster
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 2
+		}
+	}
+	
+	SDL_dimitry_fyodorovich_ustinov = { ### Tukhachevsky General ###
+		name = SDL_dimitry_fyodorovich_ustinov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SDL/Portrait_SDL_Dimitry_Fyodorovich_Ustinov.dds"
+			}
+			army = {
+				large = "gfx/leaders/SDL/Portrait_SDL_Dimitry_Fyodorovich_Ustinov.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				politically_connected
+				skilled_staffer
+				expert_delegator
+				logistics_wizard
+				organizer
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	
+	SDL_sergey_fyodorovich_akhromeyev = {
+		name = SDL_sergey_fyodorovich_akhromeyev
+		portraits = {
+			army = {
+				large = GFX_fish
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				trait_cautious
+				career_officer
+				infantry_leader
+				ambusher
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	
+	SDL_andrei_antonovich_grechko = { ### Zhukov General ###
+		name = SDL_andrei_antonovich_grechko
+		portraits = {
+			army = {
+				large = "gfx/leaders/SDL/Portrait_SDL_Andrei_Antonovich_Grechko.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				brilliant_strategist
+				career_officer
+				trait_reckless
+				infantry_leader
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 5
+			logistics_skill = 2
+		}
+		advisor = {
+			cost = 150
+			slot = army_chief
+			idea_token = SDL_grechko
+			ledger = army
+			traits = { 
+				army_chief_offensive_2
+			}
+		}
+	}
+	
+	SDL_alexander_terentyevich_altunin = { ### Neutral General ###
+		name = SDL_alexander_terentyevich_altunin
+		portraits = {
+			army = {
+				large = "gfx/leaders/SDL/Portrait_SDL_Alexander_Terentyevich_Altunin.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				inflexible_strategist
+				career_officer
+				winter_specialist
+			}
+			skill = 4
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 5
+		}
+	}
+
+	SDL_aleksei_innokentievich_antonov = { ### Frunze General ###
+		name = SDL_aleksei_innokentievich_antonov
+		portraits = {
+			army = {
+				large = "gfx/leaders/SDL/Portrait_SDL_Aleksei_Innokentievich_Antonov.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_officer
+				war_hero
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+
+	SDL_zhu_de = { ### Zhukov General ###
+		name = SDL_zhu_de
+		portraits = {
+			army = {
+				large = "gfx/leaders/SDL/Portrait_SDL_Zhu_De.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				brilliant_strategist
+				organizer
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 4
+		}
+	}
+
+	SDL_pavel_alekseyevich_belov = {
+		name = SDL_pavel_alekseyevich_belov
+		portraits = {
+			army = {
+				large = "gfx/leaders/SDL/Portrait_SDL_Pavel_Alekseyevich_Belov"
+			}
+		}
+		corps_commander = {
+			traits = {
+				cavalry_officer
+				scavenger
+				guerilla_fighter
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 4
+		}
+	}
+
+    ##############################
+	### Generals - Level Three ###
+	##############################
+	SDL_iona_emmanuilovich_yakir = { ### Tukhachevsky General ###
+		name = SDL_iona_emmanuilovich_yakir
+		portraits = {
+			army = {
+				large = "gfx/leaders/SDL/Portrait_SDL_Iona_Emmanuilovich_Yakir.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				brilliant_strategist
+				cavalry_leader
+				combined_arms_expert
+				armor_officer
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+
+	SDL_pavel_ivanovich_batov = { ### Zhukov General ###
+		name = SDL_pavel_ivanovich_batov
+		portraits = {
+			army = {
+				large = "gfx/leaders/SDL/Portrait_SDL_Pavel_Ivanovich_Batov.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				trait_cautious
+				infantry_officer
+				brilliant_strategist 
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SDL_yakov_grigorevich_kreizer = { ### Frunze General ###
+		name = SVR_Yakov_Kreizer
+		portraits = {
+			army = {
+				large = "gfx/leaders/SDL/Portrait_SDL_Yakov_Grigorevich_Kreizer.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				trait_cautious
+				infantry_officer
+				inflexible_strategist
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+
+	SDL_pavel_semyonovich_rybalko = {
+		name = SDL_pavel_semyonovich_rybalko
+		portraits = {
+			civilian = {
+				large = GFX_fish
+			}
+			army = {
+				large = GFX_fish
+			}
+		}
+		corps_commander = {
+			traits = {
+				inflexible_strategist
+				cavalry_officer
+				cavalry_leader
+				combined_arms_leader
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	
+	SDL_vasily_ivanovich_chuikov = { ### Zhukov General ###
+		name = SDL_vasily_ivanovich_chuikov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SDL/Portrait_SDL_Vasily_Ivanovich_Chuikov.dds"
+			}
+			army = {
+				large = "gfx/leaders/SDL/Portrait_SDL_Vasily_Ivanovich_Chuikov.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				panzer_leader
+				career_officer
+				brilliant_strategist
+				expert_improviser
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+
+	SDL_ilya_vasilievich_baldinov = { ### Tukhachevsky General ###
+		name = SDL_ilya_vasilievich_baldinov
+		portraits = {
+			army = {
+				large = "gfx/leaders/SDL/Portrait_SDL_Ilya_Vasilievich_Baldinov.png"
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				war_hero
+				infantry_leader
+				inspirational_leader
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	
+	SDL_semyon_konstantinovich_timoshenko = { ### Neutral General ###
+		name = SDL_semyon_konstantinovich_timoshenko
+		portraits = {
+			army = {
+				large = "gfx/leaders/SDL/Portrait_SDL_Semyon_Konstaninovich_Timoshenko.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				career_officer
+				cavalry_officer
+				politically_connected
+				cavalry_leader
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+
+    ############################
+	### Generals - Level Two ###
+	############################
+	SDL_ieronim_petrovich_uborevich = { ### Tukhachevsky General ###
+		name = SDL_ieronim_petrovich_uborevich
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SDL/Portrait_SDL_Ieronim_Petrovich_Uborevich.dds"
+			}
+			army = {
+				large = "gfx/leaders/SDL/Portrait_SDL_Ieronim_Petrovich_Uborevich.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				trait_cautious
+				artillery_officer
+				artillery_specialist
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+
+	SDL_vasily_grigorievich_zaytsev = { ### Zhukov General ###
+		name = SDL_vasily_grigorievich_zaytsev
+		portraits = {
+			army = {
+				large = "gfx/leaders/SDL/Portrait_SDL_Vasily_Grigorievich_Zaytsev.dds"
+			}
+			civilian = {
+				small = "gfx/leaders/SDL/Portrait_SDL_Vasily_Grigorievich_Zaytsev.dds"
+			}
+		}
+		corps_commander = {
+			traits = {
+				war_hero
+				trickster
+				expert_improviser
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+
+	SDL_konstantin_fedorovich_telegin = {
+		name = SDL_konstantin_fedorovich_telegin
+		portraits = {
+			civilian = {
+				large = GFX_fish
+			}
+			army = {
+				large = GFX_fish
+			}
+		}
+		corps_commander = {
+			traits = {
+				politically_connected
+				harsh_leader
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+
+
+
+    ############################
+	### Generals - Level One ###
+	############################
+
+
+
+	#############################
+	### Admirals - Level Five ###
+	#############################
+	
+	
+
+	#############################
+	### Admirals - Level Four ###
+	#############################
+	SDL_nikolay_gerasimovich_kuznetsov = {
+		name = SDL_nikolay_gerasimovich_kuznetsov
+		portraits = {
+			army = {
+				large = "gfx/leaders/SDL/Portrait_SDL_Nikolai_Gerasimovich_Kuznetsov.dds"
+			}
+		}
+		navy_leader = {
+            traits = {
+				blockade_runner
+				fleet_protector
+				arctic_water_expert
+			}
+            skill = 4
+			attack_skill = 5
+			defense_skill = 4
+			maneuvering_skill = 3
+			coordination_skill = 4
+        }
+	}
+
+
+	##############################
+	### Admirals - Level Three ###
+	##############################
+	
+
+	############################
+	### Admirals - Level Two ###
+	############################
+	
+
+
+	############################
+	### Admirals - Level One ###
+	############################
+	
+
+
+	##################
+	### Scientists ###
+	##################
+
+
+	
+	##################
+	### Operatives ###
+	##################
+
+	
+	
+
+	
+
+	
+	
+	# Red Navy Admirals #
+	
+
+	SDL_ivan_stepanovich_yumashev = {
+		name = SDL_ivan_stepanovich_yumashev
+		portraits = {
+			civilian = {
+				large = GFX_fish
+			}
+			navy = {
+				large = GFX_fish
+			}
+		}
+		navy_leader = {
+            desc =
+            traits = {
+				
+			}
+            skill =
+            attack_skill =
+            defense_skill =
+            maneuvering_skill =
+            coordination_skill =
+        }
+	}	
+}
+
