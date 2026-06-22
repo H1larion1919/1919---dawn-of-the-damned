@@ -82,24 +82,31 @@ give_guarantee = THR
 give_military_access = THR
 set_autonomy = { target = THR autonomy_state = autonomy_ee_protectorate }
 set_popularities = {
-	communism = 14
 	libertarian_socialism = 4
+	syndicate_socialism = 4
+	communism = 10
 	social_democracy = 8
 	democratic = 34
 	market_liberalism = 12
-	fascism = 10
+	military_junta = 10
+	fascism = 5
 	neutrality = 12
-	esotericism = 6
+	esotericism = 1
+}
+set_party_name = {
+	ideology = libertarian_socialism
+	long_name = "Greek General Confederation of Labour"
+	name = "GGCF"
+}
+set_party_name = {
+	ideology = syndicate_socialism
+	long_name = "Federation of Thessaloniki"
+	name = "Fédération"
 }
 set_party_name = {
 	ideology = communism
 	long_name = "Socialist Labour Party of Greece"
 	name = "SEKE"
-}
-set_party_name = {
-	ideology = libertarian_socialism
-	long_name = "Federation of Thessaloniki"
-	name = "Fédération"
 }
 set_party_name = {
 	ideology = social_democracy
@@ -109,27 +116,32 @@ set_party_name = {
 set_party_name = {
 	ideology = democratic
 	long_name = "Political wing of the Liberal Party"
-	name = "Liberal Party (L)"
+	name = "Liberal Party"
 }
 set_party_name = {
 	ideology = market_liberalism
-	long_name = "Freethinker's party (Gounaris)"
-	name = "Freethinker's party (Gounarist)"
+	long_name = "The Gounarist wing of the Freethinker's party"
+	name = "Freethinker's party"
+}
+set_party_name = {
+	ideology = military_junta
+	long_name = "Military Council"
+	name = "The council"
 }
 set_party_name = {
 	ideology = fascism
 	long_name = "Military wing of the Liberal Party"
-	name = "Liberal Party (N)"
+	name = "Liberal Party"
 }
 set_party_name = {
 	ideology = neutrality
-	long_name = "Freethinker's party (Mataxas)"
-	name = "Freethinker's party (Metaxist)"
+	long_name = "Metaxist wing of the Freethinker's party"
+	name = "Freethinker's party"
 }
 set_party_name = {
 	ideology = esotericism
-	long_name = "Military Council"
-	name = "Council of Rejuvination"
+	long_name = "Radical wing of the Liberal Party"
+	name = "Palingenesists"
 }
 
 # === COMMUNISM ===
@@ -141,13 +153,22 @@ create_country_leader = {
 	traits = { popular_figurehead }
 }
 
-# === LIBERTARIAN SOCIALISM ===
+# === SYNDICATE SOCIALISM ===
 create_country_leader = {
 	name = "Avraam Benaroya"
-	picture = "HEL_avraam_benaroya.dds"
+	picture = "HEL_Avraam Benaroya.dds"
 	ideology = ee_communal_federalism
 	expire = "1965.1.1"
 	traits = { efficient_bureaucrat }
+}
+
+# === LIBERTARIAN SOCIALISM ===
+create_country_leader = {
+	name = "Stavros Kouchtsoglous"
+	picture = "HEL_Stavros_Kouchtsoglous.dds"
+	ideology = ee_communal_federalism
+	expire = "1965.1.1"
+	traits = { anarchist_zeal }
 }
 
 # === SOCIAL DEMOCRACY ===
@@ -201,14 +222,24 @@ create_country_leader = {
 	traits = { constitutional_king }
 }
 
-# === FASCISM ===
+# === MILITARY JUNTA ===
 create_country_leader = {
 	name = "Elefthérios Venizélos"
 	picture = "HEL_eleftherios_venizelos.dds"
-	ideology = palingenesis
+	ideology = ee_military_interventionism
 	expire = "1965.1.1"
 	traits = { dictator }
 }
+
+create_country_leader = {
+	name = "Nikólaos Plastíras"
+	picture = "HEL_nikolaos_plastiras.dds"
+	ideology = ee_military_interventionism
+	expire = "1965.1.1"
+	traits = { junta_member }
+}
+
+# === FASCISM ===
 
 create_country_leader = {
 	name = "Nikolaos Plastiras"
@@ -217,6 +248,15 @@ create_country_leader = {
 	expire = "1965.1.1"
 	traits = { junta_member }
 }
+
+create_country_leader = {
+	name = "Theodoros Pangalos"
+	picture = "HEL_theodoros_pangalos.dds"
+	ideology = palingenesis
+	expire = "1965.1.1"
+	traits = { junta_member }
+}
+
 
 # === AUTHORITARIAN ===
 create_country_leader = {
@@ -250,12 +290,4 @@ create_country_leader = {
 	ideology = ee_hellenic_rebirthist
 	expire = "1965.1.1"
 	traits = { hidden_sympathizer }
-}
-
-create_country_leader = {
-	name = "Theodoros Pangalos"
-	picture = "HEL_theodoros_pangalos.dds"
-	ideology = ee_hellenic_rebirthist
-	expire = "1965.1.1"
-	traits = { junta_member }
 }

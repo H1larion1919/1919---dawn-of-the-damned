@@ -62,14 +62,22 @@ guiTypes = {
 #				spriteType ="GFX_pol_piechart_bg"
 #			}
 			
-			# HOI4 expects parties_grid to be a direct child of chart_explanation.
-			# Keeping it direct prevents repeated UI lookup errors/crashes.
-			gridBoxType = {
-				name = "parties_grid"
+			containerWindowType = {
+				name = "parties_scroll_window"
 				position = { x = 260 y = 184 }
-				size = { width = 225 height = 74 }
-				slotsize = { width = 225 height = 16 }
-				format = "UPPER_LEFT"
+				size = { width = 242 height = 74 }
+				clipping = yes
+				verticalScrollbar = "right_vertical_slider"
+				scroll_wheel_factor = 40
+				smooth_scrolling = yes
+
+				gridBoxType = {
+					name = "parties_grid"
+					position = { x = 0 y = 0 }
+					size = { width = 225 height = 100%% }
+					slotsize = { width = 225 height = 16 }
+					format = "UPPER_LEFT"
+				}
 			}
 		}
 
@@ -89,7 +97,7 @@ guiTypes = {
 			iconType ={
 				name ="pol_view_bg"
 				spriteType = "GFX_pol_piechart_overlay_63x63"
-				position = { x= -2 y = 1 }
+				position = { x= -2 y = 1s }
 			}
 		}
 		

@@ -199,7 +199,7 @@ dd_apply_starting_coalitions = {
 		limit = { tag = HEL NOT = { has_country_flag = dd_starting_coalition_assigned } }
 		dd_clear_coalition_ministries = yes
 		add_ideas = {
-			dd_coalition_first_fascism
+			dd_coalition_first_military_junta
 			dd_coalition_second_social_democracy
 			dd_coalition_dominant_member
 		}

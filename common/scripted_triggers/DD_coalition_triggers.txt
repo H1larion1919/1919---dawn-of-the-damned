@@ -87,6 +87,10 @@ dd_can_select_coalition_partner_military_junta = {
 		has_government = market_liberalism
 		has_government = neutrality
 		has_government = fascism
+		AND = {
+			tag = HEL
+			has_government = democratic
+		}
 	}
 }
 

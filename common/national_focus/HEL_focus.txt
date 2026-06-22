@@ -34,10 +34,9 @@ focus_tree = {
 		id = HEL_address_the_nation
 		icon = GFX_goal_HEL_address_the_nation
 		prerequisite = { focus = HEL_hellas_of_two_continents_and_five_seas }
-		x = 0
+		x = 21
 		y = 1
 		cost = 2
-		relative_position_id = HEL_hellas_of_two_continents_and_five_seas
 		completion_reward = {
 			remove_ideas = dd_law_low_corruption
 			add_ideas = dd_law_strong_norms
@@ -51,9 +50,8 @@ focus_tree = {
 		id = HEL_slowly_lift_mobilisation
 		icon = GFX_goal_HEL_slowly_lift_mobilisation
 		prerequisite = { focus = HEL_address_the_nation }
-		x = -1
-		y = 1
-		relative_position_id = HEL_address_the_nation
+		x = 20
+		y = 2
 		cost = 5
 		completion_reward = {
 			remove_ideas = dd_militarism_war_society
@@ -68,9 +66,8 @@ focus_tree = {
 		id = HEL_integrate_ionia_and_bosporus
 		icon = GFX_goal_generic_construct_civ_factory
 		prerequisite = { focus = HEL_address_the_nation }
-		x = 1
-		y = 1
-		relative_position_id = HEL_address_the_nation
+		x = 22
+		y = 2
 		cost = 3
 		completion_reward = {
 			add_offsite_building = { type = industrial_complex level = 4 }
@@ -88,9 +85,8 @@ focus_tree = {
 		id = HEL_set_rule_of_law_in_new_cities
 		icon = GFX_goal_generic_political_pressure
 		prerequisite = { focus = HEL_slowly_lift_mobilisation }
-		x = 0
-		y = 1
-		relative_position_id = HEL_slowly_lift_mobilisation
+		x = 20
+		y = 3
 		cost = 3
 		completion_reward = {
 			remove_ideas = dd_law_low_corruption
@@ -105,9 +101,8 @@ focus_tree = {
 		id = HEL_constantinople_smyrna_highway
 		icon = GFX_goal_generic_construct_infrastructure
 		prerequisite = { focus = HEL_integrate_ionia_and_bosporus }
-		x = 0
-		y = 1
-		relative_position_id = HEL_integrate_ionia_and_bosporus
+		x = 22
+		y = 3
 		cost = 5
 		completion_reward = {
 			build_railway = { path = { 4112 11848 9921 785 947 3851 11811 11829 9833 } }
@@ -130,9 +125,8 @@ focus_tree = {
 		icon = GFX_goal_generic_propaganda
 		prerequisite = { focus = HEL_set_rule_of_law_in_new_cities }
 		prerequisite = { focus = HEL_constantinople_smyrna_highway }
-		x = 1
-		y = 1
-		relative_position_id = HEL_set_rule_of_law_in_new_cities
+		x = 21
+		y = 4
 		cost = 2
 		completion_reward = {
 			remove_ideas = dd_governance_oligarchy
@@ -146,9 +140,8 @@ focus_tree = {
 		id = HEL_set_up_election_infrastructure
 		icon = GFX_goal_generic_political_pressure
 		prerequisite = { focus = HEL_end_martial_law }
-		x = 0
-		y = 1
-		relative_position_id = HEL_end_martial_law
+		x = 21
+		y = 5
 		cost = 1
 		completion_reward = {
 			add_political_power = 50
@@ -160,9 +153,8 @@ focus_tree = {
 		id = HEL_retirement_of_ethnarch_venizelos
 		icon = GFX_focus_Retirement_of_Venizelos_A_new_age
 		prerequisite = { focus = HEL_set_up_election_infrastructure }
-		x = 0
-		y = 1
-		relative_position_id = HEL_set_up_election_infrastructure
+		x = 21
+		y = 6
 		cost = 2
 		completion_reward = {
 			add_political_power = 200
@@ -175,9 +167,8 @@ focus_tree = {
 		id = HEL_1919_elections_ahead
 		icon = GFX_goal_generic_demand_territory
 		prerequisite = { focus = HEL_retirement_of_ethnarch_venizelos }
-		x = 0
-		y = 1
-		relative_position_id = HEL_retirement_of_ethnarch_venizelos
+		x = 21
+		y = 7
 		cost = 5
 		completion_reward = {
 			remove_ideas = HEL_scars_from_national_schism
