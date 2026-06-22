@@ -21,6 +21,7 @@ state = {
 				naval_base = 4
 			}
 		}
+		add_extra_state_shared_building_slots = 1
 		victory_points = {
 			1015 2
 		}
