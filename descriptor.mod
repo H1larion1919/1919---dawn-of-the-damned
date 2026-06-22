@@ -14,6 +14,7 @@ tags={
 name="1919 - Dawn of the damned"
 supported_version="1.19.1"
 replace_path="history/states"
+replace_path="map"
 replace_path="history/countries"
 replace_path="common/country_tags"
 replace_path="common/ideologies"
