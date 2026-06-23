@@ -38,9 +38,9 @@
  dd_coalition_second_market_liberalism:0 "Market Liberal Coalition Partner"
  dd_coalition_second_market_liberalism_desc:0 "Market liberal ministers accelerate construction and industrial expansion."
 
- dd_coalition_first_military_junta:0 "Military Junta Coalition Partner"
+ dd_coalition_first_military_junta:0 "Paternalistic Authoritarianism Coalition Partner"
  dd_coalition_first_military_junta_desc:0 "Military ministers improve mobilization, army cohesion, and public readiness for war."
- dd_coalition_second_military_junta:0 "Military Junta Coalition Partner"
+ dd_coalition_second_military_junta:0 "Paternalistic Authoritarianism Coalition Partner"
  dd_coalition_second_military_junta_desc:0 "Military ministers improve mobilization, army cohesion, and public readiness for war."
 
  dd_coalition_first_neutrality:0 "Neutral Coalition Partner"
