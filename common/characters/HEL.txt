@@ -1,4 +1,5 @@
 characters = {
+	### Liberal Venizelist Advisors/Leaders ###
 	greece_eleftherios_venizelos = {
 		name = greece_eleftherios_venizelos
 		portraits = {
@@ -11,26 +12,15 @@ characters = {
 				small = GFX_greece_eleftherios_venizelos_small
 			}
 		}
-		advisor = { slot = political_advisor idea_token = greece_eleftherios_venizelos cost = 150 traits = { political_dancer } allowed = { original_tag = HEL has_government = democratic } }
-		# movement = Venizelist / Liberal Party
-	}
-
-	greece_eleftherios_venizelos_nationalist = {
-		name = greece_eleftherios_venizelos_nationalist
-		portraits = {
-			civilian = {
-				large = GFX_greece_eleftherios_venizelos_large
-				small = GFX_greece_eleftherios_venizelos_advisor
-			}
-			army = {
-				large = GFX_greece_eleftherios_venizelos_large
-				small = GFX_greece_eleftherios_venizelos_small
-			}
+		advisor = {
+			slot = political_advisor
+			idea_token = greece_eleftherios_venizelos
+			cost = 150
+			traits = { political_dancer }
+			allowed = { original_tag = HEL has_government = democratic }
 		}
-		advisor = { slot = political_advisor idea_token = greece_eleftherios_venizelos_nationalist cost = 150 traits = { ideological_crusader } allowed = { original_tag = HEL has_government = fascism } }
-		# movement = Venizelist / Nationalist
 	}
-
+	
 	greece_alexandros_zaimis = {
 		name = greece_alexandros_zaimis
 		portraits = {
@@ -43,9 +33,38 @@ characters = {
 				small = GFX_greece_alexandros_zaimis_small
 			}
 		}
-		advisor = { slot = political_advisor idea_token = greece_alexandros_zaimis cost = 100 traits = { silent_workhorse } allowed = { original_tag = HEL has_government = democratic } }
-		# movement = Venizelist / Liberal Party
+		advisor = {
+			slot = political_advisor
+			idea_token = greece_alexandros_zaimis
+			cost = 100
+			traits = { silent_workhorse }
+			allowed = { original_tag = HEL has_government = democratic }
+		}
 	}
+
+	### Nationalist Venizelist Advisors/Leaders ###
+	greece_eleftherios_venizelos_nationalist = {
+		name = greece_eleftherios_venizelos_nationalist
+		portraits = {
+			civilian = {
+				large = GFX_greece_eleftherios_venizelos_large
+				small = GFX_greece_eleftherios_venizelos_advisor
+			}
+			army = {
+				large = GFX_greece_eleftherios_venizelos_large
+				small = GFX_greece_eleftherios_venizelos_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = greece_eleftherios_venizelos_nationalist
+			cost = 150
+			traits = { ideological_crusader }
+			allowed = { original_tag = HEL has_government = fascism }
+		}
+	}
+
+	
 
 	greece_nikolaos_plastiras = {
 		name = greece_nikolaos_plastiras
