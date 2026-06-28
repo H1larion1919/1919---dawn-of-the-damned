@@ -1,5 +1,5 @@
 characters = {
-	### Liberal Venizelist Advisors/Leaders ###
+	### Democratic Venizelist Advisors/Leaders ###
 	greece_eleftherios_venizelos = {
 		name = greece_eleftherios_venizelos
 		portraits = {
@@ -41,6 +41,51 @@ characters = {
 			allowed = { original_tag = HEL has_government = democratic }
 		}
 	}
+	
+	greece_nikolaos_plastiras = {
+		name = greece_nikolaos_plastiras
+		portraits = {
+			civilian = {
+				large = GFX_greece_nikolaos_plastiras_large
+				small = GFX_greece_nikolaos_plastiras_advisor
+			}
+			army = {
+				large = GFX_greece_nikolaos_plastiras_large
+				small = GFX_greece_nikolaos_plastiras_small
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = greece_nikolaos_plastiras
+			cost = 150
+			traits = { aggressive_assaulter infantry_officer cavalry_officer }
+			allowed = { original_tag = HEL has_government = fascism }
+		}
+		field_marshal = {
+			visible = {
+				OR = {
+					has_government = democratic
+					has_government = fascism
+				}
+			}
+			traits = {
+				brilliant_strategist
+				offensive_doctrine
+				organisational_leader
+				inspirational_leader
+				aggressive_assaulter
+				infantry_leader
+				cavalry_leader
+				adaptable
+				bold
+			}
+			skill = 6
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
 
 	### Nationalist Venizelist Advisors/Leaders ###
 	greece_eleftherios_venizelos_nationalist = {
@@ -66,30 +111,7 @@ characters = {
 
 	
 
-	greece_nikolaos_plastiras = {
-		name = greece_nikolaos_plastiras
-		portraits = {
-			civilian = {
-				large = GFX_greece_nikolaos_plastiras_large
-				small = GFX_greece_nikolaos_plastiras_advisor
-			}
-			army = {
-				large = GFX_greece_nikolaos_plastiras_large
-				small = GFX_greece_nikolaos_plastiras_small
-			}
-		}
-		advisor = { slot = high_command idea_token = greece_nikolaos_plastiras cost = 150 traits = { aggressive_assaulter infantry_officer cavalry_officer } allowed = { original_tag = HEL has_government = fascism } }
-	field_marshal = {
-			visible = { OR = { has_government = democratic has_government = fascism } }
-		traits = { brilliant_strategist offensive_doctrine organisational_leader inspirational_leader aggressive_assaulter infantry_leader cavalry_leader adaptable bold }
-		skill = 6
-		attack_skill = 5
-		defense_skill = 4
-		planning_skill = 4
-		logistics_skill = 3
-	}
-		# movement = Venizelist / Liberal Republican
-	}
+	
 
 	greece_theodoros_pangalos = {
 		name = greece_theodoros_pangalos
