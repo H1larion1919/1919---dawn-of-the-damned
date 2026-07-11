@@ -58,7 +58,10 @@ characters = {
 			slot = high_command
 			idea_token = greece_nikolaos_plastiras
 			cost = 150
-			traits = { aggressive_assaulter infantry_officer cavalry_officer }
+			traits = {
+				army_CombinedArms_2
+				army_logistics_1
+			}
 			allowed = { original_tag = HEL has_government = fascism }
 		}
 		field_marshal = {
@@ -106,7 +109,6 @@ characters = {
 			traits = { industrial_concern }
 			allowed = { original_tag = HEL has_government = democratic }
 		}
-		# movement = Venizelist / Conservative Republican
 	}
 
 	### Nationalist Venizelist Characters ###
@@ -150,17 +152,17 @@ characters = {
 					has_government = fascism
 				}
 			}
-		traits = {
-			aggressive_assaulter
-			politically_connected
-			infantry_officer
-			trait_reckless
-		}
-		skill = 4
-		attack_skill = 4
-		defense_skill = 2
-		planning_skill = 3
-		logistics_skill = 2
+			traits = {
+				aggressive_assaulter
+				politically_connected
+				infantry_officer
+				trait_reckless
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
 		}
 	}
 
@@ -188,8 +190,6 @@ characters = {
 		}
 	}
 
-	
-
 	greece_dimitrios_gounaris = {
 		name = greece_dimitrios_gounaris
 		portraits = {
@@ -202,8 +202,16 @@ characters = {
 				small = GFX_greece_dimitrios_gounaris_small
 			}
 		}
-		advisor = { slot = political_advisor idea_token = greece_dimitrios_gounaris cost = 100 traits = { backroom_backstabber } allowed = { original_tag = HEL has_government = neutrality } }
-		# movement = Royalist / People's Party
+		advisor = {
+			slot = political_advisor
+			idea_token = greece_dimitrios_gounaris
+			cost = 100
+			traits = { backroom_backstabber }
+			allowed = {
+				original_tag = HEL
+				has_government = neutrality
+			}
+		}
 	}
 
 	greece_constantine_i_of_greece = {
@@ -218,16 +226,20 @@ characters = {
 				small = GFX_greece_constantine_i_of_greece_small
 			}
 		}
-	field_marshal = {
+		field_marshal = {
 			visible = { has_government = neutrality }
-		traits = { old_guard politically_connected war_hero inspirational_leader }
-		skill = 4
-		attack_skill = 3
-		defense_skill = 4
-		planning_skill = 3
-		logistics_skill = 2
-	}
-		# movement = Royalist / Monarchy
+			traits = {
+				old_guard
+				politically_connected
+				war_hero
+				inspirational_leader
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 2
+		}
 	}
 
 	greece_ioannis_metaxas = {
@@ -242,67 +254,29 @@ characters = {
 				small = GFX_greece_ioannis_metaxas_small
 			}
 		}
-		advisor = { slot = army_chief idea_token = greece_ioannis_metaxas cost = 150 traits = { army_chief_defensive_2 } allowed = { original_tag = HEL has_government = neutrality } }
-	field_marshal = {
+		advisor = {
+			slot = army_chief
+			idea_token = greece_ioannis_metaxas
+			cost = 150
+			traits = { army_chief_defensive_2 }
+			allowed = { original_tag = HEL has_government = neutrality }
+		}
+		field_marshal = {
 			visible = { has_government = neutrality }
-		traits = { brilliant_strategist defensive_doctrine organisational_leader politically_connected }
-		skill = 5
-		attack_skill = 3
-		defense_skill = 5
-		planning_skill = 4
-		logistics_skill = 3
-	}
-		# movement = Royalist / Proto-authoritarian Nationalist
-	}
-
-	greece_dimitrios_glinos = {
-		name = greece_dimitrios_glinos
-		portraits = {
-			civilian = {
-				large = GFX_greece_dimitrios_glinos_large
-				small = GFX_greece_dimitrios_glinos_advisor
+			traits = {
+				brilliant_strategist
+				defensive_doctrine
+				organisational_leader
+				politically_connected
 			}
-			army = {
-				large = GFX_greece_dimitrios_glinos_large
-				small = GFX_greece_dimitrios_glinos_small
-			}
+			skill = 5
+			attack_skill = 3
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 3
 		}
-		advisor = { slot = theorist idea_token = greece_dimitrios_glinos cost = 100 traits = { ideological_crusader } allowed = { original_tag = HEL has_government = communism } }
-		# movement = Communist / Bolshevik Line
 	}
-
-	greece_avraam_benaroya = {
-		name = greece_avraam_benaroya
-		portraits = {
-			civilian = {
-				large = GFX_greece_avraam_benaroya_large
-				small = GFX_greece_avraam_benaroya_advisor
-			}
-			army = {
-				large = GFX_greece_avraam_benaroya_large
-				small = GFX_greece_avraam_benaroya_small
-			}
-		}
-		advisor = { slot = political_advisor idea_token = greece_avraam_benaroya cost = 100 traits = { compassionate_gentleman } allowed = { original_tag = HEL has_government = communism } }
-		# movement = Socialist / Federationist Line
-	}
-
-	greece_alexandros_papanastasiou = {
-		name = greece_alexandros_papanastasiou
-		portraits = {
-			civilian = {
-				large = GFX_greece_alexandros_papanastasiou_large
-				small = GFX_greece_alexandros_papanastasiou_advisor
-			}
-			army = {
-				large = GFX_greece_alexandros_papanastasiou_large
-				small = GFX_greece_alexandros_papanastasiou_small
-			}
-		}
-		advisor = { slot = political_advisor idea_token = greece_alexandros_papanastasiou cost = 100 traits = { reformer } allowed = { original_tag = HEL has_government = democratic } }
-		# movement = Social Democratic Republican
-	}
-
+	
 	greece_anastasios_papoulas = {
 		name = greece_anastasios_papoulas
 		portraits = {
@@ -315,16 +289,15 @@ characters = {
 				small = GFX_greece_anastasios_papoulas_small
 			}
 		}
-	corps_commander = {
+		corps_commander = {
 			visible = { has_government = neutrality }
-		traits = { offensive_doctrine organisational_leader infantry_officer }
-		skill = 5
-		attack_skill = 4
-		defense_skill = 3
-		planning_skill = 3
-		logistics_skill = 3
-	}
-		# movement = Royalist Army
+			traits = { offensive_doctrine organisational_leader infantry_officer }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
 	}
 
 	greece_georgios_hatzianestis = {
@@ -541,6 +514,60 @@ characters = {
 		logistics_skill = 3
 	}
 		# movement = Royalist Army
+	}
+
+	### Communist Characters ###
+	greece_dimitrios_glinos = {
+		name = greece_dimitrios_glinos
+		portraits = {
+			civilian = {
+				large = GFX_greece_dimitrios_glinos_large
+				small = GFX_greece_dimitrios_glinos_advisor
+			}
+			army = {
+				large = GFX_greece_dimitrios_glinos_large
+				small = GFX_greece_dimitrios_glinos_small
+			}
+		}
+		advisor = {
+			slot = theorist
+			idea_token = greece_dimitrios_glinos
+			cost = 100
+			traits = { ideological_crusader }
+			allowed = { original_tag = HEL has_government = communism }
+		}
+	}
+
+	greece_avraam_benaroya = {
+		name = greece_avraam_benaroya
+		portraits = {
+			civilian = {
+				large = GFX_greece_avraam_benaroya_large
+				small = GFX_greece_avraam_benaroya_advisor
+			}
+			army = {
+				large = GFX_greece_avraam_benaroya_large
+				small = GFX_greece_avraam_benaroya_small
+			}
+		}
+		advisor = { slot = political_advisor idea_token = greece_avraam_benaroya cost = 100 traits = { compassionate_gentleman } allowed = { original_tag = HEL has_government = communism } }
+		# movement = Socialist / Federationist Line
+	}
+
+	greece_alexandros_papanastasiou = {
+		name = greece_alexandros_papanastasiou
+		portraits = {
+			civilian = {
+				large = GFX_greece_alexandros_papanastasiou_large
+				small = GFX_greece_alexandros_papanastasiou_advisor
+			}
+			army = {
+				large = GFX_greece_alexandros_papanastasiou_large
+				small = GFX_greece_alexandros_papanastasiou_small
+			}
+		}
+		advisor = { slot = political_advisor idea_token = greece_alexandros_papanastasiou cost = 100 traits = { reformer } allowed = { original_tag = HEL has_government = democratic } }
+		# movement = Social Democratic Republican
 	}
 
 	greece_georgios_kondylis = {
