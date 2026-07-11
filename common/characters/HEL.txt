@@ -291,7 +291,11 @@ characters = {
 		}
 		corps_commander = {
 			visible = { has_government = neutrality }
-			traits = { offensive_doctrine organisational_leader infantry_officer }
+			traits = {
+				offensive_doctrine
+				organisational_leader
+				infantry_officer
+			}
 			skill = 5
 			attack_skill = 4
 			defense_skill = 3
@@ -312,16 +316,19 @@ characters = {
 				small = GFX_greece_georgios_hatzianestis_small
 			}
 		}
-	corps_commander = {
+		corps_commander = {
 			visible = { has_government = neutrality }
-		traits = { old_guard inflexible_strategist politically_connected }
-		skill = 3
-		attack_skill = 2
-		defense_skill = 3
-		planning_skill = 2
-		logistics_skill = 2
-	}
-		# movement = Royalist Army
+			traits = {
+				old_guard
+				inflexible_strategist
+				politically_connected
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
 	}
 
 	greece_nikolaos_trikoupis = {
@@ -336,16 +343,19 @@ characters = {
 				small = GFX_greece_nikolaos_trikoupis_small
 			}
 		}
-	corps_commander = {
+		corps_commander = {
 			visible = { has_government = neutrality }
-		traits = { defensive_doctrine organisational_leader infantry_officer }
-		skill = 4
-		attack_skill = 2
-		defense_skill = 4
-		planning_skill = 3
-		logistics_skill = 3
-	}
-		# movement = Royalist Army
+			traits = {
+				defensive_doctrine
+				organisational_leader
+				infantry_officer
+			}
+			skill = 4
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+		}
 	}
 
 	greece_georgios_leonardopoulos = {
@@ -360,16 +370,19 @@ characters = {
 				small = GFX_greece_georgios_leonardopoulos_small
 			}
 		}
-	corps_commander = {
+		corps_commander = {
 			visible = { has_government = neutrality }
-		traits = { aggressive_assaulter cavalry_leader trait_reckless }
-		skill = 4
-		attack_skill = 4
-		defense_skill = 2
-		planning_skill = 2
-		logistics_skill = 2
-	}
-		# movement = Royalist Army
+			traits = {
+				aggressive_assaulter
+				cavalry_leader
+				trait_reckless
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
 	}
 
 	greece_panagiotis_gargalidis = {
@@ -516,7 +529,7 @@ characters = {
 		# movement = Royalist Army
 	}
 
-	### Communist Characters ###
+	### Communist/Socialist Characters ###
 	greece_dimitrios_glinos = {
 		name = greece_dimitrios_glinos
 		portraits = {
