@@ -563,8 +563,13 @@ characters = {
 				small = GFX_greece_avraam_benaroya_small
 			}
 		}
-		advisor = { slot = political_advisor idea_token = greece_avraam_benaroya cost = 100 traits = { compassionate_gentleman } allowed = { original_tag = HEL has_government = communism } }
-		# movement = Socialist / Federationist Line
+		advisor = {
+			slot = political_advisor
+			idea_token = greece_avraam_benaroya
+			cost = 100
+			traits = { compassionate_gentleman }
+			allowed = { original_tag = HEL has_government = communism }
+		}
 	}
 
 	greece_alexandros_papanastasiou = {
@@ -763,7 +768,12 @@ characters = {
 				small = GFX_greece_emmanouil_tsouderos_small
 			}
 		}
-		advisor = { slot = political_advisor idea_token = greece_emmanouil_tsouderos cost = 100 traits = { administrative_genius } allowed = { original_tag = HEL has_government = democratic } }
+		advisor = {
+			slot = political_advisor
+			idea_token = greece_emmanouil_tsouderos
+			cost = 100 traits = { administrative_genius }
+			allowed = { original_tag = HEL has_government = democratic }
+		}
 		# movement = Venizelist / Administrative
 	}
 
