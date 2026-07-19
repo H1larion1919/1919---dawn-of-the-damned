@@ -6,10 +6,10 @@ state={
 	
 	state_category = rural
 	
-	resources={
-		oil=14 # was: 20
-		aluminium=30 # was: 52
-		coal = 5 # initial distribution = with infra 8.4 / 1280 total
+	resources = {
+		oil = 8
+		aluminium = 8
+		coal = 5
 	}
 
 

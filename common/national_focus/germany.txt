@@ -1,2 +1,31 @@
-# Disabled in 1919DD. The vanilla German focus tree references removed vanilla
-# characters/countries and was evaluating invalid triggers.
+focus_tree = {
+    id = GER_1919_focus
+    country = {
+        factor = 0
+        modifier = {
+            add = 10
+            tag = GER
+        }
+    }
+    default = no
+
+    focus = {
+        id = GER_1919_hold_the_freikorps_together
+        icon = GFX_goal_generic_allies_build_infantry
+        x = 50
+        y = 0
+        cost = 10
+        available = {
+            always = yes
+        }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            add_political_power = 50
+            add_stability = 0.03
+            add_war_support = 0.03
+        }
+    }
+
+}

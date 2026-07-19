@@ -3,9 +3,11 @@ state={
 	name="STATE_546"
 	
 	state_category = rural
-	resources={
-		rubber=2 # was: 2
+	resources = {
+		rubber = 2
 	}
+
+
 	history={
 		owner = KEN
 		add_core_of = KEN

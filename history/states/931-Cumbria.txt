@@ -4,9 +4,11 @@ state = {
 	manpower = 745101
 	state_category = town
 	resources = {
-		steel = 20
 		aluminium = 5
+		steel = 5
 	}
+
+
 	history = {
 		owner = ENG
 		add_core_of = ENG

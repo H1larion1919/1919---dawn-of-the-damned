@@ -5,9 +5,10 @@ state={
 	
 	state_category = pastoral
 	
-	resources={
-		aluminium=64 # was: 112
+	resources = {
+		aluminium = 16
 	}
+
 
 	history={
 		add_core_of = GYA

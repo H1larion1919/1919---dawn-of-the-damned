@@ -1,8 +1,13 @@
 state = {
 	id = 211
-	name = "Varna"
+	name = "STATE_211"
 	manpower = 1358394
 	state_category = city
+	resources = {
+		coal = 1
+	}
+
+
 	history = {
 		owner = BPR
 		victory_points = { 

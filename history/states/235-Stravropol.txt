@@ -6,6 +6,8 @@ state = {
 	resources = {
 		chromium = 14
 	}
+
+
 	history = {
 		owner = DON
 		add_core_of = KUB

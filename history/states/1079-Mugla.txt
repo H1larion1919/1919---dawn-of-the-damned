@@ -3,8 +3,10 @@ state = {
 	name = "STATE_1079" # Mugla
 	manpower = 362689
 	resources = {
-		chromium = 35
+		chromium = 5
 	}
+
+
 	state_category = rural
 	history = {
 		owner = TSR

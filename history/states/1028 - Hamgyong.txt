@@ -5,10 +5,11 @@ state = {
 	state_category = rural
 
 	resources = {
-		steel = 10 # was: 30
-		tungsten = 10 # was: 52 - moved 10 to South Korea and the Sangdong province
-		coal = 4 # Chosen Sekitan KK at Eian was a small low temperature carbonization plant which was processed about 600 tons of coal IRN day. This plant yielded from 15,000 to 20,000 tons IRN annum of coal tar.
+		tungsten = 10
+		steel = 10
+		coal = 4
 	}
+
 
 	history = {
 

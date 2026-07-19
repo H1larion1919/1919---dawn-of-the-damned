@@ -3,9 +3,14 @@ state = {
 	name = "STATE_247"
 	manpower = 1331211
 	state_category = town
+	resources = {
+		steel = 8
+	}
+
+
 	history = {
-		owner = SOV
-		add_core_of = SOV
+		owner = PET
+		add_core_of = PET
 		victory_points = { 
 			6245 10
 		}

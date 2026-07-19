@@ -2,8 +2,9 @@ state = {
 	id = 827
 	name = "STATE_827"
 	resources = {
-		chromium = 17 # was: 35 in the caucasus, but was split
+		chromium = 5
 	}
+
 
 	history = {
 		owner = MRC

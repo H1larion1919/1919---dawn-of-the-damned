@@ -1,8 +1,7 @@
 state = {
 	id = 230
 	name = "STATE_230"
-	resources = {
-	} # Erivan
+ # Erivan
 	history = {
 		owner = ARM
 		victory_points = { 

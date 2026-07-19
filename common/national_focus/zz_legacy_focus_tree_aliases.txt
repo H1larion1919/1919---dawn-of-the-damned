@@ -1,0 +1,378 @@
+focus_tree = {
+    id = australian_focus
+    country = { factor = 0 }
+    default = no
+    focus = {
+        id = DD_alias_focus_australian_focus
+        x = 0
+        y = 0
+        cost = 1
+        available = { always = no }
+        completion_reward = { }
+    }
+}
+
+focus_tree = {
+    id = british_focus
+    country = { factor = 0 }
+    default = no
+    focus = {
+        id = DD_alias_focus_british_focus
+        x = 0
+        y = 0
+        cost = 1
+        available = { always = no }
+        completion_reward = { }
+    }
+}
+
+focus_tree = {
+    id = bulgarian_focus
+    country = { factor = 0 }
+    default = no
+    focus = {
+        id = DD_alias_focus_bulgarian_focus
+        x = 0
+        y = 0
+        cost = 1
+        available = { always = no }
+        completion_reward = { }
+    }
+}
+
+focus_tree = {
+    id = canadian_focus
+    country = { factor = 0 }
+    default = no
+    focus = {
+        id = DD_alias_focus_canadian_focus
+        x = 0
+        y = 0
+        cost = 1
+        available = { always = no }
+        completion_reward = { }
+    }
+}
+
+focus_tree = {
+    id = china_communist_focus
+    country = { factor = 0 }
+    default = no
+    focus = {
+        id = DD_alias_focus_china_communist_focus
+        x = 0
+        y = 0
+        cost = 1
+        available = { always = no }
+        completion_reward = { }
+    }
+}
+
+focus_tree = {
+    id = china_communist_warlord_focus
+    country = { factor = 0 }
+    default = no
+    focus = {
+        id = DD_alias_focus_china_communist_warlord_focus
+        x = 0
+        y = 0
+        cost = 1
+        available = { always = no }
+        completion_reward = { }
+    }
+}
+
+focus_tree = {
+    id = congo_focus
+    country = { factor = 0 }
+    default = no
+    focus = {
+        id = DD_alias_focus_congo_focus
+        x = 0
+        y = 0
+        cost = 1
+        available = { always = no }
+        completion_reward = { }
+    }
+}
+
+focus_tree = {
+    id = estonia_tree
+    country = { factor = 0 }
+    default = no
+    focus = {
+        id = DD_alias_focus_estonia_tree
+        x = 0
+        y = 0
+        cost = 1
+        available = { always = no }
+        completion_reward = { }
+    }
+}
+
+focus_tree = {
+    id = finnish_focus
+    country = { factor = 0 }
+    default = no
+    focus = {
+        id = DD_alias_focus_finnish_focus
+        x = 0
+        y = 0
+        cost = 1
+        available = { always = no }
+        completion_reward = { }
+    }
+}
+
+focus_tree = {
+    id = free_french_focus
+    country = { factor = 0 }
+    default = no
+    focus = {
+        id = DD_alias_focus_free_french_focus
+        x = 0
+        y = 0
+        cost = 1
+        available = { always = no }
+        completion_reward = { }
+    }
+}
+
+focus_tree = {
+    id = french_focus
+    country = { factor = 0 }
+    default = no
+    focus = {
+        id = DD_alias_focus_french_focus
+        x = 0
+        y = 0
+        cost = 1
+        available = { always = no }
+        completion_reward = { }
+    }
+}
+
+focus_tree = {
+    id = generic_focus
+    country = { factor = 0 }
+    default = no
+    focus = {
+        id = DD_alias_focus_generic_focus
+        x = 0
+        y = 0
+        cost = 1
+        available = { always = no }
+        completion_reward = { }
+    }
+}
+
+focus_tree = {
+    id = german_focus
+    country = { factor = 0 }
+    default = no
+    focus = {
+        id = DD_alias_focus_german_focus
+        x = 0
+        y = 0
+        cost = 1
+        available = { always = no }
+        completion_reward = { }
+    }
+}
+
+focus_tree = {
+    id = italian_focus
+    country = { factor = 0 }
+    default = no
+    focus = {
+        id = DD_alias_focus_italian_focus
+        x = 0
+        y = 0
+        cost = 1
+        available = { always = no }
+        completion_reward = { }
+    }
+}
+
+focus_tree = {
+    id = latvia_tree
+    country = { factor = 0 }
+    default = no
+    focus = {
+        id = DD_alias_focus_latvia_tree
+        x = 0
+        y = 0
+        cost = 1
+        available = { always = no }
+        completion_reward = { }
+    }
+}
+
+focus_tree = {
+    id = lithuania_tree
+    country = { factor = 0 }
+    default = no
+    focus = {
+        id = DD_alias_focus_lithuania_tree
+        x = 0
+        y = 0
+        cost = 1
+        available = { always = no }
+        completion_reward = { }
+    }
+}
+
+focus_tree = {
+    id = mexico_focus_tree
+    country = { factor = 0 }
+    default = no
+    focus = {
+        id = DD_alias_focus_mexico_focus_tree
+        x = 0
+        y = 0
+        cost = 1
+        available = { always = no }
+        completion_reward = { }
+    }
+}
+
+focus_tree = {
+    id = new_zealander_focus
+    country = { factor = 0 }
+    default = no
+    focus = {
+        id = DD_alias_focus_new_zealander_focus
+        x = 0
+        y = 0
+        cost = 1
+        available = { always = no }
+        completion_reward = { }
+    }
+}
+
+focus_tree = {
+    id = polish_focus
+    country = { factor = 0 }
+    default = no
+    focus = {
+        id = DD_alias_focus_polish_focus
+        x = 0
+        y = 0
+        cost = 1
+        available = { always = no }
+        completion_reward = { }
+    }
+}
+
+focus_tree = {
+    id = portuguese_focus
+    country = { factor = 0 }
+    default = no
+    focus = {
+        id = DD_alias_focus_portuguese_focus
+        x = 0
+        y = 0
+        cost = 1
+        available = { always = no }
+        completion_reward = { }
+    }
+}
+
+focus_tree = {
+    id = south_african_focus
+    country = { factor = 0 }
+    default = no
+    focus = {
+        id = DD_alias_focus_south_african_focus
+        x = 0
+        y = 0
+        cost = 1
+        available = { always = no }
+        completion_reward = { }
+    }
+}
+
+focus_tree = {
+    id = soviet_focus
+    country = { factor = 0 }
+    default = no
+    focus = {
+        id = DD_alias_focus_soviet_focus
+        x = 0
+        y = 0
+        cost = 1
+        available = { always = no }
+        completion_reward = { }
+    }
+}
+
+focus_tree = {
+    id = spanish_focus
+    country = { factor = 0 }
+    default = no
+    focus = {
+        id = DD_alias_focus_spanish_focus
+        x = 0
+        y = 0
+        cost = 1
+        available = { always = no }
+        completion_reward = { }
+    }
+}
+
+focus_tree = {
+    id = turkish_focus
+    country = { factor = 0 }
+    default = no
+    focus = {
+        id = DD_alias_focus_turkish_focus
+        x = 0
+        y = 0
+        cost = 1
+        available = { always = no }
+        completion_reward = { }
+    }
+}
+
+focus_tree = {
+    id = usa_focus
+    country = { factor = 0 }
+    default = no
+    focus = {
+        id = DD_alias_focus_usa_focus
+        x = 0
+        y = 0
+        cost = 1
+        available = { always = no }
+        completion_reward = { }
+    }
+}
+
+focus_tree = {
+    id = vichy_french_focus
+    country = { factor = 0 }
+    default = no
+    focus = {
+        id = DD_alias_focus_vichy_french_focus
+        x = 0
+        y = 0
+        cost = 1
+        available = { always = no }
+        completion_reward = { }
+    }
+}
+
+focus_tree = {
+    id = yugoslavian_focus
+    country = { factor = 0 }
+    default = no
+    focus = {
+        id = DD_alias_focus_yugoslavian_focus
+        x = 0
+        y = 0
+        cost = 1
+        available = { always = no }
+        completion_reward = { }
+    }
+}
+

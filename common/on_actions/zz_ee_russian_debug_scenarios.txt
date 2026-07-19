@@ -1,0 +1,138 @@
+on_actions = {
+	on_daily_BLR = {
+		effect = {
+			if = {
+				limit = {
+					has_government = communism
+					controls_state = 195
+				}
+				set_capital = { state = 195 }
+				if = {
+					limit = { NOT = { has_country_flag = ee_mikhailograd_named } }
+					195 = { set_state_name = ee_STATE_195_MIKHAILOGRAD }
+					set_country_flag = ee_mikhailograd_named
+				}
+				if = {
+					limit = { controls_state = 219 }
+					set_cosmetic_tag = BLR_russian_soviet_socialist_directory
+				}
+				else = {
+					set_cosmetic_tag = BLR_petrograd_socialist_directory
+				}
+			}
+			else_if = {
+				limit = { has_government = communism }
+				set_cosmetic_tag = BLR_minsk_socialist_directory
+			}
+		}
+	}
+
+	on_daily_SOV = {
+		effect = {
+			every_country = {
+				limit = {
+					OR = {
+						has_country_flag = ee_left_sr_dynamic_rebel
+						has_country_flag = ee_steppe_kossack_dynamic_rebel
+					}
+					NOT = { has_war_with = SOV }
+				}
+				SOV = {
+					declare_war_on = { target = PREV type = annex_everything }
+				}
+			}
+
+			if = {
+				limit = {
+					has_country_flag = { flag = ee_steppe_kossack_revolt_started days > 99 }
+					NOT = { has_country_flag = ee_don_steppe_intervention_completed }
+					DON = { exists = yes }
+					any_country = {
+						has_country_flag = ee_steppe_kossack_dynamic_rebel
+						has_war_with = SOV
+					}
+				}
+				set_country_flag = ee_don_steppe_intervention_completed
+				every_country = {
+					limit = {
+						has_country_flag = ee_steppe_kossack_dynamic_rebel
+						has_war_with = SOV
+					}
+					every_owned_state = { add_core_of = DON }
+					DON = {
+						annex_country = {
+							target = PREV
+							transfer_troops = yes
+						}
+					}
+				}
+				DON = {
+					if = {
+						limit = { NOT = { has_war_with = SOV } }
+						declare_war_on = { target = SOV type = annex_everything }
+					}
+				}
+			}
+		}
+	}
+
+	on_government_change = {
+		effect = {
+			if = {
+				limit = {
+					tag = BLR
+					has_government = communism
+				}
+				set_cosmetic_tag = BLR_minsk_socialist_directory
+				if = {
+					limit = {
+						PET = { exists = yes }
+						has_war_with = PET
+					}
+					every_state = {
+						limit = { is_controlled_by = PET }
+						add_core_of = BLR
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					tag = BLR
+					has_cosmetic_tag = BLR_minsk_socialist_directory
+				}
+				drop_cosmetic_tag = yes
+			}
+		}
+	}
+
+	# ROOT is the attacking side and FROM is the defending side. This also
+	# covers a manually-started BLR-PET war outside the player debug decision.
+	on_war_relation_added = {
+		effect = {
+			if = {
+				limit = {
+					ROOT = { tag = BLR has_government = communism }
+					FROM = { tag = PET }
+				}
+				ROOT = {
+					every_state = {
+						limit = { is_controlled_by = PET }
+						add_core_of = BLR
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					FROM = { tag = BLR has_government = communism }
+					ROOT = { tag = PET }
+				}
+				FROM = {
+					every_state = {
+						limit = { is_controlled_by = PET }
+						add_core_of = BLR
+					}
+				}
+			}
+		}
+	}
+}

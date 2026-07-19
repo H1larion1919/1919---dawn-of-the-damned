@@ -2,9 +2,6 @@ state = {
 	id = 1127
 	name = "STATE_1127" # Nachgivan
 	manpower = 372123
-	resources = {
-		steel = 2
-	}
 	state_category = town
 	history = {
 		owner = AZR

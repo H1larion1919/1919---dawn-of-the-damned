@@ -3,6 +3,11 @@ state = {
     name = "STATE_1123" # North Bucovina
 	manpower = 237300
 	state_category = town
+	resources = {
+		coal = 1
+	}
+
+
 	history = {
 		victory_points = { 
 			577 1

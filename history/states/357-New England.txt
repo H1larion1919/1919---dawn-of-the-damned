@@ -1,9 +1,10 @@
 state={
 	id=357
 	name="STATE_357"
-	resources={
-		steel=12 # was: 20.000
+	resources = {
+		steel = 12
 	}
+
 
 	state_category = metropolis
 

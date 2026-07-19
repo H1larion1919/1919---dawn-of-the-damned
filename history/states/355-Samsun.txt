@@ -1,8 +1,7 @@
 state = {
 	id = 355
 	name = "STATE_355"
-	resources = {
-	} # Sinope
+ # Sinope
 	manpower = 550000
 	state_category = town
 	history = {
@@ -25,6 +24,6 @@ state = {
 		add_core_of = KTR
 		add_core_of = OTT
 	}
-	provinces = { 960 975 3965 3967 6978 6995 9900 9915 11881 11894 }
+	provinces = { 3967 6978 6995 9900 9915 11881 }
 	local_supplies = 0.0
 }

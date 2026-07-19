@@ -1,0 +1,32 @@
+state = {
+	id = 1152
+	name = "STATE_1152"
+	manpower = 460000
+	state_category = city
+	history = {
+		owner = HAN
+		add_core_of = GER
+		add_core_of = WRE
+		add_core_of = SBK
+		add_core_of = HAN
+		victory_points = { 
+			241 5
+		}
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			dockyard = 2
+			fuel_silo = 1
+			241 = {
+				naval_base = 8
+			}
+			3326 = {
+				naval_base = 1
+			}
+			air_base = 3
+		}
+	}
+	provinces = { 241 247 309 336  3326 }
+	local_supplies = 14.0
+}

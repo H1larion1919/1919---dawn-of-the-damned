@@ -7,9 +7,9 @@ state = {
 	
 	resources = {
 		oil = 8
-		coal = 3 # initial distribution = with infra 3.6 / 4 total
-		#steel=4 sent to Mexico City
+		coal = 3
 	}
+
 
 	history = {
 

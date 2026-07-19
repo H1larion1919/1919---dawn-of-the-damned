@@ -2,10 +2,12 @@ state={
 	id=174
 	name="STATE_174"
 
-	resources={
-		tungsten=10.000
-		coal = 3 #initial distribution
+	resources = {
+		tungsten = 10
+		coal = 3
 	}
+
+
 	history={
 		owner = SPR
 		victory_points = {

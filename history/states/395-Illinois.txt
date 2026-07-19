@@ -5,8 +5,9 @@ state={
 	manpower = 7630651
 
 	resources = {
-		coal = 34 #initial distribution = with infra 111.6 / 1280 total
+		coal = 9
 	}
+
 
 	state_category = megalopolis
 

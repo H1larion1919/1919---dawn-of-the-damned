@@ -1,0 +1,36 @@
+state = {
+	id = 1151
+	name = "STATE_1151"
+	manpower = 806000
+
+
+	state_category = city
+
+	history = {
+
+		owner = SBK
+		add_core_of = GER
+		add_core_of = WRE
+		add_core_of = SBK
+
+		victory_points = {
+			6282 6 # Stettin
+		}
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			6282 = {
+				naval_base = 4
+			}
+			air_base = 3
+		}
+		
+	}
+
+	provinces={
+		349 3340 6282 9388 13257 
+	}
+
+	local_supplies=3.0 
+}

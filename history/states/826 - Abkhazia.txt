@@ -2,7 +2,10 @@ state = {
 	id = 826
 	name = "STATE_826"
 	resources = {
+		chromium = 3
 	}
+
+
 	history = {
 		owner = GEO
 		victory_points = { 
@@ -12,8 +15,11 @@ state = {
 
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 3
+			industrial_complex = 2
 		}
+
+		set_demilitarized_zone = yes
+		
 		add_core_of = ABK
 		add_core_of = GEO
 		add_core_of = MRC

@@ -1,8 +1,7 @@
 state = {
 	id = 797
 	name = "STATE_797"
-	resources = {
-	} # Constantinople 
+ # Constantinople 
 	provinces = { 9833 6895 }
 	manpower = 950000
 	state_category = dd_capacity_20

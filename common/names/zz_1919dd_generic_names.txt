@@ -2857,27 +2857,6 @@ UPR = {
 	naval_operation_suffix = o_strat_naval_default
 }
 
-VCR = {
-	male = {
-		names = { Alexander Anton Boris Daniel David Dmitri Emil Erik Felix Ferdinand George Heinrich Ivan Jan Joseph Karl Leon Marcus Milan Nikolai Omar Pavel Peter Robert Sergei Stefan Thomas Viktor Yusuf }
-	}
-	female = {
-		names = { Anna Elena Emilia Eva Fatima Helena Irina Katarina Leila Maria Marta Nadia Natalia Olga Petra Rosa Sofia Valentina Vera Zofia }
-	}
-	surnames = { Adler Ahmed Bauer Becker Haddad Ivanov Jensen Khan Kovacs Markovic Meyer Novak Petrov Popescu Rossi Schmidt Silva Smith Sokolov Steiner Todorov Volkov Weber Yilmaz }
-	callsigns = { "Bright Star" "Cold Steel" "Iron Hand" "Long Road" "Red Banner" "Signal Fire" "Stone Wall" "White Flame" }
-
-	prefix = o_operation
-	operation = {
-		0 = { o_default_operation }
-	}
-
-	use_geographical_default_operation_names = yes
-	offensive_operation_suffix = o_strat_offensive_default
-	defensive_operation_suffix = o_strat_defensive_default
-	naval_operation_suffix = o_strat_naval_default
-}
-
 VNZ = {
 	male = {
 		names = { Alexander Anton Boris Daniel David Dmitri Emil Erik Felix Ferdinand George Heinrich Ivan Jan Joseph Karl Leon Marcus Milan Nikolai Omar Pavel Peter Robert Sergei Stefan Thomas Viktor Yusuf }

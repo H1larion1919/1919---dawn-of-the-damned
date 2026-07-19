@@ -6,9 +6,10 @@ state=
 	
 	state_category = rural
 
-	resources={
-		rubber=60 # was: 116
+	resources = {
+		rubber = 15
 	}
+
 
 	history={
 		add_core_of = SRL

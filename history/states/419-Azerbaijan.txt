@@ -1,8 +1,7 @@
 state = {
 	id = 419
 	name = "STATE_419"
-	resources = {
-	} # Erzurum
+ # Erzurum
 	manpower = 450000
 	state_category = rural
 	history = {
@@ -18,12 +17,17 @@ state = {
 		victory_points = { 
 			11853 2 
 		}
+
+		victory_points = { 
+			9868 1
+		}
+
 		add_core_of = ARM
 		add_claim_by = KUR
 		add_claim_by = KTR
 		add_claim_by = OTT
 		add_claim_by = TSR
 	}
-	provinces = { 652 4583 6976 11853 12376 }
+	provinces = { 652 4583 6976 9954 9868 11853 12376 }
 	local_supplies = 4.0
 }

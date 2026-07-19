@@ -6,10 +6,11 @@ state={
 	
 	state_category = town
 	
-	resources={
-		oil=35 # was: 126
-		coal = 1 # initial distribution = with infra 1.4 / 1 total
+	resources = {
+		oil = 9
+		coal = 1
 	}
+
 
 	history={
 		owner = VEN

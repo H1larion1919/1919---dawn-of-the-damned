@@ -1,10 +1,7 @@
 state = {
     id = 1108
     name = "STATE_1108" # Bremen
-	manpower = 4096495
-	resources = {
-		oil = 4
-	}
+	manpower = 257000
 
 	state_category = large_city 
 	
@@ -17,10 +14,8 @@ state = {
 		add_core_of = SBK
 
 		victory_points = { 
-			6377 10
+			374 6
 		}
-
-
 
 		buildings = {
 			infrastructure = 4
@@ -28,9 +23,6 @@ state = {
 			industrial_complex = 1
 			air_base = 4
 			dockyard = 2
-			6325 = {
-				naval_base = 1
-			}
 			374 = {
 				naval_base = 1
 			}
@@ -39,7 +31,7 @@ state = {
 	}
 
 	provinces = {
-		374 3271 3326 3395 6263 6298 6325 6349 6377
+		374 6349 13416
 	}
 	
 	local_supplies = 0.0 

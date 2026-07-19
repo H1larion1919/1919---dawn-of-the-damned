@@ -4,8 +4,11 @@ state = {
 	manpower = 4762495
 	state_category = metropolis
 	resources = {
-		steel = 71
+		steel = 18
+		coal = 13
 	}
+
+
 	history = {
 		owner = ENG
 		victory_points = { 

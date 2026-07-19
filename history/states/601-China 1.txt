@@ -1,9 +1,10 @@
 state={
 	id=601
 	name="STATE_601"
-	resources={
-		oil=2.000
+	resources = {
+		oil = 2
 	}
+
 
 	history={
 		owner = TIB

@@ -3,6 +3,12 @@ state = {
 	name = "STATE_76"
 	manpower = 2352700
 	state_category = town
+	resources = {
+		steel = 1
+		coal = 1
+	}
+
+
 	history = {
 		owner = ROM
 		add_core_of = HNG

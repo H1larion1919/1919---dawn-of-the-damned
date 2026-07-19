@@ -2,7 +2,13 @@ state = {
 	id = 356
 	name = "STATE_356"
 	resources = {
-	} # Bythinia
+		steel = 8
+		chromium = 5
+		coal = 4
+	}
+
+
+ # Bythinia
 	manpower = 280000
 	state_category = town
 	history = {

@@ -6,9 +6,10 @@ state={
 	state_category = city
 	
 	manpower = 1335010
-	resources={
-		oil=41 # was: 58
+	resources = {
+		oil = 11
 	}
+
 
 	history={
 		owner = VEN

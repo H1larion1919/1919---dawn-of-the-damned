@@ -4,8 +4,11 @@ state = {
 	manpower = 8335992
 	state_category = megalopolis
 	resources = {
-		steel = 16
+		steel = 5
+		coal = 4
 	}
+
+
 	history = {
 		owner = SOV
 		add_core_of = SOV

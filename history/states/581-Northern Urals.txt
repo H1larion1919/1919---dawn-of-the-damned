@@ -5,16 +5,18 @@ state = {
 	state_category = pastoral
 	impassable = yes
 	resources = {
-		chromium = 40
-		aluminium = 27
+		aluminium = 7
+		chromium = 10
 	}
+
+
 	history = {
-		owner = SBR
+		owner = PET
 
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = SBR
+		add_core_of = PET
 	}
 	provinces = { 10551 10677 11098 12393 12502 }
 	local_supplies = 0.0

@@ -1,13 +1,14 @@
 state={
 	id=716
 	name="STATE_716"
-	resources={
-		steel=27.000
-		chromium = 4
+	resources = {
+		oil = 3
 		tungsten = 4
-		oil = 3 #Japan extracted 1m barrels annually from Manhuria
+		steel = 7
+		chromium = 4
 		coal = 11
 	}
+
 
 	history={
 		owner = MAN

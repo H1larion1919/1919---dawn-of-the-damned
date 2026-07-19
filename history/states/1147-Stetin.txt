@@ -1,0 +1,40 @@
+state = {
+	id = 1147
+	name = "STATE_1147"
+	manpower = 930000
+	
+	
+	state_category = large_city
+	resources = {
+		aluminium = 6
+		steel = 2
+	}
+
+
+	history = {
+		owner = SBK
+		add_core_of = GER
+		add_core_of = WRE
+		add_core_of = SBK
+
+		victory_points = {
+			9334 1 # Köslin  
+		}
+		
+		buildings = {
+			infrastructure = 3
+			fuel_silo = 1
+			industrial_complex = 1
+			9334 = {
+				naval_base = 1
+			}
+		}
+
+	}
+
+	provinces = {
+		537 6236 6334 6309 6390 9277 9334 
+	}
+
+	local_supplies = 3.0 
+}

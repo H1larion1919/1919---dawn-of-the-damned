@@ -10,6 +10,7 @@ state = {
 		coal = 1
 	}
 
+
 	history = {
 
 		owner = MAN

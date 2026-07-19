@@ -1,8 +1,6 @@
 state = {
 	id = 1037
 	name = "STATE_1037"
-	resources = {
-	}
 
 	history = {
 

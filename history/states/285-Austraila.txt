@@ -5,8 +5,11 @@ state = {
 	manpower = 2563100
 
 	resources = {
-		coal = 16 #initial distribution
+		tungsten = 2
+		steel = 4
+		coal = 12
 	}
+
 
 	history = {
 

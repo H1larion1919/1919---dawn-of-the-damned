@@ -4,10 +4,12 @@ state = {
 	manpower = 3052726
 
 	resources = {
-		steel = 10 #was 32 #was 50 # was: 110
-		aluminium = 16 # was: 38
-		coal = 12 # initial distribution / 660 total
+		aluminium = 12
+		steel = 9
+		coal = 5
 	}
+
+
 	
 	state_category = large_city
 
@@ -39,7 +41,7 @@ state = {
 	}
 
 	provinces = {
-		552 3485 3545 6512 6534 9457 9570
+		552 3485 3545 6512 6534 6595 9457 9570 11517 
 	}
 
 	local_supplies = 10.0 

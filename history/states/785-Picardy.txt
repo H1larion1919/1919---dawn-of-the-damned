@@ -4,10 +4,12 @@ state={
 	manpower = 1580000
 	
 	state_category = town
-	resources={
-		steel=12 #was:20 was: 112
-		aluminium=4 # was: 22
+	resources = {
+		aluminium = 2
+		steel = 7
 	}
+
+
 	
 	history={
 		victory_points = {

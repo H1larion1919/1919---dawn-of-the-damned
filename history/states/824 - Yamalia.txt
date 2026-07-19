@@ -5,12 +5,12 @@ state = {
 	state_category = pastoral
 	impassable = yes
 	history = {
-		owner = KWA
+		owner = SBR
 
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = KWA
+		add_core_of = SBR
 
 	}
 	provinces = { 96 1729 1757 3415 4761 7809 10536 10564 12517 12545 }

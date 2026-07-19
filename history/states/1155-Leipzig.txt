@@ -1,0 +1,41 @@
+state = {
+	id = 1155
+	name = "STATE_1155"
+	manpower = 690000
+	resources = {
+		tungsten = 1
+		steel = 9
+		chromium = 1
+		coal = 4
+	}
+
+
+	state_category = metropolis
+
+
+	history = {
+
+		owner = GER
+		add_core_of = GER
+		add_core_of = WRE
+		add_core_of = SBK
+
+
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 7
+		}
+
+		victory_points = {
+			3535 5 # Leipzig
+		}
+		
+	}
+
+	provinces = {
+		3535 6501 6582 9560 11545 
+	}
+
+	local_supplies = 0.0 
+}

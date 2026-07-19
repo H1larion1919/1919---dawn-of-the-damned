@@ -1,0 +1,36 @@
+state = {
+	id = 1150
+	name = "STATE_1150"
+	manpower = 3265029
+
+
+	state_category = large_city
+
+	history = {
+
+		owner = SBK
+		add_core_of = GER
+		add_core_of = WRE
+		add_core_of = SBK
+
+		victory_points = {
+			9456 5 # Magdeburg
+		}
+
+
+		buildings = {
+			infrastructure = 4
+			arms_factory = 4
+			industrial_complex = 4
+			anti_air_building = 2
+			air_base = 6
+		}
+
+	}
+
+	provinces = {
+		375 3367 3499 9456 11219 11444 13414
+	}
+
+	local_supplies = 0.0 
+}

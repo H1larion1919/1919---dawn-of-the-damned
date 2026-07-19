@@ -4,8 +4,10 @@ state = {
 	manpower = 200000
 
 	resources = {
-		coal = 6 # Guangzhouwan was notable for its coal mines
+		coal = 6
 	}
+
+
 	
 	state_category = enclave
 	

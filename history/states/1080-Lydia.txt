@@ -3,8 +3,10 @@ state = {
 	name = "STATE_1080" # Lydia
 	manpower = 362689
 	resources = {
-		steel = 10
+		chromium = 5
 	}
+
+
 	state_category = rural
 	history = {
 		owner = TSR

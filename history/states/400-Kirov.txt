@@ -5,6 +5,8 @@ state = {
 	resources = {
 		aluminium = 14
 	}
+
+
 	state_category = town
 	history = {
 		owner = PET

@@ -1,6 +1,12 @@
 state = {
     id = 1119
     name = "STATE_1119" # Dnipro
+	resources = {
+		oil = 1
+		steel = 6
+	}
+
+
 	history = {
 		owner = FSU
 

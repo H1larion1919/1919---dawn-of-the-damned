@@ -7,13 +7,14 @@ state={
 	state_category = town
 
 	history={
-		owner = KAZ
+		owner = KWA
 
 		buildings = {
 			infrastructure = 1
 		}
 		
-		add_core_of = KAZ
+		add_core_of = KWA
+		add_claim_by = KAZ
 		add_core_of = ZHT
 
 		victory_points = {

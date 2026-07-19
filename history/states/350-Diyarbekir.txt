@@ -1,8 +1,6 @@
 state = {
 	id = 350
 	name = "STATE_350"
-	resources = {
-	}
 	history = {
 		owner = KUR
 		victory_points = { 

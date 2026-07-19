@@ -1,6 +1,10 @@
 state = {
 	id = 404
 	name = "STATE_404" # Kyzyl Orda
+	resources = {
+		chromium = 1
+	}
+
 
 	history = {
 		owner = BSM

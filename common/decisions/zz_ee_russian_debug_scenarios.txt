@@ -1,0 +1,403 @@
+ee_russian_debug_scenarios = {
+	SOV_debug_left_sr_revolt = {
+		icon = generic_political_discourse
+		cost = 0
+		fire_only_once = yes
+		visible = {
+			tag = SOV
+			is_ai = no
+			NOT = { has_country_flag = ee_left_sr_revolt_started }
+		}
+		available = {
+			is_ai = no
+		}
+		complete_effect = {
+			set_country_flag = ee_left_sr_revolt_started
+			ee_create_left_sr_revolt = yes
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	SOV_debug_tambov_revolt = {
+		icon = generic_political_discourse
+		cost = 0
+		fire_only_once = yes
+		visible = {
+			tag = SOV
+			is_ai = no
+			NOT = { has_country_flag = ee_tambov_revolt_started }
+		}
+		available = {
+			is_ai = no
+			owns_state = 254
+			owns_state = 255
+			owns_state = 257
+			owns_state = 258
+			owns_state = 260
+		}
+		complete_effect = {
+			set_country_flag = ee_tambov_revolt_started
+			start_civil_war = {
+				ideology = social_democracy
+				ruling_party = syndicate_socialism
+				size = 0.18
+				army_ratio = 0.20
+				capital = 257
+				states = { 254 255 257 258 260 }
+				keep_political_leader = no
+				set_country_flag = ee_tambov_dynamic_rebel
+			}
+			every_country = {
+				limit = { has_country_flag = ee_tambov_dynamic_rebel }
+				set_cosmetic_tag = SOV_tambov_revolt
+				set_politics = {
+					ruling_party = social_democracy
+					elections_allowed = no
+				}
+				set_popularities = {
+					communism = 0
+					syndicate_socialism = 0
+					libertarian_socialism = 15
+					social_democracy = 85
+					democratic = 0
+					market_liberalism = 0
+					military_junta = 0
+					fascism = 0
+					neutrality = 0
+					esotericism = 0
+				}
+				set_party_name = {
+					ideology = social_democracy
+					long_name = "Union of Working Peasants"
+					name = "Working Peasants"
+				}
+				create_country_leader = {
+					name = "Aleksandr Stepanovich Antonov"
+					picture = "Portrait_SOV_Aleksandr_Antonov.dds"
+					ideology = ee_agrarian_social_democracy
+					expire = "1965.1.1"
+					traits = { }
+				}
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	SOV_debug_steppe_kossack_revolt = {
+		icon = generic_political_discourse
+		cost = 0
+		fire_only_once = yes
+		visible = {
+			tag = SOV
+			is_ai = no
+			NOT = { has_country_flag = ee_steppe_kossack_revolt_started }
+		}
+		available = {
+			is_ai = no
+			DON = { exists = yes }
+		}
+		complete_effect = {
+			set_country_flag = ee_steppe_kossack_revolt_started
+			ee_create_steppe_kossack_revolt = yes
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	PET_debug_kronstadt_rebellion = {
+		icon = generic_political_discourse
+		cost = 0
+		fire_only_once = yes
+		visible = {
+			tag = PET
+			is_ai = no
+			NOT = { has_country_flag = ee_kronstadt_revolt_started }
+		}
+		available = {
+			is_ai = no
+			owns_state = 216
+			owns_state = 195
+			owns_state = 244
+			owns_state = 247
+			owns_state = 248
+			owns_state = 263
+			owns_state = 264
+		}
+		complete_effect = {
+			set_country_flag = ee_kronstadt_revolt_started
+			ee_create_kronstadt_revolt = yes
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	BLR_debug_minsk_socialist_directory = {
+		icon = generic_political_discourse
+		cost = 0
+		fire_only_once = yes
+		visible = {
+			tag = BLR
+			is_ai = no
+			NOT = { has_country_flag = ee_minsk_directory_war_started }
+		}
+		available = {
+			is_ai = no
+			PET = { exists = yes }
+			NOT = { has_war_with = PET }
+		}
+		complete_effect = {
+			ee_trigger_minsk_betrayal = yes
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	SOV_debug_all_russian_revolts = {
+		icon = generic_political_discourse
+		cost = 0
+		fire_only_once = yes
+		visible = {
+			tag = SOV
+			is_ai = no
+			NOT = { has_country_flag = ee_left_sr_revolt_started }
+			NOT = { has_country_flag = ee_tambov_revolt_started }
+		}
+		available = {
+			is_ai = no
+			owns_state = 254
+			owns_state = 255
+			owns_state = 257
+			owns_state = 258
+			owns_state = 260
+			owns_state = 239
+			owns_state = 249
+			owns_state = 250
+			owns_state = 251
+			owns_state = 252
+			owns_state = 256
+			owns_state = 401
+			owns_state = 582
+			owns_state = 651
+			owns_state = 652
+			owns_state = 829
+			owns_state = 833
+		}
+		complete_effect = {
+			# Tambov must be created first so its five historical states never enter
+			# the subsequent dynamic 40-percent Left SR allocation.
+			set_country_flag = ee_tambov_revolt_started
+			start_civil_war = {
+				ideology = social_democracy
+				ruling_party = syndicate_socialism
+				size = 0.18
+				army_ratio = 0.20
+				capital = 257
+				states = { 254 255 257 258 260 }
+				keep_political_leader = no
+				set_country_flag = ee_tambov_dynamic_rebel
+			}
+			every_country = {
+				limit = { has_country_flag = ee_tambov_dynamic_rebel }
+				set_cosmetic_tag = SOV_tambov_revolt
+				set_politics = {
+					ruling_party = social_democracy
+					elections_allowed = no
+				}
+				set_popularities = {
+					communism = 0
+					syndicate_socialism = 0
+					libertarian_socialism = 15
+					social_democracy = 85
+					democratic = 0
+					market_liberalism = 0
+					military_junta = 0
+					fascism = 0
+					neutrality = 0
+					esotericism = 0
+				}
+				set_party_name = {
+					ideology = social_democracy
+					long_name = "Union of Working Peasants"
+					name = "Working Peasants"
+				}
+				create_country_leader = {
+					name = "Aleksandr Stepanovich Antonov"
+					picture = "Portrait_SOV_Aleksandr_Antonov.dds"
+					ideology = ee_agrarian_social_democracy
+					expire = "1965.1.1"
+					traits = { }
+				}
+			}
+
+			set_country_flag = ee_left_sr_revolt_started
+			ee_create_left_sr_revolt = yes
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	PET_debug_tukhachevsky_betrayal = {
+		icon = generic_political_discourse
+		cost = 0
+		fire_only_once = yes
+		visible = {
+			tag = PET
+			is_ai = no
+			BLR = {
+				NOT = { has_country_flag = ee_minsk_directory_war_started }
+			}
+		}
+		available = {
+			is_ai = no
+			BLR = { exists = yes }
+			NOT = { has_war_with = BLR }
+		}
+		complete_effect = {
+			ee_trigger_minsk_betrayal = yes
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	PET_debug_all_northern_revolts = {
+		icon = generic_political_discourse
+		cost = 0
+		fire_only_once = yes
+		visible = {
+			tag = PET
+			is_ai = no
+			NOT = { has_country_flag = ee_kronstadt_revolt_started }
+			BLR = {
+				NOT = { has_country_flag = ee_minsk_directory_war_started }
+			}
+		}
+		available = {
+			is_ai = no
+			owns_state = 216
+			owns_state = 195
+			owns_state = 244
+			owns_state = 247
+			owns_state = 248
+			owns_state = 263
+			owns_state = 264
+			BLR = { exists = yes }
+			NOT = { has_war_with = BLR }
+		}
+		complete_effect = {
+			set_country_flag = ee_kronstadt_revolt_started
+			ee_create_kronstadt_revolt = yes
+			ee_trigger_minsk_betrayal = yes
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	EE_debug_annex_rebel_opponents = {
+		icon = generic_political_discourse
+		cost = 0
+		visible = {
+			is_ai = no
+			OR = {
+				tag = SOV
+				tag = PET
+			}
+			any_country = {
+				OR = {
+					has_country_flag = ee_left_sr_dynamic_rebel
+					has_country_flag = ee_tambov_dynamic_rebel
+					has_country_flag = ee_kronstadt_dynamic_rebel
+					has_country_flag = ee_steppe_kossack_dynamic_rebel
+				}
+				has_war_with = ROOT
+			}
+		}
+		available = {
+			is_ai = no
+			any_country = {
+				OR = {
+					has_country_flag = ee_left_sr_dynamic_rebel
+					has_country_flag = ee_tambov_dynamic_rebel
+					has_country_flag = ee_kronstadt_dynamic_rebel
+					has_country_flag = ee_steppe_kossack_dynamic_rebel
+				}
+				has_war_with = ROOT
+			}
+		}
+		complete_effect = {
+			every_country = {
+				limit = {
+					OR = {
+						has_country_flag = ee_left_sr_dynamic_rebel
+						has_country_flag = ee_tambov_dynamic_rebel
+						has_country_flag = ee_kronstadt_dynamic_rebel
+						has_country_flag = ee_steppe_kossack_dynamic_rebel
+					}
+					has_war_with = ROOT
+				}
+				ROOT = {
+					annex_country = {
+						target = PREV
+						transfer_troops = yes
+					}
+				}
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+	EE_debug_rebel_annex_parent = {
+		icon = generic_political_discourse
+		cost = 0
+		visible = {
+			is_ai = no
+			OR = {
+				has_country_flag = ee_left_sr_dynamic_rebel
+				has_country_flag = ee_tambov_dynamic_rebel
+				has_country_flag = ee_kronstadt_dynamic_rebel
+				has_country_flag = ee_steppe_kossack_dynamic_rebel
+			}
+		}
+		available = {
+			is_ai = no
+			OR = {
+				AND = {
+					OR = {
+						has_country_flag = ee_left_sr_dynamic_rebel
+						has_country_flag = ee_tambov_dynamic_rebel
+						has_country_flag = ee_steppe_kossack_dynamic_rebel
+					}
+					SOV = { exists = yes }
+					has_war_with = SOV
+				}
+				AND = {
+					has_country_flag = ee_kronstadt_dynamic_rebel
+					PET = { exists = yes }
+					has_war_with = PET
+				}
+			}
+		}
+		complete_effect = {
+			if = {
+				limit = {
+					OR = {
+						has_country_flag = ee_left_sr_dynamic_rebel
+						has_country_flag = ee_tambov_dynamic_rebel
+						has_country_flag = ee_steppe_kossack_dynamic_rebel
+					}
+					SOV = { exists = yes }
+					has_war_with = SOV
+				}
+				annex_country = {
+					target = SOV
+					transfer_troops = yes
+				}
+			}
+			if = {
+				limit = {
+					has_country_flag = ee_kronstadt_dynamic_rebel
+					PET = { exists = yes }
+					has_war_with = PET
+				}
+				annex_country = {
+					target = PET
+					transfer_troops = yes
+				}
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

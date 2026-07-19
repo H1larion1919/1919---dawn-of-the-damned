@@ -1,0 +1,17 @@
+ee_russian_debug_scenarios = {
+	icon = generic_political_discourse
+	visible = {
+		is_ai = no
+		OR = {
+			tag = SOV
+			tag = PET
+			tag = BLR
+			has_country_flag = ee_left_sr_dynamic_rebel
+			has_country_flag = ee_tambov_dynamic_rebel
+			has_country_flag = ee_kronstadt_dynamic_rebel
+			has_country_flag = ee_steppe_kossack_dynamic_rebel
+		}
+	}
+	visible_when_empty = yes
+	priority = 600
+}

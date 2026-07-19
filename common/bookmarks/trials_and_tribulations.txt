@@ -3,6 +3,7 @@ bookmarks = {
         name = trials_and_tribulations_name
         desc = trials_and_tribulations_desc
         date = 1919.1.1.12
+        default = yes
         # Localised start date: trials_and_tribulations_start_date
         picture = trials_and_tribulations-853500
         default_country = HEL

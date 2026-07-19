@@ -1,0 +1,50 @@
+ee_negotiated_peace = {
+	EE_offer_negotiated_settlement = {
+		icon = generic_political_discourse
+		target_array = enemies
+		target_root_trigger = {
+			has_war = yes
+		}
+		target_trigger = {
+			FROM = { EE_can_be_negotiated_peace_loser = yes }
+		}
+		visible = {
+			has_war = yes
+			FROM = { EE_can_be_negotiated_peace_loser = yes }
+		}
+		available = {
+			has_political_power > 24
+			FROM = {
+				any_owned_state = {
+					is_controlled_by = ROOT
+					OR = {
+						is_core_of = ROOT
+						is_claimed_by = ROOT
+					}
+				}
+			}
+		}
+		cost = 25
+		days_re_enable = 30
+		complete_effect = {
+			FROM = {
+				save_event_target_as = EE_negotiated_peace_loser
+				country_event = { id = ee_negotiated_peace.1 hours = 1 }
+			}
+		}
+		ai_will_do = {
+			base = 1
+			modifier = {
+				factor = 3
+				FROM = { surrender_progress > 0.75 }
+			}
+			modifier = {
+				factor = 2
+				FROM = {
+					has_war_support < 0.1
+					has_stability < 0.33
+				}
+			}
+		}
+	}
+}

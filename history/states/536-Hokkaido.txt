@@ -5,9 +5,11 @@ state = {
 	manpower = 3012000 # was 2812000
 
 	resources = {
-		steel = 18 #Took half of Tohoku's steel
-		coal = 10 #initial distribution
+		steel = 5
+		coal = 10
 	}
+
+
 	
 	state_category = rural
 

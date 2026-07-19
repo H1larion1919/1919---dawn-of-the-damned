@@ -1,0 +1,1 @@
+NDefines_Graphics.NGraphics.DRAW_COUNTRY_NAMES_CUTOFF = 220

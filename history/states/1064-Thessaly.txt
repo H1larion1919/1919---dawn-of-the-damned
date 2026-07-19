@@ -2,8 +2,13 @@ state = {
 	id = 1064
 	name = "STATE_1064" # Thessaly
 	resources = {
-		chromium = 2
+		aluminium = 13
+		tungsten = 4
+		steel = 4
+		chromium = 8
 	}
+
+
 	history = {
 		owner = HEL
 		buildings = {

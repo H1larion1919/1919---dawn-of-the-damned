@@ -9,6 +9,7 @@ state = {
 		tungsten = 5
 	}
 
+
 	history = {
 		victory_points = {
 			11050 1

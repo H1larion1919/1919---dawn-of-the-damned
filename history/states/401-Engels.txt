@@ -4,12 +4,14 @@ state = {
 	manpower = 309530
 	state_category = rural
 	resources = {
-		steel = 10
 		tungsten = 10
+		steel = 10
 	}
+
+
 	history = {
-		owner = VCR
-		add_core_of = VCR
+		owner = SOV
+		add_core_of = SOV
 		add_claim_by = SOV
 
 		buildings = {

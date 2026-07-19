@@ -5,7 +5,10 @@ state = {
 	state_category = city
 	resources = {
 		steel = 11
+		coal = 8
 	}
+
+
 	history = {
 		owner = ENG
 		victory_points = { 

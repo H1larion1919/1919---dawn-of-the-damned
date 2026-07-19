@@ -1,0 +1,39 @@
+SOV_left_sr_revolt = {
+	color = rgb { 192 132 155 }
+	color_ui = rgb { 225 166 188 }
+}
+
+SOV_tambov_revolt = {
+	color = rgb { 126 166 112 }
+	color_ui = rgb { 162 208 143 }
+}
+
+PET_kronstadt_revolt = {
+	color = rgb { 61 82 88 }
+	color_ui = rgb { 93 116 124 }
+}
+
+BLR_minsk_socialist_directory = {
+	color = rgb { 131 63 72 }
+	color_ui = rgb { 178 82 94 }
+}
+
+BLR_petrograd_socialist_directory = {
+	color = rgb { 131 63 72 }
+	color_ui = rgb { 178 82 94 }
+}
+
+BLR_russian_soviet_socialist_directory = {
+	color = rgb { 131 63 72 }
+	color_ui = rgb { 178 82 94 }
+}
+
+CRO_jugoslav_socialist_federation = {
+	color = rgb { 130 76 119 }
+	color_ui = rgb { 170 105 155 }
+}
+
+SOV_steppe_kossack_revolt = {
+	color = rgb { 139 108 69 }
+	color_ui = rgb { 180 143 91 }
+}

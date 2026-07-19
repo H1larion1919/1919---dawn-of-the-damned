@@ -2,9 +2,10 @@ state = {
 	id = 1051
 	name = "STATE_1051" #Lezgistan
 	resources = {
-		chromium = 1
-		steel = 1
+		oil = 6
 	}
+
+
 	history = {
 		owner = AZR
 

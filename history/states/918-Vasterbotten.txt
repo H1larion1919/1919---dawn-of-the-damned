@@ -4,10 +4,11 @@ state = {
 	manpower = 315105
 	state_category = rural
 	resources = {
-		tungsten = 35
-		steel = 39
+		tungsten = 9
+		steel = 10
 		chromium = 15
 	}
+
 
 	history = {
 		victory_points = {

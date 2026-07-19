@@ -3,8 +3,10 @@ state = {
 	name = "STATE_1054" # Agh Ghol
 	manpower = 482817
 	resources = {
-		steel = 6
+		oil = 13
 	}
+
+
 	state_category = town
 	history = {
 		owner = AZR

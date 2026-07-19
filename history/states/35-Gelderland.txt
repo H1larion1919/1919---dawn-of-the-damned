@@ -35,8 +35,10 @@ state={
 	manpower=1449000
 
 	resources = {
-		coal = 12 #initial distribution
+		steel = 1
+		coal = 12
 	}
+
 
 	buildings_max_level_factor=1.000
 	state_category=city

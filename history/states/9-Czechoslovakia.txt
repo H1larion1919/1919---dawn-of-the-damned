@@ -4,7 +4,10 @@ state = {
 	manpower = 4492600
 	resources = {
 		steel = 5
+		coal = 6
 	}
+
+
 	state_category = large_city
 	history = {
 		owner = CZE

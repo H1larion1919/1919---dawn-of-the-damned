@@ -2,8 +2,10 @@ state = {
 	id = 215
 	name = "STATE_215"
 	resources = {
-		steel = 30
+		steel = 8
 	}
+
+
 	history = {
 		owner = MUR
 		add_core_of = MUR

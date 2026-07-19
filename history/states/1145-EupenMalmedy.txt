@@ -1,0 +1,40 @@
+state = {
+	id = 1145
+	name = "STATE_1145"
+	manpower = 64000
+	resources = {
+		aluminium = 2
+		steel = 7
+		coal = 3
+	}
+
+
+	state_category = large_town 
+	
+	history = {
+
+		owner = BEL
+		add_core_of = RHI
+		add_core_of = GER
+		add_core_of = WRE
+		add_core_of = SBK
+		add_claim_by = BEL
+
+		victory_points = {
+			11435 2
+		}
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 4 #WAS 2
+			air_base = 2
+		}
+
+	}
+
+	provinces = {
+		3488 11435 
+	}
+	local_supplies = 0.0 
+}

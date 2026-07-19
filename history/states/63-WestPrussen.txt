@@ -3,9 +3,11 @@ state = {
 	name = "STATE_63"
 	manpower = 1124417
 	resources = {
-		steel = 7
-		aluminium = 6
+		aluminium = 1
+		steel = 1
 	}
+
+
 	state_category = city
 	history = {
 		owner = PGN
@@ -19,19 +21,19 @@ state = {
 		set_demilitarized_zone = yes
 		
 		victory_points = { 
-			11343 5
+			13420 2
 		}
 
 
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-			11343 = {
+			13420 = {
 				naval_base = 1
 			}
 			air_base = 3
 		}
 	}
-	provinces = { 9252 11260 11288 11316 11343 }
+	provinces = { 9252 11260 11288 13420 13421 }
 	local_supplies = 7.0
 }

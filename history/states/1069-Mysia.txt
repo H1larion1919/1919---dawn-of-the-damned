@@ -3,8 +3,10 @@ state = {
 	name = "STATE_1069" # Mysia
 	manpower = 1077853
 	resources = {
-		steel = 9
+		chromium = 13
 	}
+
+
 	state_category = rural
 	history = {
 		owner = HEL

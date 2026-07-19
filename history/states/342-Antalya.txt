@@ -2,7 +2,10 @@ state = {
 	id = 342
 	name = "STATE_342"
 	resources = {
+		chromium = 9
 	}
+
+
 	history = {
 		owner = TSR
 		victory_points = { 

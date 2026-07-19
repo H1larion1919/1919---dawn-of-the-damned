@@ -4,8 +4,10 @@ state = {
 	manpower = 140000
 	state_category = dd_capacity_4
 	resources = {
-		chromium = 1
+		chromium = 6
 	}
+
+
 	history = {
 		victory_points = { 
 			893 4 # Kommotini

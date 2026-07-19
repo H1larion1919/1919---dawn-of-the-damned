@@ -2,9 +2,11 @@ state = {
 	id = 1065
 	name = "STATE_1065" # Pella
 	resources = {
+		steel = 2
 		chromium = 2
-		steel = 4
 	}
+
+
 	history = {
 		owner = HEL
 		buildings = {

@@ -5,8 +5,9 @@ state={
 	manpower = 877800
 	
 	resources = {
-		coal = 2 # initial distribution / 140 total
+		coal = 2
 	}
+
 
 	state_category = town
 

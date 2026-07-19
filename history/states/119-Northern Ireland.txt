@@ -39,6 +39,9 @@ state = {
 	state_category = "city"
 	resources = {
 		aluminium = 2
+		coal = 2
 	}
+
+
 	local_supplies = 0.0
 }

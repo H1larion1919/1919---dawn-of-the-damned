@@ -18,10 +18,22 @@ set_party_name = {
 	long_name = "Belarusian Secretariat"
 	name = "Belarusian Secretariat"
 }
+set_party_name = {
+	ideology = communism
+	long_name = "Minsk Revolutionary Military Directory"
+	name = "Socialist Directory"
+}
 create_country_leader = {
 	name = "Anton ÅuckieviÄ"
 	picture = "Portrait_BLR_Anton_uckievi.dds"
 	ideology = ee_weak_national_democracy
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Mikhail Tukhachevsky"
+	picture = "Portrait_BLR_Mikhail_Tukhachevsky.dds"
+	ideology = ee_bolshevism
 	expire = "1965.1.1"
 	traits = { }
 }

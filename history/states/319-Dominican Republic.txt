@@ -6,9 +6,11 @@ state=
 	
 	state_category = town
 	
-	resources={
-		chromium=1 # was: 1
+	resources = {
+		chromium = 1
 	}
+
+
 	history=
 	{
 		owner = DOM

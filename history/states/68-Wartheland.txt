@@ -3,8 +3,11 @@ state = {
 	name = "STATE_68"
 	manpower = 1250840
 	resources = {
-		aluminium = 15 # was: 24
+		aluminium = 12
+		steel = 1
+		coal = 1
 	}
+
 
 	state_category = city
 
@@ -19,10 +22,6 @@ state = {
 			3473 1 # Küstrin
 		}
 
-		victory_points = {
-			9496 1 # Seelow
-		}
-
 		
 		buildings = {
 			infrastructure = 3
@@ -32,7 +31,7 @@ state = {
 	}
 
 	provinces = {
-		444 537 3473 6236 9387 9496 11478 
+		444 3438 3572 3473 9387 11478 13412
 	}
 
 	local_supplies = 0.0 

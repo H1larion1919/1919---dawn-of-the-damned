@@ -1,9 +1,10 @@
 state={
 	id=1046
 	name="STATE_1046"
-	resources={
-		coal = 12 #initial distribution
+	resources = {
+		coal = 12
 	}
+
 
 	history={
 		owner = PRC

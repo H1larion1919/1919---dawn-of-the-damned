@@ -1,8 +1,7 @@
 state = {
 	id = 341
 	name = "STATE_341"
-	resources = {
-	} # Adrianople
+ # Adrianople
 	manpower = 300000
 	state_category = dd_capacity_7
 	history = {

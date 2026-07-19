@@ -6,9 +6,11 @@ state=
 	
 	state_category = town
 	
-	resources={
-		chromium=2 # was: 3
+	resources = {
+		chromium = 2
 	}
+
+
 	history=
 	{
 		owner = HAI

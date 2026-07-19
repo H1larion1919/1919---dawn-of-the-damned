@@ -4,9 +4,12 @@ state = {
 	manpower = 675377
 	state_category = city
 	resources = {
-		steel = 15
 		aluminium = 1
+		steel = 15
+		coal = 4
 	}
+
+
 	history = {
 		owner = AUS
 		add_core_of = AUS

@@ -1,0 +1,24 @@
+state = {
+	id = 1161
+	name = "STATE_1161"
+	history = {
+		owner = SYR
+		victory_points = { 
+			1088 1
+		}
+
+
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SYR
+		add_core_of = KUR
+		add_core_of = KUW
+		add_claim_by = ARM
+	}
+	provinces = { 1088 12029 }
+	manpower = 650000
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 2.0
+}

@@ -1,22 +1,28 @@
-# Generated from world_data_master_file.txt by rebuild_world_leaders.py
 set_politics = {
 	ruling_party = communism
 	elections_allowed = no
 }
 set_popularities = {
 	communism = 100
-	libertarian_socialism = 0
+	libertarian_socialism = 0
+	libertarian_socialism = 0
 	social_democracy = 0
 	democratic = 0
-	market_liberalism = 0
+	market_liberalism = 0
+	military_junta = 0
 	fascism = 0
 	neutrality = 0
 	esotericism = 0
 }
 set_party_name = {
-	ideology = Communism
+	ideology = communism
 	long_name = "Leninist Bolsheviks"
 	name = "Bolsheviks (Lenin)"
+}
+set_party_name = {
+	ideology = libertarian_socialism
+	long_name = "Provisional Revolutionary Committee of Sailors, Soldiers and Workers"
+	name = "Kronstadt Revolutionary Committee"
 }
 create_country_leader = {
 	name = "Vladimir Lenin"
@@ -24,6 +30,13 @@ create_country_leader = {
 	picture = "Portrait_PET_Vladimir_Lenin.dds"
 	expire = "1965.1.1"
 	ideology = ee_bolshevism
+	traits = { }
+}
+create_country_leader = {
+	name = "Stepan Petrichenko"
+	picture = "Portrait_PET_Stepan_Petrichenko.dds"
+	expire = "1965.1.1"
+	ideology = anarchist_communism
 	traits = { }
 }
 

@@ -1,9 +1,10 @@
 state={
 	id=286
 	name="STATE_286"
-	resources={
-		rubber=55 # was: 94.000
+	resources = {
+		rubber = 13
 	}
+
 
 	manpower=5245000
 	buildings_max_level_factor=1.000

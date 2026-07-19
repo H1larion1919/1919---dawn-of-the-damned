@@ -2,9 +2,12 @@ state = {
 	id = 233
 	name = "STATE_233" # South Kuban
 	resources = {
-		tungsten = 17
-		oil = 12
+		oil = 5
+		tungsten = 7
+		chromium = 15
 	}
+
+
 	history = {
 		owner = KUB
 		add_core_of = KUB

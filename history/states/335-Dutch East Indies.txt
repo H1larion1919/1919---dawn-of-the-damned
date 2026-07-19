@@ -6,10 +6,11 @@ state={
 	
 	state_category = city
 	
-	resources={
-		rubber=140 # was: 242
-		oil=10 # was: 16
+	resources = {
+		oil = 11
+		rubber = 16
 	}
+
 
 	history={
 		owner = INS

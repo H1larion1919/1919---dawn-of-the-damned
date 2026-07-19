@@ -4,8 +4,10 @@ state = {
 	manpower = 150000
 	state_category = city
 	resources = {
-		chromium = 1
+		chromium = 2
 	}
+
+
 	history = {
 		owner = HEL
 		add_core_of = HEL

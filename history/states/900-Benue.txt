@@ -4,8 +4,10 @@ state = {
 	manpower = 1163674
 
 	resources = {
-		coal = 2 #initial distribution
+		coal = 2
 	}
+
+
 	state_category = pastoral 
 
 	history = {

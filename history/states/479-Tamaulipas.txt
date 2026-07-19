@@ -7,8 +7,9 @@ state = {
 
 	resources = {
 		oil = 9
-		#steel=2 moved to Guerrero
 	}
+
+
 	
 	history = {
 

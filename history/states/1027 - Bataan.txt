@@ -4,9 +4,11 @@ state = {
 	name = "STATE_1027" # Bataan
 	manpower = 2371662 
 
-	resources={
-		chromium=23 # was: 0
+	resources = {
+		chromium = 6
 	}
+
+
 	
 	state_category = town
 

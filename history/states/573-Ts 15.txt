@@ -4,19 +4,21 @@ state = {
 	manpower = 556677
 	state_category = pastoral
 	resources = {
-		chromium = 23
+		chromium = 6
 	}
+
+
 	history = {
 		victory_points = { 
 			10329 1
 		}
 
-		owner = SBR
+		owner = PET
 
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = SBR
+		add_core_of = PET
 
 	}
 	provinces = { 237 278 361 3280 4758 7320 10136 10329 11223 11307 }

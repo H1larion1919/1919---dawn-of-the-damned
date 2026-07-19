@@ -4,8 +4,10 @@ state = {
 	manpower = 728363
 	state_category = large_town
 	resources = {
-		chromium = 15
+		chromium = 8
 	}
+
+
 	history = {
 		owner = CRI
 		add_claim_by = SOV

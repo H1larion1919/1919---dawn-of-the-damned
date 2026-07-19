@@ -4,8 +4,10 @@ state = {
 	manpower = 2947700 # was 4747700
 
 	resources = {
-		steel = 4 # was: 48, then 25 then 15
+		steel = 4
 	}
+
+
 	
 	state_category = metropolis
 

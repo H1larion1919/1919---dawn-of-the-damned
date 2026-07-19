@@ -1,9 +1,10 @@
 state={
 	id=402
 	name="STATE_402"
-	resources={
-		chromium=15.000
+	resources = {
+		chromium = 14
 	}
+
 
 	history={
 		owner = KAZ

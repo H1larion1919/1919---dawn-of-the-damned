@@ -5,7 +5,8 @@ set_politics = {
 }
 set_popularities = {
 	communism = 0
-	libertarian_socialism = 0
+	libertarian_socialism = 0
+
 	social_democracy = 30
 	democratic = 12
 	market_liberalism = 24
@@ -87,7 +88,7 @@ create_country_leader = {
 	traits = { }
 }
 
-capital = 55
+capital = 1159
 set_research_slots = 2
 set_stability = 0.5
 set_war_support = 0.3

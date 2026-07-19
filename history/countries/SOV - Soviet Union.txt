@@ -1,4 +1,3 @@
-# Generated from world_data_master_file.txt by rebuild_world_leaders.py
 set_politics = {
 	ruling_party = syndicate_socialism
 	elections_allowed = no
@@ -7,11 +6,10 @@ set_popularities = {
 	communism = 0
 	syndicate_socialism = 70
 	libertarian_socialism = 0
-
 	social_democracy = 30
 	democratic = 0
 	market_liberalism = 0
-
+	military_junta = 0
 	fascism = 0
 	neutrality = 0
 	esotericism = 0
@@ -23,13 +21,32 @@ set_party_name = {
 }
 set_party_name = {
 	ideology = social_democracy
-	long_name = "Left Social Revolutionaries"
+	long_name = "Union of Working Peasants"
+	name = "Working Peasants"
+}
+set_party_name = {
+	ideology = libertarian_socialism
+	long_name = "Party of Left Socialist-Revolutionaries"
 	name = "Left SRs"
 }
 create_country_leader = {
 	name = "Leon Trotsky"
 	picture = "Portrait_SOV_Leon_Trotsky.dds"
-	ideology = ee_permanent_revolution
+	ideology = syndicalism
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Maria Spiridonova"
+	picture = "Portrait_SOV_Maria_Spiridonova.dds"
+	ideology = ee_agrarian_socialism
+	expire = "1965.1.1"
+	traits = { }
+}
+create_country_leader = {
+	name = "Aleksandr Stepanovich Antonov"
+	picture = "Portrait_SOV_Aleksandr_Antonov.dds"
+	ideology = ee_agrarian_social_democracy
 	expire = "1965.1.1"
 	traits = { }
 }

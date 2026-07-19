@@ -3,6 +3,12 @@ state = {
 	name = "STATE_1011"
 	state_category = town
 	manpower = 980164
+	resources = {
+		aluminium = 6
+		steel = 3
+	}
+
+
 	history = {
 		owner = KUW
 		add_core_of = IRQ

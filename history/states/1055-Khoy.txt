@@ -3,6 +3,11 @@ state = {
 	name = "STATE_1055" # Khoy
 	manpower = 288412
 	state_category = rural
+	resources = {
+		steel = 1
+	}
+
+
 	history = {
 		owner = AZR
 		victory_points = { 

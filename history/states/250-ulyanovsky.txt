@@ -6,6 +6,8 @@ state = {
 	resources = {
 		steel = 14
 	}
+
+
 	history = {
 		owner = SOV
 

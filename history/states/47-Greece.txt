@@ -3,11 +3,13 @@ state = {
 	name = "STATE_47"
 	manpower = 2312500
 	resources = {
-		steel = 3
-		chromium = 12
-		aluminium = 30
-		tungsten = 10
+		aluminium = 13
+		tungsten = 4
+		steel = 5
+		chromium = 9
 	}
+
+
 	state_category = dd_capacity_12
 	history = {
 		owner = HEL

@@ -4,8 +4,10 @@ state = {
 	manpower = 450000
 	state_category = town
 	resources = {
-		oil = 6
+		oil = 4
 	}
+
+
 	history = {
 		owner = KUR
 

@@ -3,6 +3,11 @@ state = {
 	name = "STATE_109"
 	manpower = 2224400
 	state_category = large_town
+	resources = {
+		coal = 1
+	}
+
+
 	history = {
 		owner = CRO
 

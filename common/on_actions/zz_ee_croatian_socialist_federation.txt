@@ -1,0 +1,14 @@
+on_actions = {
+	on_daily_CRO = {
+		effect = {
+			if = {
+				limit = {
+					owns_state = 107
+					NOT = { has_country_flag = ee_jugoslav_socialist_federation_formed }
+				}
+				set_country_flag = ee_jugoslav_socialist_federation_formed
+				set_cosmetic_tag = CRO_jugoslav_socialist_federation
+			}
+		}
+	}
+}

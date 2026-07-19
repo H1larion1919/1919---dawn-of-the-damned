@@ -5,6 +5,8 @@ state = {
 	resources = {
 		aluminium = 4
 	}
+
+
 	state_category = rural
 	history = {
 		victory_points = { 

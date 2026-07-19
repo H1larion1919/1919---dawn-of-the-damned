@@ -3,8 +3,10 @@ state = {
 	name = "STATE_339" # Smyrna
 	manpower = 950000
 	resources = {
-		chromium = 10
+		chromium = 14
 	}
+
+
 	state_category = dd_capacity_11
 	history = {
 		owner = HEL

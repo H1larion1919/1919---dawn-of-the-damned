@@ -1,8 +1,6 @@
 state = {
 	id = 1085
 	name = "STATE_1085" # Rojava
-	resources = {
-	}
 	history = {
 		owner = KUR
 		victory_points = { 

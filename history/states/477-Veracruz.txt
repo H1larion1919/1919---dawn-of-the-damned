@@ -6,9 +6,10 @@ state={
 	
 	state_category = town
 	
-	resources={
-		oil=9
+	resources = {
+		oil = 9
 	}
+
 
 	history={
 		owner = MEX

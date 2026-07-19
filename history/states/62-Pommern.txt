@@ -5,6 +5,11 @@ state = {
 	
 	
 	state_category = large_city
+	resources = {
+		aluminium = 2
+		steel = 3
+	}
+
 
 	history = {
 		owner = SBK
@@ -15,11 +20,6 @@ state = {
 		victory_points = {
 			11372 6 # Stolp 
 		}
-
-		victory_points = {
-			9334 1 # Köslin  
-		}
-
 		
 		buildings = {
 			infrastructure = 3
@@ -33,7 +33,7 @@ state = {
 	}
 
 	provinces = {
-		6334 6309 6390 9277 9306 9334 9361 11372
+		9306 9361 11372 11316 11343 13419
 	}
 
 	local_supplies = 3.0 

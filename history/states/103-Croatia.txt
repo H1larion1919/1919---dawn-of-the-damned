@@ -3,6 +3,12 @@ state = {
 	name = "STATE_103" # Ragusa
 	manpower = 1431700
 	state_category = city
+	resources = {
+		aluminium = 14
+		chromium = 4
+	}
+
+
 	history = {
 		owner = DIZ
 		victory_points = { 

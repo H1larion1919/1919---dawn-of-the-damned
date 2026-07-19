@@ -33,9 +33,6 @@ state = {
 			buildings = {
 				arms_factory = 2
 				industrial_complex = 3
-				10125 = {
-					air_facility = 1 # Mitsubishi Arnsenals 
-				}
 			}
 		}
 

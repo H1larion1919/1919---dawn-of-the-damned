@@ -1,0 +1,20 @@
+focus_tree = {
+    id = DD_generic_1919_focus
+    country = {
+        factor = 1
+    }
+    default = yes
+
+    focus = {
+        id = DD_generic_stabilize_the_government
+        icon = GFX_goal_generic_political_pressure
+        x = 0
+        y = 0
+        cost = 10
+        available = { always = yes }
+        completion_reward = {
+            add_political_power = 35
+            add_stability = 0.02
+        }
+    }
+}

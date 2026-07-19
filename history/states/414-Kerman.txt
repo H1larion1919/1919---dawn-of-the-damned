@@ -5,6 +5,10 @@ state={
 	manpower = 243007
 	
 	state_category = wasteland
+	resources = {
+		oil = 2
+	}
+
 
 	history={
 		owner = IRN

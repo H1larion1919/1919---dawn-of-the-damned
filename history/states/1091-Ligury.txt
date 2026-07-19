@@ -3,6 +3,12 @@ state = {
     name = "STATE_1091"
     manpower = 1300000
     state_category = city
+	resources = {
+		aluminium = 3
+		steel = 4
+	}
+
+
     history = {
         owner = UIS
         victory_points = {

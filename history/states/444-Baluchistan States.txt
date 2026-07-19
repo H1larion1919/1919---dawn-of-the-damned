@@ -4,9 +4,11 @@ state={
 	provinces={
 		1179 5043 7917  12761 12774 
 	}
-	resources={
-		oil=3
+	resources = {
+		oil = 3
 	}
+
+
 	manpower=364000
 	buildings_max_level_factor=1.000
 	state_category=rural

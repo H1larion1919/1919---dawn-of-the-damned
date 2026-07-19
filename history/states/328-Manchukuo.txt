@@ -6,9 +6,10 @@ state={
 	
 	state_category = rural
 
-	resources={
-		aluminium=7 # was: 10
+	resources = {
+		aluminium = 7
 	}
+
 
 	history={
 		owner = MAN

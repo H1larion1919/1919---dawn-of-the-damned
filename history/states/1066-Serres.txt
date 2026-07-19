@@ -1,9 +1,6 @@
 state = {
 	id = 1066
 	name = "STATE_1066" # Serres
-	resources = {
-		steel = 2
-	}
 	history = {
 		owner = HEL
 		buildings = {

@@ -6,9 +6,10 @@ state = {
 	state_category = town
 
 	resources = {
-		tungsten = 42 # In replacement of Nitrate
-		coal = 1 # initial distribution = with infra 1.6 / 6 total
+		tungsten = 11
+		coal = 1
 	}
+
 
 	history = {
 

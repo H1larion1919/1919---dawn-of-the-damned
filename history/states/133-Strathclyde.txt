@@ -4,8 +4,11 @@ state = {
 	manpower = 2257723
 	state_category = city
 	resources = {
-		steel = 21
+		steel = 6
+		coal = 8
 	}
+
+
 	history = {
 		add_core_of = SCO
 		add_core_of = ENG

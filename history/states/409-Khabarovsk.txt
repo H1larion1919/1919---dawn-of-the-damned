@@ -5,6 +5,8 @@ state = {
 	resources = {
 		chromium = 9
 	}
+
+
 	state_category = rural
 	history = {
 		owner = VLA

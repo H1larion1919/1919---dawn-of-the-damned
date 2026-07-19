@@ -2,9 +2,6 @@ state = {
 	id = 1060
 	name = "STATE_1060" # Batumi
 	manpower = 180000
-	resources = {
-		steel = 1
-	}
 	state_category = city
 	history = {
 		owner = GEO
@@ -17,6 +14,8 @@ state = {
 			coastal_bunker = 1
 			}
 		}
+
+		set_demilitarized_zone = yes
 
 		victory_points = { 
 			3653 8

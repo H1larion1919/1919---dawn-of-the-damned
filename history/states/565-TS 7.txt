@@ -7,6 +7,8 @@ state = {
 		steel = 10
 		chromium = 5
 	}
+
+
 	history = {
 		owner = KWA
 		add_core_of = KWA

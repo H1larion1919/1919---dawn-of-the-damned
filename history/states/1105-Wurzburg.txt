@@ -3,6 +3,11 @@ state = {
     name = "STATE_1105" # Wurzburg
 	manpower = 1254077
 	state_category = city
+	resources = {
+		coal = 3
+	}
+
+
 	history = {
 		owner = WRE
 		add_core_of = BAY
@@ -24,7 +29,7 @@ state = {
 		}
 
 	}
-	provinces = { 6421 6594 9557 11417 13116 }
+	provinces = { 6421 6594 9557 11417 }
 	local_supplies = 0.0
 }
 

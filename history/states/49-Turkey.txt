@@ -3,9 +3,11 @@ state = {
 	name = "STATE_49" # Ankara
 	manpower = 810284
 	resources = {
-		chromium = 11
-		steel = 28
+		steel = 7
+		chromium = 13
 	}
+
+
 	state_category = city
 	history = {
 		owner = KTR

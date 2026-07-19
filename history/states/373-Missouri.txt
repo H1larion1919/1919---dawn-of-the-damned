@@ -6,9 +6,9 @@ state={
 	
 	state_category = dd_capacity_18
 	
-	resources={
-		aluminium=12 # was: 18
-		coal = 5 # initial distribution = with infra 8 / 1280 total
+	resources = {
+		aluminium = 12
+		coal = 5
 	}
 
 

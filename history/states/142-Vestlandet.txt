@@ -6,10 +6,11 @@ state={
 	
 	state_category = town
 	
-	resources={
-		chromium=1 # was: 2
-		aluminium=10 # was: 22
+	resources = {
+		aluminium = 10
+		chromium = 1
 	}
+
 
 	history={
 		owner = KNO

@@ -1,13 +1,9 @@
 state = {
     id = 1107
     name = "STATE_1107" # Westphalia
-	manpower = 4096495
-	resources = {
-		steel = 80  
-		coal = 55
-	}
+	manpower = 40000
 
-	state_category = megalopolis 
+	state_category = town 
 	
 	history = {
 
@@ -18,13 +14,13 @@ state = {
 		add_core_of = SBK
 
 		victory_points = {
-			6469 10 # Essen
+			3398 5
 		}
 
 
 		buildings = {
 			infrastructure = 3
-			arms_factory = 4
+			arms_factory = 1
 			industrial_complex = 3
 			air_base = 2
 		}
@@ -32,7 +28,7 @@ state = {
 	}
 
 	provinces = {
-		495 529 3512 3398 6469 6570 9482 
+		3398 9443 13408 13413
 	} 
 	
 	local_supplies = 0.0 

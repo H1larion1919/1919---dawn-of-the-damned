@@ -1,8 +1,6 @@
 state = {
 	id = 803
 	name = "STATE_803"
-	resources = {
-	}
 	history = {
 		victory_points = { 
 			11857 1

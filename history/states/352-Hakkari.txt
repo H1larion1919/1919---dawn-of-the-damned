@@ -1,8 +1,6 @@
 state = {
 	id = 352
 	name = "STATE_352"
-	resources = {
-	}
 	manpower = 120000
 	state_category = city
 	history = {

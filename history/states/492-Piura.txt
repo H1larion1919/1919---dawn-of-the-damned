@@ -6,6 +6,8 @@ state = {
 	resources = {
 		tungsten = 6
 	}
+
+
 	
 	state_category = rural
 

@@ -4,9 +4,11 @@ state = {
 	manpower = 2903371
 	state_category = city
 	resources = {
-		tungsten = 17
-		oil = 12
+		oil = 8
+		tungsten = 11
 	}
+
+
 	history = {
 		owner = DON
 		add_core_of = KUB

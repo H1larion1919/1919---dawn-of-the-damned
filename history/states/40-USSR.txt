@@ -7,13 +7,14 @@ state={
 	state_category = large_town
 
 	history={
-		owner = KAZ
+		owner = SBR
 
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
 		}
-		add_core_of = KAZ
+		add_core_of = SBR
+		add_claim_by = KAZ
 		add_core_of = ZHT
 
 		victory_points = {

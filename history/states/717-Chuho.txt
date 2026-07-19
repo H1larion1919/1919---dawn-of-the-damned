@@ -3,6 +3,10 @@ state = {
 	name = "STATE_717"
 	
 	state_category = pastoral
+	resources = {
+		chromium = 2
+	}
+
 
 	history = {
 

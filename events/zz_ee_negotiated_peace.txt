@@ -1,0 +1,122 @@
+add_namespace = ee_negotiated_peace
+
+country_event = {
+	id = ee_negotiated_peace.1
+	title = ee_negotiated_peace.1.t
+	desc = ee_negotiated_peace.1.d
+	picture = GFX_report_event_generic_sign_treaty2
+	is_triggered_only = yes
+
+	trigger = {
+		exists = yes
+		FROM = {
+			exists = yes
+			has_war_with = ROOT
+		}
+		OR = {
+			has_capitulated = yes
+			surrender_progress > 0.5
+			AND = {
+				has_war_support < 0.1
+				has_stability < 0.33
+			}
+		}
+		any_owned_state = {
+			is_controlled_by = FROM
+			OR = {
+				is_core_of = FROM
+				is_claimed_by = FROM
+			}
+		}
+	}
+
+	immediate = {
+		save_event_target_as = EE_negotiated_peace_loser
+		FROM = { save_event_target_as = EE_negotiated_peace_winner }
+	}
+
+	option = {
+		name = ee_negotiated_peace.1.a
+		ai_chance = {
+			base = 35
+			modifier = {
+				factor = 2
+				surrender_progress > 0.75
+			}
+			modifier = {
+				factor = 3
+				has_capitulated = yes
+			}
+			modifier = {
+				factor = 2
+				has_war_support < 0.1
+				has_stability < 0.33
+			}
+		}
+		every_owned_state = {
+			limit = {
+				is_controlled_by = FROM
+				OR = {
+					is_core_of = FROM
+					is_claimed_by = FROM
+				}
+			}
+			transfer_state_to = FROM
+		}
+		FROM = { white_peace = ROOT }
+		white_peace = FROM
+		add_war_support = -0.03
+		add_stability = -0.01
+		FROM = {
+			country_event = { id = ee_negotiated_peace.2 hours = 1 }
+		}
+	}
+
+	option = {
+		name = ee_negotiated_peace.1.b
+		ai_chance = {
+			base = 65
+			modifier = {
+				factor = 0.5
+				surrender_progress > 0.75
+			}
+			modifier = {
+				factor = 0.25
+				has_capitulated = yes
+			}
+			modifier = {
+				factor = 0.5
+				has_war_support < 0.1
+				has_stability < 0.33
+			}
+		}
+		add_war_support = 0.02
+		FROM = {
+			country_event = { id = ee_negotiated_peace.3 hours = 1 }
+		}
+	}
+}
+
+country_event = {
+	id = ee_negotiated_peace.2
+	title = ee_negotiated_peace.2.t
+	desc = ee_negotiated_peace.2.d
+	picture = GFX_report_event_generic_sign_treaty2
+	is_triggered_only = yes
+
+	option = {
+		name = ee_negotiated_peace.2.a
+	}
+}
+
+country_event = {
+	id = ee_negotiated_peace.3
+	title = ee_negotiated_peace.3.t
+	desc = ee_negotiated_peace.3.d
+	picture = GFX_report_event_chamberlain
+	is_triggered_only = yes
+
+	option = {
+		name = ee_negotiated_peace.3.a
+	}
+}

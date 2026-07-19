@@ -3,11 +3,13 @@ state = {
 	name = "STATE_60"
 	manpower = 3005214
 	resources = {
-		steel = 9 # was 5 was: 13 was: 20
-		chromium = 3 # was: 4
-		tungsten = 3 # was: 4
-		coal = 8 #initial distribution
+		tungsten = 2
+		steel = 5
+		chromium = 2
+		coal = 4
 	}
+
+
 	
 	state_category = large_city
 
@@ -17,14 +19,6 @@ state = {
 		add_core_of = GER
 		add_core_of = WRE
 		add_core_of = SBK
-
-		victory_points = { 
-			3561 5 # Erfurt
-		}
-
-		victory_points = { 
-			425 1 # Weimar
-		}
 
 		victory_points = { 
 			538 2 # Jena
@@ -39,7 +33,7 @@ state = {
 	}
 
 	provinces = {
-		425 482 538 3500 3561 6524 9497 
+		482 538 3500 6524 9497 13411
 	} 
 
 	local_supplies = 0.0 

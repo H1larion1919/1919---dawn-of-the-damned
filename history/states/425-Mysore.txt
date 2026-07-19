@@ -6,10 +6,11 @@ state={
 	
 	state_category = rural
 	
-	resources={
-		chromium=10 # was: 20
+	resources = {
 		steel = 12
+		chromium = 10
 	}
+
 
 	history={
 		owner = MYS

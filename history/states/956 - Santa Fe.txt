@@ -6,6 +6,8 @@ state = {
 	resources = {
 		oil = 6
 	}
+
+
 	
 	state_category = rural
 

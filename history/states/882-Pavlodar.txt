@@ -5,12 +5,14 @@ state = {
 	state_category = rural
 	
 	resources = {
-		chromium = 6 
+		chromium = 6
 	}
 
+
 	history = {
-		owner = KAZ
-		add_core_of = KAZ
+		owner = SBR
+		add_core_of = SBR
+		add_claim_by =KAZ
 		add_core_of = ZHT
 
 		buildings = {

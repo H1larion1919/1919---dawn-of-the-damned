@@ -1,0 +1,42 @@
+state = {
+	id = 1157
+	name = "STATE_1157"
+	manpower = 300000
+
+	resources = {
+		steel = 4
+		coal = 7
+	}
+
+
+	state_category = large_city
+
+	history = {
+
+		owner = WRE
+		add_core_of = GER
+		add_core_of = WRE
+		add_core_of = SBK
+
+
+		buildings = {
+
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2
+
+		}
+
+		victory_points = {
+			6622 5 # Dortmund
+		}
+
+	}
+
+	provinces = {
+		3512 6535 6622 11346 
+	} 
+
+	local_supplies = 15.0 
+}
+

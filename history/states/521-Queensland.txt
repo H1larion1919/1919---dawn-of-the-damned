@@ -1,10 +1,11 @@
 state={
 	id=521
 	name="STATE_521"
-	resources={
-		tungsten=24.000
-		coal = 4 #initial distribution
+	resources = {
+		tungsten = 2
+		coal = 5
 	}
+
 
 	history={
 		owner = AST

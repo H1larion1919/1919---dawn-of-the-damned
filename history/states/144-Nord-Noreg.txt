@@ -10,6 +10,7 @@ state = {
 		steel = 6
 	}
 
+
 	history = {
 		victory_points = {
 			192 5

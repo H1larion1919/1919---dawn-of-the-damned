@@ -3,8 +3,10 @@ state = {
 	name = "STATE_1000" # Artsakh
 	manpower = 715857
 	resources = {
-		steel = 6
+		oil = 13
 	}
+
+
 	state_category = town
 	history = {
 		owner = AZR

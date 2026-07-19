@@ -1,8 +1,7 @@
 state = {
 	id = 354
 	name = "STATE_354"
-	resources = {
-	} # Trapezunta
+ # Trapezunta
 	manpower = 450000
 	state_category = city
 	history = {
@@ -19,7 +18,6 @@ state = {
 			3979 3
 		}
 
-
 		buildings = {
 			infrastructure = 2
 			9932 = {
@@ -32,6 +30,6 @@ state = {
 		add_core_of = OTT
 		add_core_of = TSR
 	}
-	provinces = { 3714 3979 9886 9932  11753 }
+	provinces = { 3714 3979 9886 9932 11753 }
 	local_supplies = 0.0
-}
+} 

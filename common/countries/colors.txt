@@ -1434,8 +1434,6 @@ CPR = { color = rgb { 33 62 41 } color_ui = rgb { 40 97 53 } }
 
 FRC = { color = rgb { 128 65 65 } color_ui = rgb { 195 78 78 } }
 
-VCR = { color = rgb { 180 123 139 } color_ui = rgb { 240 170 192 } }
-
 SBR = { color = rgb { 128 165 123 } color_ui = rgb { 176 225 171 } }
 
 KWA = { color = rgb { 89 113 90 } color_ui = rgb { 120 164 126 } }

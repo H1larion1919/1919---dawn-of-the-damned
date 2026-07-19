@@ -4,8 +4,10 @@ state = {
 	manpower = 578000
 
 	resources = {
-		coal = 4 # Represents the Iriomote and Utara coal mines (and quite a few more)
+		coal = 4
 	}
+
+
 	
 	state_category = small_island
 
@@ -47,8 +49,6 @@ state = {
 		
 
 	}
-
-
 
 
 	provinces = {

@@ -4,15 +4,17 @@ state = {
 	manpower = 1324935
 	state_category = rural
 	resources = {
-		chromium = 18
+		chromium = 5
 	}
+
+
 	history = {
-		owner = SBR
+		owner = PET
 
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = SBR
+		add_core_of = PET
 
 		victory_points = { 
 			6278 1

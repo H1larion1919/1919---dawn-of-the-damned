@@ -1,6 +1,11 @@
 state = {
 	id = 1067
 	name = "STATE_1067" # Evros
+	resources = {
+		chromium = 6
+	}
+
+
 	history = {
 		owner = THR
 

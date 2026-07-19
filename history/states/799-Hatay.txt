@@ -2,7 +2,10 @@ state = {
 	id = 799
 	name = "STATE_799"
 	resources = {
+		chromium = 14
 	}
+
+
 	provinces = { 921 961 3807 3862 3870 3964 6977 9861 11844 }
 	manpower = 180000
 	state_category = rural

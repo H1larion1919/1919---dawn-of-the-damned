@@ -2,7 +2,10 @@ state = {
 	id = 421
 	name = "STATE_421"
 	resources = {
+		oil = 7
 	}
+
+
 	manpower = 220000
 	state_category = rural
 	history = {

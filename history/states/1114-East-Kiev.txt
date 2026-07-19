@@ -1,6 +1,12 @@
 state = {
     id = 1114
     name = "STATE_1114" # East Kiev
+	resources = {
+		oil = 3
+		aluminium = 3
+	}
+
+
 	history = {
 		owner = UKS
 

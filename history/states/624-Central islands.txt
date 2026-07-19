@@ -4,9 +4,10 @@ state = {
 	name = "STATE_624" # Central Islands
 	manpower = 1117695 
 
-	resources={
-		steel=7 # was: 0
+	resources = {
+		steel = 7
 	}
+
 
 	state_category = town
 	

@@ -3,8 +3,10 @@ state = {
 	name = "STATE_1072" # Troad
 	manpower = 1077853
 	resources = {
-		chromium = 39
+		chromium = 8
 	}
+
+
 	state_category = dd_capacity_10
 	history = {
 		owner = HEL

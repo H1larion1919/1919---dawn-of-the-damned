@@ -4,8 +4,10 @@ state = {
 	manpower = 1025458
 	state_category = rural
 	resources = {
-		steel = 16
+		steel = 5
 	}
+
+
 	history = {
 		owner = BLR
 		victory_points = { 

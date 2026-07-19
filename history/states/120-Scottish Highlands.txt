@@ -4,10 +4,12 @@ state = {
 	manpower = 247873
 	state_category = rural
 	resources = {
-		chromium = 1
-		tungsten = 16
 		aluminium = 9
+		tungsten = 4
+		chromium = 1
 	}
+
+
 	history = {
 		add_core_of = SCO
 		add_core_of = ENG

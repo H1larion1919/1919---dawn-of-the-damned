@@ -1,8 +1,6 @@
 state = {
 	id = 766
 	name = "Outer Bessarabia"
-	resources = {
-	}
 	manpower = 420000
 	state_category = rural
 	history = {

@@ -6,10 +6,11 @@ state={
 	
 	state_category = rural
 	
-	resources={
-		chromium=4 # was: 6
-		coal = 7 #initial distribution
+	resources = {
+		chromium = 4
+		coal = 7
 	}
+
 
 	history={
 		owner = CIP

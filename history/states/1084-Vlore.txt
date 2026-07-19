@@ -2,8 +2,10 @@ state = {
 	id = 1084
 	name = "STATE_1084" # Vlore
 	resources = {
-		steel = 20
+		oil = 2
 	}
+
+
 	provinces = { 3448 3884 11767 }
 	manpower = 98261
 	state_category = pastoral

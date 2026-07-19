@@ -1,10 +1,12 @@
 state = {
 	id = 1073
 	name = "STATE_1073" 
-resources = {
-		chromium = 4
-		aluminium = 1
+	resources = {
+		aluminium = 5
+		chromium = 7
 	}
+
+
 	history = {
 		owner = MAC
 

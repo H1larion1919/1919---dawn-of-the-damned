@@ -6,12 +6,13 @@ state={
 	
 	state_category = town
 	
-	resources={
-		tungsten=3 # was: 3
-		chromium=2
-		steel=2
-
+	resources = {
+		tungsten = 3
+		steel = 2
+		chromium = 2
 	}
+
+
 	history={
 		owner = AFG
 		add_core_of = AFG

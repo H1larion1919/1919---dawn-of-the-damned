@@ -4,9 +4,11 @@ state={
 	name="STATE_151"
 	manpower = 598920
 	state_category = rural
-	resources={
-		aluminium=15 # was: 24
+	resources = {
+		aluminium = 15
 	}
+
+
 	history={
 		owner = SWI
 		victory_points = { 658 1 }

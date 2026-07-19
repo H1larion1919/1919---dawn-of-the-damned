@@ -1,8 +1,7 @@
 state = {
 	id = 1049
 	name = "STATE_1049"
-	resources = {
-	} # Keramanshah 
+ # Keramanshah 
 	manpower = 260000
 	state_category = large_town
 	history = {

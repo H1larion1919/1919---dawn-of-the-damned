@@ -1,6 +1,11 @@
 state = {
 	id = 1070
 	name = "STATE_1070" # Philadelphia
+	resources = {
+		chromium = 15
+	}
+
+
 	history = {
 		owner = HEL
 		buildings = {

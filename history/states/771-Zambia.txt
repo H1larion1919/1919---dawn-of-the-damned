@@ -6,9 +6,10 @@ state = {
 	manpower = 690045 #was 1380089
 
 	resources = {
-		chromium = 18 # was: 64.000, then 35
-		tungsten = 4 # was: 16.000, then 8
+		tungsten = 4
+		chromium = 5
 	}
+
 
 	history = {
 

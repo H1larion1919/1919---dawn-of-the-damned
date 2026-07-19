@@ -1,0 +1,40 @@
+state = {
+	id = 1149
+	name = "STATE_1149"
+	manpower = 1900000
+
+	state_category = megalopolis
+
+
+	history = {
+
+		owner = SBK
+		add_core_of = GER
+		add_core_of = WRE
+		add_core_of = SBK
+
+		victory_points = {
+			6521 50 # Berlin
+		}
+
+		buildings = {
+			infrastructure = 5
+			arms_factory = 4
+			industrial_complex = 5
+			anti_air_building = 5
+			air_base = 3
+            6521 = {
+                landmark_berlin_reichstag = {
+                    level = 1
+                }
+            }
+		}
+
+	}
+
+	provinces = {
+		6521
+	}
+
+	local_supplies = 0.0 
+}

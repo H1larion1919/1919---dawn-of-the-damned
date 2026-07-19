@@ -4,9 +4,11 @@ state = {
 	manpower = 320000
 	state_category = dd_capacity_4
 	resources = {
-		chromium = 3
-		steel = 2
+		steel = 6
+		chromium = 6
 	}
+
+
 	history = {
 		victory_points = { 
 			10203 2 # Kerkyra

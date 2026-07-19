@@ -6,9 +6,11 @@ state = {
 	manpower = 1567516
 
 	resources = {
-		tungsten = 70
-		coal = 4 #Kalewa mines near the Chindwin River
+		tungsten = 18
+		coal = 4
 	}
+
+
 	
 	history = {
 		owner = BRM

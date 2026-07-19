@@ -1,0 +1,42 @@
+state = {
+	id = 1159
+	name = "STATE_1159"
+	manpower = 500000
+
+	resources = {
+		steel = 4
+		coal = 10
+	}
+
+
+	state_category = large_city
+
+	history = {
+
+		owner = WRE
+		add_core_of = GER
+		add_core_of = WRE
+		add_core_of = SBK
+
+
+		buildings = {
+
+			infrastructure = 3
+			arms_factory = 4
+			industrial_complex = 4
+
+		}
+
+		victory_points = {
+			6488 20 # Frankfurt
+		}
+
+	}
+
+	provinces = {
+		529 589 3574 6444 6488 9486 9547 
+	} 
+
+	local_supplies = 15.0 
+}
+

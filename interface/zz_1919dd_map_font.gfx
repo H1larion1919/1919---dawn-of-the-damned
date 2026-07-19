@@ -1,0 +1,10 @@
+bitmapfonts = {
+	# Country names use the engine's tahoma_60 slot.  Override only that map-label
+	# slot with the period-appropriate, outlined Garamond atlas shipped by HOI4.
+	bitmapfont_override = {
+		name = "tahoma_60"
+		fontfiles = {
+			"gfx/fonts/vic_36s"
+		}
+	}
+}

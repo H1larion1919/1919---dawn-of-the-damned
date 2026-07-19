@@ -3,8 +3,10 @@ state = {
 	name = "STATE_1057" # Lankaran
 	manpower = 260000
 	resources = {
-		steel = 1
+		oil = 9
 	}
+
+
 	state_category = town
 	history = {
 		owner = AZR

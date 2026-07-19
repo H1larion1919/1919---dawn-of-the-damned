@@ -1,6 +1,11 @@
 state = {
     id = 1116
     name = "STATE_1116" # Beogorod
+	resources = {
+		steel = 3
+	}
+
+
 	history = {
 		owner = UKS
 

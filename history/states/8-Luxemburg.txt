@@ -6,14 +6,19 @@ state = {
 	
 	manpower = 294748
 	resources = {
-		steel = 14 # was: 5
+		steel = 14
 	}
+
 
 	history = {
 
 		owner = BEL
 		add_core_of = LUX
 		add_core_of = BEL
+		add_claim_by = RHI
+		add_claim_by = GER
+		add_claim_by = WRE
+		add_claim_by = SBK
 
 
 		buildings = {

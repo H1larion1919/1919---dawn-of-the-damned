@@ -8,9 +8,7 @@ state = {
 	resources = {
 		aluminium = 1
 	}
-	resources = {
-		oil = 1
-	}
+
 
 	history = {
 

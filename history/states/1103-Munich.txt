@@ -3,6 +3,11 @@ state = {
     name = "STATE_1103" # Munich
 	manpower = 2679413
 	state_category = large_city
+	resources = {
+		aluminium = 9
+	}
+
+
 	history = {
 		owner = GER
 		add_core_of = BAY

@@ -3,9 +3,11 @@ state = {
 	name = "STATE_566"
 	state_category = rural
 	resources = {
-		steel = 20
 		aluminium = 7
+		steel = 5
 	}
+
+
 	history = {
 		owner = KWA
 		add_core_of = KWA

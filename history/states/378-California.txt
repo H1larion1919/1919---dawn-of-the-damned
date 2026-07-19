@@ -6,10 +6,11 @@ state={
 	
 	state_category = metropolis
 	
-	resources={
-		oil=180 # was: 350
-		aluminium=8 # was: 14
+	resources = {
+		oil = 31
+		aluminium = 8
 	}
+
 
 	history={
 		owner = USA

@@ -1,0 +1,249 @@
+ee_create_left_sr_revolt = {
+	create_dynamic_country = {
+		original_tag = SOV
+		save_global_event_target_as = ee_left_sr_country
+		set_country_flag = ee_left_sr_dynamic_rebel
+		set_cosmetic_tag = SOV_left_sr_revolt
+		set_politics = {
+			ruling_party = libertarian_socialism
+			elections_allowed = no
+		}
+		set_popularities = {
+			communism = 0
+			syndicate_socialism = 5
+			libertarian_socialism = 90
+			social_democracy = 5
+			democratic = 0
+			market_liberalism = 0
+			military_junta = 0
+			fascism = 0
+			neutrality = 0
+			esotericism = 0
+		}
+		set_party_name = {
+			ideology = libertarian_socialism
+			long_name = "Party of Left Socialist-Revolutionaries"
+			name = "Left SRs"
+		}
+		create_country_leader = {
+			name = "Maria Spiridonova"
+			picture = "Portrait_SOV_Maria_Spiridonova.dds"
+			ideology = ee_agrarian_socialism
+			expire = "1965.1.1"
+			traits = { }
+		}
+		every_state = {
+			limit = {
+				OR = {
+						state = 239
+						state = 249
+						state = 250
+						state = 251
+						state = 252
+						state = 256
+						state = 401
+						state = 582
+						state = 651
+						state = 652
+						state = 829
+						state = 833
+				}
+			}
+			add_core_of = event_target:ee_left_sr_country
+			event_target:ee_left_sr_country = { transfer_state = PREV }
+		}
+		SOV = {
+			transfer_units_fraction = {
+				target = event_target:ee_left_sr_country
+				size = 0.40
+				stockpile_ratio = 0.40
+				army_ratio = 0.40
+				navy_ratio = 0.00
+				air_ratio = 0.40
+			}
+		}
+		set_capital = { state = 249 }
+	}
+	event_target:ee_left_sr_country = {
+		declare_war_on = { target = SOV type = annex_everything }
+	}
+	every_country = {
+		limit = { has_country_flag = ee_tambov_dynamic_rebel }
+		event_target:ee_left_sr_country = {
+			declare_war_on = { target = PREV type = annex_everything }
+		}
+	}
+}
+
+ee_create_kronstadt_revolt = {
+	create_dynamic_country = {
+		original_tag = PET
+		save_global_event_target_as = ee_kronstadt_country
+		set_country_flag = ee_kronstadt_dynamic_rebel
+		set_cosmetic_tag = PET_kronstadt_revolt
+		set_politics = {
+			ruling_party = libertarian_socialism
+			elections_allowed = no
+		}
+		set_popularities = {
+			communism = 5
+			syndicate_socialism = 10
+			libertarian_socialism = 85
+			social_democracy = 0
+			democratic = 0
+			market_liberalism = 0
+			military_junta = 0
+			fascism = 0
+			neutrality = 0
+			esotericism = 0
+		}
+		set_party_name = {
+			ideology = libertarian_socialism
+			long_name = "Provisional Revolutionary Committee of Sailors, Soldiers and Workers"
+			name = "Kronstadt Revolutionary Committee"
+		}
+		create_country_leader = {
+			name = "Stepan Petrichenko"
+			picture = "Portrait_PET_Stepan_Petrichenko.dds"
+			ideology = anarchist_communism
+			expire = "1965.1.1"
+			traits = { }
+		}
+		PET = {
+			every_owned_state = {
+				limit = {
+					OR = {
+						state = 216
+						state = 195
+						state = 244
+						state = 247
+						state = 248
+						state = 263
+						state = 264
+					}
+				}
+				add_core_of = event_target:ee_kronstadt_country
+				event_target:ee_kronstadt_country = { transfer_state = PREV }
+			}
+			transfer_units_fraction = {
+				target = event_target:ee_kronstadt_country
+				size = 0.22
+				stockpile_ratio = 0.22
+				army_ratio = 0.20
+				navy_ratio = 0.20
+				air_ratio = 0.20
+			}
+		}
+		set_capital = { state = 195 }
+	}
+	event_target:ee_kronstadt_country = {
+		declare_war_on = { target = PET type = annex_everything }
+	}
+	every_country = {
+		limit = { has_country_flag = ee_minsk_directory_war_started }
+		event_target:ee_kronstadt_country = {
+			declare_war_on = { target = PREV type = annex_everything }
+		}
+	}
+}
+
+ee_trigger_minsk_betrayal = {
+	BLR = {
+		save_global_event_target_as = ee_minsk_directory_country
+		set_country_flag = ee_minsk_directory_war_started
+		set_politics = {
+			ruling_party = communism
+			elections_allowed = no
+		}
+		set_popularities = {
+			communism = 90
+			syndicate_socialism = 5
+			libertarian_socialism = 0
+			social_democracy = 5
+			democratic = 0
+			market_liberalism = 0
+			military_junta = 0
+			fascism = 0
+			neutrality = 0
+			esotericism = 0
+		}
+		set_cosmetic_tag = BLR_minsk_socialist_directory
+		declare_war_on = { target = PET type = annex_everything }
+		every_state = {
+			limit = { is_controlled_by = PET }
+			add_core_of = BLR
+		}
+	}
+	every_country = {
+		limit = { has_country_flag = ee_kronstadt_dynamic_rebel }
+		event_target:ee_minsk_directory_country = {
+			declare_war_on = { target = PREV type = annex_everything }
+		}
+	}
+}
+
+ee_create_steppe_kossack_revolt = {
+	create_dynamic_country = {
+		original_tag = SOV
+		save_global_event_target_as = ee_steppe_kossack_country
+		set_country_flag = ee_steppe_kossack_dynamic_rebel
+		set_cosmetic_tag = SOV_steppe_kossack_revolt
+		set_politics = {
+			ruling_party = military_junta
+			elections_allowed = no
+		}
+		set_popularities = {
+			communism = 0
+			syndicate_socialism = 0
+			libertarian_socialism = 0
+			social_democracy = 0
+			democratic = 0
+			market_liberalism = 0
+			military_junta = 100
+			fascism = 0
+			neutrality = 0
+			esotericism = 0
+		}
+		set_party_name = {
+			ideology = military_junta
+			long_name = "Steppe Kossack Host"
+			name = "Steppe Kossack Host"
+		}
+		create_country_leader = {
+			name = "Alexander Dutov"
+			picture = "Portrait_SOV_Alexander_Dutov.dds"
+			ideology = ee_white_military_dictatorship
+			expire = "1965.1.1"
+			traits = { }
+		}
+		every_state = {
+			limit = {
+				OR = {
+						state = 407
+						state = 401
+						state = 829
+						state = 265
+						state = 217
+						state = 245
+						state = 236
+				}
+			}
+			add_core_of = event_target:ee_steppe_kossack_country
+			event_target:ee_steppe_kossack_country = { transfer_state = PREV }
+		}
+		SOV = {
+			transfer_units_fraction = {
+				target = event_target:ee_steppe_kossack_country
+				size = 0.14
+				stockpile_ratio = 0.14
+				army_ratio = 0.14
+				navy_ratio = 0.00
+				air_ratio = 0.10
+			}
+		}
+		set_capital = { state = 265 }
+	}
+	event_target:ee_steppe_kossack_country = {
+		declare_war_on = { target = SOV type = annex_everything }
+	}
+}
