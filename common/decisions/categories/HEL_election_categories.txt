@@ -1,0 +1,37 @@
+HEL_1919_election_campaign = {
+	icon = generic_political_discourse
+	priority = 2000
+	visible = {
+		tag = HEL
+		has_country_flag = HEL_election_campaign_active
+	}
+}
+
+HEL_royalist_party_balance = {
+	icon = generic_political_discourse
+	priority = 1999
+	visible = {
+		tag = HEL
+		has_country_flag = HEL_royalist_balance_active
+		has_country_flag = HEL_election_campaign_active
+	}
+}
+
+HEL_republican_party_balance = {
+	icon = generic_political_discourse
+	priority = 1999
+	visible = {
+		tag = HEL
+		has_country_flag = HEL_republican_balance_active
+		has_country_flag = HEL_election_campaign_active
+	}
+}
+
+HEL_plastiras_intervention = {
+	icon = generic_prepare_civil_war
+	priority = 1999
+	visible = {
+		tag = HEL
+		has_country_flag = HEL_plastiras_intervention_active
+	}
+}

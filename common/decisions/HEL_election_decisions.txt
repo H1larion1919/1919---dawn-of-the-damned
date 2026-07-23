@@ -1,0 +1,523 @@
+HEL_1919_election_campaign = {
+	HEL_election_countdown_21 = {
+		icon = generic_political_discourse
+		priority = 1000
+		visible = { has_country_flag = HEL_election_timer_21 }
+		activation = { has_country_flag = HEL_election_timer_21 }
+		days_mission_timeout = 21
+		is_good = yes
+		timeout_effect = { country_event = { id = hel_election.20 } }
+	}
+	HEL_election_countdown_22 = {
+		icon = generic_political_discourse
+		priority = 1000
+		visible = { has_country_flag = HEL_election_timer_22 }
+		activation = { has_country_flag = HEL_election_timer_22 }
+		days_mission_timeout = 22
+		is_good = yes
+		timeout_effect = { country_event = { id = hel_election.20 } }
+	}
+	HEL_election_countdown_23 = {
+		icon = generic_political_discourse
+		priority = 1000
+		visible = { has_country_flag = HEL_election_timer_23 }
+		activation = { has_country_flag = HEL_election_timer_23 }
+		days_mission_timeout = 23
+		is_good = yes
+		timeout_effect = { country_event = { id = hel_election.20 } }
+	}
+	HEL_election_countdown_24 = {
+		icon = generic_political_discourse
+		priority = 1000
+		visible = { has_country_flag = HEL_election_timer_24 }
+		activation = { has_country_flag = HEL_election_timer_24 }
+		days_mission_timeout = 24
+		is_good = yes
+		timeout_effect = { country_event = { id = hel_election.20 } }
+	}
+	HEL_election_countdown_25 = {
+		icon = generic_political_discourse
+		priority = 1000
+		visible = { has_country_flag = HEL_election_timer_25 }
+		activation = { has_country_flag = HEL_election_timer_25 }
+		days_mission_timeout = 25
+		is_good = yes
+		timeout_effect = { country_event = { id = hel_election.20 } }
+	}
+	HEL_election_countdown_26 = {
+		icon = generic_political_discourse
+		priority = 1000
+		visible = { has_country_flag = HEL_election_timer_26 }
+		activation = { has_country_flag = HEL_election_timer_26 }
+		days_mission_timeout = 26
+		is_good = yes
+		timeout_effect = { country_event = { id = hel_election.20 } }
+	}
+	HEL_election_countdown_27 = {
+		icon = generic_political_discourse
+		priority = 1000
+		visible = { has_country_flag = HEL_election_timer_27 }
+		activation = { has_country_flag = HEL_election_timer_27 }
+		days_mission_timeout = 27
+		is_good = yes
+		timeout_effect = { country_event = { id = hel_election.20 } }
+	}
+	HEL_election_countdown_28 = {
+		icon = generic_political_discourse
+		priority = 1000
+		visible = { has_country_flag = HEL_election_timer_28 }
+		activation = { has_country_flag = HEL_election_timer_28 }
+		days_mission_timeout = 28
+		is_good = yes
+		timeout_effect = { country_event = { id = hel_election.20 } }
+	}
+
+	HEL_campaign_mainland = {
+		icon = GFX_decision_eng_propaganda_campaigns
+		visible = { has_country_flag = HEL_election_campaign_active }
+		available = {
+			has_political_power > 14
+			NOT = { has_country_flag = HEL_campaign_action_cooldown }
+		}
+		state_target = yes
+		targets = { 1064 }
+		target_trigger = { FROM = { is_controlled_by = ROOT } }
+		highlight_states = {
+			highlight_state_targets = {
+				state = 185
+				state = 1064
+			}
+		}
+		on_map_mode = map_only
+		days_re_enable = 3
+		cost = 0
+		complete_effect = {
+			set_country_flag = HEL_campaign_action_cooldown
+			set_country_flag = HEL_campaign_target_mainland
+			country_event = { id = hel_election.91 days = 2 }
+			country_event = { id = hel_election.40 }
+		}
+		ai_will_do = { factor = 8 }
+	}
+
+	HEL_campaign_attica_race = {
+		icon = GFX_decision_eng_propaganda_campaigns
+		visible = { has_country_flag = HEL_election_campaign_active }
+		available = {
+			has_political_power > 14
+			NOT = { has_country_flag = HEL_campaign_action_cooldown }
+		}
+		state_target = yes
+		targets = { 47 }
+		target_trigger = { FROM = { is_controlled_by = ROOT } }
+		highlight_states = {
+			highlight_state_targets = { state = 47 }
+		}
+		on_map_mode = map_only
+		days_re_enable = 3
+		cost = 0
+		complete_effect = {
+			set_country_flag = HEL_campaign_action_cooldown
+			set_country_flag = HEL_campaign_target_attica
+			country_event = { id = hel_election.91 days = 2 }
+			country_event = { id = hel_election.41 }
+		}
+		ai_will_do = { factor = 8 }
+	}
+
+	HEL_campaign_south_aegean = {
+		icon = GFX_decision_eng_propaganda_campaigns
+		visible = { has_country_flag = HEL_election_campaign_active }
+		available = {
+			has_political_power > 14
+			NOT = { has_country_flag = HEL_campaign_action_cooldown }
+		}
+		state_target = yes
+		targets = { 186 }
+		target_trigger = { FROM = { is_controlled_by = ROOT } }
+		highlight_states = {
+			highlight_state_targets = {
+				state = 186
+				state = 182
+				state = 164
+				state = 183
+				state = 1143
+			}
+		}
+		on_map_mode = map_only
+		days_re_enable = 3
+		cost = 0
+		complete_effect = {
+			set_country_flag = HEL_campaign_action_cooldown
+			set_country_flag = HEL_campaign_target_south_aegean
+			country_event = { id = hel_election.91 days = 2 }
+			country_event = { id = hel_election.42 }
+		}
+		ai_will_do = { factor = 8 }
+	}
+
+	HEL_campaign_macedonia_race = {
+		icon = GFX_decision_eng_propaganda_campaigns
+		visible = { has_country_flag = HEL_election_campaign_active }
+		available = {
+			has_political_power > 14
+			NOT = { has_country_flag = HEL_campaign_action_cooldown }
+		}
+		state_target = yes
+		targets = { 731 }
+		target_trigger = { FROM = { is_controlled_by = ROOT } }
+		highlight_states = {
+			highlight_state_targets = {
+				state = 731
+				state = 1065
+				state = 1066
+			}
+		}
+		on_map_mode = map_only
+		days_re_enable = 3
+		cost = 0
+		complete_effect = {
+			set_country_flag = HEL_campaign_action_cooldown
+			set_country_flag = HEL_campaign_target_macedonia
+			country_event = { id = hel_election.91 days = 2 }
+			country_event = { id = hel_election.43 }
+		}
+		ai_will_do = { factor = 8 }
+	}
+
+	HEL_campaign_straits = {
+		icon = GFX_decision_eng_propaganda_campaigns
+		visible = { has_country_flag = HEL_election_campaign_active }
+		available = {
+			has_political_power > 14
+			NOT = { has_country_flag = HEL_campaign_action_cooldown }
+		}
+		state_target = yes
+		targets = { 341 }
+		target_trigger = { FROM = { is_controlled_by = ROOT } }
+		highlight_states = {
+			highlight_state_targets = {
+				state = 341
+				state = 1068
+				state = 340
+				state = 1071
+				state = 1072
+			}
+		}
+		on_map_mode = map_only
+		days_re_enable = 3
+		cost = 0
+		complete_effect = {
+			set_country_flag = HEL_campaign_action_cooldown
+			set_country_flag = HEL_campaign_target_straits
+			country_event = { id = hel_election.91 days = 2 }
+			country_event = { id = hel_election.44 }
+		}
+		ai_will_do = { factor = 8 }
+	}
+
+	HEL_campaign_constantinople_race = {
+		icon = GFX_decision_eng_propaganda_campaigns
+		visible = { has_country_flag = HEL_election_campaign_active }
+		available = {
+			has_political_power > 14
+			NOT = { has_country_flag = HEL_campaign_action_cooldown }
+		}
+		state_target = yes
+		targets = { 347 }
+		target_trigger = { FROM = { is_controlled_by = ROOT } }
+		highlight_states = {
+			highlight_state_targets = {
+				state = 347
+				state = 797
+			}
+		}
+		on_map_mode = map_only
+		days_re_enable = 3
+		cost = 0
+		complete_effect = {
+			set_country_flag = HEL_campaign_action_cooldown
+			set_country_flag = HEL_campaign_target_constantinople
+			country_event = { id = hel_election.91 days = 2 }
+			country_event = { id = hel_election.45 }
+		}
+		ai_will_do = { factor = 8 }
+	}
+
+	HEL_campaign_ionia_race = {
+		icon = GFX_decision_eng_propaganda_campaigns
+		visible = { has_country_flag = HEL_election_campaign_active }
+		available = {
+			has_political_power > 14
+			NOT = { has_country_flag = HEL_campaign_action_cooldown }
+		}
+		state_target = yes
+		targets = { 339 }
+		target_trigger = { FROM = { is_controlled_by = ROOT } }
+		highlight_states = {
+			highlight_state_targets = {
+				state = 339
+				state = 1069
+				state = 1070
+			}
+		}
+		on_map_mode = map_only
+		days_re_enable = 3
+		cost = 0
+		complete_effect = {
+			set_country_flag = HEL_campaign_action_cooldown
+			set_country_flag = HEL_campaign_target_ionia
+			country_event = { id = hel_election.91 days = 2 }
+			country_event = { id = hel_election.46 }
+		}
+		ai_will_do = { factor = 8 }
+	}
+}
+
+HEL_royalist_party_balance = {
+	HEL_reassure_parliamentary_royalists = {
+		icon = generic_political_discourse
+		visible = {
+			has_country_flag = HEL_royalist_balance_active
+			has_country_flag = HEL_election_campaign_active
+		}
+		available = {
+			has_political_power > 49
+			power_balance_value = {
+				id = HEL_royalist_direction_balance
+				value > -0.65
+			}
+		}
+		cost = 50
+		days_remove = 4
+		days_re_enable = 4
+		complete_effect = { }
+		remove_effect = {
+			add_power_balance_value = {
+				id = HEL_royalist_direction_balance
+				value = -0.12
+			}
+		}
+		ai_will_do = {
+			factor = 4
+			modifier = {
+				factor = 3
+				power_balance_value = {
+					id = HEL_royalist_direction_balance
+					value > 0.3
+				}
+			}
+		}
+	}
+
+	HEL_reassure_nationalist_royalists = {
+		icon = generic_political_pressure
+		visible = {
+			has_country_flag = HEL_royalist_balance_active
+			has_country_flag = HEL_election_campaign_active
+		}
+		available = {
+			has_political_power > 49
+			power_balance_value = {
+				id = HEL_royalist_direction_balance
+				value < 0.65
+			}
+		}
+		cost = 50
+		days_remove = 4
+		days_re_enable = 4
+		complete_effect = { }
+		remove_effect = {
+			add_power_balance_value = {
+				id = HEL_royalist_direction_balance
+				value = 0.12
+			}
+		}
+		ai_will_do = {
+			factor = 4
+			modifier = {
+				factor = 3
+				power_balance_value = {
+					id = HEL_royalist_direction_balance
+					value < -0.3
+				}
+			}
+		}
+	}
+}
+
+HEL_republican_party_balance = {
+	HEL_strengthen_zaimis_cabinet = {
+		icon = generic_political_discourse
+		visible = {
+			has_country_flag = HEL_republican_balance_active
+			has_country_flag = HEL_election_campaign_active
+		}
+		available = {
+			has_political_power > 49
+			power_balance_value = {
+				id = HEL_republican_direction_balance
+				value > -0.8
+			}
+		}
+		cost = 50
+		days_remove = 4
+		days_re_enable = 4
+		complete_effect = {
+			custom_effect_tooltip = HEL_zaimis_balance_decision_tt
+		}
+		remove_effect = {
+			hidden_effect = {
+				add_power_balance_value = {
+					id = HEL_republican_direction_balance
+					value = -0.12
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 5
+				power_balance_value = {
+					id = HEL_republican_direction_balance
+					value > 0.45
+				}
+			}
+		}
+	}
+
+	HEL_concede_to_plastiras_officers = {
+		icon = generic_army_support
+		visible = {
+			has_country_flag = HEL_republican_balance_active
+			has_country_flag = HEL_election_campaign_active
+		}
+		available = {
+			has_political_power > 49
+			power_balance_value = {
+				id = HEL_republican_direction_balance
+				value < 0.58
+			}
+		}
+		cost = 50
+		days_remove = 4
+		days_re_enable = 4
+		complete_effect = {
+			custom_effect_tooltip = HEL_plastiras_balance_decision_tt
+		}
+		remove_effect = {
+			hidden_effect = {
+				add_power_balance_value = {
+					id = HEL_republican_direction_balance
+					value = 0.12
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 0.1
+				power_balance_value = {
+					id = HEL_republican_direction_balance
+					value > 0.4
+				}
+			}
+		}
+	}
+}
+
+HEL_plastiras_intervention = {
+	HEL_plastiras_countdown = {
+		icon = generic_prepare_civil_war
+		priority = 1000
+		visible = { has_country_flag = HEL_plastiras_intervention_active }
+		activation = { has_country_flag = HEL_plastiras_intervention_active }
+		days_mission_timeout = 14
+		is_good = no
+		timeout_effect = { country_event = { id = hel_election.24 } }
+	}
+	HEL_plastiras_court_liberal_deputies = {
+		icon = generic_political_discourse
+		visible = { has_country_flag = HEL_plastiras_intervention_active }
+		available = { check_variable = { HEL_plastiras_active_operations < 2 } }
+		cost = 75
+		days_remove = 5
+		fire_only_once = yes
+		complete_effect = {
+			add_to_variable = { HEL_plastiras_active_operations = 1 }
+		}
+		remove_effect = {
+			subtract_from_variable = { HEL_plastiras_active_operations = 1 }
+			add_to_variable = { HEL_plastiras_preparation = 15 }
+			country_event = { id = hel_election.50 }
+		}
+		ai_will_do = { factor = 3 }
+	}
+	HEL_plastiras_rally_officers = {
+		icon = generic_army_support
+		visible = { has_country_flag = HEL_plastiras_intervention_active }
+		available = {
+			check_variable = { HEL_plastiras_active_operations < 2 }
+			command_power > 19
+		}
+		cost = 85
+		days_remove = 6
+		fire_only_once = yes
+		complete_effect = {
+			add_to_variable = { HEL_plastiras_active_operations = 1 }
+			add_command_power = -20
+		}
+		remove_effect = {
+			subtract_from_variable = { HEL_plastiras_active_operations = 1 }
+			add_to_variable = { HEL_plastiras_preparation = 15 }
+			country_event = { id = hel_election.51 }
+		}
+		ai_will_do = { factor = 3 }
+	}
+	HEL_plastiras_secure_telegraph = {
+		icon = generic_political_pressure
+		visible = { has_country_flag = HEL_plastiras_intervention_active }
+		available = { check_variable = { HEL_plastiras_active_operations < 2 } }
+		cost = 70
+		days_remove = 4
+		fire_only_once = yes
+		complete_effect = {
+			add_to_variable = { HEL_plastiras_active_operations = 1 }
+		}
+		remove_effect = {
+			subtract_from_variable = { HEL_plastiras_active_operations = 1 }
+			add_to_variable = { HEL_plastiras_preparation = 10 }
+			country_event = { id = hel_election.52 }
+		}
+		ai_will_do = { factor = 3 }
+	}
+	HEL_plastiras_prepare_athens_garrison = {
+		icon = generic_prepare_civil_war
+		visible = { has_country_flag = HEL_plastiras_intervention_active }
+		available = {
+			check_variable = { HEL_plastiras_active_operations < 2 }
+			command_power > 24
+		}
+		cost = 100
+		days_remove = 7
+		fire_only_once = yes
+		complete_effect = {
+			add_to_variable = { HEL_plastiras_active_operations = 1 }
+			add_command_power = -25
+		}
+		remove_effect = {
+			subtract_from_variable = { HEL_plastiras_active_operations = 1 }
+			add_to_variable = { HEL_plastiras_preparation = 10 }
+			country_event = { id = hel_election.53 }
+		}
+		ai_will_do = { factor = 3 }
+	}
+	HEL_plastiras_launch_coup = {
+		icon = generic_prepare_civil_war
+		visible = { has_country_flag = HEL_plastiras_intervention_active }
+		available = { check_variable = { HEL_plastiras_preparation > 49 } }
+		cost = 50
+		complete_effect = { country_event = { id = hel_election.23 } }
+		ai_will_do = { factor = 100 }
+	}
+}

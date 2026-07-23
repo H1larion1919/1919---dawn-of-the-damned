@@ -1,0 +1,40 @@
+defined_text = {
+	name = GetHELElectionSupportChart
+	text = {
+		trigger = { check_variable = { HEL_total_campaign_support < 10 } }
+		localization_key = HEL_support_chart_0
+	}
+	text = {
+		trigger = { check_variable = { HEL_total_campaign_support < 20 } }
+		localization_key = HEL_support_chart_10
+	}
+	text = {
+		trigger = { check_variable = { HEL_total_campaign_support < 30 } }
+		localization_key = HEL_support_chart_20
+	}
+	text = {
+		trigger = { check_variable = { HEL_total_campaign_support < 40 } }
+		localization_key = HEL_support_chart_30
+	}
+	text = {
+		trigger = { check_variable = { HEL_total_campaign_support < 50 } }
+		localization_key = HEL_support_chart_40
+	}
+	text = {
+		trigger = { check_variable = { HEL_total_campaign_support < 60 } }
+		localization_key = HEL_support_chart_50
+	}
+	text = {
+		trigger = { check_variable = { HEL_total_campaign_support < 70 } }
+		localization_key = HEL_support_chart_60
+	}
+	text = {
+		trigger = { check_variable = { HEL_total_campaign_support < 80 } }
+		localization_key = HEL_support_chart_70
+	}
+	text = {
+		trigger = { check_variable = { HEL_total_campaign_support < 90 } }
+		localization_key = HEL_support_chart_80
+	}
+	text = { localization_key = HEL_support_chart_90 }
+}

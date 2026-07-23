@@ -1,0 +1,858 @@
+add_namespace = hel_election
+
+country_event = {
+	id = hel_election.1
+	title = hel_election.1.t
+	desc = hel_election.1.d
+	picture = GFX_report_event_HEL_1919_election
+	is_triggered_only = yes
+	option = {
+		name = hel_election.1.a
+		ai_chance = { factor = 52 }
+		set_country_flag = HEL_election_republican_path
+		HEL_begin_democratic_election_campaign = yes
+		country_event = { id = hel_election.3 days = 5 }
+	}
+	option = {
+		name = hel_election.1.b
+		ai_chance = { factor = 48 }
+		set_country_flag = HEL_election_royalist_path
+		HEL_begin_democratic_election_campaign = yes
+		country_event = { id = hel_election.4 days = 5 }
+	}
+}
+
+country_event = {
+	id = hel_election.3
+	title = hel_election.3.t
+	desc = hel_election.3.d
+	picture = GFX_report_event_HEL_plastiras_intervention
+	is_triggered_only = yes
+	trigger = { has_country_flag = HEL_election_republican_path }
+	option = {
+		name = hel_election.3.a
+		ai_chance = { factor = 20 }
+		HEL_begin_plastiras_intervention = yes
+	}
+	option = {
+		name = hel_election.3.b
+		ai_chance = { factor = 80 }
+		custom_effect_tooltip = HEL_republican_balance_created_tt
+		set_country_flag = HEL_plastiras_reformist_solidarity
+		set_country_flag = HEL_republican_balance_active
+		set_power_balance = {
+			id = HEL_republican_direction_balance
+			left_side = HEL_zaimis_side
+			right_side = HEL_plastiras_side
+			set_value = 0
+		}
+		add_to_variable = { HEL_race_attica_support = 5 }
+		add_to_variable = { HEL_race_straits_support = 3 }
+		HEL_clamp_election_support = yes
+	}
+}
+
+country_event = {
+	id = hel_election.4
+	title = hel_election.4.t
+	desc = hel_election.4.d
+	picture = GFX_report_event_generic_meeting
+	is_triggered_only = yes
+	trigger = { has_country_flag = HEL_election_royalist_path }
+	option = {
+		name = hel_election.4.a
+		ai_chance = { factor = 30 }
+		custom_effect_tooltip = HEL_metaxas_direction_tt
+		set_country_flag = HEL_metaxas_ascendant
+		add_to_variable = { HEL_race_mainland_support = 4 }
+		add_to_variable = { HEL_race_macedonia_support = 4 }
+		add_to_variable = { HEL_race_attica_support = -4 }
+		HEL_clamp_election_support = yes
+	}
+	option = {
+		name = hel_election.4.b
+		ai_chance = { factor = 70 }
+		custom_effect_tooltip = HEL_gounaris_direction_tt
+		set_country_flag = HEL_gounaris_assembly_victory
+		add_to_variable = { HEL_race_mainland_support = 3 }
+		add_to_variable = { HEL_race_macedonia_support = 3 }
+		add_to_variable = { HEL_race_south_aegean_support = 3 }
+		HEL_clamp_election_support = yes
+	}
+}
+
+country_event = {
+	id = hel_election.5
+	title = hel_election.5.t
+	desc = hel_election.5.d
+	picture = GFX_report_event_generic_riot
+	is_triggered_only = yes
+	immediate = {
+		if = {
+			limit = { has_country_flag = HEL_election_royalist_path }
+			set_country_flag = HEL_royalist_balance_active
+			set_power_balance = {
+				id = HEL_royalist_direction_balance
+				left_side = HEL_gounaris_side
+				right_side = HEL_metaxas_side
+				set_value = 0
+			}
+		}
+	}
+	option = {
+		name = hel_election.5.a
+		trigger = { has_country_flag = HEL_election_royalist_path }
+		ai_chance = { factor = 55 }
+		custom_effect_tooltip = HEL_dragoumis_shift_metaxas_tt
+		add_power_balance_value = {
+			id = HEL_royalist_direction_balance
+			value = 0.35
+		}
+		random_list = {
+			65 = {
+				add_to_variable = { HEL_race_mainland_support = 6 }
+				add_to_variable = { HEL_race_macedonia_support = 7 }
+				add_to_variable = { HEL_race_attica_support = 4 }
+			}
+			35 = {
+				add_to_variable = { HEL_race_mainland_support = -5 }
+				add_to_variable = { HEL_race_macedonia_support = -5 }
+				add_to_variable = { HEL_race_attica_support = -4 }
+				add_stability = -0.03
+			}
+		}
+		HEL_clamp_election_support = yes
+	}
+	option = {
+		name = hel_election.5.b
+		trigger = { has_country_flag = HEL_election_royalist_path }
+		ai_chance = { factor = 45 }
+		custom_effect_tooltip = HEL_dragoumis_shift_gounaris_tt
+		add_power_balance_value = {
+			id = HEL_royalist_direction_balance
+			value = -0.25
+		}
+		add_to_variable = { HEL_race_mainland_support = 3 }
+		add_to_variable = { HEL_race_macedonia_support = 2 }
+		add_to_variable = { HEL_race_south_aegean_support = 4 }
+		HEL_clamp_election_support = yes
+	}
+	option = {
+		name = hel_election.5.c
+		trigger = { has_country_flag = HEL_election_republican_path }
+		ai_chance = { factor = 40 }
+		custom_effect_tooltip = HEL_murder_condemnation_plastiras_tt
+		add_power_balance_value = {
+			id = HEL_republican_direction_balance
+			value = 0.45
+		}
+		add_to_variable = { HEL_race_attica_support = 7 }
+		add_to_variable = { HEL_race_straits_support = 3 }
+		HEL_clamp_election_support = yes
+	}
+	option = {
+		name = hel_election.5.f
+		trigger = { has_country_flag = HEL_election_republican_path }
+		ai_chance = { factor = 60 }
+		custom_effect_tooltip = HEL_murder_defence_zaimis_tt
+		add_power_balance_value = {
+			id = HEL_republican_direction_balance
+			value = -0.15
+		}
+		add_to_variable = { HEL_race_attica_support = 3 }
+		add_to_variable = { HEL_race_south_aegean_support = -2 }
+		add_stability = -0.01
+		HEL_clamp_election_support = yes
+	}
+	option = {
+		name = hel_election.5.e
+		trigger = { has_country_flag = HEL_election_stratocratic_path }
+		add_to_variable = { HEL_plastiras_preparation = 10 }
+	}
+}
+
+country_event = {
+	id = hel_election.20
+	title = hel_election.20.t
+	desc = hel_election.20.d
+	picture = GFX_report_event_generic_political
+	is_triggered_only = yes
+	trigger = { has_country_flag = HEL_election_campaign_active }
+	immediate = {
+		remove_mission = HEL_election_countdown_21
+		remove_mission = HEL_election_countdown_22
+		remove_mission = HEL_election_countdown_23
+		remove_mission = HEL_election_countdown_24
+		remove_mission = HEL_election_countdown_25
+		remove_mission = HEL_election_countdown_26
+		remove_mission = HEL_election_countdown_27
+		remove_mission = HEL_election_countdown_28
+		HEL_calculate_election_seats = yes
+	}
+	option = {
+		name = hel_election.20.a
+		if = {
+			limit = {
+				has_country_flag = HEL_election_republican_path
+				check_variable = { HEL_election_seats > 25 }
+			}
+			country_event = { id = hel_election.21 hours = 1 }
+		}
+		else_if = {
+			limit = { has_country_flag = HEL_election_republican_path }
+			country_event = { id = hel_election.22 hours = 1 }
+		}
+		else_if = {
+			limit = {
+				has_country_flag = HEL_election_royalist_path
+				check_variable = { HEL_election_seats > 25 }
+			}
+			country_event = { id = hel_election.22 hours = 1 }
+		}
+		else_if = {
+			limit = { has_country_flag = HEL_election_royalist_path }
+			country_event = { id = hel_election.21 hours = 1 }
+		}
+	}
+}
+
+country_event = {
+	id = hel_election.40
+	title = hel_election.40.t
+	desc = hel_election.40.desc
+	picture = GFX_report_event_generic_meeting
+	is_triggered_only = yes
+	option = {
+		name = hel_election.40.a
+		trigger = { has_political_power > 14 }
+		ai_chance = { factor = 3 }
+		custom_effect_tooltip = HEL_mainland_agriculture_low_tt
+		hidden_effect = {
+			add_political_power = -15
+			add_to_variable = { HEL_race_mainland_support = 7 }
+			HEL_clamp_election_support = yes
+		}
+	}
+	option = {
+		name = hel_election.40.b
+		trigger = { has_political_power > 29 }
+		ai_chance = { factor = 2 }
+		custom_effect_tooltip = HEL_mainland_agriculture_medium_tt
+		hidden_effect = {
+			add_political_power = -30
+			add_to_variable = { HEL_race_mainland_support = 13 }
+			add_to_variable = { HEL_race_attica_support = -2 }
+			add_to_variable = { HEL_race_macedonia_support = -2 }
+			add_popularity = { ideology = syndicate_socialism popularity = -0.01 }
+			HEL_clamp_election_support = yes
+		}
+	}
+	option = {
+		name = hel_election.40.c
+		trigger = { has_political_power > 49 }
+		ai_chance = { factor = 1 }
+		custom_effect_tooltip = HEL_mainland_agriculture_high_tt
+		hidden_effect = {
+			add_political_power = -50
+			add_to_variable = { HEL_race_mainland_support = 20 }
+			add_to_variable = { HEL_race_attica_support = -3 }
+			add_to_variable = { HEL_race_south_aegean_support = -4 }
+			add_popularity = { ideology = market_liberalism popularity = -0.015 }
+			HEL_clamp_election_support = yes
+		}
+	}
+	option = {
+		name = hel_election.campaign.skip
+		ai_chance = { factor = 0 }
+	}
+	after = { HEL_clear_campaign_target = yes }
+}
+
+country_event = {
+	id = hel_election.41
+	title = hel_election.41.t
+	desc = hel_election.41.desc
+	picture = GFX_report_event_generic_meeting
+	is_triggered_only = yes
+	option = {
+		name = hel_election.41.a
+		trigger = { has_political_power > 14 }
+		ai_chance = { factor = 3 }
+		custom_effect_tooltip = HEL_attica_exhaustion_low_tt
+		hidden_effect = {
+			add_political_power = -15
+			add_to_variable = { HEL_race_attica_support = 7 }
+			HEL_clamp_election_support = yes
+		}
+	}
+	option = {
+		name = hel_election.41.b
+		trigger = { has_political_power > 29 }
+		ai_chance = { factor = 2 }
+		custom_effect_tooltip = HEL_attica_exhaustion_medium_tt
+		hidden_effect = {
+			add_political_power = -30
+			add_to_variable = { HEL_race_attica_support = 13 }
+			add_to_variable = { HEL_race_macedonia_support = -2 }
+			add_popularity = { ideology = market_liberalism popularity = -0.01 }
+			HEL_clamp_election_support = yes
+		}
+	}
+	option = {
+		name = hel_election.41.c
+		trigger = { has_political_power > 49 }
+		ai_chance = { factor = 1 }
+		custom_effect_tooltip = HEL_attica_exhaustion_high_tt
+		hidden_effect = {
+			add_political_power = -50
+			add_to_variable = { HEL_race_attica_support = 20 }
+			add_to_variable = { HEL_race_straits_support = -4 }
+			add_to_variable = { HEL_race_ionia_support = -3 }
+			add_popularity = { ideology = military_junta popularity = -0.015 }
+			HEL_clamp_election_support = yes
+		}
+	}
+	option = { name = hel_election.campaign.skip ai_chance = { factor = 0 } }
+	after = { HEL_clear_campaign_target = yes }
+}
+
+country_event = {
+	id = hel_election.42
+	title = hel_election.42.t
+	desc = hel_election.42.desc
+	picture = GFX_report_event_generic_meeting
+	is_triggered_only = yes
+	option = {
+		name = hel_election.42.a
+		trigger = { has_political_power > 14 }
+		ai_chance = { factor = 3 }
+		custom_effect_tooltip = HEL_aegean_freedom_low_tt
+		hidden_effect = {
+			add_political_power = -15
+			add_to_variable = { HEL_race_south_aegean_support = 7 }
+			HEL_clamp_election_support = yes
+		}
+	}
+	option = {
+		name = hel_election.42.b
+		trigger = { has_political_power > 29 }
+		ai_chance = { factor = 2 }
+		custom_effect_tooltip = HEL_aegean_navy_medium_tt
+		hidden_effect = {
+			add_political_power = -30
+			add_to_variable = { HEL_race_south_aegean_support = 13 }
+			add_to_variable = { HEL_race_mainland_support = -2 }
+			add_to_variable = { HEL_race_macedonia_support = -2 }
+			HEL_clamp_election_support = yes
+		}
+	}
+	option = {
+		name = hel_election.42.c
+		trigger = { has_political_power > 49 }
+		ai_chance = { factor = 1 }
+		custom_effect_tooltip = HEL_aegean_package_high_tt
+		hidden_effect = {
+			add_political_power = -50
+			add_to_variable = { HEL_race_south_aegean_support = 20 }
+			add_to_variable = { HEL_race_attica_support = -3 }
+			add_to_variable = { HEL_race_macedonia_support = -4 }
+			add_stability = -0.01
+			HEL_clamp_election_support = yes
+		}
+	}
+	option = { name = hel_election.campaign.skip ai_chance = { factor = 0 } }
+	after = { HEL_clear_campaign_target = yes }
+}
+
+country_event = {
+	id = hel_election.43
+	title = hel_election.43.t
+	desc = hel_election.43.desc
+	picture = GFX_report_event_generic_factory
+	is_triggered_only = yes
+	option = {
+		name = hel_election.43.a
+		trigger = { has_political_power > 14 }
+		ai_chance = { factor = 3 }
+		custom_effect_tooltip = HEL_macedonia_economy_low_tt
+		hidden_effect = {
+			add_political_power = -15
+			add_to_variable = { HEL_race_macedonia_support = 7 }
+			HEL_clamp_election_support = yes
+		}
+	}
+	option = {
+		name = hel_election.43.b
+		trigger = { has_political_power > 29 }
+		ai_chance = { factor = 2 }
+		custom_effect_tooltip = HEL_macedonia_economy_medium_tt
+		hidden_effect = {
+			add_political_power = -30
+			add_to_variable = { HEL_race_macedonia_support = 13 }
+			add_to_variable = { HEL_race_mainland_support = -2 }
+			add_popularity = { ideology = social_democracy popularity = -0.01 }
+			HEL_clamp_election_support = yes
+		}
+	}
+	option = {
+		name = hel_election.43.c
+		trigger = { has_political_power > 49 }
+		ai_chance = { factor = 1 }
+		custom_effect_tooltip = HEL_macedonia_economy_high_tt
+		hidden_effect = {
+			add_political_power = -50
+			add_to_variable = { HEL_race_macedonia_support = 20 }
+			add_to_variable = { HEL_race_attica_support = -4 }
+			add_to_variable = { HEL_race_south_aegean_support = -3 }
+			add_popularity = { ideology = market_liberalism popularity = -0.015 }
+			HEL_clamp_election_support = yes
+		}
+	}
+	option = { name = hel_election.campaign.skip ai_chance = { factor = 0 } }
+	after = { HEL_clear_campaign_target = yes }
+}
+
+country_event = {
+	id = hel_election.44
+	title = hel_election.44.t
+	desc = hel_election.empire.desc
+	picture = GFX_report_event_generic_political
+	is_triggered_only = yes
+	option = {
+		name = hel_election.44.a
+		trigger = { has_political_power > 14 }
+		ai_chance = { factor = 3 }
+		custom_effect_tooltip = HEL_straits_empire_low_tt
+		hidden_effect = {
+			add_political_power = -15
+			add_to_variable = { HEL_race_straits_support = 7 }
+			HEL_clamp_election_support = yes
+		}
+	}
+	option = {
+		name = hel_election.44.b
+		trigger = { has_political_power > 29 }
+		ai_chance = { factor = 2 }
+		custom_effect_tooltip = HEL_straits_empire_medium_tt
+		hidden_effect = {
+			add_political_power = -30
+			add_to_variable = { HEL_race_straits_support = 13 }
+			add_to_variable = { HEL_race_macedonia_support = -2 }
+			HEL_clamp_election_support = yes
+		}
+	}
+	option = {
+		name = hel_election.44.c
+		trigger = { has_political_power > 49 }
+		ai_chance = { factor = 1 }
+		custom_effect_tooltip = HEL_straits_empire_high_tt
+		hidden_effect = {
+			add_political_power = -50
+			add_to_variable = { HEL_race_straits_support = 20 }
+			add_to_variable = { HEL_race_attica_support = -4 }
+			add_to_variable = { HEL_race_mainland_support = -3 }
+			add_war_support = 0.01
+			HEL_clamp_election_support = yes
+		}
+	}
+	option = { name = hel_election.campaign.skip ai_chance = { factor = 0 } }
+	after = { HEL_clear_campaign_target = yes }
+}
+
+country_event = {
+	id = hel_election.45
+	title = hel_election.45.t
+	desc = hel_election.empire.desc
+	picture = GFX_report_event_generic_political
+	is_triggered_only = yes
+	option = {
+		name = hel_election.45.a
+		trigger = { has_political_power > 14 }
+		ai_chance = { factor = 3 }
+		custom_effect_tooltip = HEL_constantinople_empire_low_tt
+		hidden_effect = {
+			add_political_power = -15
+			add_to_variable = { HEL_race_constantinople_support = 7 }
+			HEL_clamp_election_support = yes
+		}
+	}
+	option = {
+		name = hel_election.45.b
+		trigger = { has_political_power > 29 }
+		ai_chance = { factor = 2 }
+		custom_effect_tooltip = HEL_constantinople_empire_medium_tt
+		hidden_effect = {
+			add_political_power = -30
+			add_to_variable = { HEL_race_constantinople_support = 13 }
+			add_to_variable = { HEL_race_attica_support = -2 }
+			HEL_clamp_election_support = yes
+		}
+	}
+	option = {
+		name = hel_election.45.c
+		trigger = { has_political_power > 49 }
+		ai_chance = { factor = 1 }
+		custom_effect_tooltip = HEL_constantinople_empire_high_tt
+		hidden_effect = {
+			add_political_power = -50
+			add_to_variable = { HEL_race_constantinople_support = 20 }
+			add_to_variable = { HEL_race_attica_support = -4 }
+			add_to_variable = { HEL_race_mainland_support = -3 }
+			add_popularity = { ideology = democratic popularity = -0.015 }
+			HEL_clamp_election_support = yes
+		}
+	}
+	option = { name = hel_election.campaign.skip ai_chance = { factor = 0 } }
+	after = { HEL_clear_campaign_target = yes }
+}
+
+country_event = {
+	id = hel_election.46
+	title = hel_election.46.t
+	desc = hel_election.empire.desc
+	picture = GFX_report_event_generic_political
+	is_triggered_only = yes
+	option = {
+		name = hel_election.46.a
+		trigger = { has_political_power > 14 }
+		ai_chance = { factor = 3 }
+		custom_effect_tooltip = HEL_ionia_empire_low_tt
+		hidden_effect = {
+			add_political_power = -15
+			add_to_variable = { HEL_race_ionia_support = 7 }
+			HEL_clamp_election_support = yes
+		}
+	}
+	option = {
+		name = hel_election.46.b
+		trigger = { has_political_power > 29 }
+		ai_chance = { factor = 2 }
+		custom_effect_tooltip = HEL_ionia_empire_medium_tt
+		hidden_effect = {
+			add_political_power = -30
+			add_to_variable = { HEL_race_ionia_support = 13 }
+			add_to_variable = { HEL_race_macedonia_support = -2 }
+			HEL_clamp_election_support = yes
+		}
+	}
+	option = {
+		name = hel_election.46.c
+		trigger = { has_political_power > 49 }
+		ai_chance = { factor = 1 }
+		custom_effect_tooltip = HEL_ionia_empire_high_tt
+		hidden_effect = {
+			add_political_power = -50
+			add_to_variable = { HEL_race_ionia_support = 20 }
+			add_to_variable = { HEL_race_attica_support = -4 }
+			add_to_variable = { HEL_race_mainland_support = -3 }
+			add_popularity = { ideology = social_democracy popularity = -0.015 }
+			HEL_clamp_election_support = yes
+		}
+	}
+	option = { name = hel_election.campaign.skip ai_chance = { factor = 0 } }
+	after = { HEL_clear_campaign_target = yes }
+}
+
+country_event = {
+	id = hel_election.50
+	title = hel_election.50.t
+	desc = hel_election.50.d
+	picture = GFX_report_event_generic_meeting
+	is_triggered_only = yes
+	option = {
+		name = hel_election.50.a
+		add_stability = -0.02
+		add_popularity = { ideology = democratic popularity = 0.02 }
+	}
+	option = {
+		name = hel_election.50.b
+		add_political_power = -25
+		add_popularity = { ideology = market_liberalism popularity = 0.02 }
+	}
+}
+
+country_event = {
+	id = hel_election.51
+	title = hel_election.51.t
+	desc = hel_election.51.d
+	picture = GFX_report_event_generic_army_reorganization
+	is_triggered_only = yes
+	option = {
+		name = hel_election.51.a
+		army_experience = -15
+		add_war_support = -0.02
+	}
+	option = {
+		name = hel_election.51.b
+		add_command_power = -15
+		add_stability = -0.01
+	}
+}
+
+country_event = {
+	id = hel_election.52
+	title = hel_election.52.t
+	desc = hel_election.52.d
+	picture = GFX_report_event_generic_factory
+	is_triggered_only = yes
+	option = {
+		name = hel_election.52.a
+		add_stability = -0.02
+		add_popularity = { ideology = syndicate_socialism popularity = 0.02 }
+	}
+	option = {
+		name = hel_election.52.b
+		add_political_power = -20
+		add_war_support = -0.01
+	}
+}
+
+country_event = {
+	id = hel_election.53
+	title = hel_election.53.t
+	desc = hel_election.53.d
+	picture = GFX_report_event_generic_military_speech
+	is_triggered_only = yes
+	option = {
+		name = hel_election.53.a
+		add_stability = -0.03
+		add_war_support = 0.01
+	}
+	option = {
+		name = hel_election.53.b
+		army_experience = -20
+		add_command_power = -10
+	}
+}
+
+country_event = {
+	id = hel_election.54
+	title = hel_election.54.t
+	desc = hel_election.54.d
+	picture = GFX_report_event_generic_riot
+	is_triggered_only = yes
+	option = {
+		name = hel_election.54.a
+		add_stability = -0.05
+		add_to_variable = { HEL_race_attica_support = -8 }
+		add_to_variable = { HEL_race_south_aegean_support = -7 }
+		add_to_variable = { HEL_race_ionia_support = -6 }
+		HEL_clamp_election_support = yes
+	}
+}
+
+country_event = {
+	id = hel_election.55
+	title = hel_election.55.t
+	desc = hel_election.55.d
+	picture = GFX_report_event_generic_riot
+	is_triggered_only = yes
+	option = {
+		name = hel_election.55.a
+		add_stability = -0.05
+		add_to_variable = { HEL_race_mainland_support = -8 }
+		add_to_variable = { HEL_race_macedonia_support = -8 }
+		add_to_variable = { HEL_race_straits_support = -6 }
+		HEL_clamp_election_support = yes
+	}
+}
+
+country_event = {
+	id = hel_election.56
+	title = hel_election.56.t
+	desc = hel_election.56.d
+	picture = GFX_report_event_HEL_plastiras_intervention
+	is_triggered_only = yes
+	option = {
+		name = hel_election.56.a
+		HEL_install_plastiras_government = yes
+	}
+}
+
+country_event = {
+	id = hel_election.90
+	hidden = yes
+	is_triggered_only = yes
+	trigger = { has_country_flag = HEL_election_campaign_active }
+	immediate = {
+		random_list = {
+			15 = { add_to_variable = { HEL_race_mainland_support = -7 } }
+			15 = { add_to_variable = { HEL_race_attica_support = -8 } }
+			14 = { add_to_variable = { HEL_race_south_aegean_support = -6 } }
+			16 = { add_to_variable = { HEL_race_macedonia_support = -7 } }
+			15 = { add_to_variable = { HEL_race_straits_support = -7 } }
+			12 = { add_to_variable = { HEL_race_constantinople_support = -7 } }
+			13 = { add_to_variable = { HEL_race_ionia_support = -6 } }
+		}
+		HEL_clamp_election_support = yes
+		country_event = { id = hel_election.90 days = 3 }
+	}
+}
+
+country_event = {
+	id = hel_election.91
+	hidden = yes
+	is_triggered_only = yes
+	immediate = { clr_country_flag = HEL_campaign_action_cooldown }
+}
+
+country_event = {
+	id = hel_election.21
+	title = hel_election.21.t
+	desc = hel_election.21.d
+	picture = GFX_report_event_generic_political
+	is_triggered_only = yes
+	option = {
+		name = hel_election.21.a
+		HEL_install_zaimis_government = yes
+	}
+}
+
+country_event = {
+	id = hel_election.22
+	title = hel_election.22.t
+	desc = hel_election.22.d
+	picture = GFX_report_event_generic_political
+	is_triggered_only = yes
+	option = {
+		name = hel_election.22.a
+		HEL_install_gounaris_government = yes
+	}
+}
+
+country_event = {
+	id = hel_election.23
+	title = hel_election.23.t
+	desc = hel_election.23.d
+	picture = GFX_report_event_HEL_plastiras_intervention
+	is_triggered_only = yes
+	option = {
+		name = hel_election.23.a
+		HEL_install_plastiras_government = yes
+	}
+}
+
+country_event = {
+	id = hel_election.24
+	title = hel_election.24.t
+	desc = hel_election.24.d
+	picture = GFX_report_event_generic_arrest
+	is_triggered_only = yes
+	trigger = { has_country_flag = HEL_plastiras_intervention_active }
+	option = {
+		name = hel_election.24.a
+		add_stability = -0.05
+		HEL_install_zaimis_government = yes
+	}
+}
+
+country_event = {
+	id = hel_election.30
+	title = hel_election.30.t
+	desc = hel_election.region.d
+	picture = GFX_report_event_generic_meeting
+	is_triggered_only = yes
+	option = { name = hel_election.region.5 trigger = { has_political_power > 4 } add_political_power = -5 add_to_variable = { HEL_election_seats = 1 } }
+	option = { name = hel_election.region.10 trigger = { has_political_power > 9 } add_political_power = -10 add_to_variable = { HEL_election_seats = 2 } }
+	option = { name = hel_election.region.15 trigger = { has_political_power > 14 } add_political_power = -15 add_to_variable = { HEL_election_seats = 4 } }
+	option = { name = hel_election.region.skip }
+}
+country_event = {
+	id = hel_election.31
+	title = hel_election.31.t
+	desc = hel_election.region.d
+	picture = GFX_report_event_generic_meeting
+	is_triggered_only = yes
+	option = { name = hel_election.region.5 trigger = { has_political_power > 4 } add_political_power = -5 add_to_variable = { HEL_election_seats = 2 } }
+	option = { name = hel_election.region.10 trigger = { has_political_power > 9 } add_political_power = -10 add_to_variable = { HEL_election_seats = 3 } }
+	option = { name = hel_election.region.15 trigger = { has_political_power > 14 } add_political_power = -15 add_to_variable = { HEL_election_seats = 6 } }
+	option = { name = hel_election.region.skip }
+}
+country_event = {
+	id = hel_election.32
+	title = hel_election.32.t
+	desc = hel_election.region.d
+	picture = GFX_report_event_generic_meeting
+	is_triggered_only = yes
+	option = { name = hel_election.region.5 trigger = { has_political_power > 4 } add_political_power = -5 add_to_variable = { HEL_election_seats = 3 } }
+	option = { name = hel_election.region.10 trigger = { has_political_power > 9 } add_political_power = -10 add_to_variable = { HEL_election_seats = 5 } }
+	option = { name = hel_election.region.15 trigger = { has_political_power > 14 } add_political_power = -15 add_to_variable = { HEL_election_seats = 10 } }
+	option = { name = hel_election.region.skip }
+}
+country_event = {
+	id = hel_election.33
+	title = hel_election.33.t
+	desc = hel_election.region.d
+	picture = GFX_report_event_generic_meeting
+	is_triggered_only = yes
+	option = { name = hel_election.region.5 trigger = { has_political_power > 4 } add_political_power = -5 add_to_variable = { HEL_election_seats = 1 } }
+	option = { name = hel_election.region.10 trigger = { has_political_power > 9 } add_political_power = -10 add_to_variable = { HEL_election_seats = 3 } }
+	option = { name = hel_election.region.15 trigger = { has_political_power > 14 } add_political_power = -15 add_to_variable = { HEL_election_seats = 5 } }
+	option = { name = hel_election.region.skip }
+}
+country_event = {
+	id = hel_election.34
+	title = hel_election.34.t
+	desc = hel_election.region.d
+	picture = GFX_report_event_generic_meeting
+	is_triggered_only = yes
+	option = { name = hel_election.region.5 trigger = { has_political_power > 4 } add_political_power = -5 add_to_variable = { HEL_election_seats = 1 } }
+	option = { name = hel_election.region.10 trigger = { has_political_power > 9 } add_political_power = -10 add_to_variable = { HEL_election_seats = 2 } }
+	option = { name = hel_election.region.15 trigger = { has_political_power > 14 } add_political_power = -15 add_to_variable = { HEL_election_seats = 4 } }
+	option = { name = hel_election.region.skip }
+}
+country_event = {
+	id = hel_election.35
+	title = hel_election.35.t
+	desc = hel_election.region.d
+	picture = GFX_report_event_generic_meeting
+	is_triggered_only = yes
+	option = { name = hel_election.region.5 trigger = { has_political_power > 4 } add_political_power = -5 add_to_variable = { HEL_election_seats = 3 } }
+	option = { name = hel_election.region.10 trigger = { has_political_power > 9 } add_political_power = -10 add_to_variable = { HEL_election_seats = 5 } }
+	option = { name = hel_election.region.15 trigger = { has_political_power > 14 } add_political_power = -15 add_to_variable = { HEL_election_seats = 10 } }
+	option = { name = hel_election.region.skip }
+}
+country_event = {
+	id = hel_election.36
+	title = hel_election.36.t
+	desc = hel_election.region.d
+	picture = GFX_report_event_generic_meeting
+	is_triggered_only = yes
+	option = { name = hel_election.region.5 trigger = { has_political_power > 4 } add_political_power = -5 add_to_variable = { HEL_election_seats = 1 } }
+	option = { name = hel_election.region.10 trigger = { has_political_power > 9 } add_political_power = -10 add_to_variable = { HEL_election_seats = 2 } }
+	option = { name = hel_election.region.15 trigger = { has_political_power > 14 } add_political_power = -15 add_to_variable = { HEL_election_seats = 3 } }
+	option = { name = hel_election.region.skip }
+}
+country_event = {
+	id = hel_election.37
+	title = hel_election.37.t
+	desc = hel_election.region.d
+	picture = GFX_report_event_generic_meeting
+	is_triggered_only = yes
+	option = { name = hel_election.region.5 trigger = { has_political_power > 4 } add_political_power = -5 add_to_variable = { HEL_election_seats = 1 } }
+	option = { name = hel_election.region.10 trigger = { has_political_power > 9 } add_political_power = -10 add_to_variable = { HEL_election_seats = 2 } }
+	option = { name = hel_election.region.15 trigger = { has_political_power > 14 } add_political_power = -15 add_to_variable = { HEL_election_seats = 3 } }
+	option = { name = hel_election.region.skip }
+}
+country_event = {
+	id = hel_election.38
+	title = hel_election.38.t
+	desc = hel_election.region.d
+	picture = GFX_report_event_generic_meeting
+	is_triggered_only = yes
+	option = { name = hel_election.region.5 trigger = { has_political_power > 4 } add_political_power = -5 add_to_variable = { HEL_election_seats = 1 } }
+	option = { name = hel_election.region.10 trigger = { has_political_power > 9 } add_political_power = -10 add_to_variable = { HEL_election_seats = 2 } }
+	option = { name = hel_election.region.15 trigger = { has_political_power > 14 } add_political_power = -15 add_to_variable = { HEL_election_seats = 3 } }
+	option = { name = hel_election.region.skip }
+}
+country_event = {
+	id = hel_election.39
+	title = hel_election.39.t
+	desc = hel_election.region.d
+	picture = GFX_report_event_generic_meeting
+	is_triggered_only = yes
+	option = { name = hel_election.region.5 trigger = { has_political_power > 4 } add_political_power = -5 add_to_variable = { HEL_election_seats = 1 } }
+	option = { name = hel_election.region.10 trigger = { has_political_power > 9 } add_political_power = -10 add_to_variable = { HEL_election_seats = 1 } }
+	option = { name = hel_election.region.15 trigger = { has_political_power > 14 } add_political_power = -15 add_to_variable = { HEL_election_seats = 2 } }
+	option = { name = hel_election.region.skip }
+}

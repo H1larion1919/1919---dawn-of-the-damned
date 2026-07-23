@@ -172,7 +172,7 @@ focus_tree = {
 		cost = 5
 		completion_reward = {
 			remove_ideas = HEL_scars_from_national_schism
-			mark_focus_tree_layout_dity = yes
+			country_event = { id = hel_election.1 }
 		}
 	}
 }

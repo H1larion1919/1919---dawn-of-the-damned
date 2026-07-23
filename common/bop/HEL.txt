@@ -1,0 +1,184 @@
+HEL_royalist_direction_balance = {
+	initial_value = 0
+	left_side = HEL_gounaris_side
+	right_side = HEL_metaxas_side
+	decision_category = HEL_royalist_party_balance
+
+	range = {
+		id = HEL_royalist_balance_deadlock
+		min = -0.2
+		max = 0.2
+		modifier = {
+			stability_factor = 0.03
+			political_power_factor = 0.03
+		}
+	}
+
+	side = {
+		id = HEL_gounaris_side
+		icon = GFX_greece_dimitrios_gounaris_small
+
+		range = {
+			id = HEL_gounaris_influence
+			min = -0.45
+			max = -0.2
+			modifier = {
+				stability_factor = -0.01
+			}
+		}
+		range = {
+			id = HEL_gounaris_ascendant
+			min = -0.7
+			max = -0.45
+			modifier = {
+				stability_factor = -0.03
+				war_support_factor = -0.02
+			}
+		}
+		range = {
+			id = HEL_gounaris_dominant
+			min = -1
+			max = -0.7
+			modifier = {
+				stability_factor = -0.08
+				political_power_factor = -0.1
+				war_support_factor = -0.06
+			}
+			on_activate = {
+				if = {
+					limit = {
+						has_country_flag = HEL_election_campaign_active
+						NOT = { has_country_flag = HEL_gounarist_party_schism }
+					}
+					set_country_flag = HEL_gounarist_party_schism
+					country_event = { id = hel_election.55 }
+				}
+			}
+		}
+	}
+
+	side = {
+		id = HEL_metaxas_side
+		icon = GFX_greece_ioannis_metaxas_small
+
+		range = {
+			id = HEL_metaxas_influence
+			min = 0.2
+			max = 0.45
+			modifier = {
+				stability_factor = -0.01
+			}
+		}
+		range = {
+			id = HEL_metaxas_ascendant
+			min = 0.45
+			max = 0.7
+			modifier = {
+				war_support_factor = 0.02
+				stability_factor = -0.03
+			}
+		}
+		range = {
+			id = HEL_metaxas_dominant
+			min = 0.7
+			max = 1
+			modifier = {
+				war_support_factor = 0.04
+				political_power_factor = -0.1
+				stability_factor = -0.08
+			}
+			on_activate = {
+				if = {
+					limit = {
+						has_country_flag = HEL_election_campaign_active
+						NOT = { has_country_flag = HEL_metaxist_party_schism }
+					}
+					set_country_flag = HEL_metaxist_party_schism
+					country_event = { id = hel_election.54 }
+				}
+			}
+		}
+	}
+}
+
+HEL_republican_direction_balance = {
+	initial_value = 0
+	left_side = HEL_zaimis_side
+	right_side = HEL_plastiras_side
+	decision_category = HEL_republican_party_balance
+
+	range = {
+		id = HEL_republican_balance_cooperation
+		min = -0.2
+		max = 0.2
+		modifier = {
+			stability_factor = 0.03
+			political_power_factor = 0.03
+		}
+	}
+
+	side = {
+		id = HEL_zaimis_side
+		icon = GFX_greece_alexandros_zaimis_small
+
+		range = {
+			id = HEL_zaimis_influence
+			min = -0.5
+			max = -0.2
+			modifier = { stability_factor = 0.02 }
+		}
+		range = {
+			id = HEL_zaimis_ascendant
+			min = -1
+			max = -0.5
+			modifier = {
+				stability_factor = 0.04
+				war_support_factor = -0.03
+			}
+		}
+	}
+
+	side = {
+		id = HEL_plastiras_side
+		icon = GFX_greece_nikolaos_plastiras_small
+
+		range = {
+			id = HEL_plastiras_influence
+			min = 0.2
+			max = 0.5
+			modifier = {
+				war_support_factor = 0.02
+				stability_factor = -0.01
+			}
+		}
+		range = {
+			id = HEL_plastiras_coup_imminent
+			min = 0.5
+			max = 0.7
+			modifier = {
+				war_support_factor = 0.04
+				stability_factor = -0.05
+				political_power_factor = -0.05
+			}
+		}
+		range = {
+			id = HEL_plastiras_coup_threshold
+			min = 0.7
+			max = 1
+			modifier = {
+				stability_factor = -0.1
+				political_power_factor = -0.1
+			}
+			on_activate = {
+				if = {
+					limit = {
+						has_country_flag = HEL_election_campaign_active
+						NOT = { has_country_flag = HEL_plastiras_threshold_coup }
+					}
+					set_country_flag = HEL_plastiras_threshold_coup
+					country_event = { id = hel_election.56 }
+				}
+			}
+		}
+	}
+}

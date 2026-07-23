@@ -1,0 +1,103 @@
+defined_text = {
+	name = GetLibSocGovernmentDesc
+	text = {
+		trigger = { original_tag = HEL }
+		localization_key = HEL_government_libertarian_socialism
+	}
+	text = { localization_key = EE_default_libertarian_socialism_government_desc }
+}
+
+defined_text = {
+	name = GetSynSocGovernmentDesc
+	text = {
+		trigger = { original_tag = HEL }
+		localization_key = HEL_government_syndicate_socialism
+	}
+	text = { localization_key = EE_default_syndicate_socialism_government_desc }
+}
+
+defined_text = {
+	name = GetCommunismGovernmentDesc
+	text = {
+		trigger = { original_tag = HEL }
+		localization_key = HEL_government_communism
+	}
+	text = { localization_key = EE_default_communism_government_desc }
+}
+
+defined_text = {
+	name = GetSocDemGovernmentDesc
+	text = {
+		trigger = { original_tag = HEL }
+		localization_key = HEL_government_social_democracy
+	}
+	text = { localization_key = EE_default_social_democracy_government_desc }
+}
+
+defined_text = {
+	name = GetDemocraticGovernmentDesc
+	text = {
+		trigger = {
+			original_tag = HEL
+			has_cosmetic_tag = HEL_venizelist_oligarchy
+		}
+		localization_key = HEL_government_venizelist_oligarchy
+	}
+	text = {
+		trigger = { original_tag = HEL }
+		localization_key = HEL_government_democratic
+	}
+	text = { localization_key = EE_default_democratic_government_desc }
+}
+
+defined_text = {
+	name = GetMarketLiberalGovernmentDesc
+	text = {
+		trigger = {
+			original_tag = HEL
+			has_cosmetic_tag = HEL_gounaris_republic
+		}
+		localization_key = HEL_government_gounaris_republic
+	}
+	text = {
+		trigger = { original_tag = HEL }
+		localization_key = HEL_government_market_liberalism
+	}
+	text = { localization_key = EE_default_market_liberalism_government_desc }
+}
+
+defined_text = {
+	name = GetMilitaryJuntaGovernmentDesc
+	text = {
+		trigger = { original_tag = HEL }
+		localization_key = HEL_government_national_defence
+	}
+	text = { localization_key = EE_default_military_junta_government_desc }
+}
+
+defined_text = {
+	name = GetFascismGovernmentDesc
+	text = {
+		trigger = { original_tag = HEL }
+		localization_key = HEL_government_fascism
+	}
+	text = { localization_key = EE_default_fascism_government_desc }
+}
+
+defined_text = {
+	name = GetNeutralityGovernmentDesc
+	text = {
+		trigger = { original_tag = HEL }
+		localization_key = HEL_government_neutrality
+	}
+	text = { localization_key = EE_default_neutrality_government_desc }
+}
+
+defined_text = {
+	name = GetEsotericismGovernmentDesc
+	text = {
+		trigger = { original_tag = HEL }
+		localization_key = HEL_government_esotericism
+	}
+	text = { localization_key = EE_default_esotericism_government_desc }
+}

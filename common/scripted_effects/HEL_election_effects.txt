@@ -1,0 +1,361 @@
+HEL_begin_democratic_election_campaign = {
+	set_country_flag = HEL_election_campaign_active
+	if = {
+		limit = { has_country_flag = HEL_election_republican_path }
+		set_variable = { HEL_race_mainland_support = 46 }
+		set_variable = { HEL_race_attica_support = 58 }
+		set_variable = { HEL_race_south_aegean_support = 50 }
+		set_variable = { HEL_race_macedonia_support = 48 }
+		set_variable = { HEL_race_straits_support = 52 }
+		set_variable = { HEL_race_constantinople_support = 55 }
+		set_variable = { HEL_race_ionia_support = 54 }
+	}
+	else = {
+		set_variable = { HEL_race_mainland_support = 58 }
+		set_variable = { HEL_race_attica_support = 48 }
+		set_variable = { HEL_race_south_aegean_support = 55 }
+		set_variable = { HEL_race_macedonia_support = 57 }
+		set_variable = { HEL_race_straits_support = 53 }
+		set_variable = { HEL_race_constantinople_support = 52 }
+		set_variable = { HEL_race_ionia_support = 52 }
+	}
+	HEL_clamp_election_support = yes
+	random_list = {
+		10 = {
+			set_country_flag = HEL_election_timer_21
+			activate_mission = HEL_election_countdown_21
+			country_event = { id = hel_election.20 hours = 502 }
+		}
+		12 = {
+			set_country_flag = HEL_election_timer_22
+			activate_mission = HEL_election_countdown_22
+			country_event = { id = hel_election.20 hours = 526 }
+		}
+		14 = {
+			set_country_flag = HEL_election_timer_23
+			activate_mission = HEL_election_countdown_23
+			country_event = { id = hel_election.20 hours = 550 }
+		}
+		16 = {
+			set_country_flag = HEL_election_timer_24
+			activate_mission = HEL_election_countdown_24
+			country_event = { id = hel_election.20 hours = 574 }
+		}
+		16 = {
+			set_country_flag = HEL_election_timer_25
+			activate_mission = HEL_election_countdown_25
+			country_event = { id = hel_election.20 hours = 598 }
+		}
+		14 = {
+			set_country_flag = HEL_election_timer_26
+			activate_mission = HEL_election_countdown_26
+			country_event = { id = hel_election.20 hours = 622 }
+		}
+		10 = {
+			set_country_flag = HEL_election_timer_27
+			activate_mission = HEL_election_countdown_27
+			country_event = { id = hel_election.20 hours = 646 }
+		}
+		8 = {
+			set_country_flag = HEL_election_timer_28
+			activate_mission = HEL_election_countdown_28
+			country_event = { id = hel_election.20 hours = 670 }
+		}
+	}
+	country_event = { id = hel_election.5 days = 12 }
+	country_event = { id = hel_election.90 days = 3 }
+}
+
+HEL_begin_plastiras_intervention = {
+	remove_mission = HEL_election_countdown_21
+	remove_mission = HEL_election_countdown_22
+	remove_mission = HEL_election_countdown_23
+	remove_mission = HEL_election_countdown_24
+	remove_mission = HEL_election_countdown_25
+	remove_mission = HEL_election_countdown_26
+	remove_mission = HEL_election_countdown_27
+	remove_mission = HEL_election_countdown_28
+	clr_country_flag = HEL_election_campaign_active
+	clr_country_flag = HEL_election_republican_path
+	clr_country_flag = HEL_election_royalist_path
+	set_country_flag = HEL_election_stratocratic_path
+	set_country_flag = HEL_plastiras_intervention_active
+	set_variable = { HEL_plastiras_preparation = 10 }
+	set_variable = { HEL_plastiras_active_operations = 0 }
+	activate_mission = HEL_plastiras_countdown
+}
+
+HEL_finish_election_campaign = {
+	remove_mission = HEL_election_countdown_21
+	remove_mission = HEL_election_countdown_22
+	remove_mission = HEL_election_countdown_23
+	remove_mission = HEL_election_countdown_24
+	remove_mission = HEL_election_countdown_25
+	remove_mission = HEL_election_countdown_26
+	remove_mission = HEL_election_countdown_27
+	remove_mission = HEL_election_countdown_28
+	remove_mission = HEL_plastiras_countdown
+	clr_country_flag = HEL_election_campaign_active
+	clr_country_flag = HEL_election_republican_path
+	clr_country_flag = HEL_election_royalist_path
+	clr_country_flag = HEL_election_stratocratic_path
+	clr_country_flag = HEL_plastiras_intervention_active
+	clr_country_flag = HEL_plastiras_reformist_solidarity
+	clr_country_flag = HEL_metaxas_ascendant
+	clr_country_flag = HEL_dragoumis_ascendant
+	clr_country_flag = HEL_freethinkers_united
+	clr_country_flag = HEL_election_timer_21
+	clr_country_flag = HEL_election_timer_22
+	clr_country_flag = HEL_election_timer_23
+	clr_country_flag = HEL_election_timer_24
+	clr_country_flag = HEL_election_timer_25
+	clr_country_flag = HEL_election_timer_26
+	clr_country_flag = HEL_election_timer_27
+	clr_country_flag = HEL_election_timer_28
+	clr_country_flag = HEL_campaign_target_mainland
+	clr_country_flag = HEL_campaign_target_attica
+	clr_country_flag = HEL_campaign_target_south_aegean
+	clr_country_flag = HEL_campaign_target_macedonia
+	clr_country_flag = HEL_campaign_target_straits
+	clr_country_flag = HEL_campaign_target_constantinople
+	clr_country_flag = HEL_campaign_target_ionia
+	clr_country_flag = HEL_campaign_action_cooldown
+	if = {
+		limit = { has_country_flag = HEL_royalist_balance_active }
+		remove_power_balance = { id = HEL_royalist_direction_balance }
+	}
+	if = {
+		limit = { has_country_flag = HEL_republican_balance_active }
+		remove_power_balance = { id = HEL_republican_direction_balance }
+	}
+	clr_country_flag = HEL_royalist_balance_active
+	clr_country_flag = HEL_republican_balance_active
+	clr_country_flag = HEL_metaxist_party_schism
+	clr_country_flag = HEL_gounarist_party_schism
+	clr_country_flag = HEL_gounaris_assembly_victory
+	clr_country_flag = HEL_plastiras_threshold_coup
+}
+
+HEL_clear_campaign_target = {
+	clr_country_flag = HEL_campaign_target_mainland
+	clr_country_flag = HEL_campaign_target_attica
+	clr_country_flag = HEL_campaign_target_south_aegean
+	clr_country_flag = HEL_campaign_target_macedonia
+	clr_country_flag = HEL_campaign_target_straits
+	clr_country_flag = HEL_campaign_target_constantinople
+	clr_country_flag = HEL_campaign_target_ionia
+}
+
+HEL_clamp_election_support = {
+	if = {
+		limit = { check_variable = { HEL_race_mainland_support > 100 } }
+		set_variable = { HEL_race_mainland_support = 100 }
+	}
+	if = {
+		limit = { check_variable = { HEL_race_mainland_support < 0 } }
+		set_variable = { HEL_race_mainland_support = 0 }
+	}
+	if = {
+		limit = { check_variable = { HEL_race_attica_support > 100 } }
+		set_variable = { HEL_race_attica_support = 100 }
+	}
+	if = {
+		limit = { check_variable = { HEL_race_attica_support < 0 } }
+		set_variable = { HEL_race_attica_support = 0 }
+	}
+	if = {
+		limit = { check_variable = { HEL_race_south_aegean_support > 100 } }
+		set_variable = { HEL_race_south_aegean_support = 100 }
+	}
+	if = {
+		limit = { check_variable = { HEL_race_south_aegean_support < 0 } }
+		set_variable = { HEL_race_south_aegean_support = 0 }
+	}
+	if = {
+		limit = { check_variable = { HEL_race_macedonia_support > 100 } }
+		set_variable = { HEL_race_macedonia_support = 100 }
+	}
+	if = {
+		limit = { check_variable = { HEL_race_macedonia_support < 0 } }
+		set_variable = { HEL_race_macedonia_support = 0 }
+	}
+	if = {
+		limit = { check_variable = { HEL_race_straits_support > 100 } }
+		set_variable = { HEL_race_straits_support = 100 }
+	}
+	if = {
+		limit = { check_variable = { HEL_race_straits_support < 0 } }
+		set_variable = { HEL_race_straits_support = 0 }
+	}
+	if = {
+		limit = { check_variable = { HEL_race_constantinople_support > 100 } }
+		set_variable = { HEL_race_constantinople_support = 100 }
+	}
+	if = {
+		limit = { check_variable = { HEL_race_constantinople_support < 0 } }
+		set_variable = { HEL_race_constantinople_support = 0 }
+	}
+	if = {
+		limit = { check_variable = { HEL_race_ionia_support > 100 } }
+		set_variable = { HEL_race_ionia_support = 100 }
+	}
+	if = {
+		limit = { check_variable = { HEL_race_ionia_support < 0 } }
+		set_variable = { HEL_race_ionia_support = 0 }
+	}
+	set_variable = { HEL_total_campaign_support = 0 }
+	set_variable = { HEL_election_support_temp = HEL_race_mainland_support }
+	multiply_variable = { HEL_election_support_temp = 6 }
+	add_to_variable = { HEL_total_campaign_support = HEL_election_support_temp }
+	set_variable = { HEL_election_support_temp = HEL_race_attica_support }
+	multiply_variable = { HEL_election_support_temp = 8 }
+	add_to_variable = { HEL_total_campaign_support = HEL_election_support_temp }
+	set_variable = { HEL_election_support_temp = HEL_race_south_aegean_support }
+	multiply_variable = { HEL_election_support_temp = 7 }
+	add_to_variable = { HEL_total_campaign_support = HEL_election_support_temp }
+	set_variable = { HEL_election_support_temp = HEL_race_macedonia_support }
+	multiply_variable = { HEL_election_support_temp = 9 }
+	add_to_variable = { HEL_total_campaign_support = HEL_election_support_temp }
+	set_variable = { HEL_election_support_temp = HEL_race_straits_support }
+	multiply_variable = { HEL_election_support_temp = 8 }
+	add_to_variable = { HEL_total_campaign_support = HEL_election_support_temp }
+	set_variable = { HEL_election_support_temp = HEL_race_constantinople_support }
+	multiply_variable = { HEL_election_support_temp = 6 }
+	add_to_variable = { HEL_total_campaign_support = HEL_election_support_temp }
+	set_variable = { HEL_election_support_temp = HEL_race_ionia_support }
+	multiply_variable = { HEL_election_support_temp = 6 }
+	add_to_variable = { HEL_total_campaign_support = HEL_election_support_temp }
+	divide_variable = { HEL_total_campaign_support = 50 }
+	round_variable = HEL_total_campaign_support
+	set_variable = { HEL_opposition_campaign_support = 100 }
+	subtract_from_variable = { HEL_opposition_campaign_support = HEL_total_campaign_support }
+	HEL_calculate_election_seats = yes
+}
+
+HEL_calculate_election_seats = {
+	set_variable = { HEL_election_seats = 0 }
+	set_variable = { HEL_election_temp_seats = HEL_race_mainland_support }
+	multiply_variable = { HEL_election_temp_seats = 6 }
+	divide_variable = { HEL_election_temp_seats = 100 }
+	round_variable = HEL_election_temp_seats
+	add_to_variable = { HEL_election_seats = HEL_election_temp_seats }
+	set_variable = { HEL_election_temp_seats = HEL_race_attica_support }
+	multiply_variable = { HEL_election_temp_seats = 8 }
+	divide_variable = { HEL_election_temp_seats = 100 }
+	round_variable = HEL_election_temp_seats
+	add_to_variable = { HEL_election_seats = HEL_election_temp_seats }
+	set_variable = { HEL_election_temp_seats = HEL_race_south_aegean_support }
+	multiply_variable = { HEL_election_temp_seats = 7 }
+	divide_variable = { HEL_election_temp_seats = 100 }
+	round_variable = HEL_election_temp_seats
+	add_to_variable = { HEL_election_seats = HEL_election_temp_seats }
+	set_variable = { HEL_election_temp_seats = HEL_race_macedonia_support }
+	multiply_variable = { HEL_election_temp_seats = 9 }
+	divide_variable = { HEL_election_temp_seats = 100 }
+	round_variable = HEL_election_temp_seats
+	add_to_variable = { HEL_election_seats = HEL_election_temp_seats }
+	set_variable = { HEL_election_temp_seats = HEL_race_straits_support }
+	multiply_variable = { HEL_election_temp_seats = 8 }
+	divide_variable = { HEL_election_temp_seats = 100 }
+	round_variable = HEL_election_temp_seats
+	add_to_variable = { HEL_election_seats = HEL_election_temp_seats }
+	set_variable = { HEL_election_temp_seats = HEL_race_constantinople_support }
+	multiply_variable = { HEL_election_temp_seats = 6 }
+	divide_variable = { HEL_election_temp_seats = 100 }
+	round_variable = HEL_election_temp_seats
+	add_to_variable = { HEL_election_seats = HEL_election_temp_seats }
+	set_variable = { HEL_election_temp_seats = HEL_race_ionia_support }
+	multiply_variable = { HEL_election_temp_seats = 6 }
+	divide_variable = { HEL_election_temp_seats = 100 }
+	round_variable = HEL_election_temp_seats
+	add_to_variable = { HEL_election_seats = HEL_election_temp_seats }
+	round_variable = HEL_election_seats
+}
+
+HEL_install_zaimis_government = {
+	drop_cosmetic_tag = yes
+	set_politics = {
+		ruling_party = democratic
+		elections_allowed = yes
+		last_election = "1919.1.1"
+		election_frequency = 48
+	}
+	set_popularities = {
+		communism = 2
+		syndicate_socialism = 3
+		libertarian_socialism = 2
+		social_democracy = 8
+		democratic = 55
+		market_liberalism = 22
+		military_junta = 3
+		fascism = 2
+		neutrality = 3
+		esotericism = 0
+	}
+	create_country_leader = {
+		name = "Alexandros Zaimis"
+		picture = "HEL_alexandros_zaimis.dds"
+		ideology = ee_conservative_liberalism
+		expire = "1965.1.1"
+		traits = { cautious_reformer }
+	}
+	HEL_finish_election_campaign = yes
+}
+
+HEL_install_gounaris_government = {
+	set_cosmetic_tag = HEL_gounaris_republic
+	set_politics = {
+		ruling_party = market_liberalism
+		elections_allowed = yes
+		last_election = "1919.1.1"
+		election_frequency = 48
+	}
+	set_popularities = {
+		communism = 2
+		syndicate_socialism = 2
+		libertarian_socialism = 1
+		social_democracy = 5
+		democratic = 22
+		market_liberalism = 55
+		military_junta = 3
+		fascism = 3
+		neutrality = 7
+		esotericism = 0
+	}
+	create_country_leader = {
+		name = "Dimitrios Gounaris"
+		picture = "HEL_dimitrios_gounaris.dds"
+		ideology = ee_autocratic_capitalism
+		expire = "1965.1.1"
+		traits = { constitutional_king }
+	}
+	HEL_finish_election_campaign = yes
+}
+
+HEL_install_plastiras_government = {
+	set_cosmetic_tag = HEL_national_defence_government
+	set_politics = {
+		ruling_party = military_junta
+		elections_allowed = no
+	}
+	set_popularities = {
+		communism = 1
+		syndicate_socialism = 1
+		libertarian_socialism = 1
+		social_democracy = 4
+		democratic = 22
+		market_liberalism = 10
+		military_junta = 55
+		fascism = 3
+		neutrality = 3
+		esotericism = 0
+	}
+	create_country_leader = {
+		name = "Nikolaos Plastiras"
+		picture = "HEL_nikolaos_plastiras.dds"
+		ideology = ee_military_interventionism
+		expire = "1965.1.1"
+		traits = { junta_member }
+	}
+	HEL_finish_election_campaign = yes
+}

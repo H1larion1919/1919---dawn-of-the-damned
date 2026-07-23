@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_report_event_HEL_1919_election"
+		texturefile = "gfx/event_pictures/HEL_1919_election.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_HEL_plastiras_intervention"
+		texturefile = "gfx/event_pictures/HEL_plastiras_intervention.tga"
+	}
+}

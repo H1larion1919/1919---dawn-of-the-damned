@@ -49,6 +49,7 @@ set_politics = {
 	last_election = "1915.1.1"
 	elections_allowed = no
 }
+set_cosmetic_tag = HEL_venizelist_oligarchy
 add_ideas = {
 	dd_governance_oligarchy
 	dd_law_low_corruption
@@ -125,8 +126,8 @@ set_party_name = {
 }
 set_party_name = {
 	ideology = military_junta
-	long_name = "Military Council"
-	name = "The council"
+	long_name = "Provisional government of National Defence"
+	name = "Ethniki Amyni"
 }
 set_party_name = {
 	ideology = fascism
